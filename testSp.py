@@ -18,13 +18,14 @@ data = json.load(fjson)
 # list and extract the title
 
 for i in data:
+        if('SpacyLoc' not in data.keys()):
+                data[i]['SpacyLoc']=[]
         text = data[i]['title']
         doc = nlp(text)
         # Find named entities, phrases and concepts
         for entity in doc.ents:
                 if(entity.label_ == 'GPE' or entity.label_ == 'LOC'):
-                        data[i]['SpacyLoc'] = entity.text
-                        data[i]['LabelLoc'] = entity.label_
+                        data[i]['SpacyLoc'].append((entity.text,entity.label_))
 
 with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
