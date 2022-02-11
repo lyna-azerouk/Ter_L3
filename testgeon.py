@@ -2,6 +2,7 @@ import json
 from     geopy.geocoders import Nominatim
 import folium 
 import spacy 
+import geocoder
 
 from folium.plugins  import MarkerCluster 
 nlp = spacy.load("en_core_web_sm")
@@ -18,16 +19,12 @@ for  image in data.items():
 	for j in  image[1].items():
 		if ( j[0]=='SpacyLoc'):
 			for  ville in  j[1]: 
+				g = geocoder.geonames(ville[0], maxRows=50, key='Lydia_Ouam')
+				for r in g:
+					 l = geocoder.geonames(r.geonames_id, method='details', key='Lydia_Ouam')
+					 L.append([l.country,ville[0],ville[1], l.lat,l.lng])
 
-				print (ville)
-				x=str( ville[0])
-				location=geolocalisateur.geocode(ville[0])
-				if(location==None or location.longitude==None or location.latitude):
-					L.append([ville[0],ville[1],location.latitude, location.longitude ])
 	data[image[0]]['SpacyLoc']=L
-	print (data[image[0]]['SpacyLoc'])
 
 with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
-     
-
