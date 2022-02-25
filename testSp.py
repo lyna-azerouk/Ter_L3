@@ -50,8 +50,12 @@ with open('data.json', 'w') as mon_fichier:
 
 =======
                                            
+<<<<<<< HEAD
 # Closing file
 >>>>>>> 313010e4667dbfdd3f2f3d1a286a0087747b39fd
+=======
+# Delete Images without Location
+>>>>>>> a0d1e096f04323dc5033675cbc696eec12f23e66
 
 for i in data.copy():
         if('SpacyLoc' not in data[i].keys()):
@@ -61,4 +65,3 @@ with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
 fjson.close()
 
-# RESTE A FAIRE LE FILTRAGE DES IMAGES QUI NE CONTIENT PAS DES LOC OU GPE OU INDICATION QUI AIDE A TROUVER LA LOCALISATION
