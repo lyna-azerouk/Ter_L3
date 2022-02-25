@@ -16,10 +16,11 @@ for  image  in data :
 		s= data[image]['title'] 
 		l=s.split() 
 		localisation=fix
+		indice=0
 		for mot in range ( len( l )) : 
 			if (l[mot] == localisation):
 				indice = mot
-		if ( indice >= (len( l)-2)/2 ):
+		if ( indice >= (len(l)-2)/2 ):
 			data[image]['heurisique 1: ']="fin"
 			cptFin+=1
 		else :

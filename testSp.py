@@ -28,6 +28,7 @@ for i in data:
                 if(entity.label_ == 'GPE' or entity.label_ == 'LOC'):
                         l.append((entity.text,entity.label_))
                         data[i]['SpacyLoc']=l    
+<<<<<<< HEAD
 
 for i in data.copy():
         if('SpacyLoc' not in data[i].keys()):
@@ -47,7 +48,17 @@ with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
 # Closing file     
 
+=======
+                                           
+# Closing file
+>>>>>>> 313010e4667dbfdd3f2f3d1a286a0087747b39fd
 
+for i in data.copy():
+        if('SpacyLoc' not in data[i].keys()):
+                del(data[i])
+
+with open('data.json', 'w') as mon_fichier:
+    mon_fichier.write(json.dumps(data, indent=4))
 fjson.close()
 
 # RESTE A FAIRE LE FILTRAGE DES IMAGES QUI NE CONTIENT PAS DES LOC OU GPE OU INDICATION QUI AIDE A TROUVER LA LOCALISATION
