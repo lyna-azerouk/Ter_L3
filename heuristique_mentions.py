@@ -6,13 +6,16 @@ with open( 'data.json') as mon_fichier :
 for image in data  : 
 	l=data[image]['LocationTagger'][5]['Citiy_mentions']
 	x="false"
-	for city in l:
-		if city[1]>1:
-			x=city[0]
-	if x!="false":
-		for  country in   data[image]['LocationTagger'][2]['Country_Cities']:
-			if ( x in data[image]['LocationTagger'][2]['Country_Cities'][country]):
-				data[image]['heuristique_mention']=""+x+","+country+""
+	if ( len(l)>0):
+		max=l[0][1]
+		for city in l:
+			if ( max<city[1 ] ):
+				max= city[1 ]
+				x=city[0]
+		if x!="false":
+			for  country in   data[image]['LocationTagger'][2]['Country_Cities']:
+				if ( x in data[image]['LocationTagger'][2]['Country_Cities'][country]):
+					data[image]['heuristique_mention']=""+x+","+country+""
         
 liste=["southern","northern","south","north","west","east","western","eastern"]
 for image in data:
