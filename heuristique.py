@@ -12,7 +12,9 @@ for  image  in data :
 	for loc in data[image]['SpacyLoc']:
 		if fix!=loc[1]:
 			valide=False
+	indice=0		
 	if  valide:
+		
 		s= data[image]['title'] 
 		l=s.split() 
 		localisation=fix
