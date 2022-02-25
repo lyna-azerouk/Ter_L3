@@ -27,7 +27,7 @@ for i in data:
                         l.append((entity.text,entity.label_))
                         data[i]['SpacyLoc']=l    
                                            
-# Closing file
+# Delete Images without Location
 
 for i in data.copy():
         if('SpacyLoc' not in data[i].keys()):
@@ -37,4 +37,3 @@ with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
 fjson.close()
 
-# RESTE A FAIRE LE FILTRAGE DES IMAGES QUI NE CONTIENT PAS DES LOC OU GPE OU INDICATION QUI AIDE A TROUVER LA LOCALISATION

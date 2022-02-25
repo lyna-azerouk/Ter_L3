@@ -46,7 +46,6 @@ import json
 # print(enti.city_mentions)
 
 
-print("---------------------------------------------------------------------------------------------------------")
 
 
 #opening the json file
@@ -62,6 +61,7 @@ for image in data:
     l.append({"Region_Cities":enti.region_cities})
     l.append({"Country_mentions":enti.country_mentions})
     l.append({"Citiy_mentions":enti.city_mentions})
+    l.append({"Adresse":enti.address_strings})
     data[image]['LocationTagger'] = l
     
 with open('data.json', 'w') as mon_fichier:

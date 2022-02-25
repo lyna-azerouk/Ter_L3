@@ -1,4 +1,4 @@
-# projet_ter_2022
+# TER_Montpellier
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/djouher_moulahcene/projet_ter_2022.git
+git remote add origin https://gitlab.com/LydiaOuam/ter_montpellier.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/djouher_moulahcene/projet_ter_2022/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/LydiaOuam/ter_montpellier/-/settings/integrations)
 
 ## Collaborate with your team
 

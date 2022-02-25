@@ -14,7 +14,7 @@ for image in data:
         l_adresse = []
         if(ordre[i] == 'LOC' and ordre[i+1] == 'GPE'):
             l_adresse.append((data[image]['SpacyLoc'][0][0],data[image]['SpacyLoc'][1][0]))
-            data[image]['resultatHeuristique3'] = l_adresse
+            data[image]['heuristique3_adresse'] = l_adresse
 
     
 with open('data.json', 'w') as mon_fichier:

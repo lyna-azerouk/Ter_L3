@@ -12,39 +12,22 @@ for image in data  :
 	if x!="false":
 		for  country in   data[image]['LocationTagger'][2]['Country_Cities']:
 			if ( x in data[image]['LocationTagger'][2]['Country_Cities'][country]):
-				data[image]['heuristique3']=""+x+","+country+""
+				data[image]['heuristique_mention']=""+x+","+country+""
         
-liste=["southern","northern","Southern","Northern"]
+liste=["southern","northern","south","north","west","east","western","eastern"]
 for image in data:
 	title=data[image]['title'].split()
 	for mot in title:
+		mot = mot.lower()
 		if mot in liste:
-			data[image]['heuristique4']=mot+","+data[image]["resultat_heurisique_2"]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			if('heuristique 2' in data[image]):
+				data[image]['heuristique 4']=mot+","+data[image]['heuristique 2']
+			elif('heuristique3_adresse' in data[image]):
+				data[image]['heuristique 4']=mot+","+data[image]['heuristique3_adresse'][0][0]+data[image]['heuristique3_adresse'][0][1]
 
 with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
+mon_fichier.close()
 
 
 		

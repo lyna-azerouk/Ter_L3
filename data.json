@@ -66,9 +66,19 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": [
+                    "Brookings, Oregon, United States"
+                ]
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 1": "fin"
     },
     "image1": {
         "realLoc": {
@@ -105,10 +115,18 @@
             },
             {
                 "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut",
-        "resultat_heurisique_2": "GPE"
+        "heuristique 2": "Arizona",
+        "Ordre": [
+            "GPE",
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ]
     },
     "image2": {
         "realLoc": {
@@ -148,9 +166,17 @@
             },
             {
                 "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "TIME",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 1": "fin"
     },
     "image3": {
         "realLoc": {
@@ -190,9 +216,17 @@
             },
             {
                 "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "heurisique 1:": "debut",
+        "Ordre": [
+            "TIME",
+            "GPE",
+            "CARDINAL"
+        ]
     },
     "image4": {
         "realLoc": {
@@ -225,9 +259,15 @@
             },
             {
                 "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "GPE",
+            "DATE"
+        ]
     },
     "image5": {
         "realLoc": {
@@ -301,9 +341,15 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "GPE",
+            "FAC"
+        ]
     },
     "image6": {
         "realLoc": {
@@ -351,9 +397,17 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 1": "fin"
     },
     "image8": {
         "realLoc": {
@@ -390,9 +444,22 @@
             },
             {
                 "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
             }
         ],
-        "resultat_heurisique_2": "LOC"
+        "Ordre": [
+            "LOC",
+            "GPE"
+        ],
+        "heuristique 2": "Wisconsin",
+        "heuristique3_adresse": [
+            [
+                "Gibraltar Rock",
+                "Wisconsin"
+            ]
+        ]
     },
     "image12": {
         "realLoc": {
@@ -481,9 +548,18 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "ORG",
+            "ORG",
+            "GPE",
+            "ORG"
+        ],
+        "heuristique 1": "fin"
     },
     "image13": {
         "realLoc": {
@@ -585,9 +661,22 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "resultat_heurisique_2": "LOC"
+        "heuristique 2": "Montana",
+        "Ordre": [
+            "LOC",
+            "GPE"
+        ],
+        "heuristique3_adresse": [
+            [
+                "Kootenai River",
+                "Montana"
+            ]
+        ]
     },
     "image15": {
         "realLoc": {
@@ -620,9 +709,17 @@
             },
             {
                 "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "WORK_OF_ART",
+            "LOC",
+            "DATE",
+            "CARDINAL"
+        ]
     },
     "image16": {
         "realLoc": {
@@ -681,9 +778,16 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "PERSON",
+            "GPE"
+        ],
+        "heuristique 1": "fin"
     },
     "image17": {
         "realLoc": {
@@ -772,9 +876,14 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "LOC"
+        ]
     },
     "image18": {
         "realLoc": {
@@ -814,15 +923,18 @@
             },
             {
                 "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ]
     },
     "image19": {
-        "realLoc": {
-            "Latitude": "44.7366732",
-            "Longitude": "19.3350206"
-        },
         "title": "Drina River, West Serbia [OC] 3024x4032",
         "url": "https://i.imgur.com/KNbjPUJ.jpg",
         "SpacyLoc": [
@@ -876,9 +988,24 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "resultat_heurisique_2": "LOC"
+        "heuristique 2": "West Serbia",
+        "Ordre": [
+            "LOC",
+            "GPE"
+        ],
+        "heuristique3_adresse": [
+            [
+                "Drina River",
+                "West Serbia"
+            ]
+        ],
+        "heuristique 4": "west,West Serbia"
+        
     },
     "image20": {
         "realLoc": {
@@ -987,16 +1114,19 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut",
-        "resultat_heurisique_2": "GPE"
+        "heuristique 2": "Colorado",
+        "Ordre": [
+            "GPE",
+            "GPE",
+            "GPE"
+        ]
     },
     "image21": {
-        "realLoc": {
-            "Latitude": "-41.5000831",
-            "Longitude": "172.8344077"
-        },
         "title": "New Zealand 3744x1960 [OC]",
         "url": "https://i.redd.it/s4yetxe005h81.jpg",
         "SpacyLoc": [
@@ -1030,15 +1160,16 @@
             },
             {
                 "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "GPE"
+        ]
     },
     "image22": {
-        "realLoc": {
-            "Latitude": "-1.25",
-            "Longitude": "-78.25"
-        },
         "title": "Laguna Cuicocha in Ecuador [OC] 4032x2268",
         "url": "https://i.redd.it/wlw28x3cj1h81.jpg",
         "SpacyLoc": [
@@ -1111,15 +1242,19 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "PERSON",
+            "GPE",
+            "DATE"
+        ],
+        "heuristique 1": "fin"
     },
     "image23": {
-        "realLoc": {
-            "Latitude": "39.25024",
-            "Longitude": "-111.75103"
-        },
         "title": "Zion NP, southern Utah [OC] 6000x4000",
         "url": "https://i.redd.it/kij7nn66o4h81.jpg",
         "SpacyLoc": [
@@ -1161,15 +1296,18 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "ORG",
+            "GPE"
+        ],
+        "heuristique 1": "fin"
     },
     "image24": {
-        "realLoc": {
-            "Latitude": "38.8536108",
-            "Longitude": "-104.873859"
-        },
         "title": "Red Rock Canyon, NV [OC][1280x1600] @landscape.luke",
         "url": "https://i.redd.it/5fwega13a1h81.jpg",
         "SpacyLoc": [
@@ -1196,15 +1334,16 @@
             },
             {
                 "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "GPE"
+        ]
     },
     "image25": {
-        "realLoc": {
-            "Latitude": "52.28333",
-            "Longitude": "-117.469"
-        },
         "title": "Beautiful golden hour scene in Kananaskis Country in Alberta, Canada [OC][1214x1800]",
         "url": "https://i.redd.it/5of9wb11p2h81.jpg",
         "SpacyLoc": [
@@ -1272,16 +1411,21 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": [
+                    "Kananaskis, Alberta, Canada"
+                ]
             }
         ],
-        "heurisique 1:": "debut",
-        "resultat_heurisique_2": "GPE"
+        "heuristique 2": "Canada",
+        "Ordre": [
+            "FAC",
+            "GPE",
+            "GPE"
+        ]
     },
     "image26": {
-        "realLoc": {
-            "Latitude": "52",
-            "Longitude": "-0.5"
-        },
         "title": "Hoar frost in Stockgrove Park, Bedfordshire, UK. [OC] 5000x6219",
         "url": "https://i.redd.it/f3dez52zkzg81.jpg",
         "SpacyLoc": [
@@ -1316,16 +1460,19 @@
             },
             {
                 "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut",
-        "resultat_heurisique_2": "GPE"
+        "heuristique 2": "UK",
+        "Ordre": [
+            "GPE",
+            "GPE",
+            "GPE"
+        ]
     },
     "image27": {
-        "realLoc": {
-            "Latitude": "58.4544716",
-            "Longitude": "-78.1105877"
-        },
         "title": "[OC] Lands near the hydro power plant, Shawinigan, Qu\u00e9bec, Canada. [4656X3492] Misty Hills",
         "url": "https://i.redd.it/1nwxp6jb84h81.jpg",
         "SpacyLoc": [
@@ -1412,16 +1559,21 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut",
-        "resultat_heurisique_2": "GPE"
+        "heuristique 2": "Canada",
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "GPE",
+            "CARDINAL",
+            "ORG"
+        ]
     },
     "image30": {
-        "realLoc": {
-            "Latitude": "35.076954",
-            "Longitude": "-89.68713"
-        },
         "title": "[OC] Fall Creek Falls in (Early) Fall: Tennessee [4032x2268]",
         "url": "https://i.redd.it/5brcn4us04h81.jpg",
         "SpacyLoc": [
@@ -1475,15 +1627,17 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "GPE",
+            "CARDINAL"
+        ]
     },
     "image31": {
-        "realLoc": {
-            "Latitude": "35.275974",
-            "Longitude": "-119.971718"
-        },
         "title": "Doris Lake, Desolation Wilderness, California [OC] [5879x3919]",
         "url": "https://i.redd.it/xtx7jx4nt2h81.jpg",
         "SpacyLoc": [
@@ -1586,15 +1740,19 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
+        "heuristique 1": "fin"
     },
     "image32": {
-        "realLoc": {
-            "Latitude": "35.275974",
-            "Longitude": "-119.971718"
-        },
         "title": "San Juan del Cabo, Mexico [OC] 2048x1365",
         "url": "https://i.redd.it/uzp3fwgko3h81.jpg",
         "SpacyLoc": [
@@ -1716,16 +1874,18 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut",
-        "resultat_heurisique_2": "GPE"
+        "heuristique 2": "Mexico",
+        "Ordre": [
+            "GPE",
+            "GPE"
+        ]
     },
     "image33": {
-        "realLoc": {
-            "Latitude": "38.331182",
-            "Longitude": "-122.312491"
-        },
         "title": "Vernal and Nevada Falls, Yosemite NP, California [OC] [1432x1910]",
         "url": "https://i.redd.it/20hnvi5ah1h81.jpg",
         "SpacyLoc": [
@@ -1819,15 +1979,19 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
+        "heuristique 1": "fin"
     },
     "image34": {
-        "realLoc": {
-            "Latitude": "26.0097913",
-            "Longitude": "-111.3452523"
-        },
         "title": "Loreto, Baja California Sur, Mexico. [OC] [2150x983]",
         "url": "https://i.redd.it/5gwtxpfp24h81.jpg",
         "SpacyLoc": [
@@ -1956,16 +2120,22 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": [
+                    "Loreto, Baja California Sur, Mexico"
+                ]
             }
         ],
-        "heurisique 1:": "debut",
-        "resultat_heurisique_2": "GPE"
+        "heuristique 2": "Mexico",
+        "Ordre": [
+            "GPE",
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ]
     },
     "image35": {
-        "realLoc": {
-            "Latitude": "52.28333",
-            "Longitude": "-117.469"
-        },
         "title": "Hector Lake, Banff National Park, Alberta, Canada [OC] [6000x4000]",
         "url": "https://i.redd.it/ljqgulqfq2h81.jpg",
         "SpacyLoc": [
@@ -2068,16 +2238,19 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut",
-        "resultat_heurisique_2": "GPE"
+        "heuristique 2": "Canada",
+        "Ordre": [
+            "GPE",
+            "GPE",
+            "GPE"
+        ]
     },
     "image36": {
-        "realLoc": {
-            "Latitude": "44.9264121",
-            "Longitude": "-122.5676702"
-        },
         "title": "Abiqua Falls, Oregon [oc][4000 \u00d7 2667]",
         "url": "https://i.redd.it/kqmi9149s1h81.jpg",
         "SpacyLoc": [
@@ -2148,15 +2321,18 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "PERSON",
+            "GPE"
+        ],
+        "heuristique 1": "fin"
     },
     "image37": {
-        "realLoc": {
-            "Latitude": "37.972678",
-            "Longitude": "-120.382314"
-        },
         "title": "Golden Light on Half Dome, Yosemite National Park, CA, USA [OC] [1897x2371]",
         "url": "https://i.redd.it/8gilx672m2h81.jpg",
         "SpacyLoc": [
@@ -2233,15 +2409,19 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "FAC",
+            "ORG",
+            "GPE"
+        ],
+        "heuristique 1": "fin"
     },
     "image38": {
-        "realLoc": {
-            "Latitude": "36.054164",
-            "Longitude": "-112.136115"
-        },
         "title": "(OC) Sunset over Grand Canyon, Arizona. USA. [2250x1500]",
         "url": "https://i.redd.it/qu1mfrje12h81.jpg",
         "SpacyLoc": [
@@ -2322,16 +2502,23 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": [
+                    "Grand Canyon, Arizona, United States"
+                ]
             }
         ],
-        "heurisique 1:": "debut",
-        "resultat_heurisique_2": "GPE"
+        "heuristique 2": "USA",
+        "Ordre": [
+            "GPE",
+            "GPE",
+            "GPE",
+            "GPE",
+            "CARDINAL"
+        ]
     },
     "image39": {
-        "realLoc": {
-            "Latitude": "17.06542",
-            "Longitude": "-96.72365"
-        },
         "title": "(OC) The cactus forests of Puebla-Oaxaca, Mexico [3000x4100]",
         "url": "https://i.redd.it/1fifotqtdxg81.jpg",
         "SpacyLoc": [
@@ -2424,15 +2611,18 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ]
     },
     "image40": {
-        "realLoc": {
-            "Latitude": "44.635762",
-            "Longitude": "-124.023046"
-        },
         "title": "Waves Crashing at Yaquina Head, Oregon (OC) [5760 \u00d7 3840]",
         "url": "https://i.redd.it/zhsyuvgz54h81.jpg",
         "SpacyLoc": [
@@ -2487,16 +2677,19 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut",
-        "resultat_heurisique_2": "GPE"
+        "heuristique 2": "Oregon",
+        "Ordre": [
+            "GPE",
+            "GPE",
+            "DATE"
+        ]
     },
     "image42": {
-        "realLoc": {
-            "Latitude": "41.13633",
-            "Longitude": "-112.03105"
-        },
         "title": "Yosemite - Valley View from Glacier Point at Sunset [6000x4000] [OC]",
         "url": "https://i.redd.it/ivvh0k9hl2h81.jpg",
         "SpacyLoc": [
@@ -2571,15 +2764,18 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "PRODUCT",
+            "GPE"
+        ],
+        "heuristique 1": "fin"
     },
     "image43": {
-        "realLoc": {
-            "Latitude": "22.2123281",
-            "Longitude": "-159.5931152"
-        },
         "title": "Napali Coast, Kauai [2532 x 1170] [OC]",
         "url": "https://i.redd.it/vhb7bo4jvtg81.jpg",
         "SpacyLoc": [
@@ -2606,15 +2802,19 @@
             },
             {
                 "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "LOC",
+            "PERSON",
+            "DATE",
+            "DATE"
+        ]
     },
     "image44": {
-        "realLoc": {
-            "Latitude": "34.6536924",
-            "Longitude": "-85.4727397"
-        },
         "title": "Cloudland Canyon, Georgia[2778x1284] [OC]",
         "url": "https://i.redd.it/dvxmkupil2h81.jpg",
         "SpacyLoc": [
@@ -2648,15 +2848,16 @@
             },
             {
                 "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "LOC"
+        ]
     },
     "image46": {
-        "realLoc": {
-            "Latitude": "33.91667",
-            "Longitude": "76.66667"
-        },
         "title": "Shisram nag or sheeshnag, Kashmir [3024x4032] [OC]",
         "url": "https://i.redd.it/2h4i8q4rp0h81.jpg",
         "SpacyLoc": [
@@ -2703,15 +2904,18 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut"
+        "Ordre": [
+            "ORG",
+            "LOC"
+        ],
+        "heuristique 1": "fin"
     },
     "image48": {
-        "realLoc": {
-            "Latitude": "35.111229",
-            "Longitude": "-117.984536"
-        },
         "title": "Little Mushroom Kingdom, Redwood National Park, California, USA [3056 x 3820] [OC]",
         "url": "https://i.imgur.com/8JEUNHH.jpg",
         "SpacyLoc": [
@@ -2815,9 +3019,17 @@
                         1
                     ]
                 ]
+            },
+            {
+                "Adresse": []
             }
         ],
-        "heurisique 1:": "debut",
-        "resultat_heurisique_2": "GPE"
+        "heuristique 2": "USA",
+        "Ordre": [
+            "GPE",
+            "GPE",
+            "GPE",
+            "CARDINAL"
+        ]
     }
 }
