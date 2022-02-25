@@ -1,5 +1,6 @@
 {
     "image0": {
+        "realLoc":{"Latitude":"42.0523718","Longitude":"-124.28407"},
         "title": "Brookings, Oregon [OC] [5304x7952]",
         "url": "https://i.redd.it/vy9zmnl2t1h81.jpg",
         "SpacyLoc": [
@@ -7,9 +8,66 @@
                 "Oregon",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Oregon",
+                    "Brookings"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Oregon",
+                        "Brookings"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Illinois": [
+                        "Oregon"
+                    ],
+                    "Ohio": [
+                        "Oregon"
+                    ],
+                    "Wisconsin": [
+                        "Oregon"
+                    ],
+                    "Oregon": [
+                        "Brookings"
+                    ],
+                    "South Dakota": [
+                        "Brookings"
+                    ],
+                    "Missouri": [
+                        "Oregon"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Oregon",
+                        1
+                    ],
+                    [
+                        "Brookings",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image1": {
+        "realLoc":{"Latitude":"36.83333","Longitude":"-111.96667"},
         "title": "Truly earth porn at the Wave in Vermilion Cliffs National Monument, Arizona [OC] [1328x2000]",
         "url": "https://i.redd.it/nkyv3iqmy3h81.jpg",
         "SpacyLoc": [
@@ -21,9 +79,30 @@
                 "Arizona",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            }
         ]
     },
     "image2": {
+        "realLoc":{"Latitude":"50.8331217","Longitude":"14.7962388"},
         "title": "Cattails at the evening hour, southern Germany [OC] [5184x3703]",
         "url": "https://i.redd.it/4inca30n73h81.jpg",
         "SpacyLoc": [
@@ -31,9 +110,37 @@
                 "Germany",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Germany"
+                ]
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Germany",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": []
+            }
         ]
     },
     "image3": {
+        "realLoc":{"Latitude":"59.4052226","Longitude":"28.1692979"},
         "title": "Northern lights last night, Estonia, [2900x3866] [OC]",
         "url": "https://i.redd.it/2ts1m5w0o5h81.jpg",
         "SpacyLoc": [
@@ -41,9 +148,37 @@
                 "Estonia",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Estonia"
+                ]
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Estonia",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": []
+            }
         ]
     },
     "image4": {
+        "realLoc":{"Latitude":"53.99983","Longitude":"-125.0032"},
         "title": "Winter in the coastal rainforests of British Columbia barely feels like winter at all! [OC] [1920x1367]",
         "url": "https://i.redd.it/pkfzsngm92h81.jpg",
         "SpacyLoc": [
@@ -51,9 +186,30 @@
                 "British Columbia",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            }
         ]
     },
     "image5": {
+        "realLoc":{"Latitude":"48.68318","Longitude":"-113.80017"},
         "title": "Grinnell Lake, Glacier National Park [OC] 6000x4000",
         "url": "https://i.redd.it/vqiue97oqzg81.jpg",
         "SpacyLoc": [
@@ -61,9 +217,71 @@
                 "Grinnell Lake",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Grinnell",
+                    "Lake"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Grinnell",
+                        "Lake"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Iowa": [
+                        "Grinnell"
+                    ],
+                    "Wyoming": [
+                        "Lake"
+                    ],
+                    "Michigan": [
+                        "Lake"
+                    ],
+                    "Mississippi": [
+                        "Lake"
+                    ],
+                    "West Virginia": [
+                        "Lake"
+                    ],
+                    "Kansas": [
+                        "Grinnell"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Grinnell",
+                        1
+                    ],
+                    [
+                        "Lake",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image6": {
+        "realLoc":{"Latitude":"44.352025","Longitude":"-68.0747285"},
         "title": "Ravens Nest, Maine [OC] [1365x2048]",
         "url": "https://i.redd.it/r6hww37um4h81.jpg",
         "SpacyLoc": [
@@ -71,9 +289,45 @@
                 "Maine",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Maine"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Maine"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "New York": [
+                        "Maine"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Maine",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image8": {
+        "realLoc":{"Latitude":"43.34249","Longitude":"-89.59818"},
         "title": "Ancient cliff side juniper at Gibraltar Rock, Wisconsin [OC][4000x5000]",
         "url": "https://i.redd.it/yk8fmumn14h81.jpg",
         "SpacyLoc": [
@@ -85,9 +339,30 @@
                 "Wisconsin",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            }
         ]
     },
     "image12": {
+        "realLoc":{"Latitude":"49.9531599","Longitude":"7.310646"},
         "title": "Golden Palatinate Forest [OC], Palatinate Forest, Germany [1363x2048] by IG: @farbik",
         "url": "https://i.redd.it/pwkcv4wkg6h81.jpg",
         "SpacyLoc": [
@@ -95,9 +370,86 @@
                 "Germany",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Germany"
+                ]
+            },
+            {
+                "Cities": [
+                    "Golden",
+                    "Ig"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Golden"
+                    ],
+                    "Canada": [
+                        "Golden"
+                    ],
+                    "Slovenia": [
+                        "Ig"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Colorado": [
+                        "Golden"
+                    ],
+                    "British Columbia": [
+                        "Golden"
+                    ],
+                    "": [
+                        "Ig"
+                    ],
+                    "Illinois": [
+                        "Golden"
+                    ],
+                    "Mississippi": [
+                        "Golden"
+                    ],
+                    "Missouri": [
+                        "Golden"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Germany",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Slovenia",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Golden",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image13": {
+        "realLoc":{"Latitude":"48.4566016","Longitude":"-115.765112"},
         "title": "Kootenai River, Montana [7952x5304] [OC]",
         "url": "https://i.redd.it/9mrh5jk861h81.jpg",
         "SpacyLoc": [
@@ -109,9 +461,95 @@
                 "Montana",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "River",
+                    "Montana"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United Kingdom": [
+                        "River"
+                    ],
+                    "South Africa": [
+                        "Montana"
+                    ],
+                    "Bulgaria": [
+                        "Montana"
+                    ],
+                    "Switzerland": [
+                        "Montana"
+                    ],
+                    "Ireland": [
+                        "River"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Kent": [
+                        "River"
+                    ],
+                    "Province of the Western Cape": [
+                        "Montana"
+                    ],
+                    "Oblast Montana": [
+                        "Montana"
+                    ],
+                    "Valais": [
+                        "Montana"
+                    ],
+                    "County Mayo": [
+                        "River"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United Kingdom",
+                        1
+                    ],
+                    [
+                        "South Africa",
+                        1
+                    ],
+                    [
+                        "Bulgaria",
+                        1
+                    ],
+                    [
+                        "Switzerland",
+                        1
+                    ],
+                    [
+                        "Ireland",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Montana",
+                        1
+                    ],
+                    [
+                        "River",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image15": {
+        "realLoc":{"Latitude":"37.739330376","Longitude":"-119.572164378"},
         "title": "A very unique \"Firefall\" in Yosemite Valley from 2019 [OC] [3000x4500]",
         "url": "https://i.redd.it/fpfga5iml0h81.jpg",
         "SpacyLoc": [
@@ -119,9 +557,30 @@
                 "Yosemite Valley",
                 "LOC"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            }
         ]
     },
     "image16": {
+        "realLoc":{"Latitude":"19.9053796","Longitude":"-155.141507"},
         "title": "Umauma Falls, Hawaii [OC] [5760x3840]",
         "url": "https://i.imgur.com/gtgsIZX.jpg",
         "SpacyLoc": [
@@ -129,9 +588,56 @@
                 "Hawaii",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Falls"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Falls"
+                    ],
+                    "Germany": [
+                        "Falls"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Pennsylvania": [
+                        "Falls"
+                    ],
+                    "Bavaria": [
+                        "Falls"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Germany",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Falls",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image17": {
+        "realLoc":{"Latitude":"36.4200468","Longitude":"-116.8122903"},
         "title": "Death Valley - Zabriskie Point [OC] [2731x4096]",
         "url": "https://i.redd.it/jds8fz1do1h81.jpg",
         "SpacyLoc": [
@@ -139,9 +645,86 @@
                 "Death Valley - Zabriskie Point",
                 "LOC"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Valley"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Valley"
+                    ],
+                    "United Kingdom": [
+                        "Valley"
+                    ],
+                    "Canada": [
+                        "Valley"
+                    ],
+                    "Germany": [
+                        "Valley"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Washington": [
+                        "Valley"
+                    ],
+                    "Alabama": [
+                        "Valley"
+                    ],
+                    "Anglesey": [
+                        "Valley"
+                    ],
+                    "Nebraska": [
+                        "Valley"
+                    ],
+                    "Nova Scotia": [
+                        "Valley"
+                    ],
+                    "Bavaria": [
+                        "Valley"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "United Kingdom",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Germany",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Valley",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image18": {
+        "realLoc":{"Latitude":"-43.5950017","Longitude":"170.1421677"},
         "title": "Aoraki/Mt Cook\u2013the tallest mountain in New Zealand [4000 x 5702][OC]",
         "url": "https://i.redd.it/pi6utudt63h81.jpg",
         "SpacyLoc": [
@@ -149,6 +732,33 @@
                 "New Zealand",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "New Zealand"
+                ]
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "New Zealand",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": []
+            }
         ]
     },
     "image19": {
@@ -163,9 +773,53 @@
                 "West Serbia",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "West"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "West"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Texas": [
+                        "West"
+                    ],
+                    "Mississippi": [
+                        "West"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "West",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image20": {
+        "realLoc":{"Latitude":"39.00027","Longitude":"-105.50083"},
         "title": "Emerald Lake, RMNP, Colorado [OC] [7929x5286]",
         "url": "https://i.redd.it/n4mp7qpu44h81.jpg",
         "SpacyLoc": [
@@ -181,6 +835,94 @@
                 "Colorado",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Emerald",
+                    "Lake",
+                    "Colorado"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "Australia": [
+                        "Emerald"
+                    ],
+                    "United States": [
+                        "Lake"
+                    ],
+                    "Brazil": [
+                        "Colorado"
+                    ],
+                    "Canada": [
+                        "Emerald"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Victoria": [
+                        "Emerald"
+                    ],
+                    "Queensland": [
+                        "Emerald"
+                    ],
+                    "Wyoming": [
+                        "Lake"
+                    ],
+                    "Michigan": [
+                        "Lake"
+                    ],
+                    "Mississippi": [
+                        "Lake"
+                    ],
+                    "Estado do Parana": [
+                        "Colorado"
+                    ],
+                    "West Virginia": [
+                        "Lake"
+                    ],
+                    "Ontario": [
+                        "Emerald"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Australia",
+                        1
+                    ],
+                    [
+                        "Brazil",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Colorado",
+                        1
+                    ],
+                    [
+                        "Emerald",
+                        1
+                    ],
+                    [
+                        "Lake",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image21": {
@@ -191,6 +933,33 @@
                 "New Zealand",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "New Zealand"
+                ]
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "New Zealand",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": []
+            }
         ]
     },
     "image22": {
@@ -201,6 +970,72 @@
                 "Ecuador",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Ecuador"
+                ]
+            },
+            {
+                "Cities": [
+                    "Laguna"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "Philippines": [
+                        "Laguna"
+                    ],
+                    "United States": [
+                        "Laguna"
+                    ],
+                    "Brazil": [
+                        "Laguna"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Province of Masbate": [
+                        "Laguna"
+                    ],
+                    "New Mexico": [
+                        "Laguna"
+                    ],
+                    "Estado de Santa Catarina": [
+                        "Laguna"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Ecuador",
+                        1
+                    ],
+                    [
+                        "Philippines",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "Brazil",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Laguna",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image23": {
@@ -211,6 +1046,41 @@
                 "Utah",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Zion"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Zion"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Illinois": [
+                        "Zion"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Zion",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image24": {
@@ -221,6 +1091,26 @@
                 "Red Rock Canyon",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            }
         ]
     },
     "image25": {
@@ -235,6 +1125,63 @@
                 "Canada",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Canada"
+                ]
+            },
+            {
+                "Cities": [
+                    "Canada",
+                    "Kananaskis"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Canada"
+                    ],
+                    "Canada": [
+                        "Kananaskis"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Kentucky": [
+                        "Canada"
+                    ],
+                    "Alberta": [
+                        "Kananaskis"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Kananaskis",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image26": {
@@ -253,6 +1200,26 @@
                 "UK",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            }
         ]
     },
     "image27": {
@@ -267,6 +1234,82 @@
                 "Canada",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Canada"
+                ]
+            },
+            {
+                "Cities": [
+                    "Shawinigan",
+                    "Hills",
+                    "Canada"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "Canada": [
+                        "Shawinigan"
+                    ],
+                    "United States": [
+                        "Hills",
+                        "Canada"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Quebec": [
+                        "Shawinigan"
+                    ],
+                    "Iowa": [
+                        "Hills"
+                    ],
+                    "Minnesota": [
+                        "Hills"
+                    ],
+                    "Kentucky": [
+                        "Canada"
+                    ],
+                    "Qu\u00e9bec": [
+                        "Shawinigan"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Shawinigan",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Hills",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image30": {
@@ -277,6 +1320,53 @@
                 "Tennessee",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Early",
+                    "Tennessee"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Early",
+                        "Tennessee"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Texas": [
+                        "Early"
+                    ],
+                    "Illinois": [
+                        "Tennessee"
+                    ],
+                    "Iowa": [
+                        "Early"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Tennessee",
+                        1
+                    ],
+                    [
+                        "Early",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image31": {
@@ -287,6 +1377,102 @@
                 "California",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "California",
+                    "Lake"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "California",
+                        "Lake"
+                    ],
+                    "Trinidad and Tobago": [
+                        "California"
+                    ],
+                    "Brazil": [
+                        "California"
+                    ],
+                    "Mexico": [
+                        "California"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Missouri": [
+                        "California"
+                    ],
+                    "Pennsylvania": [
+                        "California"
+                    ],
+                    "Maryland": [
+                        "California"
+                    ],
+                    "Kentucky": [
+                        "California"
+                    ],
+                    "Wyoming": [
+                        "Lake"
+                    ],
+                    "Michigan": [
+                        "Lake"
+                    ],
+                    "Mississippi": [
+                        "Lake"
+                    ],
+                    "West Virginia": [
+                        "Lake"
+                    ],
+                    "Couva-Tabaquite-Talparo": [
+                        "California"
+                    ],
+                    "Estado do Parana": [
+                        "California"
+                    ],
+                    "Virginia": [
+                        "California"
+                    ],
+                    "Coahuila": [
+                        "California"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Trinidad and Tobago",
+                        1
+                    ],
+                    [
+                        "Brazil",
+                        1
+                    ],
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "California",
+                        1
+                    ],
+                    [
+                        "Lake",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image32": {
@@ -301,6 +1487,117 @@
                 "Mexico",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Mexico"
+                ]
+            },
+            {
+                "Cities": [
+                    "Mexico",
+                    "Cabo"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Mexico"
+                    ],
+                    "Portugal": [
+                        "Cabo"
+                    ],
+                    "Brazil": [
+                        "Cabo"
+                    ],
+                    "Mexico": [
+                        "Mexico"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Missouri": [
+                        "Mexico"
+                    ],
+                    "New York": [
+                        "Mexico"
+                    ],
+                    "Maine": [
+                        "Mexico"
+                    ],
+                    "Distrito de Santarem": [
+                        "Cabo"
+                    ],
+                    "Estado de Pernambuco": [
+                        "Cabo"
+                    ],
+                    "Indiana": [
+                        "Mexico"
+                    ],
+                    "Coahuila": [
+                        "Mexico"
+                    ],
+                    "Veracruz": [
+                        "Mexico"
+                    ],
+                    "Zacatecas": [
+                        "Mexico"
+                    ],
+                    "Guerrero": [
+                        "Mexico"
+                    ],
+                    "Quer\u00e9taro": [
+                        "Mexico"
+                    ],
+                    "Puebla": [
+                        "Mexico"
+                    ],
+                    "State of Mexico": [
+                        "Mexico"
+                    ],
+                    "": [
+                        "Mexico"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Mexico",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "Portugal",
+                        1
+                    ],
+                    [
+                        "Brazil",
+                        1
+                    ],
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Mexico",
+                        1
+                    ],
+                    [
+                        "Cabo",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image33": {
@@ -311,6 +1608,93 @@
                 "California",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "California",
+                    "Vernal"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "California",
+                        "Vernal"
+                    ],
+                    "Trinidad and Tobago": [
+                        "California"
+                    ],
+                    "Brazil": [
+                        "California"
+                    ],
+                    "Mexico": [
+                        "California"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Missouri": [
+                        "California"
+                    ],
+                    "Pennsylvania": [
+                        "California"
+                    ],
+                    "Maryland": [
+                        "California"
+                    ],
+                    "Utah": [
+                        "Vernal"
+                    ],
+                    "Kentucky": [
+                        "California"
+                    ],
+                    "Couva-Tabaquite-Talparo": [
+                        "California"
+                    ],
+                    "Estado do Parana": [
+                        "California"
+                    ],
+                    "Virginia": [
+                        "California"
+                    ],
+                    "Coahuila": [
+                        "California"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Trinidad and Tobago",
+                        1
+                    ],
+                    [
+                        "Brazil",
+                        1
+                    ],
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "California",
+                        1
+                    ],
+                    [
+                        "Vernal",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image34": {
@@ -325,6 +1709,124 @@
                 "Mexico",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Mexico"
+                ]
+            },
+            {
+                "Cities": [
+                    "Loreto",
+                    "Mexico"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "Italy": [
+                        "Loreto"
+                    ],
+                    "United States": [
+                        "Mexico"
+                    ],
+                    "Mexico": [
+                        "Loreto",
+                        "Mexico"
+                    ],
+                    "Ecuador": [
+                        "Loreto"
+                    ],
+                    "Peru": [
+                        "Loreto"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Provincia di Ancona": [
+                        "Loreto"
+                    ],
+                    "Missouri": [
+                        "Mexico"
+                    ],
+                    "New York": [
+                        "Mexico"
+                    ],
+                    "Maine": [
+                        "Mexico"
+                    ],
+                    "Baja California Sur": [
+                        "Loreto"
+                    ],
+                    "Provincia de Pichincha": [
+                        "Loreto"
+                    ],
+                    "Departamento de Moquegua": [
+                        "Loreto"
+                    ],
+                    "Zacatecas": [
+                        "Loreto",
+                        "Mexico"
+                    ],
+                    "Indiana": [
+                        "Mexico"
+                    ],
+                    "Coahuila": [
+                        "Mexico"
+                    ],
+                    "Veracruz": [
+                        "Mexico"
+                    ],
+                    "Guerrero": [
+                        "Mexico"
+                    ],
+                    "Quer\u00e9taro": [
+                        "Mexico"
+                    ],
+                    "Puebla": [
+                        "Mexico"
+                    ],
+                    "State of Mexico": [
+                        "Mexico"
+                    ],
+                    "": [
+                        "Mexico"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Mexico",
+                        1
+                    ],
+                    [
+                        "Italy",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "Ecuador",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Loreto",
+                        1
+                    ],
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image35": {
@@ -343,6 +1845,94 @@
                 "Canada",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Canada"
+                ]
+            },
+            {
+                "Cities": [
+                    "National Park",
+                    "Hector",
+                    "Lake",
+                    "Canada"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "National Park",
+                        "Hector",
+                        "Lake",
+                        "Canada"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "New Jersey": [
+                        "National Park"
+                    ],
+                    "Minnesota": [
+                        "Hector"
+                    ],
+                    "New York": [
+                        "Hector"
+                    ],
+                    "Wyoming": [
+                        "Lake"
+                    ],
+                    "Michigan": [
+                        "Lake"
+                    ],
+                    "Mississippi": [
+                        "Lake"
+                    ],
+                    "West Virginia": [
+                        "Lake"
+                    ],
+                    "Arkansas": [
+                        "Hector"
+                    ],
+                    "Kentucky": [
+                        "Canada"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "National Park",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Hector",
+                        1
+                    ],
+                    [
+                        "Lake",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image36": {
@@ -353,6 +1943,70 @@
                 "Oregon",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Oregon",
+                    "Falls"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Oregon",
+                        "Falls"
+                    ],
+                    "Germany": [
+                        "Falls"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Illinois": [
+                        "Oregon"
+                    ],
+                    "Ohio": [
+                        "Oregon"
+                    ],
+                    "Wisconsin": [
+                        "Oregon"
+                    ],
+                    "Missouri": [
+                        "Oregon"
+                    ],
+                    "Pennsylvania": [
+                        "Falls"
+                    ],
+                    "Bavaria": [
+                        "Falls"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Germany",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Oregon",
+                        1
+                    ],
+                    [
+                        "Falls",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image37": {
@@ -363,6 +2017,76 @@
                 "USA",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Golden",
+                    "Usa"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Golden"
+                    ],
+                    "Canada": [
+                        "Golden"
+                    ],
+                    "Japan": [
+                        "Usa"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Colorado": [
+                        "Golden"
+                    ],
+                    "British Columbia": [
+                        "Golden"
+                    ],
+                    "Kochi-ken": [
+                        "Usa"
+                    ],
+                    "Illinois": [
+                        "Golden"
+                    ],
+                    "Mississippi": [
+                        "Golden"
+                    ],
+                    "Missouri": [
+                        "Golden"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Japan",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Golden",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image38": {
@@ -385,6 +2109,68 @@
                 "USA",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Grand Canyon",
+                    "Usa",
+                    "Sunset"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Grand Canyon",
+                        "Sunset"
+                    ],
+                    "Japan": [
+                        "Usa"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Arizona": [
+                        "Grand Canyon"
+                    ],
+                    "Kochi-ken": [
+                        "Usa"
+                    ],
+                    "South Carolina": [
+                        "Sunset"
+                    ],
+                    "Louisiana": [
+                        "Sunset"
+                    ],
+                    "Texas": [
+                        "Sunset"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Japan",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Sunset",
+                        1
+                    ],
+                    [
+                        "Grand Canyon",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image39": {
@@ -395,6 +2181,92 @@
                 "Mexico",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Mexico"
+                ]
+            },
+            {
+                "Cities": [
+                    "Mexico"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Mexico"
+                    ],
+                    "Mexico": [
+                        "Mexico"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Missouri": [
+                        "Mexico"
+                    ],
+                    "New York": [
+                        "Mexico"
+                    ],
+                    "Maine": [
+                        "Mexico"
+                    ],
+                    "Indiana": [
+                        "Mexico"
+                    ],
+                    "Coahuila": [
+                        "Mexico"
+                    ],
+                    "Veracruz": [
+                        "Mexico"
+                    ],
+                    "Zacatecas": [
+                        "Mexico"
+                    ],
+                    "Guerrero": [
+                        "Mexico"
+                    ],
+                    "Quer\u00e9taro": [
+                        "Mexico"
+                    ],
+                    "Puebla": [
+                        "Mexico"
+                    ],
+                    "State of Mexico": [
+                        "Mexico"
+                    ],
+                    "": [
+                        "Mexico"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Mexico",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image40": {
@@ -409,6 +2281,50 @@
                 "Oregon",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Oregon"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Oregon"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Illinois": [
+                        "Oregon"
+                    ],
+                    "Ohio": [
+                        "Oregon"
+                    ],
+                    "Wisconsin": [
+                        "Oregon"
+                    ],
+                    "Missouri": [
+                        "Oregon"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Oregon",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image42": {
@@ -419,6 +2335,74 @@
                 "Sunset",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Valley View",
+                    "Yosemite",
+                    "Sunset"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Valley View",
+                        "Yosemite",
+                        "Sunset"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Pennsylvania": [
+                        "Valley View"
+                    ],
+                    "Kentucky": [
+                        "Yosemite"
+                    ],
+                    "Texas": [
+                        "Valley View",
+                        "Sunset"
+                    ],
+                    "South Carolina": [
+                        "Sunset"
+                    ],
+                    "Louisiana": [
+                        "Sunset"
+                    ],
+                    "Ohio": [
+                        "Valley View"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Sunset",
+                        1
+                    ],
+                    [
+                        "Yosemite",
+                        1
+                    ],
+                    [
+                        "Valley View",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image43": {
@@ -429,6 +2413,26 @@
                 "Napali Coast",
                 "LOC"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            }
         ]
     },
     "image44": {
@@ -439,6 +2443,33 @@
                 "Cloudland Canyon",
                 "LOC"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Georgia"
+                ]
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Georgia",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": []
+            }
         ]
     },
     "image46": {
@@ -449,6 +2480,46 @@
                 "Kashmir",
                 "LOC"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Kashmir"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "Pakistan": [
+                        "Kashmir"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Punjab": [
+                        "Kashmir"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Pakistan",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Kashmir",
+                        1
+                    ]
+                ]
+            }
         ]
     },
     "image48": {
@@ -467,6 +2538,95 @@
                 "USA",
                 "GPE"
             ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "California",
+                    "Usa"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "California"
+                    ],
+                    "Japan": [
+                        "Usa"
+                    ],
+                    "Trinidad and Tobago": [
+                        "California"
+                    ],
+                    "Brazil": [
+                        "California"
+                    ],
+                    "Mexico": [
+                        "California"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Missouri": [
+                        "California"
+                    ],
+                    "Pennsylvania": [
+                        "California"
+                    ],
+                    "Maryland": [
+                        "California"
+                    ],
+                    "Kochi-ken": [
+                        "Usa"
+                    ],
+                    "Kentucky": [
+                        "California"
+                    ],
+                    "Couva-Tabaquite-Talparo": [
+                        "California"
+                    ],
+                    "Estado do Parana": [
+                        "California"
+                    ],
+                    "Virginia": [
+                        "California"
+                    ],
+                    "Coahuila": [
+                        "California"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Japan",
+                        1
+                    ],
+                    [
+                        "Trinidad and Tobago",
+                        1
+                    ],
+                    [
+                        "Brazil",
+                        1
+                    ],
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "California",
+                        1
+                    ]
+                ]
+            }
         ]
     }
 }
