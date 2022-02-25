@@ -7,14 +7,11 @@ import geocoder
 
 from folium.plugins  import MarkerCluster 
 nlp = spacy.load("en_core_web_sm")
-<<<<<<< HEAD
 doc = nlp("Where are you?") 
 doc = nlp("Where are you?")
 print(doc[2].morph)  
-=======
 # doc = nlp("Where are you?")
 # print(doc[2].morph)  
->>>>>>> a0d1e096f04323dc5033675cbc696eec12f23e66
 dic={}
 geolocalisateur =Nominatim(user_agent="lyna")
 with open ('data.json') as monfichier :
@@ -29,7 +26,6 @@ for  image in data.items():
 				for r in g:
 					l = geocoder.geonames(r.geonames_id, method='details', key='Lydia_Ouam')
 					L.append([l.country,ville[0],ville[1], l.lat,l.lng])
-<<<<<<< HEAD
 	for j in  image[1].items():
 		if ( j[0]=='SpacyLoc'):
 			for  ville in  j[1]: 
@@ -37,8 +33,7 @@ for  image in data.items():
 				for r in g:
 					l = geocoder.geonames(r.geonames_id, method='details', key='Lydia_Ouam')
 					L.append([l.country,ville[0],ville[1], l.lat,l.lng])
-=======
->>>>>>> a0d1e096f04323dc5033675cbc696eec12f23e66
+
 
 	data[image[0]]['SpacyLoc']=L
 
