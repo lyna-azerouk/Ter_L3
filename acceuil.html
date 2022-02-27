@@ -10,12 +10,20 @@
     <h1> Les plus belles photos du monde </h1>
     <div id="debug"></div>
     <script>
-    fetch("data.json")
+
+    function foo(file){
+        let data=fetch(file)
         .then(response => response.json())
         .then(data => {console.log(data.image0.url)
-            document.querySelector("#debug").innerText = data.image0.url})
+        document.querySelector("#debug").innerText = data.image0.url
+    return data})
         
+    }
+    //let img = new Image();   
+    //img.src = foo("data.json")
+    foo("data.json")
     
+        
     </script>
 
     </body>
