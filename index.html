@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Titre</title>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    </head>
+
+    <body>
+    <h1> Les plus belles photos du monde </h1>
+    <div id="images"></div>
+    
+</body>
+</html>
+
+<script>
+
+// (function() {
+//   var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+//   $.getJSON( flickerAPI, {
+//     tags: "mount rainier",
+//     tagmode: "any",
+//     format: "json"
+//   })
+//     .done(function( data ) {
+//       $.each( data.items, function( i, item ) {
+//         $( "<img>" ).attr( "src", item.media.m ).appendTo( "#images" );
+//         if ( i === 3 ) {
+//           return false;
+//         }
+//       });
+//     });
+// })();
+// <div id="images"></div>
+
+fetch("data.json")
+.then(response => {
+   return response.json();
+})
+.then(data => myFile(data))
+
+let myFile = (data) => {
+    let stringData = JSON.stringify(data);
+    let obj = JSON.parse(stringData) 
+    for (var key in obj) {
+        if (obj.hasOwnProperty(key))
+        {
+            $( "<img width='300' height='234'>" ).attr( "src", obj[key]['url'] ).appendTo( "#images" );
+        }
+    }
+}
+
+    </script>
+
