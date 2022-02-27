@@ -38,7 +38,7 @@
             <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f" ></div>
         
 </body>
-<script>    
+<script type="text/javascript">
     
             var map_a620533b73fc4a38880428953e8ae81f = L.map(
                 "map_a620533b73fc4a38880428953e8ae81f",
@@ -50,14 +50,16 @@
                     preferCanvas: false,
                 }
             );
-
-            
-
-        
-    
             var tile_layer_1c5f64abefd34f14b7599eb45775d961 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             ).addTo(map_a620533b73fc4a38880428953e8ae81f);
-        
+ 
+
+            path = foo('data.json');
+            var marker = L.marker([45.41117, -75.69812])
+            .addTo(map_a620533b73fc4a38880428953e8ae81f)
+            .bindPopup("<p>Un lieu</p><img src = path width='300' height='234' >")
+            .openPopup(); 
+
 </script>
