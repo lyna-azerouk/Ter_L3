@@ -1,37 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html >
     <head>
         <meta charset="utf-8" />
         <title>Titre</title>
+        <link rel="stylesheet" href="style.css">
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     </head>
 
     <body>
-    <h1> Les plus belles photos du monde </h1>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="default.html">Home</a></li>
+                    <li><a href="news.asp">News</a></li>
+                    <li><a href="contact.asp">Contact</a></li>
+                    <li><a href="about.asp">About</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <div id="content"><h1>Les plus belles photos du monde</h1></div>
+      
+    
     <div id="images"></div>
     
 </body>
 </html>
 
-<script>
 
-// (function() {
-//   var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
-//   $.getJSON( flickerAPI, {
-//     tags: "mount rainier",
-//     tagmode: "any",
-//     format: "json"
-//   })
-//     .done(function( data ) {
-//       $.each( data.items, function( i, item ) {
-//         $( "<img>" ).attr( "src", item.media.m ).appendTo( "#images" );
-//         if ( i === 3 ) {
-//           return false;
-//         }
-//       });
-//     });
-// })();
-// <div id="images"></div>
+<script>
 
 fetch("data.json")
 .then(response => {
@@ -45,10 +42,16 @@ let myFile = (data) => {
     for (var key in obj) {
         if (obj.hasOwnProperty(key))
         {
-            $( "<img width='300' height='234'>" ).attr( "src", obj[key]['url'] ).appendTo( "#images" );
+            $("#images").append($("<a>", 
+                {
+                    target:"_blank",
+                    href: "macarte.html?ul="+obj[key]['url'], 
+                    html: $("<img>", { src: obj[key]['url'] })
+                }));
         }
     }
 }
+
 
     </script>
 
