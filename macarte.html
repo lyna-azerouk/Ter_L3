@@ -47,7 +47,7 @@
                 {
                     center: [45.41117, -75.69812],
                     crs: L.CRS.EPSG3857,
-                    zoom: 13,
+                    zoom: 10,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -60,12 +60,38 @@
 
             const queryString = window.location.search;
             const urlParams = new URLSearchParams(queryString);
-            const page_type = urlParams.get('ul')
+            const page_type = urlParams.get('ul');
             
-            var marker = L.marker([45.41117, -75.69812])
+
+
+fetch("data.json")
+.then(response => {
+   return response.json();
+})
+.then(data => myFile(data) )
+let myFile = (data) => {
+    let stringData = JSON.stringify(data);
+    let obj = JSON.parse(stringData) 
+     for (var key in obj )
+{         if (obj[key] ['url'] == page_type &&     obj[key].hasOwnProperty('realLoc') )
+        {
+           
+          
+            var marker = L.marker([obj [key]['realLoc']['Latitude'], obj [key]['realLoc'] ['Longitude'] ])
             .addTo(map_a620533b73fc4a38880428953e8ae81f)
-            .bindPopup("<p>On affcihe le nom de la loc</p><img src = "+page_type+"  width='300' height='234' >")
+            .bindPopup("<p>loc = "+obj [key]['realLoc']['Nomreal']+" </p><img src = "+page_type+"  width='300' height='234' >")
             .openPopup(); 
+        }
+}   
+}
+  
+
+
+
+
+           
+           
+
 
 
 </script>
