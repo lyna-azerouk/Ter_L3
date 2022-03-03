@@ -26,7 +26,7 @@
                 #map_a620533b73fc4a38880428953e8ae81f {
                     position: relative;
                     width: 100.0%;
-                    height: 100.0%;
+                    height: 90.0%;
                     left: 0.0%;
                     top: 0.0%;
                 }
@@ -37,7 +37,14 @@
 <body>    
     
             <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f" ></div>
-
+          <div class ="resultat_heuristique" > 
+              <input type ="checkbox"  id="scalses"   > </input>  
+             <label  for = "scalses" id="num2" > </label>
+     <br>
+              <input type ="checkbox"  id="scalses3"   > </input>
+              <label  for = "scalses3" id="num3" > </label>
+         
+            </div>
         
 </body>
 <script type="text/javascript">
@@ -47,7 +54,7 @@
                 {
                     center: [45.41117, -75.69812],
                     crs: L.CRS.EPSG3857,
-                    zoom: 10,
+                    zoom: 7,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -88,9 +95,32 @@ let myFile = (data) => {
 
 
 
+fetch("data.json")
+.then(response => {
+   return response.json();
+})
+.then(data => affichage(data) )
+let affichage = (data) => {
+    let stringData = JSON.stringify(data);
+    let obj = JSON.parse(stringData) 
+    for (var key in  obj  )
+   { if (obj[key] ['url'] == page_type )
+   { 
+  
+    d2= document.getElementById ("num2");
+    d2.innerHTML  ="heuristique2 =="+obj [key]['heuristique 2'] ;
 
-           
-           
+    d3=document.getElementById("num3");
+    d3.innerHTML="heuristique3==" +obj [key]['heuristique 3'];
+   
+    }
+
+
+
+   }  
+} 
+
+ 
 
 
 
