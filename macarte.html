@@ -30,6 +30,58 @@
                     left: 0.0%;
                     top: 0.0%;
                 }
+                input {
+                position: absolute;
+                left: -9999px;
+                }
+        label {
+        display: block;
+        position: relative;
+        margin: 20px;
+        padding: 15px 30px 15px 62px;
+        border: 3px solid #fff;
+        border-radius: 100px;
+        color: #fff;
+        background-color: #6a8494;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+        white-space: nowrap;
+        cursor: pointer;
+        user-select: none;
+        transition: background-color .2s, box-shadow .2s;
+        }
+
+        label::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 10px;
+        bottom: 10px;
+        left: 10px;
+        width: 32px;
+        border: 3px solid #fff;
+        border-radius: 100px;
+        transition: background-color .2s;
+        }
+
+        label:first-of-type {
+        transform: translateX(-40px);
+        }
+
+        label:last-of-type {
+        transform: translateX(40px);
+        }
+
+        label:hover, input:focus + label {
+        box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+        }
+
+        input:checked + label {
+        background-color: #ab576c;
+        }
+
+        input:checked + label::before {
+        background-color: #fff;
+        }
             </style>
 
         
@@ -104,7 +156,7 @@ let affichage = (data) => {
             if(obj[key]['heuristique 1'] !== undefined)
             {
                 var checkbox = document.createElement('input');
-                checkbox.type = "checkbox";
+                checkbox.type = "radio";
                 checkbox.id = "id1";
                 var label = document.createElement('label'); 
                 label.htmlFor = "id1";
@@ -117,11 +169,11 @@ let affichage = (data) => {
             if(obj[key]['heuristique 2'] !== undefined)
             {
                 var checkbox = document.createElement('input');
-                checkbox.type = "checkbox";
+                checkbox.type = "radio";
                 checkbox.id = "id2";
                 var label = document.createElement('label'); 
                 label.htmlFor = "id2";
-                label.appendChild(document.createTextNode("Heuristique 02 :" +obj [key]['heuristique 2']));      
+                label.appendChild(document.createTextNode("Heuristique 02 :" +obj [key]['heuristique 2'])); 
                 myDiv.appendChild(checkbox);
                 myDiv.appendChild(label);
             }
@@ -130,7 +182,7 @@ let affichage = (data) => {
             if(obj[key]['heuristique 3'] !== undefined)
             {
                 var checkbox = document.createElement('input');
-                checkbox.type = "checkbox";
+                checkbox.type = "radio";
                 checkbox.id = "id3";
                 var label = document.createElement('label'); 
                 label.htmlFor = "id3";
@@ -142,7 +194,7 @@ let affichage = (data) => {
             if(obj[key]['heuristique 5'] !== undefined)
             {
                 var checkbox = document.createElement('input');
-                checkbox.type = "checkbox";
+                checkbox.type = "radio";
                 checkbox.id = "id5";
                 var label = document.createElement('label'); 
                 label.htmlFor = "id5";
@@ -154,7 +206,7 @@ let affichage = (data) => {
             if(obj[key]['heuristique_country_cities'] !== undefined)
             {
                 var checkbox = document.createElement('input');
-                checkbox.type = "checkbox";
+                checkbox.type = "radio";
                 checkbox.id = "id6";
                 var label = document.createElement('label'); 
                 label.htmlFor = "id6";
@@ -165,7 +217,7 @@ let affichage = (data) => {
             if(obj[key]['heuristique_adresse_LT'] !== undefined)
             {
                 var checkbox = document.createElement('input');
-                checkbox.type = "checkbox";
+                checkbox.type = "radio";
                 checkbox.id = "id7";
                 var label = document.createElement('label'); 
                 label.htmlFor = "id7";
