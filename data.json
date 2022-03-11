@@ -83,7 +83,7 @@
     },
     "image1": {
         "realLoc": {
-            "Nomreal":"Vermilion Cliffs National Monument, Comté de Coconino, Arizona, États-Unis",
+            "Nomreal":"Vermilion Cliffs National Monument, Arizona",
             "Latitude": "36.83333",
             "Longitude": "-111.96667"
         },
@@ -183,8 +183,9 @@
     },
     "image3": {
         "realLoc": {
-            "Latitude": "59.4052226",
-            "Longitude": "28.1692979"
+            "Nomreal" : "Estonia",
+            "Latitude": "58.7523778",
+            "Longitude": "25.3319078"
         },
         "title": "Northern lights last night, Estonia, [2900x3866] [OC]",
         "url": "https://i.redd.it/2ts1m5w0o5h81.jpg",
@@ -233,7 +234,7 @@
     },
     "image4": {
         "realLoc": {
-            "Nomreal":"the coastal rainforests of British Columbia",
+            "Nomreal":"British Columbia",
             "Latitude": "53.99983",
             "Longitude": "-125.0032"
         },
@@ -417,7 +418,7 @@
     },
     "image8": {
         "realLoc": {
-            "Nomreal":"Ancient cliff side juniper at Gibraltar Rock, Wisconsin",
+            "Nomreal":"Gibraltar Rock, Wisconsin",
             "Latitude": "43.34249",
             "Longitude": "-89.59818"
         },
@@ -899,7 +900,7 @@
     },
     "image18": {
         "realLoc": {
-            "Nomreal":" Aoraki/Mt",
+            "Nomreal":" Aoraki/Mt New Zealand",
             "Latitude": "-43.5950017",
             "Longitude": "170.1421677"
         },
@@ -1384,7 +1385,7 @@
     },
     "image25": {
         "realLoc": {
-            "Nomreal":"Kananaskis Country in Alberta, Canada",
+            "Nomreal":"Kananaskis Alberta, Canada",
             "Latitude": "50.8953274",
             "Longitude": "-114.7057092"
         },
@@ -1471,7 +1472,7 @@
     },
     "image26": {
         "realLoc": {
-            "Nomreal":"Hoar frost in Stockgrove Park, UK",
+            "Nomreal":"Stockgrove Park,Bedfordshire, UK",
             "Latitude": "52.3701663",
             "Longitude": "-0.2228095"
         },
@@ -1523,7 +1524,7 @@
     },
     "image27": {
         "realLoc": {
-            "Nomreal":"the hydro power plant, Shawinigan,Québec",
+            "Nomreal":"Shawinigan,Québec",
             "Latitude": "46.56675",
             "Longitude": "-72.74913"
         },
@@ -1629,7 +1630,7 @@
     },
     "image30": {
         "realLoc": {
-            "Nomreal":"Fall Creek Falls in Tennessee",
+            "Nomreal":"Fall Creek Falls, Tennessee",
             "Latitude": "35.6660569",
             "Longitude": "-85.3555696"
         },
@@ -2517,11 +2518,11 @@
     },
     "image38": {
         "realLoc": {
-            "Nomreal":"Sunset over Grand Canyon, Arizona. USA",
+            "Nomreal":"Grand Canyon, Arizona. USA",
             "Latitude": "36.054164",
             "Longitude": "-112.136115"
         },
-        "title": "(OC) Sunset over Grand Canyon, Arizona. USA. [2250x1500]",
+        "title": "(OC)Grand Canyon, Arizona. USA. [2250x1500]",
         "url": "https://i.redd.it/qu1mfrje12h81.jpg",
         "SpacyLoc": [
             [
@@ -2619,7 +2620,7 @@
     },
     "image39": {
         "realLoc": {
-            "Nomreal":"The cactus forests of Puebla-Oaxaca, Mexico",
+            "Nomreal":"The cactus forests, Puebla-Oaxaca, Mexico",
             "Latitude": "17.06542",
             "Longitude": "-96.72365"
         },
@@ -2728,7 +2729,7 @@
     },
     "image40": {
         "realLoc": {
-            "Nomreal":"Waves Crashing at Yaquina Head, Oregon",
+            "Nomreal":"Yaquina Head, Oregon",
             "Latitude": "44.635762",
             "Longitude": "-124.023046"
         },
@@ -2800,7 +2801,7 @@
     },
     "image42": {
         "realLoc": {
-            "Nomreal":"Yosemite - Valley View from Glacier Point at Sunset",
+            "Nomreal":"Yosemite - Valley View, Glacier Point",
             "Latitude": "41.13633",
             "Longitude": "-112.03105"
         },
@@ -2934,6 +2935,11 @@
         ]
     },
     "image44": {
+        "realLoc":{
+            "Nomreal":"Cloudland Canyon, Georgia",
+            "Latitude" : "34.6536924",
+            "Longitude" : "-85.4727397"
+        },
         "title": "Cloudland Canyon, Georgia[2778x1284] [OC]",
         "url": "https://i.redd.it/dvxmkupil2h81.jpg",
         "SpacyLoc": [
@@ -2978,7 +2984,7 @@
     },
     "image46": {
         "realLoc": {
-            "Nomreal":"Shisram nag or sheeshnag, Kashmir",
+            "Nomreal":"Shisram nag, sheeshnag, Kashmir",
             "Latitude": "33.91667",
             "Longitude": "76.66667"
         },

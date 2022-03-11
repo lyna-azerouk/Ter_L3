@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Design by foolishdeveloper.com -->
+<head>
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Bdh3ffsD8cYHG4Ay7JzmxV6jkC0vXB0bQGDg00eBPliZHAiCq5vvYoFEOSYNyRAPgcrBSYFQ1qF_4OM1pHrNBTG0FiZj8T0iK0x3Pxmjs6RzGzLZFrxml1S4FT6__oHPp8D20DjFAGNEAj_KncjMi_EB3VZokU6dG8RuyBLDDg8-z4k-uJu4C1YB4D8QuY8adKvrsO7c6qQ64v4clB6T6vyWQVWz1IgFYhAuVuNCsDRh5Y9CeEbOh-v8inwLqicrf3wH1MNmvdLHfXjXUV2cCjQQ2dh-zO0WHhEItOWP1r-J9H6Fz4S4pNK-wyz8TbyUT3fF-Sq_Wz-3RXRO_5N6DrDLxGuycOBHxH7tWqI9o086Wd1X1A6LqPSIIJrJPdXeGsmRdMOx9KUDARFc-k0Xg26g9t0UaPFTCoo8TRQvotKAwqbgbNcrS23_IXEpxxzXBZSrFUiEE21j-aCJV93or2LGmozMBuWis0mj5aO95j9_OtHlUSWxeyazZn_r5zVlh86EIZynQoW0KCuS5m0sfui6UFlTwtP5lnNP8T_x9v2cf5DG4ztrpSNOWImzlTiC1cmht5RCeU14QM_kXrQowTmOsxn_Ti60VSSur-_ZnQhXrg5pXkwjx_BK1vt_fAKou7X9qLz9K5hA6DLWwqhuk7gMc_IwQfqWOjfEQHHa0BSQ2VkZxyh-Z5YZpmMOWipjyIparLogO96jj6-cGG02j6q_yCFONxvY0DqMnDtlqhW6006N30u0VAHIh7npu4zMR2r6rsuwSOrmWQM7S9l2vOqWOkKjoLuNMmmwGynLycSsXHJOrlOtCA-DjHQyF7EjC89pTGd-EswXbwUxJuvAh4BSIpgWrbICD13XJukTLOUHeOoJjsuG1In9q2OY75TS1ECJcIEVvjwgb67Yx2gPnB6Xn0jN9EiS6JSElzu7CnTCFoHAueSKN8y-2H9meih4n8vz2BXpbws5RpiFn0-EEviQjNhk43p4DlX4wTuGIQUs6a-MQFcGypwkz3K6RchX9QqIUe1L2g944DsIFejRFjMka9_7KABnlEkMjupgbx3HcWOt8H692SIOZHQ1WD8CJT-ZAC7zxtazMe_4ceROKvLJmK9Ox1YY0gamQdoNpflGdJ3GH9jK2M1D64KuBzhoHkzmQv3fox79Zeccib_kpkY3-i7b-q_dX5Bxrxh7wSLIARmYY8OJuleibe3qMzF-z6tcvOt5aOmQle1ytx7tE7PLcTEt3_w4qYr2z1EiDVZ6pI8BPn-M5Q2xrnNpd37G4nMOmbu3v9bsKfCxaxOiBCKqPQ2PoHJJKbTUg9F5W4xzECVDvZTlvj-ujz6kqYgJdIt5hk3zJBHdqtLZxyaQbPxNPzJ9NRB1v6Fmtgu7JzU" charset="UTF-8"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" charset="utf-8"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="css.css">
+ <style>
+   body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 160px);
+  grid-gap: 80px;
+  background: #0d0c2d;
+  box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288),
+              4px 4px 6px rgba(94, 104, 121, 0.288);
+  padding: 60px;
+  margin: auto 0;
+}
+
+@media (min-width: 420px) and (max-width: 659px) {
+  .container {
+    grid-template-columns: repeat(2, 160px);
+  }
+}
+
+@media (min-width: 660px) and (max-width: 899px) {
+  .container {
+    grid-template-columns: repeat(3, 160px);
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    grid-template-columns: repeat(3, 160px);
+  }
+}
+
+.container .box {
+  width: 100%;
+}
+
+.container .box h2 {
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+
+.container .box .chart {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 40px;
+  line-height: 160px;
+  height: 160px;
+  color: #fff;
+}
+
+.container .box canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  width: 100%;
+}
+
+  </style>
+</head>
+
+<body>
+<div class = "title"><h1>Resultats</h1></div>
+<div class="container">
+  <div class="box">
+    <div class="chart" data-percent="90" >90%</div>
+    <h2>Heuristique 01</h2>
+  </div>
+  <div class="box">
+    <div class="chart" data-percent="72" >72%</div>
+    <h2>Heuristique 02</h2>
+  </div>
+  <div class="box">
+    <div class="chart" data-percent="81" >81%</div>
+    <h2>Heuristique 03</h2>
+  </div>
+ 
+</div>
+
+<script type="text/javascript">
+  $(function() {
+  $('.chart').easyPieChart({
+    size: 160,
+    barColor: "#36e617",
+    scaleLength: 0,
+    lineWidth: 15,
+    trackColor: "#525151",
+    lineCap: "circle",
+    animate: 2000,
+  });
+});
+</script>
+</body>
+</html>

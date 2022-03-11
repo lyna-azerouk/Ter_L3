@@ -4,7 +4,7 @@ with open( 'data.json') as mon_fichier :
 	data=json.load(mon_fichier)
 cptFin=0
 cptDebut=0
-
+# cette heuristique detecte l'emplacement du champs ou la localistation est mentionnes (c-a-d fin ou debu)
 #pour les images qui ont une seule localisation
 for  image  in data :
 	if(len(data[image]['SpacyLoc']) == 1):
