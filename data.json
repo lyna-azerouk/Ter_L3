@@ -1,7 +1,7 @@
 {
     "image0": {
         "realLoc": {
-            "Nomreal": "Brookings, Oregon",
+            "Nomreal": "Brookings, Oregon, United States",
             "Latitude": "42.0523718",
             "Longitude": "-124.28407"
         },
@@ -2518,11 +2518,11 @@
     },
     "image38": {
         "realLoc": {
-            "Nomreal":"Grand Canyon, Arizona. USA",
+            "Nomreal":"Grand Canyon, Arizona, United States",
             "Latitude": "36.054164",
             "Longitude": "-112.136115"
         },
-        "title": "(OC)Grand Canyon, Arizona. USA. [2250x1500]",
+        "title": "(OC)Grand Canyon, Arizona, USA. [2250x1500]",
         "url": "https://i.redd.it/qu1mfrje12h81.jpg",
         "SpacyLoc": [
             [
