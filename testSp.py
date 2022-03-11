@@ -28,7 +28,6 @@ for i in data:
                 if(entity.label_ == 'GPE' or entity.label_ == 'LOC'):
                         l.append((entity.text,entity.label_))
                         data[i]['SpacyLoc']=l    
-<<<<<<< HEAD
 
 for i in data.copy():
         if('SpacyLoc' not in data[i].keys()):
