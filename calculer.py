@@ -14,6 +14,7 @@ compteur_image = 0
 for text in data:
         adresse = data[text]['LocationTagger'][6]
         if len(adresse['Adresse']) != 0:
+            data[text]['heuristique_adresse_LT'] = adresse['Adresse'][0]
             compteur_image = compteur_image + 1
             adresseLT = adresse['Adresse'][0].replace(",","").lower() #Nettoyer la chaine en supprimant les virgules
             lLT = adresseLT.split()
@@ -27,7 +28,13 @@ for text in data:
                     compteur_simi = compteur_simi + 1
             if(compteur_simi >= len(lLT)/2):
                 compteur_true = compteur_true + 1
-print("L'heuristique est correcte avec un pourcentage de :",compteur_true/compteur_image*100,"%")
+
+
+# print("L'heuristique est correcte avec un pourcentage de :",compteur_true/compteur_image*100,"%")
+
+with open('data.json', 'w') as mon_fichier:
+    mon_fichier.write(json.dumps(data, indent=4))
+
 fjson.close()
 
 

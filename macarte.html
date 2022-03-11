@@ -36,23 +36,8 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f" ></div>
-          <div class ="resultat_heuristique" > 
-            <input type ="checkbox"  id="scalses6"   > </input>
-            <label  for = "scalses6" id="num6" > </label>
-     <br>
-              <input type ="checkbox"  id="scalses"   > </input>  
-             <label  for = "scalses" id="num2" > </label>
-     <br>
-              <input type ="checkbox"  id="scalses3"   > </input>
-              <label  for = "scalses3" id="num3" > </label>
-     <br>
-              <input type ="checkbox"  id="scalses5"   > </input>
-              <label  for = "scalses5" id="num5" > </label>
-              
-              
-         
-            </div>
+        <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f" ></div>
+        <div id ="resultat_heuristique" ></div>
         
 </body>
 <script type="text/javascript">
@@ -108,37 +93,90 @@ fetch("data.json")
    return response.json();
 })
 .then(data => affichage(data) )
+
 let affichage = (data) => {
     let stringData = JSON.stringify(data);
     let obj = JSON.parse(stringData) 
-    for (var key in  obj  )
-   { if (obj[key] ['url'] == page_type )
-   { 
-    d6=document.getElementById("num6");
-    if (obj [key]['heuristique 1'] != "") {
-    d6.innerHTML="heuristique 1==" +obj [key]['heuristique 1'];}
+    for (var key in obj) {
+        var myDiv = document.getElementById("resultat_heuristique");
+        if(obj[key]['url'] == page_type)
+        {
+            if(obj[key]['heuristique 1'] !== undefined)
+            {
+                var checkbox = document.createElement('input');
+                checkbox.type = "checkbox";
+                checkbox.id = "id1";
+                var label = document.createElement('label'); 
+                label.htmlFor = "id1";
+                label.appendChild(document.createTextNode("Heuristique 01 :" +obj [key]['heuristique 1']));      
+                myDiv.appendChild(checkbox);
+                myDiv.appendChild(label);
+                console.log("\n");
+            }
 
-    if (obj [key]['heuristique 2'] === "") {
-    d2= document.getElementById ("num2");
-    d2.innerHTML  ="heuristique2 =="+obj [key]['heuristique 2'] ;}
+            if(obj[key]['heuristique 2'] !== undefined)
+            {
+                var checkbox = document.createElement('input');
+                checkbox.type = "checkbox";
+                checkbox.id = "id2";
+                var label = document.createElement('label'); 
+                label.htmlFor = "id2";
+                label.appendChild(document.createTextNode("Heuristique 02 :" +obj [key]['heuristique 2']));      
+                myDiv.appendChild(checkbox);
+                myDiv.appendChild(label);
+            }
+              
 
-    d3=document.getElementById("num3");
-    d3.innerHTML="heuristique3==" +obj [key]['heuristique 3'];
+            if(obj[key]['heuristique 3'] !== undefined)
+            {
+                var checkbox = document.createElement('input');
+                checkbox.type = "checkbox";
+                checkbox.id = "id3";
+                var label = document.createElement('label'); 
+                label.htmlFor = "id3";
+                label.appendChild(document.createTextNode("Heuristique 03 :" +obj [key]['heuristique 3']));      
+                myDiv.appendChild(checkbox);
+                myDiv.appendChild(label);
+            }
+            
+            if(obj[key]['heuristique 5'] !== undefined)
+            {
+                var checkbox = document.createElement('input');
+                checkbox.type = "checkbox";
+                checkbox.id = "id5";
+                var label = document.createElement('label'); 
+                label.htmlFor = "id5";
+                label.appendChild(document.createTextNode("Heuristique 05 :" +obj [key]['heuristique 5']));      
+                myDiv.appendChild(checkbox);
+                myDiv.appendChild(label);
+            }
 
-    d5=document.getElementById("num5");
-    d5.innerHTML="heuristique5==" +obj [key]['heuristique 5'];
-
-    
-   
+            if(obj[key]['heuristique_country_cities'] !== undefined)
+            {
+                var checkbox = document.createElement('input');
+                checkbox.type = "checkbox";
+                checkbox.id = "id6";
+                var label = document.createElement('label'); 
+                label.htmlFor = "id6";
+                label.appendChild(document.createTextNode("Heuristique 06 :" +obj [key]['heuristique_country_cities']));      
+                myDiv.appendChild(checkbox);
+                myDiv.appendChild(label);
+            }
+            if(obj[key]['heuristique_adresse_LT'] !== undefined)
+            {
+                var checkbox = document.createElement('input');
+                checkbox.type = "checkbox";
+                checkbox.id = "id7";
+                var label = document.createElement('label'); 
+                label.htmlFor = "id7";
+                label.appendChild(document.createTextNode("Heuristique 07 :" +obj [key]['heuristique_adresse_LT']));      
+                myDiv.appendChild(checkbox);
+                myDiv.appendChild(label);
+            }
+                    
+        }
     }
-
-
-
-   }  
-} 
+}
 
  
-
-
-
 </script>

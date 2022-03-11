@@ -81,11 +81,12 @@
         ],
         "heuristique 1": "Oregon",
         "heuristique 5": "Brookings Oregon ",
-        "heuristique_country_cities": "United States,Oregon Brookings "
+        "heuristique_country_cities": "United States,Oregon Brookings ",
+        "heuristique_adresse_LT": "Brookings, Oregon, United States"
     },
     "image1": {
         "realLoc": {
-            "Nomreal":"Vermilion Cliffs National Monument, Arizona",
+            "Nomreal": "Vermilion Cliffs National Monument, Arizona",
             "Latitude": "36.83333",
             "Longitude": "-111.96667"
         },
@@ -187,7 +188,7 @@
     },
     "image3": {
         "realLoc": {
-            "Nomreal" : "Estonia",
+            "Nomreal": "Estonia",
             "Latitude": "58.7523778",
             "Longitude": "25.3319078"
         },
@@ -239,7 +240,7 @@
     },
     "image4": {
         "realLoc": {
-            "Nomreal":"British Columbia",
+            "Nomreal": "British Columbia",
             "Latitude": "53.99983",
             "Longitude": "-125.0032"
         },
@@ -428,7 +429,7 @@
     },
     "image8": {
         "realLoc": {
-            "Nomreal":"Gibraltar Rock, Wisconsin",
+            "Nomreal": "Gibraltar Rock, Wisconsin",
             "Latitude": "43.34249",
             "Longitude": "-89.59818"
         },
@@ -920,7 +921,7 @@
     },
     "image18": {
         "realLoc": {
-            "Nomreal":" Aoraki/Mt New Zealand",
+            "Nomreal": " Aoraki/Mt New Zealand",
             "Latitude": "-43.5950017",
             "Longitude": "170.1421677"
         },
@@ -1415,7 +1416,7 @@
     },
     "image25": {
         "realLoc": {
-            "Nomreal":"Kananaskis Alberta, Canada",
+            "Nomreal": "Kananaskis Alberta, Canada",
             "Latitude": "50.8953274",
             "Longitude": "-114.7057092"
         },
@@ -1500,11 +1501,12 @@
             "GPE"
         ],
         "heuristique 5": "Kananaskis Country Alberta Canada ",
-        "heuristique_country_cities": "Canada,Kananaskis "
+        "heuristique_country_cities": "Canada,Kananaskis ",
+        "heuristique_adresse_LT": "Kananaskis, Alberta, Canada"
     },
     "image26": {
         "realLoc": {
-            "Nomreal":"Stockgrove Park,Bedfordshire, UK",
+            "Nomreal": "Stockgrove Park,Bedfordshire, UK",
             "Latitude": "52.3701663",
             "Longitude": "-0.2228095"
         },
@@ -1557,7 +1559,7 @@
     },
     "image27": {
         "realLoc": {
-            "Nomreal":"Shawinigan,Québec",
+            "Nomreal": "Shawinigan,Qu\u00c3\u00a9bec",
             "Latitude": "46.56675",
             "Longitude": "-72.74913"
         },
@@ -1665,7 +1667,7 @@
     },
     "image30": {
         "realLoc": {
-            "Nomreal":"Fall Creek Falls, Tennessee",
+            "Nomreal": "Fall Creek Falls, Tennessee",
             "Latitude": "35.6660569",
             "Longitude": "-85.3555696"
         },
@@ -2258,7 +2260,8 @@
             "CARDINAL"
         ],
         "heuristique 5": "Loreto Baja California Sur Mexico ",
-        "heuristique_country_cities": "Peru,Loreto "
+        "heuristique_country_cities": "Peru,Loreto ",
+        "heuristique_adresse_LT": "Loreto, Baja California Sur, Mexico"
     },
     "image35": {
         "realLoc": {
@@ -2569,7 +2572,7 @@
     },
     "image38": {
         "realLoc": {
-            "Nomreal":"Grand Canyon, Arizona. USA",
+            "Nomreal": "Grand Canyon, Arizona. USA",
             "Latitude": "36.054164",
             "Longitude": "-112.136115"
         },
@@ -2669,11 +2672,12 @@
             "CARDINAL"
         ],
         "heuristique 5": "Canyon Arizona USA ",
-        "heuristique_country_cities": "Japan,Usa "
+        "heuristique_country_cities": "Japan,Usa ",
+        "heuristique_adresse_LT": "Grand Canyon, Arizona, United States"
     },
     "image39": {
         "realLoc": {
-            "Nomreal":"The cactus forests, Puebla-Oaxaca, Mexico",
+            "Nomreal": "The cactus forests, Puebla-Oaxaca, Mexico",
             "Latitude": "17.06542",
             "Longitude": "-96.72365"
         },
@@ -2784,7 +2788,7 @@
     },
     "image40": {
         "realLoc": {
-            "Nomreal":"Yaquina Head, Oregon",
+            "Nomreal": "Yaquina Head, Oregon",
             "Latitude": "44.635762",
             "Longitude": "-124.023046"
         },
@@ -2858,7 +2862,7 @@
     },
     "image42": {
         "realLoc": {
-            "Nomreal":"Yosemite - Valley View, Glacier Point",
+            "Nomreal": "Yosemite - Valley View, Glacier Point",
             "Latitude": "41.13633",
             "Longitude": "-112.03105"
         },
@@ -2995,10 +2999,10 @@
         "heuristique 5": "Napali Coast Kauai "
     },
     "image44": {
-        "realLoc":{
-            "Nomreal":"Cloudland Canyon, Georgia",
-            "Latitude" : "34.6536924",
-            "Longitude" : "-85.4727397"
+        "realLoc": {
+            "Nomreal": "Cloudland Canyon, Georgia",
+            "Latitude": "34.6536924",
+            "Longitude": "-85.4727397"
         },
         "title": "Cloudland Canyon, Georgia[2778x1284] [OC]",
         "url": "https://i.redd.it/dvxmkupil2h81.jpg",
@@ -3045,7 +3049,7 @@
     },
     "image46": {
         "realLoc": {
-            "Nomreal":"Shisram nag, sheeshnag, Kashmir",
+            "Nomreal": "Shisram nag, sheeshnag, Kashmir",
             "Latitude": "33.91667",
             "Longitude": "76.66667"
         },
