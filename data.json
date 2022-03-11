@@ -183,8 +183,9 @@
     },
     "image3": {
         "realLoc": {
-            "Latitude": "59.4052226",
-            "Longitude": "28.1692979"
+            "Nomreal" : "Estonia",
+            "Latitude": "58.7523778",
+            "Longitude": "25.3319078"
         },
         "title": "Northern lights last night, Estonia, [2900x3866] [OC]",
         "url": "https://i.redd.it/2ts1m5w0o5h81.jpg",
@@ -2517,7 +2518,7 @@
     },
     "image38": {
         "realLoc": {
-            "Nomreal":"Sunset over Grand Canyon, Arizona. USA",
+            "Nomreal":"Grand Canyon, Arizona. USA",
             "Latitude": "36.054164",
             "Longitude": "-112.136115"
         },
@@ -2934,6 +2935,11 @@
         ]
     },
     "image44": {
+        "realLoc":{
+            "Nomreal":"Cloudland Canyon, Georgia",
+            "Latitude" : "34.6536924",
+            "Longitude" : "-85.4727397"
+        },
         "title": "Cloudland Canyon, Georgia[2778x1284] [OC]",
         "url": "https://i.redd.it/dvxmkupil2h81.jpg",
         "SpacyLoc": [
