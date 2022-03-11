@@ -4,30 +4,9 @@ with open( 'data.json') as mon_fichier :
 	data=json.load(mon_fichier)
 cptFin=0
 cptDebut=0
-
+# cette heuristique detecte l'emplacement du champs ou la localistation est mentionnes (c-a-d fin ou debu)
 #pour les images qui ont une seule localisation
 for  image  in data :
-<<<<<<< HEAD
-	fix=data[image]['SpacyLoc'][0][1] 
-	valide=True
-	for loc in data[image]['SpacyLoc']:
-		if fix!=loc[1]:
-			valide=False
-	if  valide:
-		s= data[image]['title'] 
-		l=s.split() 
-		localisation=fix
-		indice=0
-		for mot in range ( len( l )) : 
-			if (l[mot] == localisation):
-				indice = mot
-		if ( indice >= (len(l)-2)/2 ):
-			data[image]['heurisique 1: ']="fin"
-			cptFin+=1
-		else :
-			data[image]['heurisique 1:']="debut"
-			cptDebut+=1
-=======
 	if(len(data[image]['SpacyLoc']) == 1):
 		s = data[image]['title'] 
 		l = s.split() 
@@ -40,7 +19,6 @@ for  image  in data :
 					else :
 						data[image]['heuristique 1']="debut"
 						cptDebut+=1
->>>>>>> a0d1e096f04323dc5033675cbc696eec12f23e66
 
 	if (cptDebut > cptFin):
 		resultat_heurisique_1 = "debut"
@@ -60,10 +38,7 @@ for  image  in data :
 with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
 
-<<<<<<< HEAD
-=======
 mon_fichier.close()
 
 
 			
->>>>>>> a0d1e096f04323dc5033675cbc696eec12f23e66
