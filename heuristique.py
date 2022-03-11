@@ -14,10 +14,10 @@ for  image  in data :
 			if (l[mot] == data[image]['SpacyLoc'][0][0]):
 					indice = mot
 					if ( indice >= (len(l) - 2)/2 ):
-						data[image]['heuristique 1']="fin"
+						data[image]['heuristique 1']= data[image]['SpacyLoc'][0][0]
 						cptFin+=1
 					else :
-						data[image]['heuristique 1']="debut"
+						data[image]['heuristique 1']=data[image]['SpacyLoc'][0][0]
 						cptDebut+=1
 
 	if (cptDebut > cptFin):

@@ -1,7 +1,7 @@
 {
     "image0": {
         "realLoc": {
-            "Nomreal": "Brookings, Oregon, United States",
+            "Nomreal": "Brookings, Oregon",
             "Latitude": "42.0523718",
             "Longitude": "-124.28407"
         },
@@ -79,11 +79,17 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "Oregon",
+        "heuristique 5": "Brookings Oregon ",
+        "heuristique_country_cities": "United States,Oregon Brookings "
     },
     "image1": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": "Vermilion Cliffs National Monument, Arizona",
+=======
             "Nomreal":"Vermilion Cliffs National Monument, Arizona",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "36.83333",
             "Longitude": "-111.96667"
         },
@@ -128,11 +134,12 @@
             "ORG",
             "GPE",
             "CARDINAL"
-        ]
+        ],
+        "heuristique 5": "Wave Vermilion Cliffs National Monument Arizona "
     },
     "image2": {
         "realLoc": {
-            "Nomreal":"southern Germany",
+            "Nomreal": "southern Germany",
             "Latitude": "50.8331217",
             "Longitude": "14.7962388"
         },
@@ -179,11 +186,16 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "Germany",
+        "heuristique 5": "Germany "
     },
     "image3": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": "Estonia",
+=======
             "Nomreal" : "Estonia",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "58.7523778",
             "Longitude": "25.3319078"
         },
@@ -230,11 +242,16 @@
             "TIME",
             "GPE",
             "CARDINAL"
-        ]
+        ],
+        "heuristique 5": "Estonia "
     },
     "image4": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": "British Columbia",
+=======
             "Nomreal":"British Columbia",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "53.99983",
             "Longitude": "-125.0032"
         },
@@ -272,11 +289,12 @@
         "Ordre": [
             "GPE",
             "DATE"
-        ]
+        ],
+        "heuristique 5": "British Columbia "
     },
     "image5": {
         "realLoc": {
-            "Nomreal":"Grinnell Lake, Glacier National Park",
+            "Nomreal": "Grinnell Lake, Glacier National Park",
             "Latitude": "48.68318",
             "Longitude": "-113.80017"
         },
@@ -355,11 +373,13 @@
         "Ordre": [
             "GPE",
             "FAC"
-        ]
+        ],
+        "heuristique 5": "Grinnell Lake Glacier National Park OC ",
+        "heuristique_country_cities": "United States,Grinnell Lake "
     },
     "image6": {
         "realLoc": {
-            "Nomreal":"Ravens Nest, Maine ",
+            "Nomreal": "Ravens Nest, Maine ",
             "Latitude": "44.352025",
             "Longitude": "-68.0747285"
         },
@@ -414,11 +434,17 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "Maine",
+        "heuristique 5": "Ravens Nest Maine ",
+        "heuristique_country_cities": "United States,Maine "
     },
     "image8": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": "Gibraltar Rock, Wisconsin",
+=======
             "Nomreal":"Gibraltar Rock, Wisconsin",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "43.34249",
             "Longitude": "-89.59818"
         },
@@ -467,11 +493,12 @@
                 "Gibraltar Rock",
                 "Wisconsin"
             ]
-        ]
+        ],
+        "heuristique 5": "Gibraltar Rock Wisconsin "
     },
     "image12": {
         "realLoc": {
-            "Nomreal":" Palatinate Forest, Germany",
+            "Nomreal": " Palatinate Forest, Germany",
             "Latitude": "49.9531599",
             "Longitude": "7.310646"
         },
@@ -568,11 +595,13 @@
             "GPE",
             "ORG"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "Germany",
+        "heuristique 5": "Golden Palatinate Forest Palatinate Forest Germany IG ",
+        "heuristique_country_cities": "Slovenia,Ig "
     },
     "image13": {
         "realLoc": {
-            "Nomreal":" Kootenai River, Montana",
+            "Nomreal": " Kootenai River, Montana",
             "Latitude": "48.4566016",
             "Longitude": "-115.765112"
         },
@@ -686,11 +715,13 @@
                 "Kootenai River",
                 "Montana"
             ]
-        ]
+        ],
+        "heuristique 5": "Kootenai River Montana ",
+        "heuristique_country_cities": "Ireland,River "
     },
     "image15": {
         "realLoc": {
-            "Nomreal":" Yosemite Valley",
+            "Nomreal": " Yosemite Valley",
             "Latitude": "37.739330376",
             "Longitude": "-119.572164378"
         },
@@ -730,11 +761,12 @@
             "LOC",
             "DATE",
             "CARDINAL"
-        ]
+        ],
+        "heuristique 5": "Yosemite Valley "
     },
     "image16": {
         "realLoc": {
-            "Nomreal":" Umauma Falls, Hawaii",
+            "Nomreal": " Umauma Falls, Hawaii",
             "Latitude": "19.9053796",
             "Longitude": "-155.141507"
         },
@@ -799,11 +831,13 @@
             "PERSON",
             "GPE"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "Hawaii",
+        "heuristique 5": "Umauma Falls Hawaii ",
+        "heuristique_country_cities": "Germany,Falls "
     },
     "image17": {
         "realLoc": {
-            "Nomreal":" Death Valley - Zabriskie Point",
+            "Nomreal": " Death Valley - Zabriskie Point",
             "Latitude": "36.4200468",
             "Longitude": "-116.8122903"
         },
@@ -896,11 +930,17 @@
         ],
         "Ordre": [
             "LOC"
-        ]
+        ],
+        "heuristique 5": "Death Valley Zabriskie Point ",
+        "heuristique_country_cities": "Germany,Valley "
     },
     "image18": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": " Aoraki/Mt New Zealand",
+=======
             "Nomreal":" Aoraki/Mt New Zealand",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "-43.5950017",
             "Longitude": "170.1421677"
         },
@@ -946,11 +986,12 @@
             "ORG",
             "GPE",
             "CARDINAL"
-        ]
+        ],
+        "heuristique 5": "Aoraki Mt Cook New Zealand "
     },
     "image19": {
         "realLoc": {
-            "Nomreal":" Drina River, West Serbia",
+            "Nomreal": " Drina River, West Serbia",
             "Latitude": "44.7366732",
             "Longitude": "19.3350206"
         },
@@ -1023,12 +1064,13 @@
                 "West Serbia"
             ]
         ],
-        "heuristique 4": "west,West Serbia"
-        
+        "heuristique 4": "west,West Serbia",
+        "heuristique 5": "Drina River West Serbia ",
+        "heuristique_country_cities": "United States,West "
     },
     "image20": {
         "realLoc": {
-            "Nomreal":" Emerald Lake, RMNP, Colorado",
+            "Nomreal": " Emerald Lake, RMNP, Colorado",
             "Latitude": "39.00027",
             "Longitude": "-105.50083"
         },
@@ -1144,11 +1186,13 @@
             "GPE",
             "GPE",
             "GPE"
-        ]
+        ],
+        "heuristique 5": "Emerald Lake Colorado ",
+        "heuristique_country_cities": "Canada,Emerald "
     },
     "image21": {
         "realLoc": {
-            "Nomreal":" New Zealand",
+            "Nomreal": " New Zealand",
             "Latitude": "-41.5000831",
             "Longitude": "172.8344077"
         },
@@ -1192,11 +1236,12 @@
         ],
         "Ordre": [
             "GPE"
-        ]
+        ],
+        "heuristique 5": "New Zealand "
     },
     "image22": {
         "realLoc": {
-            "Nomreal":"Laguna Cuicocha in Ecuador",
+            "Nomreal": "Laguna Cuicocha in Ecuador",
             "Latitude": "-1.25",
             "Longitude": "-78.257"
         },
@@ -1282,11 +1327,13 @@
             "GPE",
             "DATE"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "Ecuador",
+        "heuristique 5": "Laguna Cuicocha Ecuador ",
+        "heuristique_country_cities": "Brazil,Laguna "
     },
     "image23": {
         "realLoc": {
-            "Nomreal":"Zion NP, southern Utah",
+            "Nomreal": "Zion NP, southern Utah",
             "Latitude": "39.25024",
             "Longitude": "-111.75103"
         },
@@ -1340,11 +1387,13 @@
             "ORG",
             "GPE"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "Utah",
+        "heuristique 5": "Zion NP Utah ",
+        "heuristique_country_cities": "United States,Zion "
     },
     "image24": {
         "realLoc": {
-            "Nomreal":"Red Rock Canyon, NV",
+            "Nomreal": "Red Rock Canyon, NV",
             "Latitude": "36.3079936",
             "Longitude": "-115.3096836"
         },
@@ -1381,11 +1430,16 @@
         ],
         "Ordre": [
             "GPE"
-        ]
+        ],
+        "heuristique 5": "Red Rock Canyon NV "
     },
     "image25": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": "Kananaskis Alberta, Canada",
+=======
             "Nomreal":"Kananaskis Alberta, Canada",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "50.8953274",
             "Longitude": "-114.7057092"
         },
@@ -1468,11 +1522,17 @@
             "FAC",
             "GPE",
             "GPE"
-        ]
+        ],
+        "heuristique 5": "Kananaskis Country Alberta Canada ",
+        "heuristique_country_cities": "Canada,Kananaskis "
     },
     "image26": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": "Stockgrove Park,Bedfordshire, UK",
+=======
             "Nomreal":"Stockgrove Park,Bedfordshire, UK",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "52.3701663",
             "Longitude": "-0.2228095"
         },
@@ -1520,11 +1580,16 @@
             "GPE",
             "GPE",
             "GPE"
-        ]
+        ],
+        "heuristique 5": "Stockgrove Park Bedfordshire UK "
     },
     "image27": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": "Shawinigan,Qu\u00c3\u00a9bec",
+=======
             "Nomreal":"Shawinigan,Québec",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "46.56675",
             "Longitude": "-72.74913"
         },
@@ -1626,11 +1691,17 @@
             "GPE",
             "CARDINAL",
             "ORG"
-        ]
+        ],
+        "heuristique 5": "Lands hydro Shawinigan Qu\u00e9bec Canada Misty Hills ",
+        "heuristique_country_cities": "United States,Hills Canada "
     },
     "image30": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": "Fall Creek Falls, Tennessee",
+=======
             "Nomreal":"Fall Creek Falls, Tennessee",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "35.6660569",
             "Longitude": "-85.3555696"
         },
@@ -1695,11 +1766,13 @@
         "Ordre": [
             "GPE",
             "CARDINAL"
-        ]
+        ],
+        "heuristique 5": "Fall Creek Falls Early Tennessee ",
+        "heuristique_country_cities": "United States,Early Tennessee "
     },
     "image31": {
         "realLoc": {
-            "Nomreal":"Doris Lake, Desolation Wilderness, California",
+            "Nomreal": "Doris Lake, Desolation Wilderness, California",
             "Latitude": "35.275974",
             "Longitude": "-119.971718"
         },
@@ -1815,11 +1888,13 @@
             "ORG",
             "GPE"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "California",
+        "heuristique 5": "Doris Lake Desolation Wilderness California ",
+        "heuristique_country_cities": "Mexico,California "
     },
     "image32": {
         "realLoc": {
-            "Nomreal":"San Juan del Cabo, Mexico",
+            "Nomreal": "San Juan del Cabo, Mexico",
             "Latitude": "22.9876023",
             "Longitude": "-109.9539614"
         },
@@ -1953,11 +2028,13 @@
         "Ordre": [
             "GPE",
             "GPE"
-        ]
+        ],
+        "heuristique 5": "San Juan Cabo Mexico ",
+        "heuristique_country_cities": "Mexico,Mexico "
     },
     "image33": {
         "realLoc": {
-            "Nomreal":"Vernal and Nevada Falls, Yosemite NP, California",
+            "Nomreal": "Vernal and Nevada Falls, Yosemite NP, California",
             "Latitude": "38.331182",
             "Longitude": "-122.312491"
         },
@@ -2064,11 +2141,13 @@
             "ORG",
             "GPE"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "California",
+        "heuristique 5": "Nevada Falls Yosemite NP California ",
+        "heuristique_country_cities": "Mexico,California "
     },
     "image34": {
         "realLoc": {
-            "Nomreal":"Loreto, Baja California Sur, Mexico",
+            "Nomreal": "Loreto, Baja California Sur, Mexico",
             "Latitude": "26.0097913",
             "Longitude": "-111.3452523"
         },
@@ -2213,11 +2292,13 @@
             "ORG",
             "GPE",
             "CARDINAL"
-        ]
+        ],
+        "heuristique 5": "Loreto Baja California Sur Mexico ",
+        "heuristique_country_cities": "Peru,Loreto "
     },
     "image35": {
         "realLoc": {
-            "Nomreal":"Hector Lake, Banff National Park, Alberta, Canada",
+            "Nomreal": "Hector Lake, Banff National Park, Alberta, Canada",
             "Latitude": "52.28333",
             "Longitude": "-117.469"
         },
@@ -2333,11 +2414,13 @@
             "GPE",
             "GPE",
             "GPE"
-        ]
+        ],
+        "heuristique 5": "Hector Lake Banff National Park Alberta Canada ",
+        "heuristique_country_cities": "United States,National Park Hector Lake Canada "
     },
     "image36": {
         "realLoc": {
-            "Nomreal":"Abiqua Falls, Oregon",
+            "Nomreal": "Abiqua Falls, Oregon",
             "Latitude": "44.9264121",
             "Longitude": "-122.5676702"
         },
@@ -2420,11 +2503,13 @@
             "PERSON",
             "GPE"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "Oregon",
+        "heuristique 5": "Abiqua Falls Oregon ",
+        "heuristique_country_cities": "Germany,Falls "
     },
     "image37": {
         "realLoc": {
-            "Nomreal":"Golden Light on Half Dome, Yosemite National Park, CA, USA",
+            "Nomreal": "Golden Light on Half Dome, Yosemite National Park, CA, USA",
             "Latitude": "34.136403",
             "Longitude": "-118.826174"
         },
@@ -2514,15 +2599,21 @@
             "ORG",
             "GPE"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "USA",
+        "heuristique 5": "Golden Light Half Dome Yosemite National Park CA USA ",
+        "heuristique_country_cities": "Japan,Usa "
     },
     "image38": {
         "realLoc": {
-            "Nomreal":"Grand Canyon, Arizona, United States",
+<<<<<<< HEAD
+            "Nomreal": "Grand Canyon, Arizona. USA",
+=======
+            "Nomreal":"Grand Canyon, Arizona. USA",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "36.054164",
             "Longitude": "-112.136115"
         },
-        "title": "(OC)Grand Canyon, Arizona, USA. [2250x1500]",
+        "title": "(OC)Grand Canyon, Arizona. USA. [2250x1500]",
         "url": "https://i.redd.it/qu1mfrje12h81.jpg",
         "SpacyLoc": [
             [
@@ -2616,11 +2707,17 @@
             "GPE",
             "GPE",
             "CARDINAL"
-        ]
+        ],
+        "heuristique 5": "Canyon Arizona USA ",
+        "heuristique_country_cities": "Japan,Usa "
     },
     "image39": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": "The cactus forests, Puebla-Oaxaca, Mexico",
+=======
             "Nomreal":"The cactus forests, Puebla-Oaxaca, Mexico",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "17.06542",
             "Longitude": "-96.72365"
         },
@@ -2725,11 +2822,17 @@
             "ORG",
             "GPE",
             "CARDINAL"
-        ]
+        ],
+        "heuristique 5": "OC Puebla Oaxaca Mexico ",
+        "heuristique_country_cities": "Mexico,Mexico "
     },
     "image40": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": "Yaquina Head, Oregon",
+=======
             "Nomreal":"Yaquina Head, Oregon",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "44.635762",
             "Longitude": "-124.023046"
         },
@@ -2797,11 +2900,17 @@
             "GPE",
             "GPE",
             "DATE"
-        ]
+        ],
+        "heuristique 5": "Yaquina Head Oregon OC ",
+        "heuristique_country_cities": "United States,Oregon "
     },
     "image42": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": "Yosemite - Valley View, Glacier Point",
+=======
             "Nomreal":"Yosemite - Valley View, Glacier Point",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "41.13633",
             "Longitude": "-112.03105"
         },
@@ -2888,11 +2997,13 @@
             "PRODUCT",
             "GPE"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "Sunset",
+        "heuristique 5": "Yosemite Valley Glacier Point Sunset ",
+        "heuristique_country_cities": "United States,Valley View Yosemite Sunset "
     },
     "image43": {
         "realLoc": {
-            "Nomreal":"Napali Coast, Kauai",
+            "Nomreal": "Napali Coast, Kauai",
             "Latitude": "22.2123281",
             "Longitude": "-159.5931152"
         },
@@ -2932,13 +3043,21 @@
             "PERSON",
             "DATE",
             "DATE"
-        ]
+        ],
+        "heuristique 5": "Napali Coast Kauai "
     },
     "image44": {
+<<<<<<< HEAD
+        "realLoc": {
+            "Nomreal": "Cloudland Canyon, Georgia",
+            "Latitude": "34.6536924",
+            "Longitude": "-85.4727397"
+=======
         "realLoc":{
             "Nomreal":"Cloudland Canyon, Georgia",
             "Latitude" : "34.6536924",
             "Longitude" : "-85.4727397"
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
         },
         "title": "Cloudland Canyon, Georgia[2778x1284] [OC]",
         "url": "https://i.redd.it/dvxmkupil2h81.jpg",
@@ -2980,11 +3099,16 @@
         ],
         "Ordre": [
             "LOC"
-        ]
+        ],
+        "heuristique 5": "Cloudland Canyon "
     },
     "image46": {
         "realLoc": {
+<<<<<<< HEAD
+            "Nomreal": "Shisram nag, sheeshnag, Kashmir",
+=======
             "Nomreal":"Shisram nag, sheeshnag, Kashmir",
+>>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "33.91667",
             "Longitude": "76.66667"
         },
@@ -3043,11 +3167,13 @@
             "ORG",
             "LOC"
         ],
-        "heuristique 1": "fin"
+        "heuristique 1": "Kashmir",
+        "heuristique 5": "Kashmir ",
+        "heuristique_country_cities": "Pakistan,Kashmir "
     },
     "image48": {
         "realLoc": {
-            "Nomreal":"Redwood National Park, California, USA",
+            "Nomreal": "Redwood National Park, California, USA",
             "Latitude": "33.4571359",
             "Longitude": "-117.0948433"
         },
@@ -3165,6 +3291,8 @@
             "GPE",
             "GPE",
             "CARDINAL"
-        ]
+        ],
+        "heuristique 5": "Mushroom Kingdom Redwood National Park California USA [ ",
+        "heuristique_country_cities": "Mexico,California "
     }
 }
