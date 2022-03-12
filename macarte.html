@@ -225,6 +225,20 @@ let affichage = (data) => {
                 myDiv.appendChild(checkbox);
                 myDiv.appendChild(label);
             }
+
+            if(obj[key]['resultat_Spacy'] !== undefined)
+            {
+                var checkbox = document.createElement('input');
+                checkbox.type = "radio";
+                checkbox.id = "id8";
+                var label = document.createElement('label'); 
+                label.htmlFor = "id8";
+                label.appendChild(document.createTextNode("Heuristique 08 :" +obj [key]['resultat_Spacy']));      
+                myDiv.appendChild(checkbox);
+                myDiv.appendChild(label);
+            }
+
+
                     
         }
     }
