@@ -6,7 +6,7 @@
     top: 0.0%;
     float: left;
     }
-    body{
+    html{
     font-family: 'Questrial', sans-serif;
 
     }
@@ -51,4 +51,9 @@
 
     input:checked + label::before {
     background-color: #fff;
+    }
+
+    p{
+        color: black;
+        font-weight:bold;
     }
