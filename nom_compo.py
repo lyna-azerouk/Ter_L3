@@ -22,8 +22,10 @@ for image in data :
                 L.append(l.country)
             if len(L)!=0:
                 p+=token.text+" "
-            data[image]['heuristique 5']=p
+            data[image]['heuristique 5']=p   
            
+
+        #    OC est inclus dans l'image The cactus ...... a corriger
 with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
 
