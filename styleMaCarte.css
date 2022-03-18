@@ -1,0 +1,54 @@
+#map_a620533b73fc4a38880428953e8ae81f {
+    position: relative;
+    width: 70.0%;
+    height: 100.0%;
+    left: 0.0%;
+    top: 0.0%;
+    float: left;
+    }
+    body{
+    font-family: 'Questrial', sans-serif;
+
+    }
+    input {
+        position: absolute;
+        width:50%;
+        left: -9999px;
+        }
+    
+    #resultat_heuristique {
+        display:inline-block;
+        position: absolute;
+        width: 30%;
+    }
+   
+    label {
+    display: block;
+    position: relative;
+    margin: 20px;
+    height:50px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: black;
+    background-color: #E59866;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color .2s, box-shadow .2s;
+    }
+
+  
+
+   
+    label:hover, input:focus + label {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+    }
+
+    input:checked + label {
+    background-color: #DC7633 ;
+    }
+
+    input:checked + label::before {
+    background-color: #fff;
+    }

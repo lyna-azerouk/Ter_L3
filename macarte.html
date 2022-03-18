@@ -19,32 +19,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
-    
-            <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <style>
-                #map_a620533b73fc4a38880428953e8ae81f {
-                    position: relative;
-                    width: 100.0%;
-                    height: 90.0%;
-                    left: 0.0%;
-                    top: 0.0%;
-                }
-               
-        .resultat_heuristique{
-            padding: 20%;
-            margin:20% 20% 20% 20%;
-            border: solid black;
-            height: 100px;
-            width: 100px;
-        }
-            </style>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styleMaCarte.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         
 </head>
 <body>    
-    
-        <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f" ></div>
+        <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"  ></div>
         <div id ="resultat_heuristique" > </div>
         
 </body>
@@ -126,42 +109,42 @@ let affichage = (data) => {
 
             if(obj[key]['heuristique 1'] !== undefined)
             {
-                heuristiques.push("Heuristique 01 :" +obj [key]['heuristique 1']);
+                heuristiques.push("Heuristique 01 : " +obj [key]['heuristique 1']);
             }
 
             if(obj[key]['heuristique 2'] !== undefined)
             {
-                heuristiques.push("Heuristique 02 :" +obj [key]['heuristique 2']);
+                heuristiques.push("Heuristique 02 : " +obj [key]['heuristique 2']);
             }
               
 
             if(obj[key]['heuristique 3'] !== undefined)
             {
-                heuristiques.push("Heuristique 03 :" +obj [key]['heuristique 3']);      
+                heuristiques.push("Heuristique 03 : " +obj [key]['heuristique 3']);      
             }
             
             if(obj[key]['heuristique 5'] !== undefined)
             {
-                heuristiques.push("Heuristique 05 :" +obj [key]['heuristique 5']);      
+                heuristiques.push("Heuristique 05 : " +obj [key]['heuristique 5']);      
             }
 
             if(obj[key]['heuristique_country_cities'] !== undefined)
             {
-                heuristiques.push("Heuristique 06 :" +obj [key]['heuristique_country_cities']);      
+                heuristiques.push("Heuristique 06 : " +obj [key]['heuristique_country_cities']);      
             }
             if(obj[key]['heuristique_adresse_LT'] !== undefined)
             {
-                heuristiques.push("Heuristique 07 :" +obj [key]['heuristique_adresse_LT']);      
+                heuristiques.push("Heuristique 07 : " +obj [key]['heuristique_adresse_LT']);      
             }
 
             if(obj[key]['resultat_Spacy'] !== undefined)
             {
-                heuristiques.push("Heuristique 08 :" +obj [key]['resultat_Spacy']);      
+                heuristiques.push("Heuristique 08 : " +obj [key]['resultat_Spacy']);      
             }
 
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
-            group.innerHTML = heuristiques.map((heuristiques) => `<div>
+                group.innerHTML = heuristiques.map((heuristiques) => `<div id = "inputGroup">
                 <input type="radio" name="size" value="${heuristiques}" id="${heuristiques}">
                  <label for="${heuristiques}">${heuristiques}</label>
             </div>`).join(' ');
