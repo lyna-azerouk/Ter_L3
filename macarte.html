@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<head>    
+<head>
+<script src="js/FileSaver.js"></script>    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
         <script>
@@ -28,7 +29,7 @@
 </head>
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"  ></div>
-        <div id ="resultat_heuristique" > </div>
+        <div id ="resultat_heuristique"   onclick="cbclick()">  </div>
         
 </body>
 <script type="text/javascript">
@@ -97,62 +98,105 @@ fetch("data.json")
    return response.json();
 })
 .then(data => affichage(data) )
-
 let affichage = (data) => {
     let stringData = JSON.stringify(data);
     let obj = JSON.parse(stringData) 
+  
     for (var key in obj) {
         var myDiv = document.getElementById("resultat_heuristique");
         if(obj[key]['url'] == page_type)
         {
         const heuristiques = [];
+        const tab_id= [] ; 
+        const element=[] 
 
             if(obj[key]['heuristique 1'] !== undefined)
-            {
-                heuristiques.push("Heuristique 01 : " +obj [key]['heuristique 1']);
+            {  
+                heuristiques.push( [  obj [key]['heuristique 1'] , 'id1' ] );
+             
+
             }
 
             if(obj[key]['heuristique 2'] !== undefined)
-            {
-                heuristiques.push("Heuristique 02 : " +obj [key]['heuristique 2']);
+            {  heuristiques.push( [  obj [key]['heuristique 2'] , 'id2' ] );
+               
             }
               
 
             if(obj[key]['heuristique 3'] !== undefined)
-            {
-                heuristiques.push("Heuristique 03 : " +obj [key]['heuristique 3']);      
+            {    heuristiques.push( [  obj [key]['heuristique 3'] , 'id3' ] );
+                
             }
             
             if(obj[key]['heuristique 5'] !== undefined)
-            {
-                heuristiques.push("Heuristique 05 : " +obj [key]['heuristique 5']);      
+            {    heuristiques.push( [  obj [key]['heuristique 5'] , 'id5' ] );
+                 
             }
 
             if(obj[key]['heuristique_country_cities'] !== undefined)
             {
-                heuristiques.push("Heuristique 06 : " +obj [key]['heuristique_country_cities']);      
+                heuristiques.push([ obj [key]['heuristique_country_cities'], 'id6' ] );
+                    
             }
             if(obj[key]['heuristique_adresse_LT'] !== undefined)
             {
-                heuristiques.push("Heuristique 07 : " +obj [key]['heuristique_adresse_LT']);      
-            }
+                heuristiques.push([  obj [key]['heuristique_adresse_LT'],  'id7'] );  
+           }
 
             if(obj[key]['resultat_Spacy'] !== undefined)
             {
-                heuristiques.push("Heuristique 08 : " +obj [key]['resultat_Spacy']);      
+                heuristiques.push([ obj [key]['resultat_Spacy'],'id8' ] );  
+                   
             }
 
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
-                group.innerHTML = heuristiques.map((heuristiques) => `<div id = "inputGroup">
-                <input type="radio" name="size" value="${heuristiques}" id="${heuristiques}">
-                 <label for="${heuristiques}">${heuristiques}</label>
-            </div>`).join(' ');
-
-                    
-        }
+           
+                group.innerHTML = heuristiques.map( (heuristiques) =>  `<div id = "inputGroup"> 
+                <input type="radio" name="size" value="${heuristiques[0] }" id="${heuristiques[1]}"   >
+                 <label for="${heuristiques[0] }"> ${heuristiques  [0] }</label>
+            </div>` 
+            ).join(' ');
+         
+         }
     }
+
 }
 
- 
+function cbclick(){let liste_id=['id1' , 'id2','id3','id4','id5'];
+for (  const id in liste_id ) {
+   var  cb=document.getElementById(liste_id[id]);
+   if ( cb !=null) { if(cb.checked)
+                    {         console.log("je suis ici ");
+                                  fetch("data.json")
+                                 .then(response => { 
+                                           return response.json(); })
+                                 .then(data => func(data) )
+                                 
+                                  let func = (data) => {
+
+                                               let stringData = JSON.stringify(data);
+                                               let obj = JSON.parse(stringData) 
+                                               for (var key in obj )
+                                               {   let liste_heuristique = ['heuristique 1', 'heuristique 2','heuristique 3','heuristique 4','heuristique 5'] ; 
+
+                                                        if (obj[key] ['url'] == page_type )
+                                                                {    
+                                                                     data[key]['realLoc']['Nomreal']=data[key][liste_heuristique [id]];
+                                                                     console.log(data);
+                                                                    
+                                                                  }
+                                                       }
+                                                         
+                                                      return data;
+                                                       }
+  
+                    }
+  
+                   } 
+   	
+                     }
+}
+
+
 </script>
