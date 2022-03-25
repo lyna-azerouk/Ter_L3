@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<head>    
+<head>
+<script src="js/FileSaver.js"></script>    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
         <script>
@@ -19,25 +20,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
-    
-            <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <style>
-                #map_a620533b73fc4a38880428953e8ae81f {
-                    position: relative;
-                    width: 100.0%;
-                    height: 90.0%;
-                    left: 0.0%;
-                    top: 0.0%;
-                }
-            </style>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styleMaCarte.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         
 </head>
 <body>    
-    
-        <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f" ></div>
-        <div id ="resultat_heuristique" ></div>
+        <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"  ></div>
+        <div id ="resultat_heuristique"   onclick="cbclick()">  </div>
         
 </body>
 <script type="text/javascript">
@@ -47,7 +39,7 @@
                 {
                     center: [45.41117, -75.69812],
                     crs: L.CRS.EPSG3857,
-                    zoom: 7,
+                    zoom: 5,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -79,10 +71,23 @@ let myFile = (data) => {
           
             var marker = L.marker([obj [key]['realLoc']['Latitude'], obj [key]['realLoc'] ['Longitude'] ])
             .addTo(map_a620533b73fc4a38880428953e8ae81f)
-            .bindPopup("<p>loc = "+obj [key]['realLoc']['Nomreal']+" </p><img src = "+page_type+"  width='300' height='234' >")
+            .bindPopup("<p>"+obj [key]['realLoc']['Nomreal']+" </p><img src = "+page_type+"  width='300' height='234' >")
             .openPopup(); 
         }
 }   
+}
+
+function createRadioElement(name, checked) {
+    var radioHtml = '<input type="radio" name="' + name + '"';
+    if ( checked ) {
+        radioHtml += ' checked="checked"';
+    }
+    radioHtml += '/>';
+
+    var radioFragment = document.createElement('div');
+    radioFragment.innerHTML = radioHtml;
+
+    return radioFragment.firstChild;
 }
   
 
@@ -93,90 +98,105 @@ fetch("data.json")
    return response.json();
 })
 .then(data => affichage(data) )
-
 let affichage = (data) => {
     let stringData = JSON.stringify(data);
     let obj = JSON.parse(stringData) 
+  
     for (var key in obj) {
         var myDiv = document.getElementById("resultat_heuristique");
         if(obj[key]['url'] == page_type)
         {
+        const heuristiques = [];
+        const tab_id= [] ; 
+        const element=[] 
+
             if(obj[key]['heuristique 1'] !== undefined)
-            {
-                var checkbox = document.createElement('input');
-                checkbox.type = "checkbox";
-                checkbox.id = "id1";
-                var label = document.createElement('label'); 
-                label.htmlFor = "id1";
-                label.appendChild(document.createTextNode("Heuristique 01 :" +obj [key]['heuristique 1']));      
-                myDiv.appendChild(checkbox);
-                myDiv.appendChild(label);
-                console.log("\n");
+            {  
+                heuristiques.push( [  obj [key]['heuristique 1'] , 'id1' ] );
+             
+
             }
 
             if(obj[key]['heuristique 2'] !== undefined)
-            {
-                var checkbox = document.createElement('input');
-                checkbox.type = "checkbox";
-                checkbox.id = "id2";
-                var label = document.createElement('label'); 
-                label.htmlFor = "id2";
-                label.appendChild(document.createTextNode("Heuristique 02 :" +obj [key]['heuristique 2']));      
-                myDiv.appendChild(checkbox);
-                myDiv.appendChild(label);
+            {  heuristiques.push( [  obj [key]['heuristique 2'] , 'id2' ] );
+               
             }
               
 
             if(obj[key]['heuristique 3'] !== undefined)
-            {
-                var checkbox = document.createElement('input');
-                checkbox.type = "checkbox";
-                checkbox.id = "id3";
-                var label = document.createElement('label'); 
-                label.htmlFor = "id3";
-                label.appendChild(document.createTextNode("Heuristique 03 :" +obj [key]['heuristique 3']));      
-                myDiv.appendChild(checkbox);
-                myDiv.appendChild(label);
+            {    heuristiques.push( [  obj [key]['heuristique 3'] , 'id3' ] );
+                
             }
             
             if(obj[key]['heuristique 5'] !== undefined)
-            {
-                var checkbox = document.createElement('input');
-                checkbox.type = "checkbox";
-                checkbox.id = "id5";
-                var label = document.createElement('label'); 
-                label.htmlFor = "id5";
-                label.appendChild(document.createTextNode("Heuristique 05 :" +obj [key]['heuristique 5']));      
-                myDiv.appendChild(checkbox);
-                myDiv.appendChild(label);
+            {    heuristiques.push( [  obj [key]['heuristique 5'] , 'id5' ] );
+                 
             }
 
             if(obj[key]['heuristique_country_cities'] !== undefined)
             {
-                var checkbox = document.createElement('input');
-                checkbox.type = "checkbox";
-                checkbox.id = "id6";
-                var label = document.createElement('label'); 
-                label.htmlFor = "id6";
-                label.appendChild(document.createTextNode("Heuristique 06 :" +obj [key]['heuristique_country_cities']));      
-                myDiv.appendChild(checkbox);
-                myDiv.appendChild(label);
+                heuristiques.push([ obj [key]['heuristique_country_cities'], 'id6' ] );
+                    
             }
             if(obj[key]['heuristique_adresse_LT'] !== undefined)
             {
-                var checkbox = document.createElement('input');
-                checkbox.type = "checkbox";
-                checkbox.id = "id7";
-                var label = document.createElement('label'); 
-                label.htmlFor = "id7";
-                label.appendChild(document.createTextNode("Heuristique 07 :" +obj [key]['heuristique_adresse_LT']));      
-                myDiv.appendChild(checkbox);
-                myDiv.appendChild(label);
+                heuristiques.push([  obj [key]['heuristique_adresse_LT'],  'id7'] );  
+           }
+
+            if(obj[key]['resultat_Spacy'] !== undefined)
+            {
+                heuristiques.push([ obj [key]['resultat_Spacy'],'id8' ] );  
+                   
             }
-                    
-        }
+
+              // generate the radio groups        
+              const group = document.querySelector("#resultat_heuristique");
+           
+                group.innerHTML = heuristiques.map( (heuristiques) =>  `<div id = "inputGroup"> 
+                <input type="radio" name="size" value="${heuristiques[0] }" id="${heuristiques[1]}"   >
+                 <label for="${heuristiques[0] }"> ${heuristiques  [0] }</label>
+            </div>` 
+            ).join(' ');
+         
+         }
     }
+
 }
 
- 
+function cbclick(){let liste_id=['id1' , 'id2','id3','id4','id5'];
+for (  const id in liste_id ) {
+   var  cb=document.getElementById(liste_id[id]);
+   if ( cb !=null) { if(cb.checked)
+                    {         console.log("je suis ici ");
+                                  fetch("data.json")
+                                 .then(response => { 
+                                           return response.json(); })
+                                 .then(data => func(data) )
+                                 
+                                  let func = (data) => {
+
+                                               let stringData = JSON.stringify(data);
+                                               let obj = JSON.parse(stringData) 
+                                               for (var key in obj )
+                                               {   let liste_heuristique = ['heuristique 1', 'heuristique 2','heuristique 3','heuristique 4','heuristique 5'] ; 
+
+                                                        if (obj[key] ['url'] == page_type )
+                                                                {    
+                                                                     data[key]['realLoc']['Nomreal']=data[key][liste_heuristique [id]];
+                                                                     console.log(data);
+                                                                    
+                                                                  }
+                                                       }
+                                                         
+                                                      return data;
+                                                       }
+  
+                    }
+  
+                   } 
+   	
+                     }
+}
+
+
 </script>
