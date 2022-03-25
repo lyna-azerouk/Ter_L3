@@ -368,7 +368,7 @@
             "GPE",
             "FAC"
         ],
-        "heuristique 5": "Grinnell Lake Glacier National Park OC ",
+        "heuristique 5": "Grinnell Lake Glacier National Park ",
         "heuristique_country_cities": "United States,Grinnell Lake ",
         "resultat_Spacy": "Grinnell Lake "
     },
@@ -2815,7 +2815,7 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": "OC Puebla Oaxaca Mexico ",
+        "heuristique 5": "Puebla Oaxaca Mexico ",
         "heuristique_country_cities": "Mexico,Mexico ",
         "resultat_Spacy": "Mexico "
     },
@@ -2890,7 +2890,7 @@
             "GPE",
             "DATE"
         ],
-        "heuristique 5": "Yaquina Head Oregon OC ",
+        "heuristique 5": "Yaquina Head Oregon ",
         "heuristique_country_cities": "United States,Oregon ",
         "resultat_Spacy": "Yaquina Oregon "
     },
@@ -3271,7 +3271,7 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": "Mushroom Kingdom Redwood National Park California USA [ ",
+        "heuristique 5": "Mushroom Kingdom Redwood National Park California USA ",
         "heuristique_country_cities": "Mexico,California ",
         "resultat_Spacy": "Mushroom Kingdom California USA "
     }
