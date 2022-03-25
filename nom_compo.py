@@ -14,7 +14,7 @@ for image in data :
     doc = nlp(text)
     p=""
     for token in doc:
-        if token.pos_ == "PROPN":
+        if (token.pos_ == "PROPN" and token.text != "OC" and  token.text != "["):
             g = geocoder.geonames(token.text,maxrows =5, key='Lydia_Ouam')
             L=[]
             for r in g:
@@ -25,7 +25,7 @@ for image in data :
             data[image]['heuristique 5']=p   
            
 
-        #    OC est inclus dans l'image The cactus ...... a corriger
+       
 with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
 
