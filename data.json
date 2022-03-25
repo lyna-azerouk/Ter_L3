@@ -85,11 +85,7 @@
     },
     "image1": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "Vermilion Cliffs National Monument, Arizona",
-=======
-            "Nomreal":"Vermilion Cliffs National Monument, Arizona",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "36.83333",
             "Longitude": "-111.96667"
         },
@@ -191,11 +187,7 @@
     },
     "image3": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "Estonia",
-=======
-            "Nomreal" : "Estonia",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "58.7523778",
             "Longitude": "25.3319078"
         },
@@ -247,11 +239,7 @@
     },
     "image4": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "British Columbia",
-=======
-            "Nomreal":"British Columbia",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "53.99983",
             "Longitude": "-125.0032"
         },
@@ -440,11 +428,7 @@
     },
     "image8": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "Gibraltar Rock, Wisconsin",
-=======
-            "Nomreal":"Gibraltar Rock, Wisconsin",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "43.34249",
             "Longitude": "-89.59818"
         },
@@ -936,11 +920,7 @@
     },
     "image18": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": " Aoraki/Mt New Zealand",
-=======
-            "Nomreal":" Aoraki/Mt New Zealand",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "-43.5950017",
             "Longitude": "170.1421677"
         },
@@ -1435,11 +1415,7 @@
     },
     "image25": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "Kananaskis Alberta, Canada",
-=======
-            "Nomreal":"Kananaskis Alberta, Canada",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "50.8953274",
             "Longitude": "-114.7057092"
         },
@@ -1528,11 +1504,7 @@
     },
     "image26": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "Stockgrove Park,Bedfordshire, UK",
-=======
-            "Nomreal":"Stockgrove Park,Bedfordshire, UK",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "52.3701663",
             "Longitude": "-0.2228095"
         },
@@ -1585,11 +1557,7 @@
     },
     "image27": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "Shawinigan,Qu\u00c3\u00a9bec",
-=======
-            "Nomreal":"Shawinigan,Québec",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "46.56675",
             "Longitude": "-72.74913"
         },
@@ -1697,11 +1665,7 @@
     },
     "image30": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "Fall Creek Falls, Tennessee",
-=======
-            "Nomreal":"Fall Creek Falls, Tennessee",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "35.6660569",
             "Longitude": "-85.3555696"
         },
@@ -2605,11 +2569,7 @@
     },
     "image38": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "Grand Canyon, Arizona. USA",
-=======
-            "Nomreal":"Grand Canyon, Arizona. USA",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "36.054164",
             "Longitude": "-112.136115"
         },
@@ -2713,11 +2673,7 @@
     },
     "image39": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "The cactus forests, Puebla-Oaxaca, Mexico",
-=======
-            "Nomreal":"The cactus forests, Puebla-Oaxaca, Mexico",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "17.06542",
             "Longitude": "-96.72365"
         },
@@ -2828,11 +2784,7 @@
     },
     "image40": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "Yaquina Head, Oregon",
-=======
-            "Nomreal":"Yaquina Head, Oregon",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "44.635762",
             "Longitude": "-124.023046"
         },
@@ -2906,11 +2858,7 @@
     },
     "image42": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "Yosemite - Valley View, Glacier Point",
-=======
-            "Nomreal":"Yosemite - Valley View, Glacier Point",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "41.13633",
             "Longitude": "-112.03105"
         },
@@ -3047,17 +2995,10 @@
         "heuristique 5": "Napali Coast Kauai "
     },
     "image44": {
-<<<<<<< HEAD
         "realLoc": {
             "Nomreal": "Cloudland Canyon, Georgia",
             "Latitude": "34.6536924",
             "Longitude": "-85.4727397"
-=======
-        "realLoc":{
-            "Nomreal":"Cloudland Canyon, Georgia",
-            "Latitude" : "34.6536924",
-            "Longitude" : "-85.4727397"
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
         },
         "title": "Cloudland Canyon, Georgia[2778x1284] [OC]",
         "url": "https://i.redd.it/dvxmkupil2h81.jpg",
@@ -3104,11 +3045,7 @@
     },
     "image46": {
         "realLoc": {
-<<<<<<< HEAD
             "Nomreal": "Shisram nag, sheeshnag, Kashmir",
-=======
-            "Nomreal":"Shisram nag, sheeshnag, Kashmir",
->>>>>>> 610cec667818429b0b07484b870915ab596e0d03
             "Latitude": "33.91667",
             "Longitude": "76.66667"
         },
