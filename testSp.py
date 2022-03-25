@@ -3,7 +3,6 @@
 from asyncio.windows_events import NULL
 import spacy
 import json
-import geocoder
 
 # Load English tokenizer, tagger, parser and NER
 nlp = spacy.load("en_core_web_sm")

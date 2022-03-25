@@ -1,101 +1,15 @@
 {
     "image0": {
         "realLoc": {
-            "Nomreal": "Brookings, Oregon",
+            "Nomreal": "Nice Picture in Deer Valley ",
             "Latitude": "42.0523718",
             "Longitude": "-124.28407"
         },
-        "title": "Brookings, Oregon [OC] [5304x7952]",
+        "title": "Golden hour on the plains of Colorado! Taken next to the airport [OC] [5304x7952]",
         "url": "https://i.redd.it/vy9zmnl2t1h81.jpg",
         "SpacyLoc": [
             [
-                "Oregon",
-                "GPE"
-            ]
-        ],
-        "LocationTagger": [
-            {
-                "Countries": []
-            },
-            {
-                "Cities": [
-                    "Oregon",
-                    "Brookings"
-                ]
-            },
-            {
-                "Country_Cities": {
-                    "United States": [
-                        "Oregon",
-                        "Brookings"
-                    ]
-                }
-            },
-            {
-                "Region_Cities": {
-                    "Illinois": [
-                        "Oregon"
-                    ],
-                    "Ohio": [
-                        "Oregon"
-                    ],
-                    "Wisconsin": [
-                        "Oregon"
-                    ],
-                    "Oregon": [
-                        "Brookings"
-                    ],
-                    "South Dakota": [
-                        "Brookings"
-                    ],
-                    "Missouri": [
-                        "Oregon"
-                    ]
-                }
-            },
-            {
-                "Country_mentions": []
-            },
-            {
-                "Citiy_mentions": [
-                    [
-                        "Oregon",
-                        1
-                    ],
-                    [
-                        "Brookings",
-                        1
-                    ]
-                ]
-            },
-            {
-                "Adresse": [
-                    "Brookings, Oregon, United States"
-                ]
-            }
-        ],
-        "Ordre": [
-            "ORG",
-            "GPE",
-            "CARDINAL"
-        ],
-        "heuristique 1": "Oregon",
-        "heuristique 5": "Brookings Oregon ",
-        "heuristique_country_cities": "United States,Oregon Brookings ",
-        "heuristique_adresse_LT": "Brookings, Oregon, United States",
-        "resultat_Spacy": "Oregon "
-    },
-    "image1": {
-        "realLoc": {
-            "Nomreal": "Vermilion Cliffs National Monument, Arizona",
-            "Latitude": "36.83333",
-            "Longitude": "-111.96667"
-        },
-        "title": "Truly earth porn at the Wave in Vermilion Cliffs National Monument, Arizona [OC] [1328x2000]",
-        "url": "https://i.redd.it/nkyv3iqmy3h81.jpg",
-        "SpacyLoc": [
-            [
-                "Truly",
+                "Deer Valley",
                 "GPE"
             ],
             [
@@ -108,19 +22,139 @@
                 "Countries": []
             },
             {
-                "Cities": []
+                "Cities": [
+                    "Deer Valley"
+                ]
             },
             {
-                "Country_Cities": {}
+                "Country_Cities": {
+                    "United States": [
+                        "Deer Valley"
+                    ],
+                    "Canada": [
+                        "Deer Valley"
+                    ]
+                }
             },
             {
-                "Region_Cities": {}
+                "Region_Cities": {
+                    "Arizona": [
+                        "Deer Valley"
+                    ],
+                    "Saskatchewan": [
+                        "Deer Valley"
+                    ]
+                }
             },
             {
-                "Country_mentions": []
+                "Country_mentions": [
+                    [
+                        "Canada",
+                        1
+                    ]
+                ]
             },
             {
-                "Citiy_mentions": []
+                "Citiy_mentions": [
+                    [
+                        "Deer Valley",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": [
+                    "Deer Valley, Arizona, United States"
+                ]
+            }
+        ],
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 1": "Oregon",
+        "heuristique 5": "Colorado ",
+        "heuristique_country_cities": "United States,Oregon Brookings ",
+        "heuristique_adresse_LT": "Brookings, Oregon, United States",
+        "resultat_Spacy": "Oregon "
+    },
+    "image1": {
+        "realLoc": {
+            "Nomreal": "Vermilion Cliffs National Monument, Arizona",
+            "Latitude": "36.83333",
+            "Longitude": "-111.96667"
+        },
+        "title": "Spring Valley [OC] [1328x2000]",
+        "url": "https://i.redd.it/nkyv3iqmy3h81.jpg",
+        "SpacyLoc": [
+            [
+                "Spring Valley",
+                "LOC"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Spring",
+                    "Spring Valley"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Spring",
+                        "Spring Valley"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Texas": [
+                        "Spring"
+                    ],
+                    "California": [
+                        "Spring Valley"
+                    ],
+                    "Illinois": [
+                        "Spring Valley"
+                    ],
+                    "New York": [
+                        "Spring Valley"
+                    ],
+                    "Minnesota": [
+                        "Spring Valley"
+                    ],
+                    "Wisconsin": [
+                        "Spring Valley"
+                    ],
+                    "Ohio": [
+                        "Spring Valley"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Spring Valley",
+                        1
+                    ],
+                    [
+                        "Spring",
+                        1
+                    ]
+                ]
             },
             {
                 "Adresse": []
@@ -133,7 +167,7 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": "Wave Vermilion Cliffs National Monument Arizona ",
+        "heuristique 5": "Spring Valley ",
         "resultat_Spacy": "Truly Arizona "
     },
     "image2": {
@@ -142,31 +176,115 @@
             "Latitude": "50.8331217",
             "Longitude": "14.7962388"
         },
-        "title": "Cattails at the evening hour, southern Germany [OC] [5184x3703]",
+        "title": "Spring Valley, US [OC] [5184x3703]",
         "url": "https://i.redd.it/4inca30n73h81.jpg",
         "SpacyLoc": [
             [
-                "Germany",
+                "Spring Valley",
+                "LOC"
+            ],
+            [
+                "US",
                 "GPE"
             ]
         ],
         "LocationTagger": [
             {
-                "Countries": [
-                    "Germany"
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Spring",
+                    "Valley",
+                    "Spring Valley",
+                    "Us"
                 ]
             },
             {
-                "Cities": []
+                "Country_Cities": {
+                    "United States": [
+                        "Spring",
+                        "Valley",
+                        "Spring Valley"
+                    ],
+                    "United Kingdom": [
+                        "Valley"
+                    ],
+                    "Canada": [
+                        "Valley"
+                    ],
+                    "France": [
+                        "Us"
+                    ],
+                    "Germany": [
+                        "Valley"
+                    ]
+                }
             },
             {
-                "Country_Cities": {}
-            },
-            {
-                "Region_Cities": {}
+                "Region_Cities": {
+                    "Texas": [
+                        "Spring"
+                    ],
+                    "Washington": [
+                        "Valley"
+                    ],
+                    "California": [
+                        "Spring Valley"
+                    ],
+                    "Illinois": [
+                        "Spring Valley"
+                    ],
+                    "Alabama": [
+                        "Valley"
+                    ],
+                    "New York": [
+                        "Spring Valley"
+                    ],
+                    "Minnesota": [
+                        "Spring Valley"
+                    ],
+                    "Anglesey": [
+                        "Valley"
+                    ],
+                    "Wisconsin": [
+                        "Spring Valley"
+                    ],
+                    "Nebraska": [
+                        "Valley"
+                    ],
+                    "Nova Scotia": [
+                        "Valley"
+                    ],
+                    "Val d'Oise": [
+                        "Us"
+                    ],
+                    "Bavaria": [
+                        "Valley"
+                    ],
+                    "Ohio": [
+                        "Spring Valley"
+                    ]
+                }
             },
             {
                 "Country_mentions": [
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "United Kingdom",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "France",
+                        1
+                    ],
                     [
                         "Germany",
                         1
@@ -174,7 +292,20 @@
                 ]
             },
             {
-                "Citiy_mentions": []
+                "Citiy_mentions": [
+                    [
+                        "Spring Valley",
+                        1
+                    ],
+                    [
+                        "Spring",
+                        1
+                    ],
+                    [
+                        "Valley",
+                        1
+                    ]
+                ]
             },
             {
                 "Adresse": []
@@ -186,7 +317,7 @@
             "CARDINAL"
         ],
         "heuristique 1": "Germany",
-        "heuristique 5": "Germany ",
+        "heuristique 5": "Spring Valley US ",
         "resultat_Spacy": "Germany "
     },
     "image3": {
@@ -195,39 +326,135 @@
             "Latitude": "58.7523778",
             "Longitude": "25.3319078"
         },
-        "title": "Northern lights last night, Estonia, [2900x3866] [OC]",
+        "title": "Spring Valley, Nevada [2900x3866] [OC]",
         "url": "https://i.redd.it/2ts1m5w0o5h81.jpg",
         "SpacyLoc": [
             [
-                "Estonia",
+                "Spring Valley",
+                "LOC"
+            ],
+            [
+                "Nevada",
                 "GPE"
             ]
         ],
         "LocationTagger": [
             {
-                "Countries": [
-                    "Estonia"
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Spring",
+                    "Valley",
+                    "Nevada",
+                    "Spring Valley"
                 ]
             },
             {
-                "Cities": []
+                "Country_Cities": {
+                    "United States": [
+                        "Spring",
+                        "Valley",
+                        "Nevada",
+                        "Spring Valley"
+                    ],
+                    "United Kingdom": [
+                        "Valley"
+                    ],
+                    "Canada": [
+                        "Valley"
+                    ],
+                    "Germany": [
+                        "Valley"
+                    ]
+                }
             },
             {
-                "Country_Cities": {}
-            },
-            {
-                "Region_Cities": {}
+                "Region_Cities": {
+                    "Texas": [
+                        "Spring",
+                        "Nevada"
+                    ],
+                    "Washington": [
+                        "Valley"
+                    ],
+                    "California": [
+                        "Spring Valley"
+                    ],
+                    "Illinois": [
+                        "Spring Valley"
+                    ],
+                    "Missouri": [
+                        "Nevada"
+                    ],
+                    "Alabama": [
+                        "Valley"
+                    ],
+                    "New York": [
+                        "Spring Valley"
+                    ],
+                    "Minnesota": [
+                        "Spring Valley"
+                    ],
+                    "Anglesey": [
+                        "Valley"
+                    ],
+                    "Wisconsin": [
+                        "Spring Valley"
+                    ],
+                    "Nebraska": [
+                        "Valley"
+                    ],
+                    "Iowa": [
+                        "Nevada"
+                    ],
+                    "Ohio": [
+                        "Nevada",
+                        "Spring Valley"
+                    ],
+                    "Nova Scotia": [
+                        "Valley"
+                    ],
+                    "Bavaria": [
+                        "Valley"
+                    ]
+                }
             },
             {
                 "Country_mentions": [
                     [
-                        "Estonia",
+                        "United Kingdom",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Germany",
                         1
                     ]
                 ]
             },
             {
-                "Citiy_mentions": []
+                "Citiy_mentions": [
+                    [
+                        "Spring Valley",
+                        1
+                    ],
+                    [
+                        "Nevada",
+                        1
+                    ],
+                    [
+                        "Spring",
+                        1
+                    ],
+                    [
+                        "Valley",
+                        1
+                    ]
+                ]
             },
             {
                 "Adresse": []
@@ -239,7 +466,7 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": "Estonia ",
+        "heuristique 5": "Spring Valley Nevada ",
         "resultat_Spacy": "Estonia "
     },
     "image4": {
@@ -2502,7 +2729,7 @@
         "heuristique 1": "Oregon",
         "heuristique 5": "Abiqua Falls Oregon ",
         "heuristique_country_cities": "Germany,Falls ",
-        "resultat_Spacy": "Oregon "
+        "resultat_Spacy": "Oregon"
     },
     "image37": {
         "realLoc": {
@@ -2611,11 +2838,7 @@
         "url": "https://i.redd.it/qu1mfrje12h81.jpg",
         "SpacyLoc": [
             [
-                "Sunset",
-                "GPE"
-            ],
-            [
-                "Grand Canyon",
+                "OC)Grand Canyon",
                 "GPE"
             ],
             [
@@ -2634,15 +2857,13 @@
             {
                 "Cities": [
                     "Grand Canyon",
-                    "Usa",
-                    "Sunset"
+                    "Usa"
                 ]
             },
             {
                 "Country_Cities": {
                     "United States": [
-                        "Grand Canyon",
-                        "Sunset"
+                        "Grand Canyon"
                     ],
                     "Japan": [
                         "Usa"
@@ -2656,15 +2877,6 @@
                     ],
                     "Kochi-ken": [
                         "Usa"
-                    ],
-                    "South Carolina": [
-                        "Sunset"
-                    ],
-                    "Louisiana": [
-                        "Sunset"
-                    ],
-                    "Texas": [
-                        "Sunset"
                     ]
                 }
             },
@@ -2678,10 +2890,6 @@
             },
             {
                 "Citiy_mentions": [
-                    [
-                        "Sunset",
-                        1
-                    ],
                     [
                         "Grand Canyon",
                         1
