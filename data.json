@@ -81,7 +81,7 @@
         ],
         "heuristique 1": "Oregon",
         "heuristique 5": "Brookings Oregon ",
-        "heuristique_country_cities": "United States,Oregon Brookings ",
+        "heuristique_country_cities": "Oregon Brookings ,United States",
         "heuristique_adresse_LT": "Brookings, Oregon, United States",
         "resultat_Spacy": "Oregon "
     },
@@ -369,7 +369,7 @@
             "FAC"
         ],
         "heuristique 5": "Grinnell Lake Glacier National Park ",
-        "heuristique_country_cities": "United States,Grinnell Lake ",
+        "heuristique_country_cities": "Grinnell Lake ,United States",
         "resultat_Spacy": "Grinnell Lake "
     },
     "image6": {
@@ -431,7 +431,7 @@
         ],
         "heuristique 1": "Maine",
         "heuristique 5": "Ravens Nest Maine ",
-        "heuristique_country_cities": "United States,Maine ",
+        "heuristique_country_cities": "Maine ,United States",
         "resultat_Spacy": "Maine "
     },
     "image8": {
@@ -590,7 +590,7 @@
         ],
         "heuristique 1": "Germany",
         "heuristique 5": "Golden Palatinate Forest Palatinate Forest Germany IG ",
-        "heuristique_country_cities": "Slovenia,Ig ",
+        "heuristique_country_cities": "Ig ,Slovenia",
         "resultat_Spacy": "Germany "
     },
     "image13": {
@@ -711,7 +711,7 @@
             ]
         ],
         "heuristique 5": "Kootenai River Montana ",
-        "heuristique_country_cities": "Ireland,River ",
+        "heuristique_country_cities": "River ,Ireland",
         "resultat_Spacy": "Kootenai River Montana "
     },
     "image15": {
@@ -829,7 +829,7 @@
         ],
         "heuristique 1": "Hawaii",
         "heuristique 5": "Umauma Falls Hawaii ",
-        "heuristique_country_cities": "Germany,Falls ",
+        "heuristique_country_cities": "Falls ,Germany",
         "resultat_Spacy": "Hawaii "
     },
     "image17": {
@@ -929,7 +929,7 @@
             "LOC"
         ],
         "heuristique 5": "Death Valley Zabriskie Point ",
-        "heuristique_country_cities": "Germany,Valley ",
+        "heuristique_country_cities": "Valley ,Germany",
         "resultat_Spacy": "Death Valley - Zabriskie Point "
     },
     "image18": {
@@ -1061,7 +1061,7 @@
         ],
         "heuristique 4": "west,West Serbia",
         "heuristique 5": "Drina River West Serbia ",
-        "heuristique_country_cities": "United States,West ",
+        "heuristique_country_cities": "West ,United States",
         "resultat_Spacy": "Drina River West Serbia "
     },
     "image20": {
@@ -1184,7 +1184,7 @@
             "GPE"
         ],
         "heuristique 5": "Emerald Lake Colorado ",
-        "heuristique_country_cities": "Canada,Emerald ",
+        "heuristique_country_cities": "Emerald ,Canada",
         "resultat_Spacy": "Emerald Lake RMNP Colorado "
     },
     "image21": {
@@ -1327,7 +1327,7 @@
         ],
         "heuristique 1": "Ecuador",
         "heuristique 5": "Laguna Cuicocha Ecuador ",
-        "heuristique_country_cities": "Brazil,Laguna ",
+        "heuristique_country_cities": "Laguna ,Brazil",
         "resultat_Spacy": "Ecuador "
     },
     "image23": {
@@ -1388,7 +1388,7 @@
         ],
         "heuristique 1": "Utah",
         "heuristique 5": "Zion NP Utah ",
-        "heuristique_country_cities": "United States,Zion ",
+        "heuristique_country_cities": "Zion ,United States",
         "resultat_Spacy": "Utah "
     },
     "image24": {
@@ -1521,7 +1521,7 @@
             "GPE"
         ],
         "heuristique 5": "Kananaskis Country Alberta Canada ",
-        "heuristique_country_cities": "Canada,Kananaskis ",
+        "heuristique_country_cities": "Kananaskis ,Canada",
         "heuristique_adresse_LT": "Kananaskis, Alberta, Canada",
         "resultat_Spacy": "Alberta Canada "
     },
@@ -1685,7 +1685,7 @@
             "ORG"
         ],
         "heuristique 5": "Lands hydro Shawinigan Qu\u00e9bec Canada Misty Hills ",
-        "heuristique_country_cities": "United States,Hills Canada ",
+        "heuristique_country_cities": "Hills Canada ,United States",
         "resultat_Spacy": "Qu\u00e9bec Canada "
     },
     "image30": {
@@ -1757,7 +1757,7 @@
             "CARDINAL"
         ],
         "heuristique 5": "Fall Creek Falls Early Tennessee ",
-        "heuristique_country_cities": "United States,Early Tennessee ",
+        "heuristique_country_cities": "Early Tennessee ,United States",
         "resultat_Spacy": "Tennessee "
     },
     "image31": {
@@ -1880,7 +1880,7 @@
         ],
         "heuristique 1": "California",
         "heuristique 5": "Doris Lake Desolation Wilderness California ",
-        "heuristique_country_cities": "Mexico,California ",
+        "heuristique_country_cities": "California ,Mexico",
         "resultat_Spacy": "California "
     },
     "image32": {
@@ -2021,7 +2021,7 @@
             "GPE"
         ],
         "heuristique 5": "San Juan Cabo Mexico ",
-        "heuristique_country_cities": "Mexico,Mexico ",
+        "heuristique_country_cities": "Mexico ,Mexico",
         "resultat_Spacy": "San Juan del Cabo Mexico "
     },
     "image33": {
@@ -2135,7 +2135,7 @@
         ],
         "heuristique 1": "California",
         "heuristique 5": "Nevada Falls Yosemite NP California ",
-        "heuristique_country_cities": "Mexico,California ",
+        "heuristique_country_cities": "California ,Mexico",
         "resultat_Spacy": "California "
     },
     "image34": {
@@ -2287,7 +2287,7 @@
             "CARDINAL"
         ],
         "heuristique 5": "Loreto Baja California Sur Mexico ",
-        "heuristique_country_cities": "Peru,Loreto ",
+        "heuristique_country_cities": "Loreto ,Peru",
         "heuristique_adresse_LT": "Loreto, Baja California Sur, Mexico",
         "resultat_Spacy": "Loreto Mexico "
     },
@@ -2411,7 +2411,7 @@
             "GPE"
         ],
         "heuristique 5": "Hector Lake Banff National Park Alberta Canada ",
-        "heuristique_country_cities": "United States,National Park Hector Lake Canada ",
+        "heuristique_country_cities": "National Park Hector Lake Canada ,United States",
         "resultat_Spacy": "National Park Alberta Canada "
     },
     "image36": {
@@ -2501,7 +2501,7 @@
         ],
         "heuristique 1": "Oregon",
         "heuristique 5": "Abiqua Falls Oregon ",
-        "heuristique_country_cities": "Germany,Falls ",
+        "heuristique_country_cities": "Falls ,Germany",
         "resultat_Spacy": "Oregon "
     },
     "image37": {
@@ -2598,7 +2598,7 @@
         ],
         "heuristique 1": "USA",
         "heuristique 5": "Golden Light Half Dome Yosemite National Park CA USA ",
-        "heuristique_country_cities": "Japan,Usa ",
+        "heuristique_country_cities": "Usa ,Japan",
         "resultat_Spacy": "USA "
     },
     "image38": {
@@ -2703,7 +2703,7 @@
             "CARDINAL"
         ],
         "heuristique 5": "Canyon Arizona USA ",
-        "heuristique_country_cities": "Japan,Usa ",
+        "heuristique_country_cities": "Usa ,Japan",
         "heuristique_adresse_LT": "Grand Canyon, Arizona, United States",
         "resultat_Spacy": "Sunset Grand Canyon Arizona USA "
     },
@@ -2816,7 +2816,7 @@
             "CARDINAL"
         ],
         "heuristique 5": "Puebla Oaxaca Mexico ",
-        "heuristique_country_cities": "Mexico,Mexico ",
+        "heuristique_country_cities": "Mexico ,Mexico",
         "resultat_Spacy": "Mexico "
     },
     "image40": {
@@ -2891,7 +2891,7 @@
             "DATE"
         ],
         "heuristique 5": "Yaquina Head Oregon ",
-        "heuristique_country_cities": "United States,Oregon ",
+        "heuristique_country_cities": "Oregon ,United States",
         "resultat_Spacy": "Yaquina Oregon "
     },
     "image42": {
@@ -2985,7 +2985,7 @@
         ],
         "heuristique 1": "Sunset",
         "heuristique 5": "Yosemite Valley Glacier Point Sunset ",
-        "heuristique_country_cities": "United States,Valley View Yosemite Sunset ",
+        "heuristique_country_cities": "Valley View Yosemite Sunset ,United States",
         "resultat_Spacy": "Sunset "
     },
     "image43": {
@@ -3147,7 +3147,7 @@
         ],
         "heuristique 1": "Kashmir",
         "heuristique 5": "Kashmir ",
-        "heuristique_country_cities": "Pakistan,Kashmir ",
+        "heuristique_country_cities": "Kashmir ,Pakistan",
         "resultat_Spacy": "Kashmir "
     },
     "image48": {
@@ -3272,7 +3272,7 @@
             "CARDINAL"
         ],
         "heuristique 5": "Mushroom Kingdom Redwood National Park California USA ",
-        "heuristique_country_cities": "Mexico,California ",
+        "heuristique_country_cities": "California ,Mexico",
         "resultat_Spacy": "Mushroom Kingdom California USA "
     }
 }
