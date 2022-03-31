@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-<script src="js/FileSaver.js"></script>    
+<!-- <script src="js/FileSaver.js"></script>     -->
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
         <script>
@@ -107,9 +107,6 @@ let affichage = (data) => {
         if(obj[key]['url'] == page_type)
         {
         const heuristiques = [];
-        const tab_id= [] ; 
-        const element=[] 
-
             if(obj[key]['heuristique 1'] !== undefined)
             {  
                 heuristiques.push( [  obj [key]['heuristique 1'] , 'id1' ] );
@@ -149,6 +146,11 @@ let affichage = (data) => {
                    
             }
 
+            console.log(heuristiques.map( heuristiques => heuristiques[0]));
+            const array = ['Oregon', 'Oregon','Oregon', 'Oregon','Brookings oregon','oregon Brookings'];
+            const distinctHeur = [... new Set (array)];
+            console.log(distinctHeur);
+
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
            
@@ -164,6 +166,7 @@ let affichage = (data) => {
 }
 
 function cbclick(){let liste_id=['id1' , 'id2','id3','id4','id5'];
+console.log
 for (  const id in liste_id ) {
    var  cb=document.getElementById(liste_id[id]);
    if ( cb !=null) { if(cb.checked)
