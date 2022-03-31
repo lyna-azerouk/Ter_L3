@@ -29,7 +29,7 @@
 </head>
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"  ></div>
-        <div id ="resultat_heuristique"   onclick="cbclick()">  </div>
+        <div id ="resultat_heuristique"   >  </div>
         
 </body>
 <script type="text/javascript">
@@ -95,7 +95,7 @@ function createRadioElement(name, checked) {
 function marker(liste)
 {  
   if ( typeof liste[0]=="string")
-   { console.log ("je suis ici ");
+   { 
     var mrk=L.marker([liste[1],liste[2]]).addTo(map_a620533b73fc4a38880428953e8ae81f)
                 .bindPopup("<br>"+liste[0]+" </br>" )
                 .openPopup();
@@ -105,12 +105,12 @@ function marker(liste)
     for (i in liste[0]){
       adr=liste[0][i]+adr+' ';
     }
-    console.log(liste[2]);
+    
     var mrk=L.marker([liste[1],liste[2]]).addTo(map_a620533b73fc4a38880428953e8ae81f)
                 .bindPopup("<br>"+" "+" </br>" )
                 .openPopup();
 
-    console.log("je suis ici ");
+    
     }
 }
 
@@ -173,7 +173,7 @@ let affichage = (data) => {
            
                 group.innerHTML = heuristiques.map( (heuristiques) =>  `<div id = "inputGroup"> 
                 <input type="radio" name="size" value="${heuristiques[0] }" id="${heuristiques[1]}"   >
-                <label for="${heuristiques[0] }"> ${heuristiques  [0] }</label>
+                <label  onclick="cbclick('${heuristiques  [0] }', '${heuristiques[1]}')" for="${heuristiques[0] }"> ${heuristiques  [0] }</label>
 
             </div>` 
             ).join(' ');
@@ -183,40 +183,38 @@ let affichage = (data) => {
 
 }
 
-function cbclick(){let liste_id=['id1' , 'id2','id3','id4','id5'];
-for (  const id in liste_id ) {
-   var  cb=document.getElementById(liste_id[id]);
-   if ( cb !=null) { if(cb.checked)
-                    {         console.log("je suis ici ");
-                                  fetch("data.json")
-                                 .then(response => { 
-                                           return response.json(); })
-                                 .then(data => func(data) )
-                                 
-                                  let func = (data) => {
+function cbclick(d,id)
+{  num_heur=id[2];
+	
+	fetch("data.json")
+	.then(response => {
+   return response.json();
+    })
+    .then(data => func(data) )
+    let func = (data) => {
+     let stringData = JSON.stringify(data);
+     let obj = JSON.parse(stringData) 
+     for (var key in obj )
+    {   let liste_heuristique = ['heuristique 2','heuristique3_adresse','heuristique 4','heuristique 5','heuristique_country_cities','heuristique_adresse_LT','resultat_Spacy'] ; 
+        val=liste_heuristique[Number(num_heur)-2];
+        
 
-                                               let stringData = JSON.stringify(data);
-                                               let obj = JSON.parse(stringData) 
-                                               for (var key in obj )
-                                               {   let liste_heuristique = ['heuristique 1', 'heuristique 2','heuristique 3','heuristique 4','heuristique 5'] ; 
-
-                                                        if (obj[key] ['url'] == page_type )
-                                                                {    
-                                                                     data[key]['realLoc']['Nomreal']=data[key][liste_heuristique [id]];
-                                                                     console.log(data);
-                                                                    
-                                                                  }
-                                                       }
+           if (obj[key] ['url'] == page_type )
+	        {    
+	          var marker = L.marker([obj [key][val][1], obj [key][val] [2] ])
+	          .addTo(map_a620533b73fc4a38880428953e8ae81f)
+	           .bindPopup("<p>"+obj [key][val][0]+" </p><img src = "+page_type+"  width='300' height='234' >")
+	           .openPopup(); 
+	                                                                    
+	            }
+    }
                                                          
-                                                      return data;
+         
                                                        }
-  
-                    }
-  
-                   } 
-   	
-                     }
 }
+  
+               
+
 
 
 </script>
