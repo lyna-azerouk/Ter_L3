@@ -1,15 +1,101 @@
 {
     "image0": {
         "realLoc": {
-            "Nomreal": "Nice Picture in Deer Valley ",
+            "Nomreal": "Brookings, Oregon",
             "Latitude": "42.0523718",
             "Longitude": "-124.28407"
         },
-        "title": "Golden hour on the plains of Colorado! Taken next to the airport [OC] [5304x7952]",
+        "title": "Brookings, Oregon [OC] [5304x7952]",
         "url": "https://i.redd.it/vy9zmnl2t1h81.jpg",
         "SpacyLoc": [
             [
-                "Deer Valley",
+                "Oregon",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Oregon",
+                    "Brookings"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Oregon",
+                        "Brookings"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Illinois": [
+                        "Oregon"
+                    ],
+                    "Ohio": [
+                        "Oregon"
+                    ],
+                    "Wisconsin": [
+                        "Oregon"
+                    ],
+                    "Oregon": [
+                        "Brookings"
+                    ],
+                    "South Dakota": [
+                        "Brookings"
+                    ],
+                    "Missouri": [
+                        "Oregon"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Oregon",
+                        1
+                    ],
+                    [
+                        "Brookings",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": [
+                    "Brookings, Oregon, United States"
+                ]
+            }
+        ],
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 1": "Oregon",
+        "heuristique 5": "Brookings Oregon ",
+        "heuristique_country_cities": "Oregon Brookings ,United States",
+        "heuristique_adresse_LT": "Brookings, Oregon, United States",
+        "resultat_Spacy": "Oregon "
+    },
+    "image1": {
+        "realLoc": {
+            "Nomreal": "Vermilion Cliffs National Monument, Arizona",
+            "Latitude": "36.83333",
+            "Longitude": "-111.96667"
+        },
+        "title": "Truly earth porn at the Wave in Vermilion Cliffs National Monument, Arizona [OC] [1328x2000]",
+        "url": "https://i.redd.it/nkyv3iqmy3h81.jpg",
+        "SpacyLoc": [
+            [
+                "Truly",
                 "GPE"
             ],
             [
@@ -22,154 +108,19 @@
                 "Countries": []
             },
             {
-                "Cities": [
-                    "Deer Valley"
-                ]
+                "Cities": []
             },
             {
-                "Country_Cities": {
-                    "United States": [
-                        "Deer Valley"
-                    ],
-                    "Canada": [
-                        "Deer Valley"
-                    ]
-                }
+                "Country_Cities": {}
             },
             {
-                "Region_Cities": {
-                    "Arizona": [
-                        "Deer Valley"
-                    ],
-                    "Saskatchewan": [
-                        "Deer Valley"
-                    ]
-                }
+                "Region_Cities": {}
             },
             {
-                "Country_mentions": [
-                    [
-                        "Canada",
-                        1
-                    ]
-                ]
+                "Country_mentions": []
             },
             {
-                "Citiy_mentions": [
-                    [
-                        "Deer Valley",
-                        1
-                    ]
-                ]
-            },
-            {
-                "Adresse": [
-                    "Deer Valley, Arizona, United States"
-                ]
-            }
-        ],
-        "Ordre": [
-            "ORG",
-            "GPE",
-            "CARDINAL"
-        ],
-        "heuristique 1": "Oregon",
-<<<<<<< HEAD
-        "heuristique 5": "Brookings Oregon ",
-        "heuristique_country_cities": "Oregon Brookings ,United States",
-        "heuristique_adresse_LT": "Brookings, Oregon, United States",
-        "resultat_Spacy": "Oregon "
-=======
-        "heuristique 5": "Colorado ",
-        "heuristique_country_cities": "United States,Oregon Brookings ",
-        "heuristique_adresse_LT": [
-            "Deer Valley, Arizona, United States",
-            "33.68393",
-            "-112.13488"
-        ],
-        "resultat_Spacy": [
-            "Deer Valley Arizona ",
-            "33.68393",
-            "-112.13488"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
-    },
-    "image1": {
-        "realLoc": {
-            "Nomreal": "Vermilion Cliffs National Monument, Arizona",
-            "Latitude": "36.83333",
-            "Longitude": "-111.96667"
-        },
-        "title": "Spring Valley [OC] [1328x2000]",
-        "url": "https://i.redd.it/nkyv3iqmy3h81.jpg",
-        "SpacyLoc": [
-            [
-                "Spring Valley",
-                "LOC"
-            ]
-        ],
-        "LocationTagger": [
-            {
-                "Countries": []
-            },
-            {
-                "Cities": [
-                    "Spring",
-                    "Spring Valley"
-                ]
-            },
-            {
-                "Country_Cities": {
-                    "United States": [
-                        "Spring",
-                        "Spring Valley"
-                    ]
-                }
-            },
-            {
-                "Region_Cities": {
-                    "Texas": [
-                        "Spring"
-                    ],
-                    "California": [
-                        "Spring Valley"
-                    ],
-                    "Illinois": [
-                        "Spring Valley"
-                    ],
-                    "New York": [
-                        "Spring Valley"
-                    ],
-                    "Minnesota": [
-                        "Spring Valley"
-                    ],
-                    "Wisconsin": [
-                        "Spring Valley"
-                    ],
-                    "Ohio": [
-                        "Spring Valley"
-                    ]
-                }
-            },
-            {
-                "Country_mentions": [
-                    [
-                        "United States",
-                        1
-                    ]
-                ]
-            },
-            {
-                "Citiy_mentions": [
-                    [
-                        "Spring Valley",
-                        1
-                    ],
-                    [
-                        "Spring",
-                        1
-                    ]
-                ]
+                "Citiy_mentions": []
             },
             {
                 "Adresse": []
@@ -182,17 +133,8 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": "Spring Valley ",
-        "resultat_Spacy": [
-            "Spring Valley ",
-            "36.10803",
-            "-115.245"
-        ],
-        "heuristique_country_cities": [
-            "United States,Spring Valley ",
-            "36.10803",
-            "-115.245"
-        ]
+        "heuristique 5": "Wave Vermilion Cliffs National Monument Arizona ",
+        "resultat_Spacy": "Truly Arizona "
     },
     "image2": {
         "realLoc": {
@@ -200,115 +142,31 @@
             "Latitude": "50.8331217",
             "Longitude": "14.7962388"
         },
-        "title": "Spring Valley, US [OC] [5184x3703]",
+        "title": "Cattails at the evening hour, southern Germany [OC] [5184x3703]",
         "url": "https://i.redd.it/4inca30n73h81.jpg",
         "SpacyLoc": [
             [
-                "Spring Valley",
-                "LOC"
-            ],
-            [
-                "US",
+                "Germany",
                 "GPE"
             ]
         ],
         "LocationTagger": [
             {
-                "Countries": []
-            },
-            {
-                "Cities": [
-                    "Spring",
-                    "Valley",
-                    "Spring Valley",
-                    "Us"
+                "Countries": [
+                    "Germany"
                 ]
             },
             {
-                "Country_Cities": {
-                    "United States": [
-                        "Spring",
-                        "Valley",
-                        "Spring Valley"
-                    ],
-                    "United Kingdom": [
-                        "Valley"
-                    ],
-                    "Canada": [
-                        "Valley"
-                    ],
-                    "France": [
-                        "Us"
-                    ],
-                    "Germany": [
-                        "Valley"
-                    ]
-                }
+                "Cities": []
             },
             {
-                "Region_Cities": {
-                    "Texas": [
-                        "Spring"
-                    ],
-                    "Washington": [
-                        "Valley"
-                    ],
-                    "California": [
-                        "Spring Valley"
-                    ],
-                    "Illinois": [
-                        "Spring Valley"
-                    ],
-                    "Alabama": [
-                        "Valley"
-                    ],
-                    "New York": [
-                        "Spring Valley"
-                    ],
-                    "Minnesota": [
-                        "Spring Valley"
-                    ],
-                    "Anglesey": [
-                        "Valley"
-                    ],
-                    "Wisconsin": [
-                        "Spring Valley"
-                    ],
-                    "Nebraska": [
-                        "Valley"
-                    ],
-                    "Nova Scotia": [
-                        "Valley"
-                    ],
-                    "Val d'Oise": [
-                        "Us"
-                    ],
-                    "Bavaria": [
-                        "Valley"
-                    ],
-                    "Ohio": [
-                        "Spring Valley"
-                    ]
-                }
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
             },
             {
                 "Country_mentions": [
-                    [
-                        "United States",
-                        1
-                    ],
-                    [
-                        "United Kingdom",
-                        1
-                    ],
-                    [
-                        "Canada",
-                        1
-                    ],
-                    [
-                        "France",
-                        1
-                    ],
                     [
                         "Germany",
                         1
@@ -316,20 +174,7 @@
                 ]
             },
             {
-                "Citiy_mentions": [
-                    [
-                        "Spring Valley",
-                        1
-                    ],
-                    [
-                        "Spring",
-                        1
-                    ],
-                    [
-                        "Valley",
-                        1
-                    ]
-                ]
+                "Citiy_mentions": []
             },
             {
                 "Adresse": []
@@ -341,22 +186,8 @@
             "CARDINAL"
         ],
         "heuristique 1": "Germany",
-        "heuristique 5": "Spring Valley US ",
-        "resultat_Spacy": [
-            "Spring Valley US ",
-            "36.10803",
-            "-115.245"
-        ],
-        "heuristique 2": [
-            "US",
-            "49.1",
-            "1.96667"
-        ],
-        "heuristique_country_cities": [
-            "Germany,Valley ",
-            "38.78011",
-            "-79.39477"
-        ]
+        "heuristique 5": "Germany ",
+        "resultat_Spacy": "Germany "
     },
     "image3": {
         "realLoc": {
@@ -364,135 +195,39 @@
             "Latitude": "58.7523778",
             "Longitude": "25.3319078"
         },
-        "title": "Spring Valley, Nevada [2900x3866] [OC]",
+        "title": "Northern lights last night, Estonia, [2900x3866] [OC]",
         "url": "https://i.redd.it/2ts1m5w0o5h81.jpg",
         "SpacyLoc": [
             [
-                "Spring Valley",
-                "LOC"
-            ],
-            [
-                "Nevada",
+                "Estonia",
                 "GPE"
             ]
         ],
         "LocationTagger": [
             {
-                "Countries": []
-            },
-            {
-                "Cities": [
-                    "Spring",
-                    "Valley",
-                    "Nevada",
-                    "Spring Valley"
+                "Countries": [
+                    "Estonia"
                 ]
             },
             {
-                "Country_Cities": {
-                    "United States": [
-                        "Spring",
-                        "Valley",
-                        "Nevada",
-                        "Spring Valley"
-                    ],
-                    "United Kingdom": [
-                        "Valley"
-                    ],
-                    "Canada": [
-                        "Valley"
-                    ],
-                    "Germany": [
-                        "Valley"
-                    ]
-                }
+                "Cities": []
             },
             {
-                "Region_Cities": {
-                    "Texas": [
-                        "Spring",
-                        "Nevada"
-                    ],
-                    "Washington": [
-                        "Valley"
-                    ],
-                    "California": [
-                        "Spring Valley"
-                    ],
-                    "Illinois": [
-                        "Spring Valley"
-                    ],
-                    "Missouri": [
-                        "Nevada"
-                    ],
-                    "Alabama": [
-                        "Valley"
-                    ],
-                    "New York": [
-                        "Spring Valley"
-                    ],
-                    "Minnesota": [
-                        "Spring Valley"
-                    ],
-                    "Anglesey": [
-                        "Valley"
-                    ],
-                    "Wisconsin": [
-                        "Spring Valley"
-                    ],
-                    "Nebraska": [
-                        "Valley"
-                    ],
-                    "Iowa": [
-                        "Nevada"
-                    ],
-                    "Ohio": [
-                        "Nevada",
-                        "Spring Valley"
-                    ],
-                    "Nova Scotia": [
-                        "Valley"
-                    ],
-                    "Bavaria": [
-                        "Valley"
-                    ]
-                }
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
             },
             {
                 "Country_mentions": [
                     [
-                        "United Kingdom",
-                        1
-                    ],
-                    [
-                        "Canada",
-                        1
-                    ],
-                    [
-                        "Germany",
+                        "Estonia",
                         1
                     ]
                 ]
             },
             {
-                "Citiy_mentions": [
-                    [
-                        "Spring Valley",
-                        1
-                    ],
-                    [
-                        "Nevada",
-                        1
-                    ],
-                    [
-                        "Spring",
-                        1
-                    ],
-                    [
-                        "Valley",
-                        1
-                    ]
-                ]
+                "Citiy_mentions": []
             },
             {
                 "Adresse": []
@@ -504,22 +239,8 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": "Spring Valley Nevada ",
-        "resultat_Spacy": [
-            "Spring Valley Nevada ",
-            "36.10803",
-            "-115.245"
-        ],
-        "heuristique 2": [
-            "Nevada",
-            "39.25021",
-            "-116.75119"
-        ],
-        "heuristique_country_cities": [
-            "Germany,Valley ",
-            "38.78011",
-            "-79.39477"
-        ]
+        "heuristique 5": "Estonia ",
+        "resultat_Spacy": "Estonia "
     },
     "image4": {
         "realLoc": {
@@ -563,11 +284,7 @@
             "DATE"
         ],
         "heuristique 5": "British Columbia ",
-        "resultat_Spacy": [
-            "British Columbia ",
-            "53.99983",
-            "-125.0032"
-        ]
+        "resultat_Spacy": "British Columbia "
     },
     "image5": {
         "realLoc": {
@@ -652,21 +369,8 @@
             "FAC"
         ],
         "heuristique 5": "Grinnell Lake Glacier National Park ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Grinnell Lake ,United States",
         "resultat_Spacy": "Grinnell Lake "
-=======
-        "heuristique_country_cities": [
-            "United States,Lake ",
-            "29.99062",
-            "-82.36206"
-        ],
-        "resultat_Spacy": [
-            "Grinnell Lake ",
-            "37.46721",
-            "-118.85092"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image6": {
         "realLoc": {
@@ -727,21 +431,8 @@
         ],
         "heuristique 1": "Maine",
         "heuristique 5": "Ravens Nest Maine ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Maine ,United States",
         "resultat_Spacy": "Maine "
-=======
-        "heuristique_country_cities": [
-            "United States,Maine ",
-            "45.50032",
-            "-69.24977"
-        ],
-        "resultat_Spacy": [
-            "Maine ",
-            "48.25",
-            "0"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image8": {
         "realLoc": {
@@ -788,11 +479,7 @@
             "LOC",
             "GPE"
         ],
-        "heuristique 2": [
-            "Wisconsin",
-            "44.50024",
-            "-90.00041"
-        ],
+        "heuristique 2": "Wisconsin",
         "heuristique3_adresse": [
             [
                 "Gibraltar Rock",
@@ -800,11 +487,7 @@
             ]
         ],
         "heuristique 5": "Gibraltar Rock Wisconsin ",
-        "resultat_Spacy": [
-            "Gibraltar Rock Wisconsin ",
-            "43.34277",
-            "-89.59845"
-        ]
+        "resultat_Spacy": "Gibraltar Rock Wisconsin "
     },
     "image12": {
         "realLoc": {
@@ -907,21 +590,8 @@
         ],
         "heuristique 1": "Germany",
         "heuristique 5": "Golden Palatinate Forest Palatinate Forest Germany IG ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Ig ,Slovenia",
         "resultat_Spacy": "Germany "
-=======
-        "heuristique_country_cities": [
-            "Slovenia,Ig ",
-            "45.93583",
-            "14.51444"
-        ],
-        "resultat_Spacy": [
-            "Germany ",
-            "51.5",
-            "10.5"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image13": {
         "realLoc": {
@@ -1029,11 +699,7 @@
                 "Adresse": []
             }
         ],
-        "heuristique 2": [
-            "Montana",
-            "43.4125",
-            "23.225"
-        ],
+        "heuristique 2": "Montana",
         "Ordre": [
             "LOC",
             "GPE"
@@ -1045,21 +711,8 @@
             ]
         ],
         "heuristique 5": "Kootenai River Montana ",
-<<<<<<< HEAD
         "heuristique_country_cities": "River ,Ireland",
         "resultat_Spacy": "Kootenai River Montana "
-=======
-        "heuristique_country_cities": [
-            "Ireland,River ",
-            "45.65928",
-            "-122.37231"
-        ],
-        "resultat_Spacy": [
-            "Kootenai River Montana ",
-            "48.45272",
-            "-115.7635"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image15": {
         "realLoc": {
@@ -1105,11 +758,7 @@
             "CARDINAL"
         ],
         "heuristique 5": "Yosemite Valley ",
-        "resultat_Spacy": [
-            "Yosemite Valley ",
-            "37.74075",
-            "-119.57788"
-        ]
+        "resultat_Spacy": "Yosemite Valley "
     },
     "image16": {
         "realLoc": {
@@ -1180,21 +829,8 @@
         ],
         "heuristique 1": "Hawaii",
         "heuristique 5": "Umauma Falls Hawaii ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Falls ,Germany",
         "resultat_Spacy": "Hawaii "
-=======
-        "heuristique_country_cities": [
-            "Germany,Falls ",
-            "44.55312",
-            "-74.93964"
-        ],
-        "resultat_Spacy": [
-            "Hawaii ",
-            "20.78785",
-            "-156.38612"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image17": {
         "realLoc": {
@@ -1293,16 +929,8 @@
             "LOC"
         ],
         "heuristique 5": "Death Valley Zabriskie Point ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Valley ,Germany",
         "resultat_Spacy": "Death Valley - Zabriskie Point "
-=======
-        "heuristique_country_cities": [
-            "Germany,Valley ",
-            "38.78011",
-            "-79.39477"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image18": {
         "realLoc": {
@@ -1354,11 +982,7 @@
             "CARDINAL"
         ],
         "heuristique 5": "Aoraki Mt Cook New Zealand ",
-        "resultat_Spacy": [
-            "New Zealand ",
-            "-27.83908",
-            "143.26172"
-        ]
+        "resultat_Spacy": "New Zealand "
     },
     "image19": {
         "realLoc": {
@@ -1424,11 +1048,7 @@
                 "Adresse": []
             }
         ],
-        "heuristique 2": [
-            "West Serbia",
-            "45.77417",
-            "19.11222"
-        ],
+        "heuristique 2": "West Serbia",
         "Ordre": [
             "LOC",
             "GPE"
@@ -1441,16 +1061,8 @@
         ],
         "heuristique 4": "west,West Serbia",
         "heuristique 5": "Drina River West Serbia ",
-<<<<<<< HEAD
         "heuristique_country_cities": "West ,United States",
         "resultat_Spacy": "Drina River West Serbia "
-=======
-        "heuristique_country_cities": [
-            "United States,West ",
-            "51.52604",
-            "-131.16073"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image20": {
         "realLoc": {
@@ -1565,27 +1177,15 @@
                 "Adresse": []
             }
         ],
-        "heuristique 2": [
-            "Colorado",
-            "38.83388",
-            "-104.82136"
-        ],
+        "heuristique 2": "Colorado",
         "Ordre": [
             "GPE",
             "GPE",
             "GPE"
         ],
         "heuristique 5": "Emerald Lake Colorado ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Emerald ,Canada",
         "resultat_Spacy": "Emerald Lake RMNP Colorado "
-=======
-        "heuristique_country_cities": [
-            "Canada,Emerald ",
-            "47.91685",
-            "-81.51653"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image21": {
         "realLoc": {
@@ -1635,11 +1235,7 @@
             "GPE"
         ],
         "heuristique 5": "New Zealand ",
-        "resultat_Spacy": [
-            "New Zealand ",
-            "-27.83908",
-            "143.26172"
-        ]
+        "resultat_Spacy": "New Zealand "
     },
     "image22": {
         "realLoc": {
@@ -1731,21 +1327,8 @@
         ],
         "heuristique 1": "Ecuador",
         "heuristique 5": "Laguna Cuicocha Ecuador ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Laguna ,Brazil",
         "resultat_Spacy": "Ecuador "
-=======
-        "heuristique_country_cities": [
-            "Brazil,Laguna ",
-            "-28.4825",
-            "-48.78083"
-        ],
-        "resultat_Spacy": [
-            "Ecuador ",
-            "-1.25",
-            "-78.25"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image23": {
         "realLoc": {
@@ -1805,21 +1388,8 @@
         ],
         "heuristique 1": "Utah",
         "heuristique 5": "Zion NP Utah ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Zion ,United States",
         "resultat_Spacy": "Utah "
-=======
-        "heuristique_country_cities": [
-            "United States,Zion ",
-            "37.29824",
-            "-113.02644"
-        ],
-        "resultat_Spacy": [
-            "Utah ",
-            "39.25024",
-            "-111.75103"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image24": {
         "realLoc": {
@@ -1862,11 +1432,7 @@
             "GPE"
         ],
         "heuristique 5": "Red Rock Canyon NV ",
-        "resultat_Spacy": [
-            "Red Rock Canyon ",
-            "36.15192",
-            "-115.45413"
-        ]
+        "resultat_Spacy": "Red Rock Canyon "
     },
     "image25": {
         "realLoc": {
@@ -1948,38 +1514,16 @@
                 ]
             }
         ],
-        "heuristique 2": [
-            "Canada",
-            "60.10867",
-            "-113.64258"
-        ],
+        "heuristique 2": "Canada",
         "Ordre": [
             "FAC",
             "GPE",
             "GPE"
         ],
         "heuristique 5": "Kananaskis Country Alberta Canada ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Kananaskis ,Canada",
         "heuristique_adresse_LT": "Kananaskis, Alberta, Canada",
         "resultat_Spacy": "Alberta Canada "
-=======
-        "heuristique_country_cities": [
-            "Canada,Kananaskis ",
-            "51.07754",
-            "-115.1223"
-        ],
-        "heuristique_adresse_LT": [
-            "Kananaskis, Alberta, Canada",
-            "51.07754",
-            "-115.1223"
-        ],
-        "resultat_Spacy": [
-            "Alberta Canada ",
-            "52.28333",
-            "-117.469"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image26": {
         "realLoc": {
@@ -2026,17 +1570,14 @@
                 "Adresse": []
             }
         ],
-        "heuristique 2": [
-            "UK",
-            "54.75844",
-            "-2.69531"
-        ],
+        "heuristique 2": "UK",
         "Ordre": [
             "GPE",
             "GPE",
             "GPE"
         ],
-        "heuristique 5": "Stockgrove Park Bedfordshire UK "
+        "heuristique 5": "Stockgrove Park Bedfordshire UK ",
+        "resultat_Spacy": "Stockgrove Park Bedfordshire UK "
     },
     "image27": {
         "realLoc": {
@@ -2135,11 +1676,7 @@
                 "Adresse": []
             }
         ],
-        "heuristique 2": [
-            "Canada",
-            "60.10867",
-            "-113.64258"
-        ],
+        "heuristique 2": "Canada",
         "Ordre": [
             "ORG",
             "GPE",
@@ -2148,21 +1685,8 @@
             "ORG"
         ],
         "heuristique 5": "Lands hydro Shawinigan Qu\u00e9bec Canada Misty Hills ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Hills Canada ,United States",
         "resultat_Spacy": "Qu\u00e9bec Canada "
-=======
-        "heuristique_country_cities": [
-            "United States,Canada ",
-            "82.41879",
-            "-67.99236"
-        ],
-        "resultat_Spacy": [
-            "Qu\u00e9bec Canada ",
-            "46.81228",
-            "-71.21454"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image30": {
         "realLoc": {
@@ -2233,21 +1757,8 @@
             "CARDINAL"
         ],
         "heuristique 5": "Fall Creek Falls Early Tennessee ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Early Tennessee ,United States",
         "resultat_Spacy": "Tennessee "
-=======
-        "heuristique_country_cities": [
-            "United States,Tennessee ",
-            "35.8",
-            "-86.5"
-        ],
-        "resultat_Spacy": [
-            "Tennessee ",
-            "35.8",
-            "-86.5"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image31": {
         "realLoc": {
@@ -2369,21 +1880,8 @@
         ],
         "heuristique 1": "California",
         "heuristique 5": "Doris Lake Desolation Wilderness California ",
-<<<<<<< HEAD
         "heuristique_country_cities": "California ,Mexico",
         "resultat_Spacy": "California "
-=======
-        "heuristique_country_cities": [
-            "Mexico,California ",
-            "25.83333",
-            "-111.83333"
-        ],
-        "resultat_Spacy": [
-            "California ",
-            "34.68743",
-            "-116.78467"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image32": {
         "realLoc": {
@@ -2517,26 +2015,14 @@
                 "Adresse": []
             }
         ],
-        "heuristique 2": [
-            "Mexico",
-            "19.42847",
-            "-99.12766"
-        ],
+        "heuristique 2": "Mexico",
         "Ordre": [
             "GPE",
             "GPE"
         ],
         "heuristique 5": "San Juan Cabo Mexico ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Mexico ,Mexico",
         "resultat_Spacy": "San Juan del Cabo Mexico "
-=======
-        "heuristique_country_cities": [
-            "Mexico,Mexico ",
-            "19.42847",
-            "-99.12766"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image33": {
         "realLoc": {
@@ -2649,21 +2135,8 @@
         ],
         "heuristique 1": "California",
         "heuristique 5": "Nevada Falls Yosemite NP California ",
-<<<<<<< HEAD
         "heuristique_country_cities": "California ,Mexico",
         "resultat_Spacy": "California "
-=======
-        "heuristique_country_cities": [
-            "Mexico,California ",
-            "25.83333",
-            "-111.83333"
-        ],
-        "resultat_Spacy": [
-            "California ",
-            "34.68743",
-            "-116.78467"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image34": {
         "realLoc": {
@@ -2806,11 +2279,7 @@
                 ]
             }
         ],
-        "heuristique 2": [
-            "Mexico",
-            "19.42847",
-            "-99.12766"
-        ],
+        "heuristique 2": "Mexico",
         "Ordre": [
             "GPE",
             "ORG",
@@ -2818,27 +2287,9 @@
             "CARDINAL"
         ],
         "heuristique 5": "Loreto Baja California Sur Mexico ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Loreto ,Peru",
         "heuristique_adresse_LT": "Loreto, Baja California Sur, Mexico",
         "resultat_Spacy": "Loreto Mexico "
-=======
-        "heuristique_country_cities": [
-            "Peru,Loreto ",
-            "-4",
-            "-74.5"
-        ],
-        "heuristique_adresse_LT": [
-            "Loreto, Baja California Sur, Mexico",
-            "25.98919",
-            "-111.34836"
-        ],
-        "resultat_Spacy": [
-            "Loreto Mexico ",
-            "25.98919",
-            "-111.34836"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image35": {
         "realLoc": {
@@ -2953,32 +2404,15 @@
                 "Adresse": []
             }
         ],
-        "heuristique 2": [
-            "Canada",
-            "60.10867",
-            "-113.64258"
-        ],
+        "heuristique 2": "Canada",
         "Ordre": [
             "GPE",
             "GPE",
             "GPE"
         ],
         "heuristique 5": "Hector Lake Banff National Park Alberta Canada ",
-<<<<<<< HEAD
         "heuristique_country_cities": "National Park Hector Lake Canada ,United States",
         "resultat_Spacy": "National Park Alberta Canada "
-=======
-        "heuristique_country_cities": [
-            "United States,Canada ",
-            "82.41879",
-            "-67.99236"
-        ],
-        "resultat_Spacy": [
-            "National Park Alberta Canada ",
-            "49.08325",
-            "-113.86863"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image36": {
         "realLoc": {
@@ -3067,21 +2501,8 @@
         ],
         "heuristique 1": "Oregon",
         "heuristique 5": "Abiqua Falls Oregon ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Falls ,Germany",
         "resultat_Spacy": "Oregon "
-=======
-        "heuristique_country_cities": [
-            "Germany,Falls ",
-            "44.55312",
-            "-74.93964"
-        ],
-        "resultat_Spacy": [
-            "Oregon ",
-            "44.00013",
-            "-120.50139"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image37": {
         "realLoc": {
@@ -3177,21 +2598,8 @@
         ],
         "heuristique 1": "USA",
         "heuristique 5": "Golden Light Half Dome Yosemite National Park CA USA ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Usa ,Japan",
         "resultat_Spacy": "USA "
-=======
-        "heuristique_country_cities": [
-            "Japan,Usa ",
-            "33.53333",
-            "131.33333"
-        ],
-        "resultat_Spacy": [
-            "USA ",
-            "39.76",
-            "-98.5"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image38": {
         "realLoc": {
@@ -3203,7 +2611,11 @@
         "url": "https://i.redd.it/qu1mfrje12h81.jpg",
         "SpacyLoc": [
             [
-                "OC)Grand Canyon",
+                "Sunset",
+                "GPE"
+            ],
+            [
+                "Grand Canyon",
                 "GPE"
             ],
             [
@@ -3222,13 +2634,15 @@
             {
                 "Cities": [
                     "Grand Canyon",
-                    "Usa"
+                    "Usa",
+                    "Sunset"
                 ]
             },
             {
                 "Country_Cities": {
                     "United States": [
-                        "Grand Canyon"
+                        "Grand Canyon",
+                        "Sunset"
                     ],
                     "Japan": [
                         "Usa"
@@ -3242,6 +2656,15 @@
                     ],
                     "Kochi-ken": [
                         "Usa"
+                    ],
+                    "South Carolina": [
+                        "Sunset"
+                    ],
+                    "Louisiana": [
+                        "Sunset"
+                    ],
+                    "Texas": [
+                        "Sunset"
                     ]
                 }
             },
@@ -3256,6 +2679,10 @@
             {
                 "Citiy_mentions": [
                     [
+                        "Sunset",
+                        1
+                    ],
+                    [
                         "Grand Canyon",
                         1
                     ]
@@ -3267,11 +2694,7 @@
                 ]
             }
         ],
-        "heuristique 2": [
-            "USA",
-            "39.76",
-            "-98.5"
-        ],
+        "heuristique 2": "USA",
         "Ordre": [
             "GPE",
             "GPE",
@@ -3280,22 +2703,9 @@
             "CARDINAL"
         ],
         "heuristique 5": "Canyon Arizona USA ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Usa ,Japan",
         "heuristique_adresse_LT": "Grand Canyon, Arizona, United States",
         "resultat_Spacy": "Sunset Grand Canyon Arizona USA "
-=======
-        "heuristique_country_cities": [
-            "Japan,Usa ",
-            "33.53333",
-            "131.33333"
-        ],
-        "heuristique_adresse_LT": [
-            "Grand Canyon, Arizona, United States",
-            "34.5003",
-            "-111.50098"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image39": {
         "realLoc": {
@@ -3406,21 +2816,8 @@
             "CARDINAL"
         ],
         "heuristique 5": "Puebla Oaxaca Mexico ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Mexico ,Mexico",
         "resultat_Spacy": "Mexico "
-=======
-        "heuristique_country_cities": [
-            "Mexico,Mexico ",
-            "19.42847",
-            "-99.12766"
-        ],
-        "resultat_Spacy": [
-            "Mexico ",
-            "19.42847",
-            "-99.12766"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image40": {
         "realLoc": {
@@ -3487,32 +2884,15 @@
                 "Adresse": []
             }
         ],
-        "heuristique 2": [
-            "Oregon",
-            "44.00013",
-            "-120.50139"
-        ],
+        "heuristique 2": "Oregon",
         "Ordre": [
             "GPE",
             "GPE",
             "DATE"
         ],
         "heuristique 5": "Yaquina Head Oregon ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Oregon ,United States",
         "resultat_Spacy": "Yaquina Oregon "
-=======
-        "heuristique_country_cities": [
-            "United States,Oregon ",
-            "44.00013",
-            "-120.50139"
-        ],
-        "resultat_Spacy": [
-            "Yaquina Oregon ",
-            "44.62373",
-            "-124.06317"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image42": {
         "realLoc": {
@@ -3605,21 +2985,8 @@
         ],
         "heuristique 1": "Sunset",
         "heuristique 5": "Yosemite Valley Glacier Point Sunset ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Valley View Yosemite Sunset ,United States",
         "resultat_Spacy": "Sunset "
-=======
-        "heuristique_country_cities": [
-            "United States,Sunset ",
-            "30.41131",
-            "-92.06845"
-        ],
-        "resultat_Spacy": [
-            "Sunset ",
-            "49.2241",
-            "-123.09134"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image43": {
         "realLoc": {
@@ -3665,11 +3032,7 @@
             "DATE"
         ],
         "heuristique 5": "Napali Coast Kauai ",
-        "resultat_Spacy": [
-            "Napali Coast ",
-            "22.18333",
-            "-159.64167"
-        ]
+        "resultat_Spacy": "Napali Coast "
     },
     "image44": {
         "realLoc": {
@@ -3719,11 +3082,7 @@
             "LOC"
         ],
         "heuristique 5": "Cloudland Canyon ",
-        "resultat_Spacy": [
-            "Cloudland Canyon ",
-            "34.8423",
-            "-85.48246"
-        ]
+        "resultat_Spacy": "Cloudland Canyon "
     },
     "image46": {
         "realLoc": {
@@ -3788,21 +3147,8 @@
         ],
         "heuristique 1": "Kashmir",
         "heuristique 5": "Kashmir ",
-<<<<<<< HEAD
         "heuristique_country_cities": "Kashmir ,Pakistan",
         "resultat_Spacy": "Kashmir "
-=======
-        "heuristique_country_cities": [
-            "Pakistan,Kashmir ",
-            "33.94718",
-            "73.9104"
-        ],
-        "resultat_Spacy": [
-            "Kashmir ",
-            "33.94718",
-            "73.9104"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     },
     "image48": {
         "realLoc": {
@@ -3918,11 +3264,7 @@
                 "Adresse": []
             }
         ],
-        "heuristique 2": [
-            "USA",
-            "39.76",
-            "-98.5"
-        ],
+        "heuristique 2": "USA",
         "Ordre": [
             "GPE",
             "GPE",
@@ -3930,15 +3272,7 @@
             "CARDINAL"
         ],
         "heuristique 5": "Mushroom Kingdom Redwood National Park California USA ",
-<<<<<<< HEAD
         "heuristique_country_cities": "California ,Mexico",
         "resultat_Spacy": "Mushroom Kingdom California USA "
-=======
-        "heuristique_country_cities": [
-            "Mexico,California ",
-            "25.83333",
-            "-111.83333"
-        ]
->>>>>>> baf5639b4690e696bb785d699797fefed5470cf0
     }
 }
