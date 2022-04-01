@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <head>
-<script src="js/FileSaver.js"></script>    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
         <script>
@@ -170,11 +169,14 @@ let affichage = (data) => {
                    
             }
 
+            const map = new Map(Object.entries(heuristiques));
+            console.log(map);
+
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
            
                 group.innerHTML = heuristiques.map( (heuristiques) =>  `<div id = "inputGroup"> 
-                <input type="radio" name="size" value="${heuristiques[0] }" id="${heuristiques[1]}"   >
+                <input type="radio" name="size" value="${heuristiques[0] }" id="${heuristiques[1]}">
                 <label  onclick="cbclick('${heuristiques  [0] }', '${heuristiques[1]}')" for="${heuristiques[0] }"> ${heuristiques  [0] }</label>
 
             </div>` 
