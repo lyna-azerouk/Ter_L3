@@ -16,6 +16,7 @@ for image in data:
             print('-----------------------------------------------------------------------------')
             print((r.address, r.country))
             l = geocoder.geonames(r.geonames_id, method='details', key='Lydia_Ouam')
+            print(l)
             print(l.lat)
             print(l.lng)
             print(l.country)

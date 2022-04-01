@@ -73,9 +73,6 @@ for  image  in data :
 print (f"L'heuristique SpacyLoc est correcte a  : {(cpt_heurisique/cpt_image)*100:.2f} %")
 
 
-fjson.close()
-
-
 #eval heuristique 5
 cpt=0	
 cpt_heur=0
