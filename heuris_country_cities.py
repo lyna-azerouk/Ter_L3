@@ -14,13 +14,13 @@ for image in data:
         s = country+","+chaine
         
         data[image]["heuristique_country_cities"] = s
-            chaine =l[e]+" "
+        chaine =l[e]+" "
         s = country+","+chaine
         liste=liste=geo_loc(s)
-        
+        m=s.split()
         if (liste!=None):
 
-            data[image]["heuristique_country_cities"] =[s]+liste
+            data[image]["heuristique_country_cities"] =m.reverse()+liste
 
 
 

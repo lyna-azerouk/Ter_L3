@@ -21,9 +21,9 @@ for image in data :
 
 		liste=geo_loc(resultat_heurisique)
 		if (liste!=None):    #dans le cas ou geo_loc ne retourn rien 
-			data[image] ['resultat_Spacy'] = [str(resultat_heurisique)]+liste
+			data[image] ['resultat_Spacy'] = [str(resultat_heurisique.strip())]+liste
 		else :
-			data[image] ['resultat_Spacy'] = [str(resultat_heurisique)]
+			data[image] ['resultat_Spacy'] = [str(resultat_heurisique.strip())]
 
 	
 
