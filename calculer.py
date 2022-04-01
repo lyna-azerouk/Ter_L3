@@ -20,7 +20,7 @@ compteur_image = 0
 
 for text in data:
     if("heuristique_adresse_LT" in data[text]):
-        adresse = data[text]['heuristique_adresse_LT']
+        adresse = data[text]['heuristique_adresse_LT'][0]
         compteur_image = compteur_image + 1
         adresseLT = adresse.replace(",","").lower() #Nettoyer la chaine en supprimant les virgules
         lLT = adresseLT.split()
@@ -55,12 +55,12 @@ for  image  in data :
 			chaine1=chaine1+(i.lower())+" "
 			liste_real_loc.append (i.lower())
 	
-	chaine2=data[image] ['resultat_Spacy'].lower()
+	chaine2=data[image] ['resultat_Spacy'][0].lower()
 	if ( chaine1 == chaine2  )   : # comparaison directe (de realLoc de resultat_SpacyLOc)
 		# print ( image +" " + "resultat bon " + str ( len (chaine1.split())) + "/" + str (  len ( chaine2.split()))   )
 		cpt_heurisique=cpt_heurisique+1
 	else : 
-		liste_spacy = data[image] ['resultat_Spacy'] .split ()
+		liste_spacy = data[image] ['resultat_Spacy'] [0].split ()
 		for mot in  liste_spacy:
 			if mot.lower() in liste_real_loc :
 				resultat_contenu.append (mot )
@@ -80,7 +80,7 @@ for  image  in data :
 	resultat = "" 
 	cpt+=1
 	chaine1=data[image]['realLoc']['Nomreal'].lower()
-	chaine2=data[image] ['heuristique 5'].lower()
+	chaine2=data[image] ['heuristique 5'][0].lower()
 
 	if(chaine1==chaine2):
 		cpt_heur+=1
@@ -102,7 +102,7 @@ for  image  in data :
 	chaine1=data[image]['realLoc']['Nomreal'].lower()
 	if ('heuristique_country_cities' in data[image] ):
 		cpt2+=1
-		chaine2=data[image] ['heuristique_country_cities'].lower()
+		chaine2=data[image] ['heuristique_country_cities'][0].lower()
 
 	if(chaine1==chaine2):
 		cpt_heurs+=1

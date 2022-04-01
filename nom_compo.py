@@ -22,7 +22,8 @@ for image in data :
                 L.append(l.country)
             if len(L)!=0:
                 p+=token.text+" "
-            data[image]['heuristique 5']=p   
+                t=p.strip()
+            data[image]['heuristique 5']=t  
            
 
        

@@ -90,6 +90,18 @@ function createRadioElement(name, checked) {
     return radioFragment.firstChild;
 }
 
+function uniqueBy(array){
+    var liste = [];
+    console.log(liste);
+    for(var i=0; i<array.length;i++){
+        if(liste.indexOf(array[i][0])==-1){
+            liste.push(array[i]);
+        }
+    }
+    
+    return liste;
+}
+
 
 
 function marker(liste)
@@ -131,9 +143,9 @@ let affichage = (data) => {
         {
         const heuristiques = [];
 
-            if(obj[key]['heuristique 2'] !== undefined)
+            if(obj[key]['heuristique 2'] !== undefined )
             {  heuristiques.push( [  obj [key]['heuristique 2'][0], 'id2' ] );
-               marker  (obj [key]['heuristique 2']  );
+               //marker  (obj [key]['heuristique 2']  );
              }
               
 
@@ -149,38 +161,41 @@ let affichage = (data) => {
 
             if(obj[key]['heuristique_country_cities'] !== undefined)
             {
-                heuristiques.push([ obj [key]['heuristique_country_cities'][0], 'id6' ] );
+                heuristiques.push([ obj [key]['heuristique_country_cities'], 'id6' ] );
                // marker (obj[key]['heuristique_country_cities']);
                     
             } 
-            if(obj[key].hasOwnProperty('heuristique_adresse_LT'))
+            if(obj[key]['heuristique_adresse_LT'] !== undefined)
             { 
               heuristiques.push(  [  obj [key]['heuristique_adresse_LT'][0]   ,  'id7'] );  
               marker (obj[key]['heuristique_adresse_LT'] );  // on lui passe l'adresse et lat et lng 
               
             }
 
-            if(obj[key].hasOwnProperty('resultat_Spacy'))
+            if(obj[key]['resultat_Spacy'] !== undefined)
             {
                 heuristiques.push([ obj [key]['resultat_Spacy'][0],'id8' ] );  
                 marker (obj [key]['resultat_Spacy'] );
               
                    
             }
-
+             console.log(heuristiques);
+            var l = uniqueBy(heuristiques);
+            console.log(l);
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
            
-                group.innerHTML = heuristiques.map( (heuristiques) =>  `<div id = "inputGroup"> 
-                <input type="radio" name="size" value="${heuristiques[0] }" id="${heuristiques[1]}"   >
-                <label  onclick="cbclick('${heuristiques  [0] }', '${heuristiques[1]}')" for="${heuristiques[0] }"> ${heuristiques  [0] }</label>
+                group.innerHTML = l.map( (l) =>  `<div id = "inputGroup"> 
+                <input type="radio" name="size" value="${l[0] }" id="${l[1]}"   >
+                <label  onclick="cbclick('${l[0] }', '${l[1]}')" for="${l[0] }"> ${l[0] }</label>
 
             </div>` 
             ).join(' ');
          
          }
+         
     }
-
+    
 }
 
 function cbclick(d,id)
