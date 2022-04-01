@@ -22,6 +22,9 @@ for image in data :
 		liste=geo_loc(resultat_heurisique)
 		if (liste!=None):    #dans le cas ou geo_loc ne retourn rien 
 			data[image] ['resultat_Spacy'] = [str(resultat_heurisique)]+liste
+		else :
+			data[image] ['resultat_Spacy'] = [str(resultat_heurisique)]
+
 	
 
 with open('data.json', 'w') as mon_fichier:

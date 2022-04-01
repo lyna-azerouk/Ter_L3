@@ -22,7 +22,7 @@ compteur_image = 0
 
 for text in data:
     if("heuristique_adresse_LT" in data[text]):
-        adresse = data[text]['heuristique_adresse_LT']
+        adresse = data[text]['heuristique_adresse_LT'][0]
         compteur_image = compteur_image + 1
         adresseLT = adresse.replace(",","").lower() #Nettoyer la chaine en supprimant les virgules
         lLT = adresseLT.split()
@@ -62,7 +62,7 @@ for  image  in data :
 		# print ( image +" " + "resultat bon " + str ( len (chaine1.split())) + "/" + str (  len ( chaine2.split()))   )
 		cpt_heurisique=cpt_heurisique+1
 	else : 
-		liste_spacy = data[image] ['resultat_Spacy'][0] .split ()
+		liste_spacy = data[image] ['resultat_Spacy'] [0].split ()
 		for mot in  liste_spacy:
 			if mot.lower() in liste_real_loc :
 				resultat_contenu.append (mot )
@@ -75,8 +75,6 @@ for  image  in data :
 print (f"L'heuristique SpacyLoc est correcte a  : {(cpt_heurisique/cpt_image)*100:.2f} %")
 
 
-
-
 #eval heuristique 5
 cpt=0	
 cpt_heur=0
@@ -84,7 +82,7 @@ for  image  in data :
 	resultat = "" 
 	cpt+=1
 	chaine1=data[image]['realLoc']['Nomreal'].lower()
-	chaine2=data[image] ['heuristique 5'].lower()
+	chaine2=data[image] ['heuristique 5'][0].lower()
 
 	if(chaine1==chaine2):
 		cpt_heur+=1
@@ -106,7 +104,7 @@ for  image  in data :
 	chaine1=data[image]['realLoc']['Nomreal'].lower()
 	if ('heuristique_country_cities' in data[image] ):
 		cpt2+=1
-		chaine2=data[image] ['heuristique_country_cities'].lower()
+		chaine2=data[image] ['heuristique_country_cities'][0].lower()
 
 	if(chaine1==chaine2):
 		cpt_heurs+=1
@@ -144,8 +142,6 @@ for  image  in data :
 		cpt_heuri+=1
 print (f"L'heuristique 3 est correcte à  : {(cpt_heuri/cpt3)*100:.2f} %")
 
-
-
 heur1=(compteur_true/compteur_image)*100
 heur2=(cpt_heurisique/cpt_image)*100
 heur3=(cpt_heuri/cpt3)*100
@@ -161,3 +157,5 @@ with open('stat.csv', 'w') as file:
     writer.writerow(["Heuristique 3",heur3])
     writer.writerow(["Heuristique 4",heur4])
     writer.writerow(["Heuristique 5",heur5])
+	
+

@@ -1,5 +1,5 @@
 import json
-
+from geoname import geo_loc 
 with open( 'data.json') as mon_fichier : 
     data=json.load(mon_fichier)
 
@@ -10,9 +10,13 @@ for image in data:
         l = cc[country]
         chaine = ""
         for e in range(len(l)):
-            chaine+=l[e]+" "
+            chaine =l[e]+" "
         s = country+","+chaine
-        data[image]["heuristique_country_cities"] = s
+        liste=liste=geo_loc(s)
+        
+        if (liste!=None):
+
+            data[image]["heuristique_country_cities"] =[s]+liste
 
 
 
