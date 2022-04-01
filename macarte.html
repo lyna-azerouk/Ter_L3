@@ -105,26 +105,27 @@ function uniqueBy(array){
 
 
 function marker(liste)
-{  
-  if ( typeof liste[0]=="string")
-   { 
-    var mrk=L.marker([liste[1],liste[2]]).addTo(map_a620533b73fc4a38880428953e8ae81f)
-                .bindPopup("<br>"+liste[0]+" </br>" )
-                .openPopup();
-    }
-  else {// dans le cas ou c une liste exp heuristique3
-    var   adr='';
-    for (i in liste[0]){
-      adr=liste[0][i]+adr+' ';
-    }
-    
-    var mrk=L.marker([liste[1],liste[2]]).addTo(map_a620533b73fc4a38880428953e8ae81f)
-                .bindPopup("<br>"+" "+" </br>" )
-                .openPopup();
+{  if (liste.length ==3)
 
-    
-    }
-}
+	{  if ( typeof liste[0]=="string")
+	   { 
+	    var mrk=L.marker([liste[1],liste[2]]).addTo(map_a620533b73fc4a38880428953e8ae81f)
+	                .bindPopup("<br>"+liste[0]+" </br>" )
+	                .openPopup();
+	    }
+	  else {// dans le cas ou c une liste exp heuristique3
+
+	    var   adr='';
+	    for (i in liste[0]){
+	      adr=adr+liste[0][i]+' ';
+	    }
+	    
+	    var mrk=L.marker([liste[1],liste[2]]).addTo(map_a620533b73fc4a38880428953e8ae81f)
+	                .bindPopup("<br>"+adr+" </br>" )
+	                .openPopup();
+        }
+	}
+	}
 
 
 
@@ -150,13 +151,14 @@ let affichage = (data) => {
               
 
             if(obj[key]['heuristique3_adresse'] !== undefined)
-            {    heuristiques.push( [  obj [key]['heuristique3_adresse'], 'id3' ] );
+            {    heuristiques.push( [  obj [key]['heuristique3_adresse'][0], 'id3' ] );
+                 marker  (obj [key]['heuristique3_adresse']  );
                  
              }
             
             if(obj[key]['heuristique 5'] !== undefined)
-            {    heuristiques.push( [  obj [key]['heuristique 5'] , 'id5' ] );
-                 
+            {    heuristiques.push( [  obj [key]['heuristique 5'][0], 'id5' ] );
+                 marker  (obj [key]['heuristique 5']  );
             }
 
             if(obj[key]['heuristique_country_cities'] !== undefined)
@@ -197,7 +199,7 @@ let affichage = (data) => {
     }
     
 }
-
+/// IMPORTANT : EST CE QUE ON SUPPRIME LES MARKER APRES 
 function cbclick(d,id)
 {  num_heur=id[2];
 	
@@ -220,6 +222,7 @@ function cbclick(d,id)
 	          .addTo(map_a620533b73fc4a38880428953e8ae81f)
 	           .bindPopup("<p>"+obj [key][val][0]+" </p><img src = "+page_type+"  width='300' height='234' >")
 	           .openPopup(); 
+	           
 	                                                                    
 	            }
     }

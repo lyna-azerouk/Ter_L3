@@ -1,5 +1,5 @@
 import json
-
+from geoname import geo_loc 
 # Heuristique 3 LOC,GPE alors Loc appartient a GPE
 
 #opening the json file

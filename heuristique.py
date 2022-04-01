@@ -1,4 +1,5 @@
 import json
+from geoname import geo_loc 
 
 with open( 'data.json') as mon_fichier : 
 	data=json.load(mon_fichier)
@@ -28,11 +29,14 @@ for  image  in data :
 #pour les images qui ont plusierus localisations
 for  image  in data : 
 	if  ( len (data[image]['SpacyLoc']) > 1):
+		print(data[image]['SpacyLoc'][0][0])
 		if (resultat_heurisique_1 == "debut"):
-			data[image]['heuristique 2'] = data[image]['SpacyLoc'][0][0]
-		else:
+			liste=geo_loc(str(data[image]['SpacyLoc'][0][0]))
+			data[image]['heuristique 2'] = [str(data[image]['SpacyLoc'][0][0])]+liste
+		else: 
 			longeur=len(data[image]['SpacyLoc'])-1
-			data[image]['heuristique 2'] = data[image]['SpacyLoc'][longeur][0]
+			liste=geo_loc(str(data[image]['SpacyLoc'][longeur][0]))
+			data[image]['heuristique 2'] = [str(data[image]['SpacyLoc'][longeur][0])]+liste
 	
 
 with open('data.json', 'w') as mon_fichier:
