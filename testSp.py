@@ -11,7 +11,7 @@ nlp = spacy.load("en_core_web_sm")
 
 #opening the json file
 
-fjson = open('data.json')
+fjson = open('fakeJson.json')
 
 #load the json file into a dict
 data = json.load(fjson)
@@ -43,7 +43,7 @@ for i in data.copy():
                         li = geocoder.geonames(r.geonames_id, method='details', key='Lydia_Ouam') """
 
 
-with open('data.json', 'w') as mon_fichier:
+with open('fakeJson.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
 # Closing file     
 
@@ -57,7 +57,7 @@ for i in data.copy():
         if('SpacyLoc' not in data[i].keys()):
                 del(data[i])
 
-with open('data.json', 'w') as mon_fichier:
+with open('fakeJosn.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
 fjson.close()
 

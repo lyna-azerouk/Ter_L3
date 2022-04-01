@@ -90,7 +90,16 @@ function createRadioElement(name, checked) {
     return radioFragment.firstChild;
 }
   
-
+function getUnique(array){
+    const mymap = new Map(array);
+        
+        for(i=0; i < mymap.length; i++){
+            if(Map.prototype.()) {
+                uniqueArray.push(array[i]);
+            }
+        }
+        return uniqueArray;
+    }
 
 
 fetch("data.json")
@@ -149,12 +158,15 @@ let affichage = (data) => {
                    
             }
 
+            b=getUnique(heuristiques)
+            console.log(b)
+
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
            
-                group.innerHTML = heuristiques.map( (heuristiques) =>  `<div id = "inputGroup"> 
-                <input type="radio" name="size" value="${heuristiques[0] }" id="${heuristiques[1]}"   >
-                 <label for="${heuristiques[0] }"> ${heuristiques  [0] }</label>
+                group.innerHTML = b.map( (b) =>  `<div id = "inputGroup"> 
+                <input type="radio" name="size" value="${b[0] }" id="${b[1]}" >
+                 <label for="${b[0] }"> ${b[0] }</label>
             </div>` 
             ).join(' ');
          

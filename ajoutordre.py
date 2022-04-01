@@ -2,7 +2,7 @@ import spacy
 import json
 
 #opening the json file
-fjson = open('data.json')
+fjson = open('fakeJson.json')
 data = json.load(fjson)
 
 
@@ -17,7 +17,7 @@ for i in data:
             l.append(ent)
             data[i]['Ordre'] = l
 
-with open('data.json', 'w') as mon_fichier:
+with open('fakeJosn.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
 fjson.close()
 

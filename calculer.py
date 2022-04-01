@@ -2,6 +2,8 @@ import string
 import json
 import re
 from math import floor
+import csv
+
 
 # Ce fichier evalue les heuritiques adresse de locationTagger et SpacyLoc
 
@@ -34,7 +36,7 @@ for text in data:
             compteur_true = compteur_true + 1
 
 
-print("L'heuristique Location Tagger est correcte avec un pourcentage de :",compteur_true/compteur_image*100,"%")
+print(f"L'heuristique Location Tagger est correcte avec un pourcentage de :",compteur_true/compteur_image*100,"%")
 
 
 
@@ -73,4 +75,88 @@ print (f"L'heuristique SpacyLoc est correcte a  : {(cpt_heurisique/cpt_image)*10
 
 fjson.close()
 
+
+#eval heuristique 5
+cpt=0	
+cpt_heur=0
+for  image  in data :
+	resultat = "" 
+	cpt+=1
+	chaine1=data[image]['realLoc']['Nomreal'].lower()
+	chaine2=data[image] ['heuristique 5'].lower()
+
+	if(chaine1==chaine2):
+		cpt_heur+=1
+
+	else :
+		for i in chaine2 : 
+			if i in chaine1:
+				resultat+=i+" "
+	if (len(resultat)>=len(chaine1)):
+		cpt_heur+=1
+print (f"L'heuristique 5 est correcte à  : {(cpt_heur/cpt)*100:.2f} %")	
+
+
+#eval heuristique country_cities
+cpt2=0	
+cpt_heurs=0
+for  image  in data :
+	resultat = "" 
+	chaine1=data[image]['realLoc']['Nomreal'].lower()
+	if ('heuristique_country_cities' in data[image] ):
+		cpt2+=1
+		chaine2=data[image] ['heuristique_country_cities'].lower()
+
+	if(chaine1==chaine2):
+		cpt_heurs+=1
+
+	else :
+		for i in chaine2 : 
+			if i in chaine1:
+				resultat+=i+" "
+	if (len(resultat)>=len(chaine1)):
+		cpt_heurs+=1
+print (f"L'heuristique country_cities est correcte à  : {(cpt_heurs/cpt2)*100:.2f} %")	
+
+
+#eval heuristique 3
+cpt3=0	
+cpt_heuri=0
+for  image  in data :
+	resultat = "" 
+	chaine1=data[image]['realLoc']['Nomreal'].lower()
+	chaine2=""
+	if ('heuristique3_adresse' in data[image] ):
+		cpt3+=1
+		list_heur3=data[image]['heuristique3_adresse'][0]
+		for mot in list_heur3:
+			chaine2+=mot.lower()+" "
+
+	if(chaine1==chaine2):
+		cpt_heuri+=1
+
+	else :
+		for i in chaine2 : 
+			if i in chaine1:
+				resultat+=i+" "
+	if (len(resultat)>=len(chaine1)):
+		cpt_heuri+=1
+print (f"L'heuristique 3 est correcte à  : {(cpt_heuri/cpt3)*100:.2f} %")
+
+heur1=(compteur_true/compteur_image)*100
+heur2=(cpt_heurisique/cpt_image)*100
+heur3=(cpt_heuri/cpt3)*100
+heur5=(cpt_heur/cpt)*100
+heur4=(cpt_heurs/cpt2)*100
+
+
+with open('stat.csv', 'w') as file:
+    writer = csv.writer(file)
+    writer.writerow(["Heur","Pourc"])
+    writer.writerow(["Heuristique 1",heur1])
+    writer.writerow(["Heuristique 2",heur2]) 
+    writer.writerow(["Heuristique 3",heur3])
+    writer.writerow(["Heuristique 4",heur4])
+    writer.writerow(["Heuristique 5",heur5])
+	
 
