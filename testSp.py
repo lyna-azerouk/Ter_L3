@@ -34,20 +34,9 @@ for i in data.copy():
 
 
 
-""" for image in data:
-        for i in data[image]['SpacyLoc']:
-                print(i)        
-                g=geocoder.geonames(i[0],key='Lydia_Ouam')
-                for r in g:
-                        li = geocoder.geonames(r.geonames_id, method='details', key='Lydia_Ouam') """
-
-
 with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
 # Closing file     
-
-                                        
-# Closing file
 
 
 # Delete Images without Location

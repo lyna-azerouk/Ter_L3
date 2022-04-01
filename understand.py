@@ -14,54 +14,79 @@ from geoname import geo_loc
 # Nice view of Lake Tiriara -> Geoname retourne un seul resultat et c'est l'heuristoque 5
 # Nice view of Lake Tiriara Cook Islands -> Pareil
 # Larslan -> renvoyer le premier resultat de geoname
-
-
-text  = "Lake Erie US"
-
-nlp = spacy.load("en_core_web_sm")
-doc = nlp(text)
-for entity in doc.ents:
-    if(entity.label_ == 'GPE' or entity.label_ == 'LOC'):
-        print(entity.text,entity.label_)
-       
-        # Resultat de l'heuristique 05 
-p=""
-for token in doc:
-    if token.pos_ == "PROPN":
-        g = geocoder.geonames(token.text,maxRows =5, key='Lydia_Ouam')
-        L=[]
-        for r in g:
-            l = geocoder.geonames(r.geonames_id, method='details', key='Lydia_Ouam')
-            L.append(l.country)
-            if len(L)!=0:
-                p+=token.text+" "
-print("Heuristique 05 :"+p)
-
-print("--------------------------Location Tagger -------------------------")
 # Location Tagger 
 # text = "Golden hour on the plains of Colorado! Taken next to the airport"
 
-entities = locationtagger.find_locations(text = text)
-print(entities.cities)
-print(entities.countries)
-print(entities.regions)
-print(entities.country_regions)
-print(entities.country_cities)
-print(entities.country_mentions)
-print(entities.region_cities)
-print(entities.other)
-print(entities.address_strings)
 
+# Une fonction:
+def heuristique(text):
+    # heuristique adresse LT:
+    
+    print("--------------------------Location Tagger Adresse -------------------------")
+    entities = locationtagger.find_locations(text = text)
+    print("Adresse : ",entities.address_strings)
+    if(len(entities.address_strings) != 0):
+        for h in entities.address_strings:
+            heuristique_adresse_LT = h
+        # appliquer la fonction geo_loc
+        print("Heuristique Adresse LT : ",heuristique_adresse_LT)
+        print("Les cordonnees Latitude et Longitude",geo_loc(heuristique_adresse_LT))
+    # heuristique country cities
+    print("------------------- Location Tagger Country Cities --------------------")
+    if(len(entities.country_cities) > 0):
+        l = []
+        for key in entities.country_cities:
+            l.append(key)
+            for element in entities.country_cities[key]:
+                l.append(element)
+        l.reverse()
+        ch_ = ' '
+        for chaine in l:
+            ch_ = ch_ + chaine + ' '
+        print("Heuristique Country Cities : ",ch_)
+        print("Les cordonnees Latitude et Longitude",geo_loc(ch_))
 
-print("---------------------------------------------------------------------")
+        # Heuristique Spacy loc
+    print("--------------- Heuristique Spacy Loc -------------")
+    nlp = spacy.load("en_core_web_sm")
+    doc = nlp(text)
+    ma_cha = ''
+    for entity in doc.ents:
+        if(entity.label_ == 'GPE' or entity.label_ == 'LOC'):
+            ma_cha = ma_cha + entity.text + ' '
+    print("Resultat Spacy loc : ",ma_cha)
+    print("Les cordonnees Latitude et Longitude",geo_loc(ma_cha))
 
-a = geocoder.geonames("Montpellier France",key='Lydia_Ouam', maxRows = 5,  isNameRequired = True)
-# print(a.geojson)
-for i in a:
-    g = geocoder.geonames(i.geonames_id, method = 'details', key='Lydia_Ouam')
-    print([(r.address, r.country, r.description, r.feature_class, r.country_code, r.class_description, r.admin2, r.admin3, r.admin4, r.lat, r.lng) for r in g])
+        # Heuristique 
+    print("------------------ Heuristique 05 -------------------------")
+    p = ""
+    for token in doc:
+        if (token.pos_ == "PROPN" and token.text != "OC" and  token.text != "["):
+            g = geocoder.geonames(token.text,maxrows =5, key='Lydia_Ouam')
+            L=[]
+            for r in g:
+                l = geocoder.geonames(r.geonames_id, method='details', key='Lydia_Ouam')
+                L.append(l.country)
+            if len(L)!=0:
+                p+=token.text+" "
+    print("Resultat heuristque 05 (Nom Compose) : ",p)
+    print("Les cordonnees Latitude et Longitude",geo_loc(p))
 
-print(geo_loc("Oregon"))
-print(geo_loc("Montpellier France"))
+        # Heuristiuqe 03 
+    print("---------------------- Heuristique 03 ---------------------------")
+    ents = [(e.label_) for e in doc.ents]
+    name = [(e.text) for e in doc.ents]
+    print(ents)
+    print(name)
+    heur3 = []
+    for i in range(len(ents)): 
+        if(ents[i] == 'LOC' and ents[i+1] == 'GPE'):
+            heur3.append((name[i],name[i+1]))
+    une_Ch = ''
+    for element in heur3:
+        for ele in element:
+            une_Ch = une_Ch + ele + ' '
+    print("Resultat heuristque 03 (Ordre) : ",une_Ch)
+    print("Les cordonnees Latitude et Longitude",geo_loc(une_Ch))
 
 
