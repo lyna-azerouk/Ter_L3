@@ -115,7 +115,6 @@ function marker(liste)
 }
 
 
-
 fetch("data.json")
 .then(response => {
    return response.json();
@@ -153,14 +152,14 @@ let affichage = (data) => {
                // marker (obj[key]['heuristique_country_cities']);
                     
             } 
-            if(obj[key].hasOwnProperty('heuristique_adresse_LT'))
+            if(obj[key]('heuristique_adresse_LT') !== undefined)
             { 
               heuristiques.push(  [  obj [key]['heuristique_adresse_LT'][0]   ,  'id7'] );  
               marker (obj[key]['heuristique_adresse_LT'] );  // on lui passe l'adresse et lat et lng 
               
             }
 
-            if(obj[key].hasOwnProperty('resultat_Spacy'))
+            if(obj[key]('resultat_Spacy') !== undefined)
             {
                 heuristiques.push([ obj [key]['resultat_Spacy'][0],'id8' ] );  
                 marker (obj [key]['resultat_Spacy'] );
@@ -168,6 +167,8 @@ let affichage = (data) => {
                    
             }
 
+            const map = new Map(Object.entries(heuristiques));
+            console.log(map)
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
            

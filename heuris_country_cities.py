@@ -11,7 +11,8 @@ for image in data:
         chaine = ""
         for e in range(len(l)):
             chaine+=l[e]+" "
-        s = chaine+","+country
+        s = country+","+chaine
+        
         data[image]["heuristique_country_cities"] = s
 
 
