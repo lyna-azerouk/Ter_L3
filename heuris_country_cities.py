@@ -1,3 +1,4 @@
+from itertools import count
 import json
 from geoname import geo_loc 
 with open( 'data.json') as mon_fichier : 
@@ -8,21 +9,12 @@ for image in data:
     cc = data[image]["LocationTagger"][2]['Country_Cities']
     for country in cc:
         l = cc[country]
-        chaine = ""
-        for e in range(len(l)):
-            chaine+=l[e]+" "
-        s = country+","+chaine
-        
-        data[image]["heuristique_country_cities"] = s
-        chaine =l[e]+" "
-        s = country+","+chaine
-        liste=liste=geo_loc(s)
-        m=s.split()
+        ch_ = country
+        for chaine in l:
+            ch_ = chaine + " " + ch_  
+        liste=geo_loc(ch_)
         if (liste!=None):
-
-            data[image]["heuristique_country_cities"] =m.reverse()+liste
-
-
+            data[image]["heuristique_country_cities"] = [ch_] + liste
 
 with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))

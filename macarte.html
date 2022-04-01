@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <head>
 <script src="js/FileSaver.js"></script>    
@@ -30,10 +32,13 @@
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"  ></div>
         <div id ="resultat_heuristique"   >  </div>
+        <?php
+    if(isset($_COOKIE['realloc'] )){
+        echo "Hello";
+        echo "{$_COOKIE['realloc']}";
+    } 
+?> 
    
-<?php
-    if(isset())
-?php>    
 </body>
 
 <script type="text/javascript">
