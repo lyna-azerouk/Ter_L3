@@ -21,7 +21,7 @@ from geoname import geo_loc
 # Une fonction:
 def heuristique(text):
     # heuristique adresse LT:
-    
+    print(text)
     print("--------------------------Location Tagger Adresse -------------------------")
     entities = locationtagger.find_locations(text = text)
     print("Adresse : ",entities.address_strings)
@@ -76,17 +76,18 @@ def heuristique(text):
     print("---------------------- Heuristique 03 ---------------------------")
     ents = [(e.label_) for e in doc.ents]
     name = [(e.text) for e in doc.ents]
-    print(ents)
-    print(name)
     heur3 = []
-    for i in range(len(ents)): 
-        if(ents[i] == 'LOC' and ents[i+1] == 'GPE'):
-            heur3.append((name[i],name[i+1]))
-    une_Ch = ''
-    for element in heur3:
-        for ele in element:
-            une_Ch = une_Ch + ele + ' '
-    print("Resultat heuristque 03 (Ordre) : ",une_Ch)
-    print("Les cordonnees Latitude et Longitude",geo_loc(une_Ch))
+    if(len(ents)>1):
+        for i in range(len(ents)): 
+            if(ents[i] == 'LOC' and ents[i+1] == 'GPE'):
+                heur3.append((name[i],name[i+1]))
+        une_Ch = ''
+        for element in heur3:
+            for ele in element:
+                une_Ch = une_Ch + ele + ' '
+        print("Resultat heuristque 03 (Ordre) : ",une_Ch)
+        print("Les cordonnees Latitude et Longitude",geo_loc(une_Ch))
 
 
+# text = "The view is beautiful in Mountain states "
+# heuristique(text)
