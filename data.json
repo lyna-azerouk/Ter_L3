@@ -2595,7 +2595,12 @@
             "GPE"
         ],
         "heuristique 5": "Hector Lake Banff National Park Alberta Canada ",
-        "heuristique_country_cities": "National Park Hector Lake Canada ,United States",
+        "heuristique_country_cities": [
+            "United",
+            "States,Canada",
+            "82.41879",
+            "-67.99236"
+        ],
         "resultat_Spacy": [
             "National Park Alberta Canada ",
             "49.08325",
@@ -3199,7 +3204,12 @@
         ],
         "heuristique 1": "Sunset",
         "heuristique 5": "Yosemite Valley Glacier Point Sunset ",
-        "heuristique_country_cities": "Valley View Yosemite Sunset ,United States",
+        "heuristique_country_cities": [
+            "United",
+            "States,Sunset",
+            "30.41131",
+            "-92.06845"
+        ],
         "resultat_Spacy": [
             "Sunset ",
             "49.2241",
