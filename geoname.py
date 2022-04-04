@@ -1,15 +1,10 @@
 from unittest import case
 import geocoder
 
-# Montpellier France
-# Larslan
-# Larslan Church
-
 # Nettoyage de la chaine
 def geo_loc(adr):
     text = adr.replace(",","").lower() 
     ma_chaine = text.split() 
-     ### ?????, a l'nveers 
 
     a = geocoder.geonames(adr,key='Lydia_Ouam', maxRows = 5,  isNameRequired = True)
 

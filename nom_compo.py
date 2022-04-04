@@ -24,9 +24,10 @@ for image in data :
                 p+=token.text+" "
             liste=geo_loc(p)
             if (liste!=None):
-                data[image]['heuristique 5']=[p]+ liste
+                t=p.strip()
+                data[image]['heuristique 5']=[t]+ liste
             else :
-                data[image]['heuristique 5']=[p]
+                data[image]['heuristique 5']=[t]
 
 
            

@@ -31,10 +31,14 @@
 </head>
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"  ></div>
-        <form  id="fr" > <button id="bt"  name="izan" type="submit"   value="hh" >  Confirmer </button>   </form>   
-        
-         <div id ="resultat_heuristique"   >  </div> 
-        
+        <div id ="resultat_heuristique"   >  </div>
+        <?php
+    if(isset($_COOKIE['realloc'] )){
+        echo "Hello";
+        echo "{$_COOKIE['realloc']}";
+    } 
+?> 
+   
 </body>
 
 <script type="text/javascript">
@@ -61,6 +65,26 @@
             
 
 
+fetch("data.json")
+.then(response => {
+   return response.json();
+})
+.then(data => myFile(data) )
+let myFile = (data) => {
+    let stringData = JSON.stringify(data);
+    let obj = JSON.parse(stringData) 
+     for (var key in obj )
+{         if (obj[key] ['url'] == page_type &&     obj[key].hasOwnProperty('realLoc') )
+        {
+            // var marker = L.marker([obj [key]['realLoc']['Latitude'], obj [key]['realLoc'] ['Longitude'] ])
+           // .addTo(map_a620533b73fc4a38880428953e8ae81f)
+           // .bindPopup("<p>"+obj [key]['realLoc']['Nomreal']+" </p><img src = "+page_type+"  width='300' height='234' >")
+            //.openPopup(); 
+          
+            
+        }
+}   
+}
 
 function createRadioElement(name, checked) {
     var radioHtml = '<input type="radio" name="' + name + '"';
@@ -142,7 +166,6 @@ let affichage = (data) => {
             if(obj[key]['heuristique 2'] !== undefined)
             {  heuristiques.push( [  obj [key]['heuristique 2'], 'id2' ] );
                marker  (obj [key]['heuristique 2']  );
-
              }
               
 
@@ -174,8 +197,12 @@ let affichage = (data) => {
             {
                 heuristiques.push([ obj [key]['resultat_Spacy'][0],'id8' ] );  
                 marker (obj [key]['resultat_Spacy'] );
-              }
-
+              
+                   
+            }
+                const map =new Map(heuristiques);
+                const tab = Array.from(map);
+                console.log(tab);
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
            
@@ -208,68 +235,22 @@ function cbclick(d,id)
         
 
            if (obj[key] ['url'] == page_type )
-	        {  if ( obj [key][val].length ==3)  
-	          { var marker = L.marker([obj [key][val][1], obj [key][val] [2] ])
+	        {    
+	          var marker = L.marker([obj [key][val][1], obj [key][val] [2] ])
 	          .addTo(map_a620533b73fc4a38880428953e8ae81f)
 	           .bindPopup("<p>"+obj [key][val][0]+" </p><img src = "+page_type+"  width='300' height='234' >")
 	           .openPopup(); 
-              }else {     alert('coordonées introuvables');
-                    }
-	        }
+	           
+	                                                                    
+	            }
     }
-     }
-}
-
-
-
-
-function  image_heur(h ,pg )
-{  
-var marker = L.marker([h[1], h[2] ])
-              .addTo(map_a620533b73fc4a38880428953e8ae81f)
-               .bindPopup("<p>"+h[0]+" </p><img src = "+pg+"  width='300' height='234' >")
-               .openPopup();  
-console.log(h[1]);
-}
-fetch("data.json")
-.then(response => {
-   return response.json();
-})
-.then(data => myFile(data) )
-let myFile = (data) => {
-    let stringData = JSON.stringify(data);
-    let obj = JSON.parse(stringData) 
-     for (var key in obj )
-{         if (obj[key] ['url'] == page_type  )
-        {     if ( obj[key]['heuristique3_adresse'] !== undefined &&  obj [key]['heuristique3_adresse'].length==3  )
-              {
-                 image_heur( obj [key]['heuristique3_adresse']  ,page_type);
-              }
-              else { if (obj[key]['heuristique 5'] !== undefined &&  obj [key]['heuristique 5'].length==3 )
-                    {  console.log("je uis ici ");
-                           image_heur(obj [key]['heuristique 5'],page_type);
-                    }
-                    else
-                     {  if(obj[key].hasOwnProperty('heuristique_country_cities') && obj [key]['heuristique_country_cities'].length==3  )
-                           {
-                             image_heur(obj [key]['heuristique_country_cities'],page_type);    
-                           }
-                           else {
-                                   if (obj [key].hasOwnProperty('heuristique_adresse_LT') && obj [key]['heuristique_adresse_LT'].length==3)
-                                    {
-                                        image_heur( obj [key]['heuristique_adresse_LT'],page_type );  
-                                    }else 
-                                    {  if (obj [key].hasOwnProperty('resultat_Spacy') && obj [key]['resultat_Spacy'].length==3)
-                                        {
-                                           image_heur( obj [key]['resultat_Spacy'],page_type);  
-                                         }
-                                     }
-                                 }
-                    }
-                    }
-}   
-}
+                                                         
+         
+                                                       }
 }
   
                
+
+
+
 </script>

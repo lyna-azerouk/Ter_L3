@@ -1,0 +1,95 @@
+{The Valley -63.05783 18.21704}
+{Rift Valley Province 36 0.5}
+{Kerio Valley Airport 35.66467 0.31993}
+{Rio Grande Valley -98.12 26.22}
+{Cagayan Valley 121.73333 17.65667}
+{Valley -115.56613 44.7667}
+{Valley -106.66752 48.36531}
+{Hunter valley 151.30272 -32.77255}
+{Simi Valley -118.78148 34.26945}
+{Salt Lake City -111.89105 40.76078}
+{Lake Winnipesaukee -71.34397 43.61445}
+{Lake Baikal 109 54}
+{Lake Turkana 36 3.5}
+{Lake Tanganyika 29.5 -6}
+{Lake Balkhash 75 46.5}
+{Lake Pend Oreille -116.44018 48.15827}
+{Lake Nyasa 34.5 -12}
+{Pākhāi Lake 80.00135 17.95062}
+{Lake County 168.5 -44.83333}
+{Montpeyroux 0.0566 44.91977}
+{Mont Saint-Baudille - Seranne 3.48606 43.74247}
+{Les Bessades 2.71627 44.63178}
+{Oistins -59.54637 13.07067}
+{Christ Church Nichola Town -62.76667 17.35}
+{Christ Church -59.52418 13.08734}
+{Nicola Town -62.75318 17.37956}
+{Church saint Anton 17.53359 43.04244}
+{Church Corner -76.41898 17.88718}
+{Falls Church -77.17109 38.88233}
+{Church Nunataks 52.65 -66.8}
+{Indian Church -88.65744 17.75392}
+{Grantley Adams International Airport -59.49246 13.0746}
+{Niagara Falls -79.06627 43.10012}
+{Sioux Falls -96.70033 43.54997}
+{Wichita Falls -98.49339 33.91371}
+{Twin Falls Airport -114.48754 42.48158}
+{Murchison Falls Airport 31.4978 2.32639}
+{Twin Falls -114.46087 42.56297}
+{Nyahururu 36.36339 0.03813}
+{Falls -96.93585 31.25327}
+{Victoria Falls 25.83066 -17.93285}
+{Kabalega Falls National Park 31.75909 2.16003}
+{Montaïn 1.10972 43.94194}
+{Montain 5.57916 46.71981}
+{Le Port-Montain 3.33581 48.45943}
+{Montain Side 30.26534 -28.68548}
+{Mountain states -111.12645 40.55633}
+{Blue Mountain Peak -76.57883 18.04652}
+{Olivees Mountain -62.75575 17.32626}
+{Watt Mountain -61.30533 15.30653}
+{Lata Mountain -169.45694 -14.23694}
+{Palapalaloa Mountain -170.7025 -14.2925}
+{Cameroon Mountain 9.17273 4.21734}
+{Bellevue Mountain -61.43137 15.6151}
+{Crown Mountain -64.97459 18.35718}
+{Milomilo Mountain -170.7675 -14.30778}
+{Kingstown Park -61.23161 13.15924}
+{Kozara National Park 16.89167 45.00833}
+{Overland Park -94.67079 38.98223}
+{Park -109.58853 44.52057}
+{Buena Park -117.99812 33.86751}
+{Yellowstone National Park -110.58846 44.42796}
+{Una National Park 16.08566 44.57766}
+{Winter Park -81.33924 28.6}
+{Nacionalen Park Galičica 20.85 41}
+{Mexico City -99.12766 19.42847}
+{Belize City -88.19756 17.49952}
+{Benin City 5.62575 6.33815}
+{Guatemala City -90.51327 14.64072}
+{Carson City -119.7674 39.1638}
+{Quezon City 121.0509 14.6488}
+{Panama City -79.51973 8.9936}
+{Vatican City 12.45414 41.90268}
+{Caloocan City 120.96788 14.64953}
+{Oklahoma City -97.51643 35.46756}
+{Cebu City 123.89071 10.31672}
+{New York -74.00597 40.71427}
+{Ajman 55.47878 25.40177}
+{Kowloon 114.18333 22.31667}
+{Kuwait City 47.97833 29.36972}
+{Red River Delta 105.8455 21.03498}
+{Tana River 39.41667 -1.53333}
+{Upper River -14.16667 13.36667}
+{Central River -14.91667 13.58333}
+{Cross River State 8.5 5.75}
+{Lower River -15.66 13.4}
+{Yei River 30.67009 4.09916}
+{River Nile 33.2 19}
+{River Gee County -7.8 5.31667}
+{Black River District 57.41667 -20.33333}
+{River Cess County -9.36667 5.91667}
+{Potomac River -76.25278 37.93889}
+{Basse Santa Su -14.21373 13.30995}
+{Fall River -71.15505 41.70149}
+{Vero Beach -80.39727 27.63864}
