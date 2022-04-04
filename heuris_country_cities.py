@@ -19,6 +19,7 @@ for image in data:
             data[image]["heuristique_country_cities"] =[s]+liste
 
 
+
 with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
 

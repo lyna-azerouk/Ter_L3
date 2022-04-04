@@ -29,7 +29,6 @@ for  image  in data :
 #pour les images qui ont plusierus localisations
 for  image  in data : 
 	if  ( len (data[image]['SpacyLoc']) > 1):
-		print(data[image]['SpacyLoc'][0][0])
 		if (resultat_heurisique_1 == "debut"):
 			liste=geo_loc(str(data[image]['SpacyLoc'][0][0]))
 			data[image]['heuristique 2'] = [str(data[image]['SpacyLoc'][0][0])]+liste

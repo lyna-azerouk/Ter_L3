@@ -12,10 +12,7 @@ for i in data:
         text = data[i]['title']
         doc = nlp(text)
         ents = [(e.label_) for e in doc.ents]
-        l = []
-        for ent in ents:
-            l.append(ent)
-            data[i]['Ordre'] = l
+        data[i]['Ordre'] = ents
 
 with open('fakeJosn.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))

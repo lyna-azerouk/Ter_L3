@@ -10,6 +10,8 @@ import csv
 #opening the json file
 fjson = open('data.json')
 data = json.load(fjson)
+fjson.close()
+
 
 # Evaluation de l'heuristique adresse de locationTagger
 
@@ -77,7 +79,7 @@ print (f"L'heuristique SpacyLoc est correcte a  : {(cpt_heurisique/cpt_image)*10
 cpt=0	
 cpt_heur=0
 for  image  in data :
-	resultat = "" 
+	resultat = 0
 	cpt+=1
 	chaine1=data[image]['realLoc']['Nomreal'].lower()
 	chaine2=data[image] ['heuristique 5'][0].lower()
@@ -88,10 +90,31 @@ for  image  in data :
 	else :
 		for i in chaine2 : 
 			if i in chaine1:
-				resultat+=i+" "
-	if (len(resultat)>=len(chaine1)):
+				resultat+=1
+	if (resultat>=len(chaine1)/2):
 		cpt_heur+=1
 print (f"L'heuristique 5 est correcte à  : {(cpt_heur/cpt)*100:.2f} %")	
+
+#eval heuristique 2
+cpt12=0	
+cpt_heurs2=0
+for  image  in data :
+	resultat = 0
+	chaine1=data[image]['realLoc']['Nomreal'].lower()
+	if ('heuristique 2' in data[image] ):
+		cpt12+=1
+		chaine2=data[image] ['heuristique 2'][0].lower()
+
+	if(chaine1==chaine2):
+		cpt_heurs2+=1
+
+	else :
+		for i in chaine2 : 
+			if i in chaine1:
+				resultat+=1
+	if (resultat>=len(chaine1)/2):
+		cpt_heurs2+=1
+print (f"L'heuristique 2 est correcte à  : {(cpt_heurs2/cpt12)*100:.2f} %")	
 
 
 #eval heuristique country_cities

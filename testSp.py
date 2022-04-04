@@ -34,6 +34,7 @@ for i in data.copy():
 
 
 
+<<<<<<< HEAD
 """ for image in data:
         for i in data[image]['SpacyLoc']:
                 print(i)        
@@ -43,11 +44,11 @@ for i in data.copy():
 
 
 with open('fakeJson.json', 'w') as mon_fichier:
+=======
+with open('data.json', 'w') as mon_fichier:
+>>>>>>> 9665cdc9e017317e5d3ee0e1cf911317880ea1b7
     mon_fichier.write(json.dumps(data, indent=4))
 # Closing file     
-
-                                        
-# Closing file
 
 
 # Delete Images without Location
