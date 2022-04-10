@@ -115,7 +115,7 @@ let affichage = (data) => {
         const heuristiques = [];
 
             if(obj[key].hasOwnProperty('heuristique 2'))
-            {  heuristiques.push( [  obj [key]['heuristique 2'], 'id2' ] );
+            {  heuristiques.push( [  obj [key]['heuristique 2'][0]  , 'id2' ] );
                marker  (obj [key]['heuristique 2']  );
 
              }
@@ -128,7 +128,7 @@ let affichage = (data) => {
              }
             
             if(obj[key].hasOwnProperty('heuristique 5'))
-            {    heuristiques.push( [  obj [key]['heuristique 5'], 'id5' ] );
+            {    heuristiques.push( [  obj [key]['heuristique 5'][0] , 'id5' ] );
                  marker  (obj [key]['heuristique 5']  );
             }
 
@@ -150,6 +150,10 @@ let affichage = (data) => {
                 heuristiques.push([ obj [key]['resultat_Spacy'][0],'id8' ] );  
                 marker (obj [key]['resultat_Spacy'] );
               }
+
+              heuristiques.push(['Aucune','id8']);
+
+              
               const map =new Map(heuristiques);
               const tab = Array.from(map);
               console.log(tab);
@@ -158,8 +162,8 @@ let affichage = (data) => {
               const group = document.querySelector("#resultat_heuristique");
            
               group.innerHTML = tab.map( (tab) =>  `<div id = "inputGroup"> 
-                <input type="radio" name="size" value="${tab[0] }" id="${tab[1]}"   >
-                <label onclick="clickrealloc('${tab  [0] }')" for="${tab[0] }"> ${tab  [0] }</label>
+                <input type="radio" name="size" value="${tab[0] }" id="${tab[1]}">
+                <label  onclick="cbclick('${tab  [0] }', '${tab[1]}')" for="${tab[0] }"> ${tab  [0] }</label>
 
             </div>` 
             ).join(' ');
