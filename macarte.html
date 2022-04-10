@@ -26,10 +26,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         
 </head>
+<button name="button" id="button" value="before" onclick="confirmLoc();" >Click Me!</button>
 
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
          <div id ="resultat_heuristique"></div> 
+
+
+
 
 </body>
 <script type="text/javascript">
@@ -148,7 +152,6 @@ let affichage = (data) => {
               }
               const map =new Map(heuristiques);
               const tab = Array.from(map);
-              console.log(tab);
 
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
@@ -187,6 +190,8 @@ function cbclick(d,id)
 	          .addTo(map_a620533b73fc4a38880428953e8ae81f)
 	           .bindPopup("<p>"+obj [key][val][0]+" </p><img src = "+page_type+"  width='300' height='234' >")
 	           .openPopup(); 
+            //    change value of button
+                document.getElementById("button").value =obj [key][val];
               }else {     alert('coordonées introuvables');
                     }
 	        }
@@ -194,7 +199,13 @@ function cbclick(d,id)
      }
 }
 
-
+// Recuperer value of button
+function confirmLoc()
+{
+    loc = document.getElementById("button").value;
+    
+    console.log(loc)
+}
 
 
 function  image_heur(h ,pg )
