@@ -32,12 +32,6 @@
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"  ></div>
         <div id ="resultat_heuristique"   >  </div>
-        <?php
-    if(isset($_COOKIE['realloc'] )){
-        echo "Hello";
-        echo "{$_COOKIE['realloc']}";
-    } 
-?> 
    
 </body>
 
@@ -128,23 +122,6 @@ function marker(liste)
   createCookie("realloc", localStorage.getItem("realloc"), "1");
 });
 
-function createCookie(name, value, days) {
-  var expires;
-  if (days) {
-    var date = new Date();
-    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-    expires = "; expires=" + date.toGMTString();
-  }
-  else {
-    expires = "";
-  }
-  document.cookie = escape(name) + "=" + escape(value) + expires + "; path=/";
-}
-
- function clickrealloc (loc){
-     localStorage.setItem("realloc",loc);
-     console.log(localStorage.getItem("realloc")); 
- } 
 
 
 
@@ -180,9 +157,9 @@ let affichage = (data) => {
                  marker  (obj [key]['heuristique 5']  );
             }
 
-            if(obj[key]['heuristique_country_cities'] !== undefined)
+            if(obj[key].hasOwnProperty('heuristique_country_cities'))
             {
-                heuristiques.push([ obj [key]['heuristique_country_cities'], 'id6' ] );
+                heuristiques.push([ obj [key]['heuristique_country_cities'][0] , 'id6' ] );
                marker (obj[key]['heuristique_country_cities']);
                     
             } 
