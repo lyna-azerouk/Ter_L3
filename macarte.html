@@ -26,8 +26,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         
 </head>
-<button name="button" id="button" value="before" onclick="confirmLoc();" >Click Me!</button>
+<form action="http://localhost:8000/server" method='POST'>
+ 
+<input type= "submit" id="button" value = "before" >Click Me!
 
+</form>
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
          <div id ="resultat_heuristique"></div> 
@@ -115,11 +118,7 @@ let affichage = (data) => {
         const heuristiques = [];
 
             if(obj[key].hasOwnProperty('heuristique 2'))
-<<<<<<< HEAD
-            {  heuristiques.push( [  obj [key]['heuristique 2'][0]  , 'id2' ] );
-=======
             {  heuristiques.push( [  obj [key]['heuristique 2'][0], 'id2' ] );
->>>>>>> 27df94101b36f457f580b7d41a30394460df0718
                marker  (obj [key]['heuristique 2']  );
 
              }
@@ -132,11 +131,7 @@ let affichage = (data) => {
              }
             
             if(obj[key].hasOwnProperty('heuristique 5'))
-<<<<<<< HEAD
-            {    heuristiques.push( [  obj [key]['heuristique 5'][0] , 'id5' ] );
-=======
             {    heuristiques.push( [  obj [key]['heuristique 5'][0], 'id5' ] );
->>>>>>> 27df94101b36f457f580b7d41a30394460df0718
                  marker  (obj [key]['heuristique 5']  );
             }
 
@@ -169,13 +164,8 @@ let affichage = (data) => {
               const group = document.querySelector("#resultat_heuristique");
            
               group.innerHTML = tab.map( (tab) =>  `<div id = "inputGroup"> 
-<<<<<<< HEAD
-                <input type="radio" name="size" value="${tab[0] }" id="${tab[1]}">
-                <label  onclick="cbclick('${tab  [0] }', '${tab[1]}')" for="${tab[0] }"> ${tab  [0] }</label>
-=======
                 <input type="radio" name="size" value="${tab[0] }" id="${tab[1]}"   >
                 <label onclick="cbclick('${tab[0] }','${tab[1]}')" for="${tab[0] }"> ${tab[0] }</label>
->>>>>>> 27df94101b36f457f580b7d41a30394460df0718
 
             </div>` 
             ).join(' ');
@@ -216,11 +206,12 @@ function cbclick(d,id)
      }
 }
 
+
+
 // Recuperer value of button
 function confirmLoc()
 {
     loc = document.getElementById("button").value;
-    
     console.log(loc)
 }
 
