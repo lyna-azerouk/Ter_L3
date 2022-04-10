@@ -107,7 +107,6 @@ fetch("data.json")
 let affichage = (data) => {
     let stringData = JSON.stringify(data);
     let obj = JSON.parse(stringData) 
-  
     for (var key in obj) {
         var myDiv = document.getElementById("resultat_heuristique");
         if(obj[key]['url'] == page_type)
@@ -115,7 +114,7 @@ let affichage = (data) => {
         const heuristiques = [];
 
             if(obj[key].hasOwnProperty('heuristique 2'))
-            {  heuristiques.push( [  obj [key]['heuristique 2'], 'id2' ] );
+            {  heuristiques.push( [  obj [key]['heuristique 2'][0], 'id2' ] );
                marker  (obj [key]['heuristique 2']  );
 
              }
@@ -128,7 +127,7 @@ let affichage = (data) => {
              }
             
             if(obj[key].hasOwnProperty('heuristique 5'))
-            {    heuristiques.push( [  obj [key]['heuristique 5'], 'id5' ] );
+            {    heuristiques.push( [  obj [key]['heuristique 5'][0], 'id5' ] );
                  marker  (obj [key]['heuristique 5']  );
             }
 
