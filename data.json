@@ -86,12 +86,12 @@
             "-124.28994"
         ],
         "heuristique_country_cities": [
-            "United States,Brookings ",
-            "44.31136",
-            "-96.79839"
+            "Brookings Oregon United States",
+            "42.07511",
+            "-124.28994"
         ],
         "heuristique_adresse_LT": [
-            "Brookings, Oregon, United States",
+            "Brookings Oregon United States",
             "42.07511",
             "-124.28994"
         ],
@@ -420,9 +420,9 @@
             "Grinnell Lake Glacier National Park OC "
         ],
         "heuristique_country_cities": [
-            "United States,Lake ",
-            "29.99062",
-            "-82.36206"
+            "Lake Grinnell United States",
+            "37.46721",
+            "-118.85092"
         ],
         "resultat_Spacy": [
             "Grinnell Lake ",
@@ -494,7 +494,7 @@
             "-68.07473"
         ],
         "heuristique_country_cities": [
-            "United States,Maine ",
+            "Maine United States",
             "45.50032",
             "-69.24977"
         ],
@@ -677,7 +677,7 @@
             "Golden Palatinate Forest Palatinate Forest Germany IG "
         ],
         "heuristique_country_cities": [
-            "Slovenia,Ig ",
+            "Ig Slovenia",
             "45.93583",
             "14.51444"
         ],
@@ -816,7 +816,7 @@
             "-115.7635"
         ],
         "heuristique_country_cities": [
-            "Ireland,River ",
+            "River Ireland",
             "45.65928",
             "-122.37231"
         ],
@@ -952,7 +952,7 @@
             "Umauma Falls Hawaii "
         ],
         "heuristique_country_cities": [
-            "Germany,Falls ",
+            "Falls Germany",
             "44.55312",
             "-74.93964"
         ],
@@ -1062,7 +1062,7 @@
             "Death Valley Zabriskie Point "
         ],
         "heuristique_country_cities": [
-            "Germany,Valley ",
+            "Valley Germany",
             "38.78011",
             "-79.39477"
         ],
@@ -1214,7 +1214,7 @@
             "Drina River West Serbia "
         ],
         "heuristique_country_cities": [
-            "United States,West ",
+            "West United States",
             "51.52604",
             "-131.16073"
         ],
@@ -1351,7 +1351,7 @@
             "-106.40613"
         ],
         "heuristique_country_cities": [
-            "Canada,Emerald ",
+            "Emerald Canada",
             "47.91685",
             "-81.51653"
         ],
@@ -1512,7 +1512,7 @@
             "-78.3628"
         ],
         "heuristique_country_cities": [
-            "Brazil,Laguna ",
+            "Laguna Brazil",
             "-28.4825",
             "-48.78083"
         ],
@@ -1583,7 +1583,7 @@
             "Zion NP Utah "
         ],
         "heuristique_country_cities": [
-            "United States,Zion ",
+            "Zion United States",
             "37.29824",
             "-113.02644"
         ],
@@ -1738,12 +1738,12 @@
             "Kananaskis Country Alberta Canada "
         ],
         "heuristique_country_cities": [
-            "Canada,Kananaskis ",
+            "Kananaskis Canada",
             "51.07754",
             "-115.1223"
         ],
         "heuristique_adresse_LT": [
-            "Kananaskis, Alberta, Canada",
+            "Kananaskis Alberta Canada",
             "51.07754",
             "-115.1223"
         ],
@@ -1928,9 +1928,9 @@
             "Lands hydro Shawinigan Qu\u00e9bec Canada Misty Hills "
         ],
         "heuristique_country_cities": [
-            "United States,Canada ",
-            "82.41879",
-            "-67.99236"
+            "Canada Hills United States",
+            "36.45698",
+            "-105.13195"
         ],
         "resultat_Spacy": [
             "Qu\u00e9bec Canada ",
@@ -2010,9 +2010,9 @@
             "Fall Creek Falls Early Tennessee "
         ],
         "heuristique_country_cities": [
-            "United States,Tennessee ",
-            "35.8",
-            "-86.5"
+            "Tennessee Early United States",
+            "36.18283",
+            "-86.81805"
         ],
         "resultat_Spacy": [
             "Tennessee ",
@@ -2143,7 +2143,7 @@
             "Doris Lake Desolation Wilderness California "
         ],
         "heuristique_country_cities": [
-            "Mexico,California ",
+            "California Mexico",
             "25.83333",
             "-111.83333"
         ],
@@ -2298,7 +2298,7 @@
             "San Juan Cabo Mexico "
         ],
         "heuristique_country_cities": [
-            "Mexico,Mexico ",
+            "Mexico Mexico",
             "19.42847",
             "-99.12766"
         ],
@@ -2420,7 +2420,7 @@
             "Nevada Falls Yosemite NP California "
         ],
         "heuristique_country_cities": [
-            "Mexico,California ",
+            "California Mexico",
             "25.83333",
             "-111.83333"
         ],
@@ -2588,12 +2588,12 @@
             "-111.34836"
         ],
         "heuristique_country_cities": [
-            "Peru,Loreto ",
+            "Loreto Peru",
             "-4",
             "-74.5"
         ],
         "heuristique_adresse_LT": [
-            "Loreto, Baja California Sur, Mexico",
+            "Loreto Baja California Sur Mexico",
             "25.98919",
             "-111.34836"
         ],
@@ -2832,7 +2832,7 @@
             "-122.56729"
         ],
         "heuristique_country_cities": [
-            "Germany,Falls ",
+            "Falls Germany",
             "44.55312",
             "-74.93964"
         ],
@@ -2939,7 +2939,7 @@
             "Golden Light Half Dome Yosemite National Park CA USA "
         ],
         "heuristique_country_cities": [
-            "Japan,Usa ",
+            "Usa Japan",
             "33.53333",
             "131.33333"
         ],
@@ -3060,12 +3060,12 @@
             "-111.50098"
         ],
         "heuristique_country_cities": [
-            "Japan,Usa ",
+            "Usa Japan",
             "33.53333",
             "131.33333"
         ],
         "heuristique_adresse_LT": [
-            "Grand Canyon, Arizona, United States",
+            "Grand Canyon Arizona United States",
             "34.5003",
             "-111.50098"
         ],
@@ -3185,7 +3185,7 @@
             "OC Puebla Oaxaca Mexico "
         ],
         "heuristique_country_cities": [
-            "Mexico,Mexico ",
+            "Mexico Mexico",
             "19.42847",
             "-99.12766"
         ],
@@ -3274,7 +3274,7 @@
             "Yaquina Head Oregon OC "
         ],
         "heuristique_country_cities": [
-            "United States,Oregon ",
+            "Oregon United States",
             "44.00013",
             "-120.50139"
         ],
@@ -3568,7 +3568,7 @@
             "73.9104"
         ],
         "heuristique_country_cities": [
-            "Pakistan,Kashmir ",
+            "Kashmir Pakistan",
             "33.94718",
             "73.9104"
         ],
@@ -3707,7 +3707,7 @@
             "Mushroom Kingdom Redwood National Park California USA [ "
         ],
         "heuristique_country_cities": [
-            "Mexico,California ",
+            "California Mexico",
             "25.83333",
             "-111.83333"
         ],
