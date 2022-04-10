@@ -29,15 +29,10 @@
 </head>
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"  ></div>
-<<<<<<< HEAD
-        <div id ="resultat_heuristique"   >  </div>
-   
-=======
         <form  id="fr" > <button id="bt"  name="izan" type="submit"   value="hh" >  Confirmer </button>   </form>   
         
          <div id ="resultat_heuristique"   >  </div> 
         
->>>>>>> 851a5bf8ca4c169ac58d3ea5b6cf49c0b9be6c50
 </body>
 <script type="text/javascript">
     
@@ -102,14 +97,6 @@ function marker(liste)
 	}
 	}
 
-<<<<<<< HEAD
-    $(document).ready(function () {
-  createCookie("realloc", localStorage.getItem("realloc"), "1");
-});
-
-
-=======
->>>>>>> 851a5bf8ca4c169ac58d3ea5b6cf49c0b9be6c50
 
 
 fetch("data.json")
@@ -147,11 +134,7 @@ let affichage = (data) => {
 
             if(obj[key].hasOwnProperty('heuristique_country_cities'))
             {
-<<<<<<< HEAD
-                heuristiques.push([ obj [key]['heuristique_country_cities'][0] , 'id6' ] );
-=======
                 heuristiques.push([ obj [key]['heuristique_country_cities'][0], 'id6' ] );
->>>>>>> 851a5bf8ca4c169ac58d3ea5b6cf49c0b9be6c50
                marker (obj[key]['heuristique_country_cities']);
                     
             } 
