@@ -26,9 +26,6 @@ for text in data:
 		liste=geo_loc(str(adresse['Adresse'][0]))
 		data[text]['heuristique_adresse_LT']=[str(adresse['Adresse'][0])]+liste
         
-        	
-
-
 with open('data.json', 'w') as mon_fichier:
     mon_fichier.write(json.dumps(data, indent=4))
 
