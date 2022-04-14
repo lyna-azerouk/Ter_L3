@@ -30,6 +30,7 @@
         <button class = "submit" name = "my_button" value="before" id="button" >Click Me</button>
     </form>
 
+</form>
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
          <div id ="resultat_heuristique"></div> 
@@ -181,6 +182,10 @@ let affichage = (data) => {
                 heuristiques.push([ obj [key]['resultat_Spacy'][0],'id8' ] );  
                 marker (obj [key]['resultat_Spacy'] );
               }
+
+              heuristiques.push(['Aucune','id8']);
+
+              
               const map =new Map(heuristiques);
               const tab = Array.from(map);
 
