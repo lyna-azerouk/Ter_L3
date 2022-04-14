@@ -45,7 +45,7 @@ let myFile = (data) => {
             $("#images").append($("<a>", 
                 {
                     target:"_blank",
-                    href: "macarte.html?ul="+obj[key]['url'], 
+                    href: "macarte.php?ul="+obj[key]['url'], 
                     html: $("<img>", { src: obj[key]['url'] })
                 }));
         }

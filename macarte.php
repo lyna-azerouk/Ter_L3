@@ -26,16 +26,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         
 </head>
-<button name="button" id="button" value="before" onclick="confirmLoc();" >Click Me!</button>
+    <form action="macarte.php" method="POST">
+        <button class = "submit" name = "my_button" value="before" id="button" >Click Me</button>
+    </form>
 
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
          <div id ="resultat_heuristique"></div> 
-
-
-
-
+ 
 </body>
+<?php 
+
+$url = "";
+$value = "";
+    if(isset($_GET["ul"]))
+    {
+        $url = $_GET["ul"];
+
+    }
+
+    if(isset($_POST["my_button"]))
+    {
+        $value = $_POST["my_button"];
+
+    }
+    $myfile = fopen("teste.txt", "a") or die("Unable to open file!");
+    if(!empty($url))
+    {
+        fwrite($myfile, "{");
+        fwrite($myfile, $url);
+        fwrite($myfile, " ");
+    }
+    if(!empty($value))
+    {
+        fwrite($myfile, $value);
+        fwrite($myfile, "}");
+        fwrite($myfile, "\n");
+    }
+    fclose($myfile);
+    
+
+?>
 <script type="text/javascript">
     
             var map_a620533b73fc4a38880428953e8ae81f = L.map(
@@ -198,15 +229,6 @@ function cbclick(d,id)
     }
      }
 }
-
-// Recuperer value of button
-function confirmLoc()
-{
-    loc = document.getElementById("button").value;
-    
-    console.log(loc)
-}
-
 
 function  image_heur(h ,pg )
 {  
