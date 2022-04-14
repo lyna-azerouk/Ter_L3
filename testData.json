@@ -1,0 +1,219 @@
+{
+    "image0": {
+        "title": "Brookings, Oregon [OC] [5304x7952]",
+        "url": "https://i.redd.it/vy9zmnl2t1h81.jpg",
+        "SpacyLoc": [
+            [
+                "Oregon",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Oregon",
+                    "Brookings"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Oregon",
+                        "Brookings"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Illinois": [
+                        "Oregon"
+                    ],
+                    "Ohio": [
+                        "Oregon"
+                    ],
+                    "Wisconsin": [
+                        "Oregon"
+                    ],
+                    "Oregon": [
+                        "Brookings"
+                    ],
+                    "South Dakota": [
+                        "Brookings"
+                    ],
+                    "Missouri": [
+                        "Oregon"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Oregon",
+                        1
+                    ],
+                    [
+                        "Brookings",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": [
+                    "Brookings, Oregon, United States"
+                ]
+            }
+        ],
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 1": "Oregon",
+        "heuristique 5": [
+            "Brookings Oregon ",
+            "42.07511",
+            "-124.28994"
+        ],
+        "heuristique_country_cities": [
+            "Brookings Oregon United States",
+            "42.07511",
+            "-124.28994"
+        ],
+        "heuristique_adresse_LT": [
+            "Brookings Oregon United States",
+            "42.07511",
+            "-124.28994"
+        ],
+        "resultat_Spacy": [
+            "Oregon ",
+            "44.00013",
+            "-120.50139"
+        ],
+        "realLoc": {
+            "Nomreal": "Brookings",
+            "Latitude": "Oregon",
+            "Longitude": "42.07511"
+        }
+    },
+    "image1": {
+        "title": "Truly earth porn at the Wave in Vermilion Cliffs National Monument, Arizona [OC] [1328x2000]",
+        "url": "https://i.redd.it/nkyv3iqmy3h81.jpg",
+        "SpacyLoc": [
+            [
+                "Truly",
+                "GPE"
+            ],
+            [
+                "Arizona",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "heuristique 2": [
+            "Arizona",
+            "34.5003",
+            "-111.50098"
+        ],
+        "Ordre": [
+            "GPE",
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 5": [
+            "Wave Vermilion Cliffs National Monument Arizona "
+        ],
+        "resultat_Spacy": [
+            "Truly Arizona "
+        ],
+        "realLoc": {
+            "Nomreal": "Arizona",
+            "Latitude": "34.5003",
+            "Longitude": "-111.50098"
+        }
+    },
+    "image2": {
+        "title": "Cattails at the evening hour, southern Germany [OC] [5184x3703]",
+        "url": "https://i.redd.it/4inca30n73h81.jpg",
+        "SpacyLoc": [
+            [
+                "Germany",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Germany"
+                ]
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Germany",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "TIME",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 1": "Germany",
+        "heuristique 5": [
+            "Germany ",
+            "51.5",
+            "10.5"
+        ],
+        "resultat_Spacy": [
+            "Germany ",
+            "51.5",
+            "10.5"
+        ]
+    }
+}
