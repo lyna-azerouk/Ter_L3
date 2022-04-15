@@ -26,14 +26,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         
 </head>
-    <form action="macarte.php" method="POST">
-        <button class = "submit" name = "my_button" value="before" id="button" >Click Me</button>
-    </form>
+
+
 
 </form>
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
          <div id ="resultat_heuristique"></div> 
+         <form action="macarte.php" method="POST">
+        <button class = "submit" name = "my_button" value="before" id="button" >Confirmer</button>
+    </form>
  
 </body>
 <?php 
@@ -186,7 +188,7 @@ let affichage = (data) => {
                 marker (obj [key]['resultat_Spacy'] );
               }
 
-              heuristiques.push(['Aucune','id8']);
+              heuristiques.push(['Aucune','id9']);
 
               
               const map =new Map(heuristiques);
@@ -195,11 +197,22 @@ let affichage = (data) => {
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
            
-              group.innerHTML = tab.map( (tab) =>  `<div id = "inputGroup"> 
-                <input type="radio" name="size" value="${tab[0] }" id="${tab[1]}"   >
-                <label onclick="cbclick('${tab[0] }','${tab[1]}')" for="${tab[0] }"> ${tab[0] }</label>
+              group.innerHTML = tab.map( (tab) =>  ` <div id="inputGroup"> 
+              <div id="${tab[1]}" style = "
+    position: absolute; 
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    right: 60px;
+    z-index:2;
+    margin-top: 9px;
 
-            </div>` 
+    "> </div> 
+
+
+                <input type="radio" name="size" value="${tab[0] }" id="${tab[1]}"   >
+                <label onclick="cbclick('${tab[0] }','${tab[1]}')" for="${tab[0] }"> ${tab[0] }</label> 
+            </div>`
             ).join(' ');
          
          }

@@ -11,9 +11,10 @@
 
     }
     input {
-        position: absolute;
+        margin-top: 20px;
         width:50%;
         left: -9999px;
+        position: absolute;
         }
     
     #resultat_heuristique {
@@ -21,42 +22,26 @@
         position: absolute;
         width: 30%;
     }
-     button{
-        background:#1AAB8A;
-        color:#fff;
-        border:none;
-        position:relative;
-        height:60px;
-        font-size:1.6em;
-        padding:0 2em;
-        cursor:pointer;
-        transition:800ms ease all;
-        outline:none;
-      }
-      button:hover{
-        background:#fff;
-        color:#1AAB8A;
-      }
-      button:before,button:after{
-        content:'';
-        position:absolute;
-        top:0;
-        right:0;
-        height:2px;
-        width:0;
-        background: #1AAB8A;
-        transition:400ms ease all;
-      }
-      button:after{
-        right:inherit;
-        top:inherit;
-        left:0;
-        bottom:0;
-      }
-      button:hover:before,button:hover:after{
-        width:100%;
-        transition:800ms ease all;
-      }
+    button{
+      background:rgb(4, 160, 25);;
+      color:#fff;
+      border:none;
+      position:relative;
+      height:60px;
+      width:120px;
+      font-size:1.6em;
+      border-radius: 10px;
+      cursor:pointer;
+      transition:800ms ease all;
+      outline:none;
+      left:120px;
+      top:295px;
+    }
+    button:hover{
+      background:#fff;
+      color:#1AAB8A;
+    }
+
    
     label {
     display: block;
@@ -67,7 +52,7 @@
     border: 1px solid white;
     border-radius: 100px;
     color: black;
-    background-color: #E59866;
+    background-color: #e4dfdc;
     white-space: nowrap;
     cursor: pointer;
     user-select: none;
@@ -82,7 +67,7 @@
     }
 
     input:checked + label {
-    background-color: #DC7633 ;
+    background-color: #dbd9d7 ;
     }
 
     input:checked + label::before {
@@ -93,7 +78,44 @@
         color: black;
         font-weight:bold;
     }
-    
-   
+    /*#id5{ 
+      background-color: #0a9e0a;
+      height: 50px;
+      padding-bottom: 5px;
+      border-radius: 100px;
+      border: #0a9e0a;
+      
+    }
+    #id7{ 
+      background-color: #ce0909;
+      height: 50px;
+      padding-bottom: 5px;
+      border-radius: 100px;
+      
+    }
+*/
+#id7{
+  background: rgb(57 227 80);
+}
+#id6{
+  background: rgb(4, 160, 25);
+}
+#id5{
+  background: rgb(4 175 26);
+}
+#id8{
+  background: rgb(10 86 20);
+}
+#id3{
+  background: rgb(238, 108, 22);
+}
+#id2{
+  background: rgb(177, 69, 6);
+}
+#id9{
+  background: rgb(201, 1, 1);
+}
 
+
+   
 
