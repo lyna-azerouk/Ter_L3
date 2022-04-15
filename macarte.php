@@ -1,8 +1,5 @@
-
-
 <!DOCTYPE html>
 <head>
-<script src="js/FileSaver.js"></script>    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
         <script>
@@ -29,18 +26,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         
 </head>
-<body>    
-        <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"  ></div>
-        <div id ="resultat_heuristique"   >  </div>
-        <?php
-    if(isset($_COOKIE['realloc'] )){
-        echo "Hello";
-        echo "{$_COOKIE['realloc']}";
-    } 
-?> 
-   
-</body>
 
+
+
+</form>
+<body>    
+        <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
+         <div id ="resultat_heuristique"></div> 
+         <form action="macarte.php" method="POST">
+            <button class = "submit" name = "my_button" value="before" id="button" >Confirmer</button>
+        </form>
+ 
+</body>
+<?php 
+
+$url = "";
+$value = "";
+    if(isset($_GET["ul"]))
+    {
+        $url = $_GET["ul"];
+
+    }
+
+    if(isset($_POST["my_button"]))
+    {
+
+        $value = $_POST["my_button"];
+
+    }
+    $myfile = fopen("teste.txt", "a") or die("Unable to open file!");
+    if(!empty($url))
+    {
+        fwrite($myfile, "{");
+        fwrite($myfile, $url);
+        fwrite($myfile, " ");
+    }
+    if(!empty($value))
+    {
+        fwrite($myfile, $value);
+        fwrite($myfile, "}");
+        fwrite($myfile, "\n");
+        $command = escapeshellcmd(' C:/Users/DUALCOMPUTER/Anaconda2/envs/TER-env/python.exe c:/xampp/htdocs/projet_ter_2022/majvalid.py');
+        $output = shell_exec($command);
+    }
+    fclose($myfile);
+    
+
+?>
 <script type="text/javascript">
     
             var map_a620533b73fc4a38880428953e8ae81f = L.map(
@@ -65,26 +97,6 @@
             
 
 
-fetch("data.json")
-.then(response => {
-   return response.json();
-})
-.then(data => myFile(data) )
-let myFile = (data) => {
-    let stringData = JSON.stringify(data);
-    let obj = JSON.parse(stringData) 
-     for (var key in obj )
-{         if (obj[key] ['url'] == page_type &&     obj[key].hasOwnProperty('realLoc') )
-        {
-            // var marker = L.marker([obj [key]['realLoc']['Latitude'], obj [key]['realLoc'] ['Longitude'] ])
-           // .addTo(map_a620533b73fc4a38880428953e8ae81f)
-           // .bindPopup("<p>"+obj [key]['realLoc']['Nomreal']+" </p><img src = "+page_type+"  width='300' height='234' >")
-            //.openPopup(); 
-          
-            
-        }
-}   
-}
 
 function createRadioElement(name, checked) {
     var radioHtml = '<input type="radio" name="' + name + '"';
@@ -98,7 +110,6 @@ function createRadioElement(name, checked) {
 
     return radioFragment.firstChild;
 }
-
 
 
 function marker(liste)
@@ -124,28 +135,6 @@ function marker(liste)
 	}
 	}
 
-    $(document).ready(function () {
-  createCookie("realloc", localStorage.getItem("realloc"), "1");
-});
-
-function createCookie(name, value, days) {
-  var expires;
-  if (days) {
-    var date = new Date();
-    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-    expires = "; expires=" + date.toGMTString();
-  }
-  else {
-    expires = "";
-  }
-  document.cookie = escape(name) + "=" + escape(value) + expires + "; path=/";
-}
-
- function clickrealloc (loc){
-     localStorage.setItem("realloc",loc);
-     console.log(localStorage.getItem("realloc")); 
- } 
-
 
 
 fetch("data.json")
@@ -156,33 +145,33 @@ fetch("data.json")
 let affichage = (data) => {
     let stringData = JSON.stringify(data);
     let obj = JSON.parse(stringData) 
-  
     for (var key in obj) {
         var myDiv = document.getElementById("resultat_heuristique");
         if(obj[key]['url'] == page_type)
         {
         const heuristiques = [];
 
-            if(obj[key]['heuristique 2'] !== undefined)
-            {  heuristiques.push( [  obj [key]['heuristique 2'], 'id2' ] );
+            if(obj[key].hasOwnProperty('heuristique 2'))
+            {  heuristiques.push( [  obj [key]['heuristique 2'][0], 'id2' ] );
                marker  (obj [key]['heuristique 2']  );
+
              }
               
 
-            if(obj[key]['heuristique3_adresse'] !== undefined)
-            {    heuristiques.push( [  obj [key]['heuristique3_adresse'], 'id3' ] );
+            if(obj[key].hasOwnProperty('heuristique3_adresse'))
+            {    heuristiques.push( [  obj [key]['heuristique3_adresse'][0], 'id3' ] );
                  marker  (obj [key]['heuristique3_adresse']  );
                  
              }
             
-            if(obj[key]['heuristique 5'] !== undefined)
-            {    heuristiques.push( [  obj [key]['heuristique 5'], 'id5' ] );
+            if(obj[key].hasOwnProperty('heuristique 5'))
+            {    heuristiques.push( [  obj [key]['heuristique 5'][0], 'id5' ] );
                  marker  (obj [key]['heuristique 5']  );
             }
 
-            if(obj[key]['heuristique_country_cities'] !== undefined)
+            if(obj[key].hasOwnProperty('heuristique_country_cities'))
             {
-                heuristiques.push([ obj [key]['heuristique_country_cities'], 'id6' ] );
+                heuristiques.push([ obj [key]['heuristique_country_cities'][0], 'id6' ] );
                marker (obj[key]['heuristique_country_cities']);
                     
             } 
@@ -197,20 +186,32 @@ let affichage = (data) => {
             {
                 heuristiques.push([ obj [key]['resultat_Spacy'][0],'id8' ] );  
                 marker (obj [key]['resultat_Spacy'] );
-              
-                   
-            }
-                const map =new Map(heuristiques);
-                const tab = Array.from(map);
-                console.log(tab);
+              }
+
+              heuristiques.push(['Aucune','id9']);
+
+              const map =new Map(heuristiques);
+              const tab = Array.from(map);
+
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
            
-                group.innerHTML = tab.map( (tab) =>  `<div id = "inputGroup"> 
-                <input type="radio" name="size" value="${tab[0] }" id="${tab[1]}"   >
-                <label onclick="clickrealloc('${tab  [0] }')" for="${tab[0] }"> ${tab  [0] }</label>
+              group.innerHTML = tab.map( (tab) =>  ` <div id="inputGroup"> 
+              <div id="${tab[1]}" style = "
+    position: absolute; 
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    right: 60px;
+    z-index:2;
+    margin-top: 9px;
 
-            </div>` 
+    "> </div> 
+
+
+                <input type="radio" name="size" value="${tab[0] }" id="${tab[1]}"   >
+                <label onclick="cbclick('${tab[0] }','${tab[1]}')" for="${tab[0] }"> ${tab[0] }</label> 
+            </div>`
             ).join(' ');
          
          }
@@ -235,22 +236,73 @@ function cbclick(d,id)
         
 
            if (obj[key] ['url'] == page_type )
-	        {    
-	          var marker = L.marker([obj [key][val][1], obj [key][val] [2] ])
+	        {  if ( obj [key][val].length ==3)  
+	          { var marker = L.marker([obj [key][val][1], obj [key][val] [2] ])
 	          .addTo(map_a620533b73fc4a38880428953e8ae81f)
 	           .bindPopup("<p>"+obj [key][val][0]+" </p><img src = "+page_type+"  width='300' height='234' >")
 	           .openPopup(); 
-	           
-	                                                                    
-	            }
+            //    change value of button
+                document.getElementById("button").value =obj [key][val];
+              }else {     alert('coordonées introuvables');
+                    }
+	        }
     }
-                                                         
-         
-                                                       }
+     }
+}
+
+function  image_heur(h ,pg )
+{  
+var marker = L.marker([h[1], h[2] ])
+              .addTo(map_a620533b73fc4a38880428953e8ae81f)
+               .bindPopup("<p>"+h[0]+" </p><img src = "+pg+"  width='300' height='234' >")
+               .openPopup();  
+console.log(h[1]);
+document.getElementById("button").value =h[0]+","+h[1]+","+h[2];
+}
+fetch("data.json")
+.then(response => {
+   return response.json();
+})
+.then(data => myFile(data) )
+let myFile = (data) => {
+    let stringData = JSON.stringify(data);
+    let obj = JSON.parse(stringData) 
+     for (var key in obj )
+{         if (obj[key] ['url'] == page_type  )
+        {     if ( obj[key]['heuristique_adresse_LT'] !== undefined &&  obj [key]['heuristique_adresse_LT'].length==3  )
+              {
+                 image_heur( obj [key]['heuristique_adresse_LT']  ,page_type);
+              }
+              else { if (obj[key]['heuristique 5'] !== undefined &&  obj [key]['heuristique 5'].length==3 )
+                    {  
+                           image_heur(obj [key]['heuristique 5'],page_type);
+                    }
+                    else
+                     {  if(obj[key].hasOwnProperty('heuristique_country_cities') && obj [key]['heuristique_country_cities'].length==3  )
+                           {
+                             image_heur(obj [key]['heuristique_country_cities'],page_type);    
+                           }
+                           else {
+                                   if (obj [key].hasOwnProperty('resultat_Spacy') && obj [key]['resultat_Spacy'].length==3)
+                                    {
+                                        image_heur( obj [key]['resultat_Spacy'],page_type );  
+                                    }else 
+                                    {  if (obj [key].hasOwnProperty('heuristique3_adresse') && obj [key]['heuristique3_adresse'].length==3)
+                                        {
+                                           image_heur( obj [key]['heuristique3_adresse'],page_type);  
+                                         }else{
+                                             if (obj [key].hasOwnProperty('heuristique 2') && obj [key]['heuristique 2'].length==3)
+                                             {
+                                                image_heur( obj [key]['heuristique 2'],page_type); 
+                                             }
+                                         }
+                                     }
+                                 }
+                    }
+                    }
+}   
+}
 }
   
                
-
-
-
 </script>
