@@ -67,7 +67,7 @@
     border: 1px solid white;
     border-radius: 100px;
     color: black;
-    background-color: #E59866;
+    background-color: #fafafa;
     white-space: nowrap;
     cursor: pointer;
     user-select: none;
@@ -82,7 +82,7 @@
     }
 
     input:checked + label {
-    background-color: #DC7633 ;
+    background-color: #e0e0e0 ;
     }
 
     input:checked + label::before {
