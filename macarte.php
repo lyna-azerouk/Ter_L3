@@ -27,15 +27,25 @@
         
 </head>
 
-    <!-- <form action="macarte.php" method="POST">
-        <button class = "submit" name = "my_button" value="before" id="button" >Click Me</button>
-    </form> -->
+      
 
+    <div id="cercle" style = "
+    position: absolute; 
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: green;
+    right: 100px;
+    bottom : 900px;
+    z-index:2;
+    "> </div>
 </form>
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
          <div id ="resultat_heuristique"></div> 
-
+<form action="macarte.php" method="POST">
+        <button class = "submit" name = "my_button" value="before" id="button" >Click Me</button>
+    </form>
 
  
 </body>

@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+"image1": {
+=======
 {
     "image0": {
         "title": "Brookings, Oregon [OC] [5304x7952]",
@@ -102,6 +105,7 @@
         }
     },
     "image1": {
+>>>>>>> 22399ba2a4eeaf4963812dc01683db28c2893bdc
         "title": "Truly earth porn at the Wave in Vermilion Cliffs National Monument, Arizona [OC] [1328x2000]",
         "url": "https://i.redd.it/nkyv3iqmy3h81.jpg",
         "SpacyLoc": [
@@ -154,66 +158,5 @@
         "resultat_Spacy": [
             "Truly Arizona "
         ],
-        "realLoc": {
-            "Nomreal": "Arizona",
-            "Latitude": "34.5003",
-            "Longitude": "-111.50098"
-        }
+        
     },
-    "image2": {
-        "title": "Cattails at the evening hour, southern Germany [OC] [5184x3703]",
-        "url": "https://i.redd.it/4inca30n73h81.jpg",
-        "SpacyLoc": [
-            [
-                "Germany",
-                "GPE"
-            ]
-        ],
-        "LocationTagger": [
-            {
-                "Countries": [
-                    "Germany"
-                ]
-            },
-            {
-                "Cities": []
-            },
-            {
-                "Country_Cities": {}
-            },
-            {
-                "Region_Cities": {}
-            },
-            {
-                "Country_mentions": [
-                    [
-                        "Germany",
-                        1
-                    ]
-                ]
-            },
-            {
-                "Citiy_mentions": []
-            },
-            {
-                "Adresse": []
-            }
-        ],
-        "Ordre": [
-            "TIME",
-            "GPE",
-            "CARDINAL"
-        ],
-        "heuristique 1": "Germany",
-        "heuristique 5": [
-            "Germany ",
-            "51.5",
-            "10.5"
-        ],
-        "resultat_Spacy": [
-            "Germany ",
-            "51.5",
-            "10.5"
-        ]
-    }
-}

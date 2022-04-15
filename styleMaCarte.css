@@ -27,17 +27,20 @@
         border:none;
         position:relative;
         height:60px;
+        width:120px;
         font-size:1.6em;
-        padding:0 2em;
+        
         cursor:pointer;
         transition:800ms ease all;
         outline:none;
+        left:120px;
+        top:295px;
       }
       button:hover{
         background:#fff;
         color:#1AAB8A;
       }
-      button:before,button:after{
+      /* button:before,button:after{
         content:'';
         position:absolute;
         top:0;
@@ -52,12 +55,18 @@
         top:inherit;
         left:0;
         bottom:0;
-      }
-      button:hover:before,button:hover:after{
+      } */
+      /* button:hover:before,button:hover:after{
         width:100%;
         transition:800ms ease all;
-      }
+      } */
    
+      #cercle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: green;
+}
     label {
     display: block;
     position: relative;
