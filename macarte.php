@@ -48,6 +48,7 @@ $value = "";
 
     if(isset($_POST["my_button"]))
     {
+
         $value = $_POST["my_button"];
 
     }
@@ -63,6 +64,8 @@ $value = "";
         fwrite($myfile, $value);
         fwrite($myfile, "}");
         fwrite($myfile, "\n");
+        $command = escapeshellcmd(' C:/Users/DUALCOMPUTER/Anaconda2/envs/TER-env/python.exe c:/xampp/htdocs/projet_ter_2022/majvalid.py');
+        $output = shell_exec($command);
     }
     fclose($myfile);
     
