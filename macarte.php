@@ -29,6 +29,7 @@
 
 
 
+</form>
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
          <div id ="resultat_heuristique"></div> 
@@ -256,6 +257,7 @@ var marker = L.marker([h[1], h[2] ])
                .bindPopup("<p>"+h[0]+" </p><img src = "+pg+"  width='300' height='234' >")
                .openPopup();  
 console.log(h[1]);
+document.getElementById("button").value =h[0]+","+h[1]+","+h[2];
 }
 fetch("data.json")
 .then(response => {
@@ -267,9 +269,9 @@ let myFile = (data) => {
     let obj = JSON.parse(stringData) 
      for (var key in obj )
 {         if (obj[key] ['url'] == page_type  )
-        {     if ( obj[key]['heuristique3_adresse'] !== undefined &&  obj [key]['heuristique3_adresse'].length==3  )
+        {     if ( obj[key]['heuristique_adresse_LT'] !== undefined &&  obj [key]['heuristique_adresse_LT'].length==3  )
               {
-                 image_heur( obj [key]['heuristique3_adresse']  ,page_type);
+                 image_heur( obj [key]['heuristique_adresse_LT']  ,page_type);
               }
               else { if (obj[key]['heuristique 5'] !== undefined &&  obj [key]['heuristique 5'].length==3 )
                     {  
@@ -281,13 +283,18 @@ let myFile = (data) => {
                              image_heur(obj [key]['heuristique_country_cities'],page_type);    
                            }
                            else {
-                                   if (obj [key].hasOwnProperty('heuristique_adresse_LT') && obj [key]['heuristique_adresse_LT'].length==3)
+                                   if (obj [key].hasOwnProperty('resultat_Spacy') && obj [key]['resultat_Spacy'].length==3)
                                     {
-                                        image_heur( obj [key]['heuristique_adresse_LT'],page_type );  
+                                        image_heur( obj [key]['resultat_Spacy'],page_type );  
                                     }else 
-                                    {  if (obj [key].hasOwnProperty('resultat_Spacy') && obj [key]['resultat_Spacy'].length==3)
+                                    {  if (obj [key].hasOwnProperty('heuristique3_adresse') && obj [key]['heuristique3_adresse'].length==3)
                                         {
-                                           image_heur( obj [key]['resultat_Spacy'],page_type);  
+                                           image_heur( obj [key]['heuristique3_adresse'],page_type);  
+                                         }else{
+                                             if (obj [key].hasOwnProperty('heuristique 2') && obj [key]['heuristique 2'].length==3)
+                                             {
+                                                image_heur( obj [key]['heuristique 2'],page_type); 
+                                             }
                                          }
                                      }
                                  }

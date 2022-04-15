@@ -3,6 +3,7 @@
     width: 100%;
     height: 100px;
     text-align: center;
+    
 
 }
 #images{
@@ -12,6 +13,7 @@
 
 h1{
         padding: 20px; /* Important */
+        
       }
 
 img {
