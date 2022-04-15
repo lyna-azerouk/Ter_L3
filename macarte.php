@@ -44,7 +44,7 @@
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
          <div id ="resultat_heuristique"></div> 
 <form action="macarte.php" method="POST">
-        <button class = "submit" name = "my_button" value="before" id="button" >Click Me</button>
+        <button class = "submit" name = "my_button" value="before" id="button" >Confirmer</button>
     </form>
 
  
@@ -217,6 +217,7 @@ let affichage = (data) => {
     background: green;
     right: 100px;
     z-index:2;
+    margin-top:5px;
     "> </div> 
                 <input type="radio" name="size" value="${tab[0] }" id="${tab[1]}"   >
                 <label onclick="cbclick('${tab[0] }','${tab[1]}')" for="${tab[0] }"> ${tab[0] }</label>
