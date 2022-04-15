@@ -29,7 +29,6 @@
 
 
 
-</form>
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
          <div id ="resultat_heuristique"></div> 
