@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-"image1": {
-=======
 {
     "image0": {
         "title": "Brookings, Oregon [OC] [5304x7952]",
@@ -98,65 +95,6 @@
             "44.00013",
             "-120.50139"
         ],
-        "realLoc": {
-            "Nomreal": "https://i.redd.it/vy9zmnl2t1h81.jpg",
-            "Latitude": "https://i.redd.it/vy9zmnl2t1h81.jpg",
-            "Longitude": "https://i.redd.it/vy9zmnl2t1h81.jpg"
-        }
-    },
-    "image1": {
->>>>>>> 22399ba2a4eeaf4963812dc01683db28c2893bdc
-        "title": "Truly earth porn at the Wave in Vermilion Cliffs National Monument, Arizona [OC] [1328x2000]",
-        "url": "https://i.redd.it/nkyv3iqmy3h81.jpg",
-        "SpacyLoc": [
-            [
-                "Truly",
-                "GPE"
-            ],
-            [
-                "Arizona",
-                "GPE"
-            ]
-        ],
-        "LocationTagger": [
-            {
-                "Countries": []
-            },
-            {
-                "Cities": []
-            },
-            {
-                "Country_Cities": {}
-            },
-            {
-                "Region_Cities": {}
-            },
-            {
-                "Country_mentions": []
-            },
-            {
-                "Citiy_mentions": []
-            },
-            {
-                "Adresse": []
-            }
-        ],
-        "heuristique 2": [
-            "Arizona",
-            "34.5003",
-            "-111.50098"
-        ],
-        "Ordre": [
-            "GPE",
-            "ORG",
-            "GPE",
-            "CARDINAL"
-        ],
-        "heuristique 5": [
-            "Wave Vermilion Cliffs National Monument Arizona "
-        ],
-        "resultat_Spacy": [
-            "Truly Arizona "
-        ],
-        
-    },
+        "aucun": {}
+    }
+}

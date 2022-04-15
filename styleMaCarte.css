@@ -79,43 +79,28 @@
         color: black;
         font-weight:bold;
     }
-    /*#id5{ 
-      background-color: #0a9e0a;
-      height: 50px;
-      padding-bottom: 5px;
-      border-radius: 100px;
-      border: #0a9e0a;
-      
+    
+    #id7{
+      background: rgb(57 227 80);
     }
-    #id7{ 
-      background-color: #ce0909;
-      height: 50px;
-      padding-bottom: 5px;
-      border-radius: 100px;
-      
+    #id6{
+      background: rgb(4, 160, 25);
     }
-*/
-#id7{
-  background: rgb(57 227 80);
-}
-#id6{
-  background: rgb(4, 160, 25);
-}
-#id5{
-  background: rgb(4 175 26);
-}
-#id8{
-  background: rgb(10 86 20);
-}
-#id3{
-  background: rgb(238, 108, 22);
-}
-#id2{
-  background: rgb(177, 69, 6);
-}
-#id9{
-  background: rgb(201, 1, 1);
-}
+    #id5{
+      background: rgb(4 175 26);
+    }
+    #id8{
+      background: rgb(10 86 20);
+    }
+    #id3{
+      background: rgb(238, 108, 22);
+    }
+    #id2{
+      background: rgb(177, 69, 6);
+    }
+    #id9{
+      background: rgb(201, 1, 1);
+    }
 
 
    

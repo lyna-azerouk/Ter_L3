@@ -189,7 +189,6 @@ let affichage = (data) => {
 
               heuristiques.push(['Aucune','id9']);
 
-              
               const map =new Map(heuristiques);
               const tab = Array.from(map);
 
@@ -273,7 +272,7 @@ let myFile = (data) => {
                  image_heur( obj [key]['heuristique3_adresse']  ,page_type);
               }
               else { if (obj[key]['heuristique 5'] !== undefined &&  obj [key]['heuristique 5'].length==3 )
-                    {  console.log("je uis ici ");
+                    {  
                            image_heur(obj [key]['heuristique 5'],page_type);
                     }
                     else
