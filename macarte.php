@@ -34,8 +34,8 @@
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
          <div id ="resultat_heuristique"></div> 
          <form action="macarte.php" method="POST">
-        <button class = "submit" name = "my_button" value="before" id="button" >Confirmer</button>
-    </form>
+            <button class = "submit" name = "my_button" value="before" id="button" >Confirmer</button>
+        </form>
  
 </body>
 <?php 
