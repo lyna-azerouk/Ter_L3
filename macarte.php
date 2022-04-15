@@ -27,13 +27,26 @@
         
 </head>
 
+      
+
+    <div id="cercle" style = "
+    position: absolute; 
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: green;
+    right: 100px;
+    bottom : 900px;
+    z-index:2;
+    "> </div>
+</form>
 <body>    
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
          <div id ="resultat_heuristique"></div> 
-         <form action="macarte.php" method="POST">
-        <button class = "submit" name = "my_button" value="before" id="button" >Confirmer</button>
+<form action="macarte.php" method="POST">
+        <button class = "submit" name = "my_button" value="before" id="button" >Click Me</button>
     </form>
-    
+
  
 </body>
 <?php 
@@ -48,6 +61,7 @@ $value = "";
 
     if(isset($_POST["my_button"]))
     {
+
         $value = $_POST["my_button"];
 
     }
@@ -63,6 +77,8 @@ $value = "";
         fwrite($myfile, $value);
         fwrite($myfile, "}");
         fwrite($myfile, "\n");
+        $command = escapeshellcmd(' C:/Users/DUALCOMPUTER/Anaconda2/envs/TER-env/python.exe c:/xampp/htdocs/projet_ter_2022/majvalid.py');
+        $output = shell_exec($command);
     }
     fclose($myfile);
     
