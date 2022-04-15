@@ -1,59 +1,105 @@
 #map_a620533b73fc4a38880428953e8ae81f {
-    position: relative;
-    width: 70.0%;
-    height: 100.0%;
-    left: 0.0%;
-    top: 0.0%;
-    float: left;
-    }
-    html{
-    font-family: 'Questrial', sans-serif;
+  position: relative;
+  width: 70.0%;
+  height: 100.0%;
+  left: 0.0%;
+  top: 0.0%;
+  float: left;
+  }
+  html{
+  font-family: 'Questrial', sans-serif;
 
-    }
-    input {
-        position: absolute;
-        width:50%;
-        left: -9999px;
-        }
-    
-    #resultat_heuristique {
-        display:inline-block;
-        position: absolute;
-        width: 30%;
-    }
-   
-    label {
-    display: block;
-    position: relative;
-    margin: 20px;
-    height:50px;
-    padding: 10px 10px 10px 10px;
-    border: 1px solid white;
-    border-radius: 100px;
-    color: black;
-    background-color: #E59866;
-    white-space: nowrap;
-    cursor: pointer;
-    user-select: none;
-    transition: background-color .2s, box-shadow .2s;
-    }
-
+  }
+  input {
+      position: absolute;
+      width:50%;
+      left: -9999px;
+      }
   
-
-   
-    label:hover, input:focus + label {
-    box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+  #resultat_heuristique {
+      display:inline-block;
+      position: absolute;
+      width: 30%;
+  }
+   button{
+      background:#1AAB8A;
+      color:#fff;
+      border:none;
+      position:relative;
+      height:60px;
+      width:120px;
+      font-size:1.6em;
+      
+      cursor:pointer;
+      transition:800ms ease all;
+      outline:none;
+      left:120px;
+      top:295px;
     }
-
-    input:checked + label {
-    background-color: #DC7633 ;
+    button:hover{
+      background:#fff;
+      color:#1AAB8A;
     }
-
-    input:checked + label::before {
-    background-color: #fff;
+    /* button:before,button:after{
+      content:'';
+      position:absolute;
+      top:0;
+      right:0;
+      height:2px;
+      width:0;
+      background: #1AAB8A;
+      transition:400ms ease all;
     }
+    button:after{
+      right:inherit;
+      top:inherit;
+      left:0;
+      bottom:0;
+    } */
+    /* button:hover:before,button:hover:after{
+      width:100%;
+      transition:800ms ease all;
+    } */
+ 
+    #cercle {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: green;
+}
+  label {
+  display: block;
+  position: relative;
+  margin: 20px;
+  height:50px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid white;
+  border-radius: 100px;
+  color: black;
+  background-color: #fafafa;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .2s, box-shadow .2s;
+  }
 
-    p{
-        color: black;
-        font-weight:bold;
-    }
+
+
+ 
+  label:hover, input:focus + label {
+  box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+  }
+
+  input:checked + label {
+  background-color: #e0e0e0 ;
+  }
+
+  input:checked + label::before {
+  background-color: #fff;
+  }
+
+  p{
+      color: black;
+      font-weight:bold;
+  }
+
