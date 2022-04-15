@@ -187,7 +187,7 @@ let affichage = (data) => {
                 marker (obj [key]['resultat_Spacy'] );
               }
 
-              heuristiques.push(['Aucune','id8']);
+              heuristiques.push(['Aucune','id9']);
 
               
               const map =new Map(heuristiques);
