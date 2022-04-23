@@ -6,8 +6,47 @@
             L_NO_TOUCH = false;
             L_DISABLE_3D = false;
         </script>
-    
-    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+
+        <script>
+    function affichertexte() {
+        
+document.getElementById("texte").innerHTML="<div class='fond'><div class='affichage'>texte cliquable (clique dessus pour fermer)<br><br><p  onclick='cacher();'>Mettre texte aide ici </p></div></div>";
+}
+ 
+function cacher(){
+document.getElementById("texte").innerHTML="";
+}
+</script> 
+    <style>
+    html, body {width: 100%;height: 100%;margin: 0;padding: 0;} </style>
+    <style> /* A corriger fenetre au dessous de la carte */
+    #texte {
+        margin:0;
+        padding:0;
+    }
+    .fond{
+      width:100%;
+      position:fixed;
+      height:100%;
+      background-color:rgba(0,0,0,0.8);
+      z-index:2;
+      }
+       
+      .affichage{
+      width:45%;
+      height:65%;
+      margin:auto;
+      margin-top:9%;
+      z-index:3;
+      border:2px solid black;
+      background-color:white;
+      text-align:center;
+      }
+       
+      .affichage p{
+      width:100%;
+      }
+</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -24,19 +63,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        
+
+      
 </head>
 
-<body>    
-        <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
-         <div id ="resultat_heuristique">
-         </div> 
-<form action="macarte.php" method="POST">
-        <button class = "submit" name = "my_button" value="before" id="button" >Confirmer</button>
-    </form>
+<body>  
 
- 
+
+        <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
+         <div id ="resultat_heuristique"></div> 
+         
+         <form action="macarte.php" method="POST">
+            <button class = "submit" name = "my_button" value="before" id="button" >Confirmer</button>
+            <p></p>    
+        </form>
+
+        <div id="texte"></div>
+        <button  value="buttonA" onclick="affichertexte()"> Aide </button>
+        
+        
 </body>
+
 <?php 
 
 $url = "";
@@ -72,6 +119,7 @@ $value = "";
     
 
 ?>
+
 <script type="text/javascript">
     
             var map_a620533b73fc4a38880428953e8ae81f = L.map(
@@ -189,29 +237,28 @@ let affichage = (data) => {
 
               heuristiques.push(['Aucune','id9']);
 
-              
               const map =new Map(heuristiques);
               const tab = Array.from(map);
 
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
            
-              group.innerHTML = tab.map( (tab) =>  `<div id = "inputGroup">
+              group.innerHTML = tab.map( (tab) =>  ` <div id="inputGroup"> 
               <div id="${tab[1]}" style = "
-                position: absolute; 
-                width: 40px;
-                height: 40px;
-                border-radius: 20px;
-                background: green;
-                right: 100px;
-                bottom : 10px;
-                z-index:2;
-                "> </div>
+    position: absolute; 
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    right: 60px;
+    z-index:2;
+    margin-top: 9px;
+
+    "> </div> 
+
 
                 <input type="radio" name="size" value="${tab[0] }" id="${tab[1]}"   >
-                <label onclick="cbclick('${tab[0] }','${tab[1]}')" for="${tab[0] }"> ${tab[0] }</label>
-
-            </div>` 
+                <label onclick="cbclick('${tab[0] }','${tab[1]}')" for="${tab[0] }"> ${tab[0] }</label> 
+            </div>`
             ).join(' ');
          
          }
@@ -257,6 +304,7 @@ var marker = L.marker([h[1], h[2] ])
                .bindPopup("<p>"+h[0]+" </p><img src = "+pg+"  width='300' height='234' >")
                .openPopup();  
 console.log(h[1]);
+document.getElementById("button").value =h[0]+","+h[1]+","+h[2];
 }
 fetch("data.json")
 .then(response => {
@@ -268,12 +316,12 @@ let myFile = (data) => {
     let obj = JSON.parse(stringData) 
      for (var key in obj )
 {         if (obj[key] ['url'] == page_type  )
-        {     if ( obj[key]['heuristique3_adresse'] !== undefined &&  obj [key]['heuristique3_adresse'].length==3  )
+        {     if ( obj[key]['heuristique_adresse_LT'] !== undefined &&  obj [key]['heuristique_adresse_LT'].length==3  )
               {
-                 image_heur( obj [key]['heuristique3_adresse']  ,page_type);
+                 image_heur( obj [key]['heuristique_adresse_LT']  ,page_type);
               }
               else { if (obj[key]['heuristique 5'] !== undefined &&  obj [key]['heuristique 5'].length==3 )
-                    {  console.log("je uis ici ");
+                    {  
                            image_heur(obj [key]['heuristique 5'],page_type);
                     }
                     else
@@ -282,13 +330,18 @@ let myFile = (data) => {
                              image_heur(obj [key]['heuristique_country_cities'],page_type);    
                            }
                            else {
-                                   if (obj [key].hasOwnProperty('heuristique_adresse_LT') && obj [key]['heuristique_adresse_LT'].length==3)
+                                   if (obj [key].hasOwnProperty('resultat_Spacy') && obj [key]['resultat_Spacy'].length==3)
                                     {
-                                        image_heur( obj [key]['heuristique_adresse_LT'],page_type );  
+                                        image_heur( obj [key]['resultat_Spacy'],page_type );  
                                     }else 
-                                    {  if (obj [key].hasOwnProperty('resultat_Spacy') && obj [key]['resultat_Spacy'].length==3)
+                                    {  if (obj [key].hasOwnProperty('heuristique3_adresse') && obj [key]['heuristique3_adresse'].length==3)
                                         {
-                                           image_heur( obj [key]['resultat_Spacy'],page_type);  
+                                           image_heur( obj [key]['heuristique3_adresse'],page_type);  
+                                         }else{
+                                             if (obj [key].hasOwnProperty('heuristique 2') && obj [key]['heuristique 2'].length==3)
+                                             {
+                                                image_heur( obj [key]['heuristique 2'],page_type); 
+                                             }
                                          }
                                      }
                                  }
