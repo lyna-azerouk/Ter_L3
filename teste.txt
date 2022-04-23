@@ -24,4 +24,4 @@ Arizona,34.5003,-111.50098}
 {https://i.redd.it/vy9zmnl2t1h81.jpg {https://i.redd.it/vy9zmnl2t1h81.jpg {https://i.redd.it/vy9zmnl2t1h81.jpg 
 >>>>>>> 8a459eaf2dd2e1a8de7274d8c8a85f8fbe3a789e
 >>>>>>> 604759d0d365567869f5066f43727fce2ed1382b
-{https://i.redd.it/vy9zmnl2t1h81.jpg 
+{https://i.redd.it/vy9zmnl2t1h81.jpg {https://i.redd.it/vy9zmnl2t1h81.jpg {https://i.redd.it/vy9zmnl2t1h81.jpg {https://i.redd.it/vy9zmnl2t1h81.jpg 
