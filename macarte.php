@@ -9,8 +9,8 @@
 
         <script>
     function affichertexte() {
-        
-document.getElementById("texte").innerHTML="<div class='fond'><div class='affichage'>texte cliquable (clique dessus pour fermer)<br><br><p  onclick='cacher();'>Mettre texte aide ici </p></div></div>";
+        /* attsegmegh aqli ayigh dodo */
+document.getElementById("texte").innerHTML="<div class='fond'><div class='affichage'>texte cliquable (clique dessus pour fermer)<br><br><p  onclick='cacher();'> Les localisations ont été extraites avec différentes heuristiques : </p> <ul class='list-style-position-outside'> <li>Heuristique Spacy: consiste à utiliser les localisations de Spacy.</li> <br> <li> Heuristique country cities: Qui rend le résultat de country cities de location tagger. </li> <br> <li> Heuristique 3 (ordre) : Cette heuristique retourne un résultat dans le cas ou dans la phrase on a un LOC suivi d'un GPE grâce à Spacy. Exemple : Kootenai River   </li> <br> <li> Heuristique 4 : </li> <br> <li> Heuristique mots composés : </li> </ul> </div></div>";
 }
  
 function cacher(){
@@ -48,6 +48,8 @@ document.getElementById("texte").innerHTML="";
       .affichage p{
       width:100%;
       }
+
+      .list-style-position-outside{ list-style-position : outside }
 </style>
     <style>#map {position:relative;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
