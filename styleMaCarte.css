@@ -5,6 +5,7 @@
     left: 0.0%;
     top: 0.0%;
     float: left;
+    z-index:20;
     }
     html{
     font-family: 'Questrial', sans-serif;
