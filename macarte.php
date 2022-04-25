@@ -19,7 +19,7 @@ document.getElementById("texte").innerHTML="";
 </script> 
     <style>
     html, body {width: 100%;height: 100%;margin: 0;padding: 0;} </style>
-    <style> /* A corriger fenetre au dessous de la carte */
+    <style> /* A corriger fenetre au dessous de la carte problème de css */
     #texte {
         margin:0;
         padding:0;
@@ -47,7 +47,7 @@ document.getElementById("texte").innerHTML="";
       width:100%;
       }
 </style>
-    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <style>#map {position:sticky;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -71,6 +71,8 @@ document.getElementById("texte").innerHTML="";
 
 
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
+        <p style='font-style:italic;font-size:16px;'>  Veuillez saisir la bonne localisation de l'image figurant sur la carte :</p>
+         
          <div id ="resultat_heuristique"></div> 
          
          <form action="macarte.php" method="POST">
