@@ -80,11 +80,6 @@
             "CARDINAL"
         ],
         "heuristique 1": "Oregon",
-        "heuristique 5": [
-            "Brookings Oregon ",
-            "42.07511",
-            "-124.28994"
-        ],
         "heuristique_country_cities": [
             "Brookings Oregon United States",
             "42.07511",
@@ -99,6 +94,11 @@
             "Oregon ",
             "44.00013",
             "-120.50139"
+        ],
+        "heuristique 5": [
+            "Brookings Oregon ",
+            "42.07511",
+            "-124.28994"
         ]
     },
     "image1": {
@@ -153,11 +153,11 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": [
-            "Wave Vermilion Cliffs National Monument Arizona "
-        ],
         "resultat_Spacy": [
             "Truly Arizona "
+        ],
+        "heuristique 5": [
+            "Wave Vermilion Cliffs National Monument Arizona "
         ]
     },
     "image2": {
@@ -210,12 +210,12 @@
             "CARDINAL"
         ],
         "heuristique 1": "Germany",
-        "heuristique 5": [
+        "resultat_Spacy": [
             "Germany ",
             "51.5",
             "10.5"
         ],
-        "resultat_Spacy": [
+        "heuristique 5": [
             "Germany ",
             "51.5",
             "10.5"
@@ -271,12 +271,12 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": [
+        "resultat_Spacy": [
             "Estonia ",
             "59",
             "26"
         ],
-        "resultat_Spacy": [
+        "heuristique 5": [
             "Estonia ",
             "59",
             "26"
@@ -323,12 +323,12 @@
             "GPE",
             "DATE"
         ],
-        "heuristique 5": [
+        "resultat_Spacy": [
             "British Columbia ",
             "53.99983",
             "-125.0032"
         ],
-        "resultat_Spacy": [
+        "heuristique 5": [
             "British Columbia ",
             "53.99983",
             "-125.0032"
@@ -416,9 +416,6 @@
             "GPE",
             "FAC"
         ],
-        "heuristique 5": [
-            "Grinnell Lake Glacier National Park OC "
-        ],
         "heuristique_country_cities": [
             "Lake Grinnell United States",
             "37.46721",
@@ -428,6 +425,9 @@
             "Grinnell Lake ",
             "37.46721",
             "-118.85092"
+        ],
+        "heuristique 5": [
+            "Grinnell Lake Glacier National Park "
         ]
     },
     "image6": {
@@ -488,11 +488,6 @@
             "CARDINAL"
         ],
         "heuristique 1": "Maine",
-        "heuristique 5": [
-            "Ravens Nest Maine ",
-            "44.35202",
-            "-68.07473"
-        ],
         "heuristique_country_cities": [
             "Maine United States",
             "45.50032",
@@ -502,6 +497,11 @@
             "Maine ",
             "48.25",
             "0"
+        ],
+        "heuristique 5": [
+            "Ravens Nest Maine ",
+            "44.35202",
+            "-68.07473"
         ]
     },
     "image8": {
@@ -562,12 +562,12 @@
             "43.34277",
             "-89.59845"
         ],
-        "heuristique 5": [
+        "resultat_Spacy": [
             "Gibraltar Rock Wisconsin ",
             "43.34277",
             "-89.59845"
         ],
-        "resultat_Spacy": [
+        "heuristique 5": [
             "Gibraltar Rock Wisconsin ",
             "43.34277",
             "-89.59845"
@@ -673,9 +673,6 @@
             "ORG"
         ],
         "heuristique 1": "Germany",
-        "heuristique 5": [
-            "Golden Palatinate Forest Palatinate Forest Germany IG "
-        ],
         "heuristique_country_cities": [
             "Ig Slovenia",
             "45.93583",
@@ -685,6 +682,9 @@
             "Germany ",
             "51.5",
             "10.5"
+        ],
+        "heuristique 5": [
+            "Golden Palatinate Forest Palatinate Forest Germany IG "
         ]
     },
     "image13": {
@@ -810,17 +810,17 @@
             "48.45272",
             "-115.7635"
         ],
-        "heuristique 5": [
-            "Kootenai River Montana ",
-            "48.45272",
-            "-115.7635"
-        ],
         "heuristique_country_cities": [
             "River Ireland",
             "45.65928",
             "-122.37231"
         ],
         "resultat_Spacy": [
+            "Kootenai River Montana ",
+            "48.45272",
+            "-115.7635"
+        ],
+        "heuristique 5": [
             "Kootenai River Montana ",
             "48.45272",
             "-115.7635"
@@ -869,12 +869,12 @@
             "DATE",
             "CARDINAL"
         ],
-        "heuristique 5": [
+        "resultat_Spacy": [
             "Yosemite Valley ",
             "37.74075",
             "-119.57788"
         ],
-        "resultat_Spacy": [
+        "heuristique 5": [
             "Yosemite Valley ",
             "37.74075",
             "-119.57788"
@@ -948,9 +948,6 @@
             "GPE"
         ],
         "heuristique 1": "Hawaii",
-        "heuristique 5": [
-            "Umauma Falls Hawaii "
-        ],
         "heuristique_country_cities": [
             "Falls Germany",
             "44.55312",
@@ -960,6 +957,9 @@
             "Hawaii ",
             "20.78785",
             "-156.38612"
+        ],
+        "heuristique 5": [
+            "Umauma Falls Hawaii "
         ]
     },
     "image17": {
@@ -1058,9 +1058,6 @@
         "Ordre": [
             "LOC"
         ],
-        "heuristique 5": [
-            "Death Valley Zabriskie Point "
-        ],
         "heuristique_country_cities": [
             "Valley Germany",
             "38.78011",
@@ -1068,6 +1065,9 @@
         ],
         "resultat_Spacy": [
             "Death Valley - Zabriskie Point "
+        ],
+        "heuristique 5": [
+            "Death Valley Zabriskie Point "
         ]
     },
     "image18": {
@@ -1119,15 +1119,15 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": [
-            "Aoraki Mt Cook New Zealand ",
-            "-43.6",
-            "170.16667"
-        ],
         "resultat_Spacy": [
             "New Zealand ",
             "-27.83908",
             "143.26172"
+        ],
+        "heuristique 5": [
+            "Aoraki Mt Cook New Zealand ",
+            "-43.6",
+            "170.16667"
         ]
     },
     "image19": {
@@ -1210,15 +1210,15 @@
             ]
         ],
         "heuristique 4": "west,West Serbia",
-        "heuristique 5": [
-            "Drina River West Serbia "
-        ],
         "heuristique_country_cities": [
             "West United States",
             "51.52604",
             "-131.16073"
         ],
         "resultat_Spacy": [
+            "Drina River West Serbia "
+        ],
+        "heuristique 5": [
             "Drina River West Serbia "
         ]
     },
@@ -1345,11 +1345,6 @@
             "GPE",
             "GPE"
         ],
-        "heuristique 5": [
-            "Emerald Lake Colorado ",
-            "39.15163",
-            "-106.40613"
-        ],
         "heuristique_country_cities": [
             "Emerald Canada",
             "47.91685",
@@ -1357,6 +1352,11 @@
         ],
         "resultat_Spacy": [
             "Emerald Lake RMNP Colorado "
+        ],
+        "heuristique 5": [
+            "Emerald Lake Colorado ",
+            "39.15163",
+            "-106.40613"
         ]
     },
     "image21": {
@@ -1406,12 +1406,12 @@
         "Ordre": [
             "GPE"
         ],
-        "heuristique 5": [
+        "resultat_Spacy": [
             "New Zealand ",
             "-27.83908",
             "143.26172"
         ],
-        "resultat_Spacy": [
+        "heuristique 5": [
             "New Zealand ",
             "-27.83908",
             "143.26172"
@@ -1506,11 +1506,6 @@
             "DATE"
         ],
         "heuristique 1": "Ecuador",
-        "heuristique 5": [
-            "Laguna Cuicocha Ecuador ",
-            "0.30043",
-            "-78.3628"
-        ],
         "heuristique_country_cities": [
             "Laguna Brazil",
             "-28.4825",
@@ -1520,6 +1515,11 @@
             "Ecuador ",
             "-1.25",
             "-78.25"
+        ],
+        "heuristique 5": [
+            "Laguna Cuicocha Ecuador ",
+            "0.30043",
+            "-78.3628"
         ]
     },
     "image23": {
@@ -1579,9 +1579,6 @@
             "GPE"
         ],
         "heuristique 1": "Utah",
-        "heuristique 5": [
-            "Zion NP Utah "
-        ],
         "heuristique_country_cities": [
             "Zion United States",
             "37.29824",
@@ -1591,6 +1588,9 @@
             "Utah ",
             "39.25024",
             "-111.75103"
+        ],
+        "heuristique 5": [
+            "Zion NP Utah "
         ]
     },
     "image24": {
@@ -1633,13 +1633,13 @@
         "Ordre": [
             "GPE"
         ],
-        "heuristique 5": [
-            "Red Rock Canyon NV ",
+        "resultat_Spacy": [
+            "Red Rock Canyon ",
             "36.15192",
             "-115.45413"
         ],
-        "resultat_Spacy": [
-            "Red Rock Canyon ",
+        "heuristique 5": [
+            "Red Rock Canyon NV ",
             "36.15192",
             "-115.45413"
         ]
@@ -1734,9 +1734,6 @@
             "GPE",
             "GPE"
         ],
-        "heuristique 5": [
-            "Kananaskis Country Alberta Canada "
-        ],
         "heuristique_country_cities": [
             "Kananaskis Canada",
             "51.07754",
@@ -1751,6 +1748,9 @@
             "Alberta Canada ",
             "52.28333",
             "-117.469"
+        ],
+        "heuristique 5": [
+            "Kananaskis Country Alberta Canada "
         ]
     },
     "image26": {
@@ -1808,10 +1808,10 @@
             "GPE",
             "GPE"
         ],
-        "heuristique 5": [
+        "resultat_Spacy": [
             "Stockgrove Park Bedfordshire UK "
         ],
-        "resultat_Spacy": [
+        "heuristique 5": [
             "Stockgrove Park Bedfordshire UK "
         ]
     },
@@ -1924,9 +1924,6 @@
             "CARDINAL",
             "ORG"
         ],
-        "heuristique 5": [
-            "Lands hydro Shawinigan Qu\u00e9bec Canada Misty Hills "
-        ],
         "heuristique_country_cities": [
             "Canada Hills United States",
             "36.45698",
@@ -1936,6 +1933,9 @@
             "Qu\u00e9bec Canada ",
             "46.81228",
             "-71.21454"
+        ],
+        "heuristique 5": [
+            "Lands hydro Shawinigan Qu\u00e9bec Canada Misty Hills "
         ]
     },
     "image30": {
@@ -2006,9 +2006,6 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": [
-            "Fall Creek Falls Early Tennessee "
-        ],
         "heuristique_country_cities": [
             "Tennessee Early United States",
             "36.18283",
@@ -2018,6 +2015,9 @@
             "Tennessee ",
             "35.8",
             "-86.5"
+        ],
+        "heuristique 5": [
+            "Fall Creek Falls Early Tennessee "
         ]
     },
     "image31": {
@@ -2139,9 +2139,6 @@
             "GPE"
         ],
         "heuristique 1": "California",
-        "heuristique 5": [
-            "Doris Lake Desolation Wilderness California "
-        ],
         "heuristique_country_cities": [
             "California Mexico",
             "25.83333",
@@ -2151,6 +2148,9 @@
             "California ",
             "34.68743",
             "-116.78467"
+        ],
+        "heuristique 5": [
+            "Doris Lake Desolation Wilderness California "
         ]
     },
     "image32": {
@@ -2294,9 +2294,6 @@
             "GPE",
             "GPE"
         ],
-        "heuristique 5": [
-            "San Juan Cabo Mexico "
-        ],
         "heuristique_country_cities": [
             "Mexico Mexico",
             "19.42847",
@@ -2304,6 +2301,9 @@
         ],
         "resultat_Spacy": [
             "San Juan del Cabo Mexico "
+        ],
+        "heuristique 5": [
+            "San Juan Cabo Mexico "
         ]
     },
     "image33": {
@@ -2416,9 +2416,6 @@
             "GPE"
         ],
         "heuristique 1": "California",
-        "heuristique 5": [
-            "Nevada Falls Yosemite NP California "
-        ],
         "heuristique_country_cities": [
             "California Mexico",
             "25.83333",
@@ -2428,6 +2425,9 @@
             "California ",
             "34.68743",
             "-116.78467"
+        ],
+        "heuristique 5": [
+            "Nevada Falls Yosemite NP California "
         ]
     },
     "image34": {
@@ -2582,11 +2582,6 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": [
-            "Loreto Baja California Sur Mexico ",
-            "25.98919",
-            "-111.34836"
-        ],
         "heuristique_country_cities": [
             "Loreto Peru",
             "-4",
@@ -2599,6 +2594,11 @@
         ],
         "resultat_Spacy": [
             "Loreto Mexico ",
+            "25.98919",
+            "-111.34836"
+        ],
+        "heuristique 5": [
+            "Loreto Baja California Sur Mexico ",
             "25.98919",
             "-111.34836"
         ]
@@ -2726,9 +2726,6 @@
             "GPE",
             "GPE"
         ],
-        "heuristique 5": [
-            "Hector Lake Banff National Park Alberta Canada "
-        ],
         "heuristique_country_cities": [
             "United States,Canada ",
             "82.41879",
@@ -2738,6 +2735,9 @@
             "National Park Alberta Canada ",
             "49.08325",
             "-113.86863"
+        ],
+        "heuristique 5": [
+            "Hector Lake Banff National Park Alberta Canada "
         ]
     },
     "image36": {
@@ -2826,11 +2826,6 @@
             "GPE"
         ],
         "heuristique 1": "Oregon",
-        "heuristique 5": [
-            "Abiqua Falls Oregon ",
-            "44.92632",
-            "-122.56729"
-        ],
         "heuristique_country_cities": [
             "Falls Germany",
             "44.55312",
@@ -2840,6 +2835,11 @@
             "Oregon ",
             "44.00013",
             "-120.50139"
+        ],
+        "heuristique 5": [
+            "Abiqua Falls Oregon ",
+            "44.92632",
+            "-122.56729"
         ]
     },
     "image37": {
@@ -2935,9 +2935,6 @@
             "GPE"
         ],
         "heuristique 1": "USA",
-        "heuristique 5": [
-            "Golden Light Half Dome Yosemite National Park CA USA "
-        ],
         "heuristique_country_cities": [
             "Usa Japan",
             "33.53333",
@@ -2947,6 +2944,9 @@
             "USA ",
             "39.76",
             "-98.5"
+        ],
+        "heuristique 5": [
+            "Golden Light Half Dome Yosemite National Park CA USA "
         ]
     },
     "image38": {
@@ -3054,11 +3054,6 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": [
-            "Canyon Arizona USA ",
-            "34.5003",
-            "-111.50098"
-        ],
         "heuristique_country_cities": [
             "Usa Japan",
             "33.53333",
@@ -3071,6 +3066,11 @@
         ],
         "resultat_Spacy": [
             "Sunset Grand Canyon Arizona USA "
+        ],
+        "heuristique 5": [
+            "Canyon Arizona USA ",
+            "34.5003",
+            "-111.50098"
         ]
     },
     "image39": {
@@ -3181,9 +3181,6 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": [
-            "OC Puebla Oaxaca Mexico "
-        ],
         "heuristique_country_cities": [
             "Mexico Mexico",
             "19.42847",
@@ -3193,6 +3190,9 @@
             "Mexico ",
             "19.42847",
             "-99.12766"
+        ],
+        "heuristique 5": [
+            "Puebla Oaxaca Mexico "
         ]
     },
     "image40": {
@@ -3270,9 +3270,6 @@
             "GPE",
             "DATE"
         ],
-        "heuristique 5": [
-            "Yaquina Head Oregon OC "
-        ],
         "heuristique_country_cities": [
             "Oregon United States",
             "44.00013",
@@ -3282,6 +3279,11 @@
             "Yaquina Oregon ",
             "44.62373",
             "-124.06317"
+        ],
+        "heuristique 5": [
+            "Yaquina Head Oregon ",
+            "44.67673",
+            "-124.08016"
         ]
     },
     "image42": {
@@ -3374,9 +3376,6 @@
             "GPE"
         ],
         "heuristique 1": "Sunset",
-        "heuristique 5": [
-            "Yosemite Valley Glacier Point Sunset "
-        ],
         "heuristique_country_cities": [
             "United States,Sunset ",
             "30.41131",
@@ -3386,6 +3385,9 @@
             "Sunset ",
             "49.2241",
             "-123.09134"
+        ],
+        "heuristique 5": [
+            "Yosemite Valley Glacier Point Sunset "
         ]
     },
     "image43": {
@@ -3431,13 +3433,13 @@
             "DATE",
             "DATE"
         ],
-        "heuristique 5": [
-            "Napali Coast Kauai ",
+        "resultat_Spacy": [
+            "Napali Coast ",
             "22.18333",
             "-159.64167"
         ],
-        "resultat_Spacy": [
-            "Napali Coast ",
+        "heuristique 5": [
+            "Napali Coast Kauai ",
             "22.18333",
             "-159.64167"
         ]
@@ -3489,12 +3491,12 @@
         "Ordre": [
             "LOC"
         ],
-        "heuristique 5": [
+        "resultat_Spacy": [
             "Cloudland Canyon ",
             "34.8423",
             "-85.48246"
         ],
-        "resultat_Spacy": [
+        "heuristique 5": [
             "Cloudland Canyon ",
             "34.8423",
             "-85.48246"
@@ -3562,17 +3564,17 @@
             "LOC"
         ],
         "heuristique 1": "Kashmir",
-        "heuristique 5": [
-            "Kashmir ",
-            "33.94718",
-            "73.9104"
-        ],
         "heuristique_country_cities": [
             "Kashmir Pakistan",
             "33.94718",
             "73.9104"
         ],
         "resultat_Spacy": [
+            "Kashmir ",
+            "33.94718",
+            "73.9104"
+        ],
+        "heuristique 5": [
             "Kashmir ",
             "33.94718",
             "73.9104"
@@ -3703,9 +3705,6 @@
             "GPE",
             "CARDINAL"
         ],
-        "heuristique 5": [
-            "Mushroom Kingdom Redwood National Park California USA [ "
-        ],
         "heuristique_country_cities": [
             "California Mexico",
             "25.83333",
@@ -3713,6 +3712,9 @@
         ],
         "resultat_Spacy": [
             "Mushroom Kingdom California USA "
+        ],
+        "heuristique 5": [
+            "Mushroom Kingdom Redwood National Park California USA "
         ]
     }
 }
