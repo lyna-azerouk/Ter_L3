@@ -14,7 +14,7 @@ for image in data :
     doc = nlp(text)
     p=""
     for token in doc:
-        if token.pos_ == "PROPN" and token.text != "OC" and token.text != "[" :
+        if token.pos_ == "PROPN" and (token.text != "OC" or token.text != "[") :
             g = geocoder.geonames(token.text,maxrows =5, key='Lydia_Ouam')
             L=[]
             for r in g:
