@@ -250,8 +250,9 @@ let affichage = (data) => {
 
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
-           
+               
               group.innerHTML = tab.map( (tab) =>  ` <div id="inputGroup"> 
+              
               <div id="${tab[1]}" style = "
     position: absolute; 
     width: 30px;
