@@ -7,9 +7,52 @@
             L_NO_TOUCH = false;
             L_DISABLE_3D = false;
         </script>
-    
-    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
-    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+
+        <script>
+    function affichertexte() {
+        
+document.getElementById("texte").innerHTML="<div class='fond'><div class='affichage'>texte cliquable (clique sur le 1er texte pour fermer)<br><br><p  onclick='cacher();'> Les localisations ont été extraites avec différentes heuristiques : </p> <ul class='list-style-position-outside'> <li>Heuristique Spacy: consiste à utiliser les localisations de Spacy grâce a ses labels GPE et LOC.</li> <br> <li> Heuristique adresse-LT : Lors du traitement d'un champs de texte ou un URL par LocationTagger, on a plusieurs entites en retour : country-cities, countries, régions, adresse.<br> Cette heuristique retourne le résultat contenu dans le champs Address, et cela si il n''est pas vide. </li> <br> <li> Heuristique country cities: Qui rend le résultat de country cities retourner par LocationTagger. </li> <br> <li> Heuristique 3 (ordre) : Cette heuristique retourne un résultat dans le cas ou dans la phrase on a un LOC suivi d'un GPE grâce à Spacy. Exemple : Kootenai River   </li> <br> <br> <li> Heuristique mots composés : Cette heuristique réalise une analyse du texte associé à l''image puis met en évidence les mots qui représentent des noms propres 'PROPN' et ceci grâce à la bibliothèque Spacy.</li> </ul> <p style='texte-align:left;'>Selectionnez le choix le plus pertinent puis Confirmez le</p></div></div> ";
+}
+ 
+function cacher(){
+document.getElementById("texte").innerHTML="";
+}
+</script> 
+    <style>
+    html, body {width: 100%;height: 100%;margin: 0;padding: 0;} </style>
+    <style> 
+    #texte {
+        margin:0;
+        padding:0;
+        position:absolute;
+        z-index:25;
+    }
+    .fond{
+      width:100%;
+      position:fixed;
+      height:100%;
+      background-color:rgba(0,0,0,0.8);
+      z-index:2;
+      }
+       
+      .affichage{
+      width: 55%;
+      height:70%;
+      margin:auto;
+      margin-top:9%;
+      z-index:3;
+      border:2px solid black;
+      background-color:white;
+      text-align:center;
+      }
+       
+      .affichage p{
+      width:100%;
+      }
+
+      .list-style-position-outside{ list-style-position : outside }
+</style>
+    <style>#map {position:relative;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -25,20 +68,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        
+
+      
 </head>
 
+<body>  
 
-
-</form>
-<body>    
+      
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
+        <div id="texte"></div>
+        
+        <p style='font-style:italic;font-size:16px;'>  Veuillez saisir la bonne localisation de l'image figurant sur la carte :</p>
+         
          <div id ="resultat_heuristique"></div> 
+         
          <form action="macarte.php" method="POST">
             <button class = "submit" name = "my_button" value="before" id="button" >Confirmer</button>
+            <p></p>    
         </form>
- 
+
+        
+        <button  value="buttonA" onclick="affichertexte()"> Aide </button>
+        
+        
 </body>
+
 <?php 
 
 $url = "";
@@ -74,6 +128,7 @@ $value = "";
     
 
 ?>
+
 <script type="text/javascript">
     
             var map_a620533b73fc4a38880428953e8ae81f = L.map(
