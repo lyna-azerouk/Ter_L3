@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>FindLoc</title>
     
         <script>
             L_NO_TOUCH = false;
@@ -59,7 +60,7 @@ $value = "";
     {
         fwrite($myfile, "{");
         fwrite($myfile, $url);
-        fwrite($myfile, " ");
+        fwrite($myfile, ",");
     }
     if(!empty($value))
     {

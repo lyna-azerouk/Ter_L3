@@ -1,0 +1,6 @@
+{https://i.redd.it/r6hww37um4h81.jpg,Maine United States,45.50032,-69.24977}
+{https://i.redd.it/yk8fmumn14h81.jpg,Gibraltar Rock Wisconsin ,43.34277,-89.59845}
+{https://i.imgur.com/KNbjPUJ.jpg,West United States,51.52604,-131.16073}
+{https://i.redd.it/s4yetxe005h81.jpg,New Zealand ,-27.83908,143.26172}
+{https://i.redd.it/wlw28x3cj1h81.jpg,Laguna Brazil,-28.4825,-48.78083}
+{https://i.redd.it/wlw28x3cj1h81.jpg,Ecuador ,-1.25,-78.25}

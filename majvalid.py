@@ -8,8 +8,7 @@ content = my_file.readlines()
 for line in content:
     line = line.replace("{","")
     line = line.replace("}","")
-    line = line.replace(","," ")
-    my_string = line.split()
+    my_string = line.split(",")
     # read the json file
     fjson = open('testData.json')
     data = json.load(fjson)
