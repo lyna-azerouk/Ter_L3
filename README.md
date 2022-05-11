@@ -28,8 +28,7 @@ Les étapes pour installer le programme:
 ## Démarrage
 
 Pour lancer cette application, il faudra :
--Exécutez le server XAMPP avec localhost:5000/projet_ter_2022/index.html
-
+-Exécutez le server XAMPP avec 
 
 ## Versions
 Listez les versions ici 
