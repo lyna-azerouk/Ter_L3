@@ -1,49 +1,222 @@
 #map_a620533b73fc4a38880428953e8ae81f {
-    position: relative;
-    width: 70.0%;
-    height: 100.0%;
-    left: 0.0%;
-    top: 0.0%;
-    float: left;
-    }
-    html{
-    font-family: 'Questrial', sans-serif;
+  position: relative;
+  width: 70.0%;
+  height: 100.0%;
+  left: 0.0%;
+  top: 0.0%;
+  float: left;
+  z-index:20;
+  }
+  html{
+  font-family: 'Questrial', sans-serif;
 
-    }
-    input {
-        position: absolute;
-        width:50%;
-        left: -9999px;
-        }
-    
-    #resultat_heuristique {
-        display:inline-block;
-        position: absolute;
-        width: 30%;
-    }
-   
-    label {
-    display: block;
-    position: relative;
-    margin: 20px;
+  }
+  input {
+      margin-top: 20px;
+      width:50%;
+      left: -9999px;
+      position: absolute;
+      }
+  
+  #resultat_heuristique {
+      display:inline-block;
+      position: absolute;
+      width: 30%;
+  }
+  #bouton{
+    background:rgb(48, 173, 65);;
+    color:#fff;
+    border:none;
+    position:relative;
     height:50px;
-    padding: 10px 10px 10px 10px;
-    border: 1px solid white;
-    border-radius: 100px;
-    color: black;
-    background-color: #E59866;
-    white-space: nowrap;
-    cursor: pointer;
-    user-select: none;
-    transition: background-color .2s, box-shadow .2s;
-    }
+    width:120px;
+    font-size:1.6em;
+    border-radius: 10px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    left:25px;
+    top:510px;
+  }
+  #bouton:hover{
+    background:#fff;
+    color:#1AAB8A;
+  }
+  
+  #aide{
+    background:rgb(0, 5, 1);;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:50px;
+    width:120px;
+    font-size:1.6em;
+    border-radius: 10px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    left:250px;
+    top:450px;
+  }
+  #aide:hover{
+    background:#fff;
+    color:#080a0a;
+  }
+ 
+    
+  label {
+  display: block;
+  position: relative;
+  margin: 20px;
+  height:50px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid white;
+  border-radius: 100px;
+  color: black;
+  background-color: #e4dfdc;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .2s, box-shadow .2s;
+  }
 
+
+
+ 
+  label:hover, input:focus + label {
+  box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+  }
+
+  input:checked + label {
+  background-color: #dbd9d7 ;
+  }
+
+  input:checked + label::before {
+  background-color: #fff;
+  }
+
+  p{
+      color: black;
+      font-weight:bold;
+  }
+  
+  #id7{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+    background: rgb(57 227 80);
+    
+  }
+  #id7::before {
+    content: "Heuristique_adresse_LT:";
+    position:absolute;
+    right:160px;
+    margin-top: -30px;
+  }
+  #id6{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+
+    background: rgb(4, 160, 25);
+  }
+  #id6::before{
+    content: "Heuristique_Country_cities:";
+    position:absolute;
+    right:140px;
+    margin-top: -30px;
+     
+  }
+  #id5{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+
+    background: rgb(4 175 26);
+  }
+  #id5::before{
+    content: "Heuristique_noms_composés:";
+    position:absolute;
+    right:125px;
+    margin-top: -30px;
+  }
+  #id8{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+
+    background: rgb(10 86 20);
+  }
+  #id8::before{
+    content: "Heuristique_Spacy:";
+    position:absolute;
+    right:189px;
+    margin-top: -30px;
+  }
+  #id3{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+
+    background: rgb(238, 108, 22);
+  }
+  #id3::before{
+    content: "Heuristique_Ordre: ";
+    position:absolute;
+    right:194px;
+    margin-top: -30px;
+  }
+  #id2{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+
+    background: rgb(177, 69, 6);
+  }
+  #id2::before{
+    content: "Heuristique_emplacement_localisation: ";
+    position:absolute;
+    right: 70px;
+    margin-top: -35px;
+  }
+  #id9{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+
+    background: rgb(201, 1, 1);
+  }
   
 
-   
-    label:hover, input:focus + label {
-    box-shadow: 0 0 20px rgba(0, 0, 0, .6);
-    }
+ 
 
     input:checked + label {
     background-color: #DC7633 ;

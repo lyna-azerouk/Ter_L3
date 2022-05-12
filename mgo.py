@@ -13,27 +13,3 @@ sinfun = mydb["sin2"]
 sinfun.insert_one(data)
 print('done')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-""" print('insert')
-data = []
-for i in range(100):
-    x = i/10.
-    y = math.sin(x)
-    data.append({'x':x,'y':y}) """
-
-

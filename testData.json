@@ -1,0 +1,3548 @@
+{
+    "image0": {
+        "title": "Brookings, Oregon [OC] [5304x7952]",
+        "url": "https://i.redd.it/vy9zmnl2t1h81.jpg",
+        "SpacyLoc": [
+            [
+                "Oregon",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Oregon",
+                    "Brookings"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Oregon",
+                        "Brookings"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Illinois": [
+                        "Oregon"
+                    ],
+                    "Ohio": [
+                        "Oregon"
+                    ],
+                    "Wisconsin": [
+                        "Oregon"
+                    ],
+                    "Oregon": [
+                        "Brookings"
+                    ],
+                    "South Dakota": [
+                        "Brookings"
+                    ],
+                    "Missouri": [
+                        "Oregon"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Oregon",
+                        1
+                    ],
+                    [
+                        "Brookings",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": [
+                    "Brookings, Oregon, United States"
+                ]
+            }
+        ],
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 1": "Oregon",
+        "heuristique 5": [
+            "Brookings Oregon ",
+            "42.07511",
+            "-124.28994"
+        ],
+        "heuristique_country_cities": [
+            "Brookings Oregon United States",
+            "42.07511",
+            "-124.28994"
+        ],
+        "heuristique_adresse_LT": [
+            "Brookings Oregon United States",
+            "42.07511",
+            "-124.28994"
+        ],
+        "resultat_Spacy": [
+            "Oregon ",
+            "44.00013",
+            "-120.50139"
+        ]
+    },
+    "image1": {
+        "title": "Truly earth porn at the Wave in Vermilion Cliffs National Monument, Arizona [OC] [1328x2000]",
+        "url": "https://i.redd.it/nkyv3iqmy3h81.jpg",
+        "SpacyLoc": [
+            [
+                "Truly",
+                "GPE"
+            ],
+            [
+                "Arizona",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "heuristique 2": [
+            "Arizona",
+            "34.5003",
+            "-111.50098"
+        ],
+        "Ordre": [
+            "GPE",
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 5": [
+            "Wave Vermilion Cliffs National Monument Arizona "
+        ],
+        "resultat_Spacy": [
+            "Truly Arizona "
+        ]
+    },
+    "image2": {
+        "title": "Cattails at the evening hour, southern Germany [OC] [5184x3703]",
+        "url": "https://i.redd.it/4inca30n73h81.jpg",
+        "SpacyLoc": [
+            [
+                "Germany",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Germany"
+                ]
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Germany",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "TIME",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 1": "Germany",
+        "heuristique 5": [
+            "Germany ",
+            "51.5",
+            "10.5"
+        ],
+        "resultat_Spacy": [
+            "Germany ",
+            "51.5",
+            "10.5"
+        ]
+    },
+    "image3": {
+        "title": "Northern lights last night, Estonia, [2900x3866] [OC]",
+        "url": "https://i.redd.it/2ts1m5w0o5h81.jpg",
+        "SpacyLoc": [
+            [
+                "Estonia",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Estonia"
+                ]
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Estonia",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "heurisique 1:": "debut",
+        "Ordre": [
+            "TIME",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 5": [
+            "Estonia ",
+            "59",
+            "26"
+        ],
+        "resultat_Spacy": [
+            "Estonia ",
+            "59",
+            "26"
+        ]
+    },
+    "image4": {
+        "title": "Winter in the coastal rainforests of British Columbia barely feels like winter at all! [OC] [1920x1367]",
+        "url": "https://i.redd.it/pkfzsngm92h81.jpg",
+        "SpacyLoc": [
+            [
+                "British Columbia",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "GPE",
+            "DATE"
+        ],
+        "heuristique 5": [
+            "British Columbia ",
+            "53.99983",
+            "-125.0032"
+        ],
+        "resultat_Spacy": [
+            "British Columbia ",
+            "53.99983",
+            "-125.0032"
+        ]
+    },
+    "image5": {
+        "title": "Grinnell Lake, Glacier National Park [OC] 6000x4000",
+        "url": "https://i.redd.it/vqiue97oqzg81.jpg",
+        "SpacyLoc": [
+            [
+                "Grinnell Lake",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Grinnell",
+                    "Lake"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Grinnell",
+                        "Lake"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Iowa": [
+                        "Grinnell"
+                    ],
+                    "Wyoming": [
+                        "Lake"
+                    ],
+                    "Michigan": [
+                        "Lake"
+                    ],
+                    "Mississippi": [
+                        "Lake"
+                    ],
+                    "West Virginia": [
+                        "Lake"
+                    ],
+                    "Kansas": [
+                        "Grinnell"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Grinnell",
+                        1
+                    ],
+                    [
+                        "Lake",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "GPE",
+            "FAC"
+        ],
+        "heuristique 5": [
+            "Grinnell Lake Glacier National Park OC "
+        ],
+        "heuristique_country_cities": [
+            "Lake Grinnell United States",
+            "37.46721",
+            "-118.85092"
+        ],
+        "resultat_Spacy": [
+            "Grinnell Lake ",
+            "37.46721",
+            "-118.85092"
+        ]
+    },
+    "image6": {
+        "title": "Ravens Nest, Maine [OC] [1365x2048]",
+        "url": "https://i.redd.it/r6hww37um4h81.jpg",
+        "SpacyLoc": [
+            [
+                "Maine",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Maine"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Maine"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "New York": [
+                        "Maine"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Maine",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 1": "Maine",
+        "heuristique 5": [
+            "Ravens Nest Maine ",
+            "44.35202",
+            "-68.07473"
+        ],
+        "heuristique_country_cities": [
+            "Maine United States",
+            "45.50032",
+            "-69.24977"
+        ],
+        "resultat_Spacy": [
+            "Maine ",
+            "48.25",
+            "0"
+        ],
+        "realLoc": {
+            "Nomreal": "Maine United States",
+            "Latitude": "45.50032",
+            "Longitude": "-69.24977\n"
+        }
+    },
+    "image8": {
+        "title": "Ancient cliff side juniper at Gibraltar Rock, Wisconsin [OC][4000x5000]",
+        "url": "https://i.redd.it/yk8fmumn14h81.jpg",
+        "SpacyLoc": [
+            [
+                "Gibraltar Rock",
+                "LOC"
+            ],
+            [
+                "Wisconsin",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "LOC",
+            "GPE"
+        ],
+        "heuristique 2": [
+            "Wisconsin",
+            "44.50024",
+            "-90.00041"
+        ],
+        "heuristique3_adresse": [
+            [
+                "Gibraltar Rock",
+                "Wisconsin"
+            ],
+            "43.34277",
+            "-89.59845"
+        ],
+        "heuristique 5": [
+            "Gibraltar Rock Wisconsin ",
+            "43.34277",
+            "-89.59845"
+        ],
+        "resultat_Spacy": [
+            "Gibraltar Rock Wisconsin ",
+            "43.34277",
+            "-89.59845"
+        ],
+        "realLoc": {
+            "Nomreal": "Gibraltar Rock Wisconsin ",
+            "Latitude": "43.34277",
+            "Longitude": "-89.59845\n"
+        }
+    },
+    "image12": {
+        "title": "Golden Palatinate Forest [OC], Palatinate Forest, Germany [1363x2048] by IG: @farbik",
+        "url": "https://i.redd.it/pwkcv4wkg6h81.jpg",
+        "SpacyLoc": [
+            [
+                "Germany",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Germany"
+                ]
+            },
+            {
+                "Cities": [
+                    "Golden",
+                    "Ig"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Golden"
+                    ],
+                    "Canada": [
+                        "Golden"
+                    ],
+                    "Slovenia": [
+                        "Ig"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Colorado": [
+                        "Golden"
+                    ],
+                    "British Columbia": [
+                        "Golden"
+                    ],
+                    "": [
+                        "Ig"
+                    ],
+                    "Illinois": [
+                        "Golden"
+                    ],
+                    "Mississippi": [
+                        "Golden"
+                    ],
+                    "Missouri": [
+                        "Golden"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Germany",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Slovenia",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Golden",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "ORG",
+            "ORG",
+            "GPE",
+            "ORG"
+        ],
+        "heuristique 1": "Germany",
+        "heuristique 5": [
+            "Golden Palatinate Forest Palatinate Forest Germany IG "
+        ],
+        "heuristique_country_cities": [
+            "Ig Slovenia",
+            "45.93583",
+            "14.51444"
+        ],
+        "resultat_Spacy": [
+            "Germany ",
+            "51.5",
+            "10.5"
+        ]
+    },
+    "image13": {
+        "title": "Kootenai River, Montana [7952x5304] [OC]",
+        "url": "https://i.redd.it/9mrh5jk861h81.jpg",
+        "SpacyLoc": [
+            [
+                "Kootenai River",
+                "LOC"
+            ],
+            [
+                "Montana",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "River",
+                    "Montana"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United Kingdom": [
+                        "River"
+                    ],
+                    "South Africa": [
+                        "Montana"
+                    ],
+                    "Bulgaria": [
+                        "Montana"
+                    ],
+                    "Switzerland": [
+                        "Montana"
+                    ],
+                    "Ireland": [
+                        "River"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Kent": [
+                        "River"
+                    ],
+                    "Province of the Western Cape": [
+                        "Montana"
+                    ],
+                    "Oblast Montana": [
+                        "Montana"
+                    ],
+                    "Valais": [
+                        "Montana"
+                    ],
+                    "County Mayo": [
+                        "River"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United Kingdom",
+                        1
+                    ],
+                    [
+                        "South Africa",
+                        1
+                    ],
+                    [
+                        "Bulgaria",
+                        1
+                    ],
+                    [
+                        "Switzerland",
+                        1
+                    ],
+                    [
+                        "Ireland",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Montana",
+                        1
+                    ],
+                    [
+                        "River",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "heuristique 2": [
+            "Montana",
+            "43.4125",
+            "23.225"
+        ],
+        "Ordre": [
+            "LOC",
+            "GPE"
+        ],
+        "heuristique3_adresse": [
+            [
+                "Kootenai River",
+                "Montana"
+            ],
+            "48.45272",
+            "-115.7635"
+        ],
+        "heuristique 5": [
+            "Kootenai River Montana ",
+            "48.45272",
+            "-115.7635"
+        ],
+        "heuristique_country_cities": [
+            "River Ireland",
+            "45.65928",
+            "-122.37231"
+        ],
+        "resultat_Spacy": [
+            "Kootenai River Montana ",
+            "48.45272",
+            "-115.7635"
+        ]
+    },
+    "image15": {
+        "title": "A very unique \"Firefall\" in Yosemite Valley from 2019 [OC] [3000x4500]",
+        "url": "https://i.redd.it/fpfga5iml0h81.jpg",
+        "SpacyLoc": [
+            [
+                "Yosemite Valley",
+                "LOC"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "WORK_OF_ART",
+            "LOC",
+            "DATE",
+            "CARDINAL"
+        ],
+        "heuristique 5": [
+            "Yosemite Valley ",
+            "37.74075",
+            "-119.57788"
+        ],
+        "resultat_Spacy": [
+            "Yosemite Valley ",
+            "37.74075",
+            "-119.57788"
+        ]
+    },
+    "image16": {
+        "title": "Umauma Falls, Hawaii [OC] [5760x3840]",
+        "url": "https://i.imgur.com/gtgsIZX.jpg",
+        "SpacyLoc": [
+            [
+                "Hawaii",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Falls"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Falls"
+                    ],
+                    "Germany": [
+                        "Falls"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Pennsylvania": [
+                        "Falls"
+                    ],
+                    "Bavaria": [
+                        "Falls"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Germany",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Falls",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "PERSON",
+            "GPE"
+        ],
+        "heuristique 1": "Hawaii",
+        "heuristique 5": [
+            "Umauma Falls Hawaii "
+        ],
+        "heuristique_country_cities": [
+            "Falls Germany",
+            "44.55312",
+            "-74.93964"
+        ],
+        "resultat_Spacy": [
+            "Hawaii ",
+            "20.78785",
+            "-156.38612"
+        ]
+    },
+    "image17": {
+        "title": "Death Valley - Zabriskie Point [OC] [2731x4096]",
+        "url": "https://i.redd.it/jds8fz1do1h81.jpg",
+        "SpacyLoc": [
+            [
+                "Death Valley - Zabriskie Point",
+                "LOC"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Valley"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Valley"
+                    ],
+                    "United Kingdom": [
+                        "Valley"
+                    ],
+                    "Canada": [
+                        "Valley"
+                    ],
+                    "Germany": [
+                        "Valley"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Washington": [
+                        "Valley"
+                    ],
+                    "Alabama": [
+                        "Valley"
+                    ],
+                    "Anglesey": [
+                        "Valley"
+                    ],
+                    "Nebraska": [
+                        "Valley"
+                    ],
+                    "Nova Scotia": [
+                        "Valley"
+                    ],
+                    "Bavaria": [
+                        "Valley"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "United Kingdom",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Germany",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Valley",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "LOC"
+        ],
+        "heuristique 5": [
+            "Death Valley Zabriskie Point "
+        ],
+        "heuristique_country_cities": [
+            "Valley Germany",
+            "38.78011",
+            "-79.39477"
+        ],
+        "resultat_Spacy": [
+            "Death Valley - Zabriskie Point "
+        ]
+    },
+    "image18": {
+        "title": "Aoraki/Mt Cook\u2013the tallest mountain in New Zealand [4000 x 5702][OC]",
+        "url": "https://i.redd.it/pi6utudt63h81.jpg",
+        "SpacyLoc": [
+            [
+                "New Zealand",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "New Zealand"
+                ]
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "New Zealand",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 5": [
+            "Aoraki Mt Cook New Zealand ",
+            "-43.6",
+            "170.16667"
+        ],
+        "resultat_Spacy": [
+            "New Zealand ",
+            "-27.83908",
+            "143.26172"
+        ]
+    },
+    "image19": {
+        "title": "Drina River, West Serbia [OC] 3024x4032",
+        "url": "https://i.imgur.com/KNbjPUJ.jpg",
+        "SpacyLoc": [
+            [
+                "Drina River",
+                "LOC"
+            ],
+            [
+                "West Serbia",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "West"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "West"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Texas": [
+                        "West"
+                    ],
+                    "Mississippi": [
+                        "West"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "West",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "heuristique 2": [
+            "West Serbia",
+            "45.77417",
+            "19.11222"
+        ],
+        "Ordre": [
+            "LOC",
+            "GPE"
+        ],
+        "heuristique3_adresse": [
+            [
+                "Drina River",
+                "West Serbia"
+            ]
+        ],
+        "heuristique 4": "west,West Serbia",
+        "heuristique 5": [
+            "Drina River West Serbia "
+        ],
+        "heuristique_country_cities": [
+            "West United States",
+            "51.52604",
+            "-131.16073"
+        ],
+        "resultat_Spacy": [
+            "Drina River West Serbia "
+        ],
+        "realLoc": {
+            "Nomreal": "West United States",
+            "Latitude": "51.52604",
+            "Longitude": "-131.16073\n"
+        }
+    },
+    "image20": {
+        "title": "Emerald Lake, RMNP, Colorado [OC] [7929x5286]",
+        "url": "https://i.redd.it/n4mp7qpu44h81.jpg",
+        "SpacyLoc": [
+            [
+                "Emerald Lake",
+                "GPE"
+            ],
+            [
+                "RMNP",
+                "GPE"
+            ],
+            [
+                "Colorado",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Emerald",
+                    "Lake",
+                    "Colorado"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "Australia": [
+                        "Emerald"
+                    ],
+                    "United States": [
+                        "Lake"
+                    ],
+                    "Brazil": [
+                        "Colorado"
+                    ],
+                    "Canada": [
+                        "Emerald"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Victoria": [
+                        "Emerald"
+                    ],
+                    "Queensland": [
+                        "Emerald"
+                    ],
+                    "Wyoming": [
+                        "Lake"
+                    ],
+                    "Michigan": [
+                        "Lake"
+                    ],
+                    "Mississippi": [
+                        "Lake"
+                    ],
+                    "Estado do Parana": [
+                        "Colorado"
+                    ],
+                    "West Virginia": [
+                        "Lake"
+                    ],
+                    "Ontario": [
+                        "Emerald"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Australia",
+                        1
+                    ],
+                    [
+                        "Brazil",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Colorado",
+                        1
+                    ],
+                    [
+                        "Emerald",
+                        1
+                    ],
+                    [
+                        "Lake",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "heuristique 2": [
+            "Colorado",
+            "38.83388",
+            "-104.82136"
+        ],
+        "Ordre": [
+            "GPE",
+            "GPE",
+            "GPE"
+        ],
+        "heuristique 5": [
+            "Emerald Lake Colorado ",
+            "39.15163",
+            "-106.40613"
+        ],
+        "heuristique_country_cities": [
+            "Emerald Canada",
+            "47.91685",
+            "-81.51653"
+        ],
+        "resultat_Spacy": [
+            "Emerald Lake RMNP Colorado "
+        ]
+    },
+    "image21": {
+        "title": "New Zealand 3744x1960 [OC]",
+        "url": "https://i.redd.it/s4yetxe005h81.jpg",
+        "SpacyLoc": [
+            [
+                "New Zealand",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "New Zealand"
+                ]
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "New Zealand",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "GPE"
+        ],
+        "heuristique 5": [
+            "New Zealand ",
+            "-27.83908",
+            "143.26172"
+        ],
+        "resultat_Spacy": [
+            "New Zealand ",
+            "-27.83908",
+            "143.26172"
+        ],
+        "realLoc": {
+            "Nomreal": "New Zealand ",
+            "Latitude": "-27.83908",
+            "Longitude": "143.26172\n"
+        }
+    },
+    "image22": {
+        "title": "Laguna Cuicocha in Ecuador [OC] 4032x2268",
+        "url": "https://i.redd.it/wlw28x3cj1h81.jpg",
+        "SpacyLoc": [
+            [
+                "Ecuador",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Ecuador"
+                ]
+            },
+            {
+                "Cities": [
+                    "Laguna"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "Philippines": [
+                        "Laguna"
+                    ],
+                    "United States": [
+                        "Laguna"
+                    ],
+                    "Brazil": [
+                        "Laguna"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Province of Masbate": [
+                        "Laguna"
+                    ],
+                    "New Mexico": [
+                        "Laguna"
+                    ],
+                    "Estado de Santa Catarina": [
+                        "Laguna"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Ecuador",
+                        1
+                    ],
+                    [
+                        "Philippines",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "Brazil",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Laguna",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "PERSON",
+            "GPE",
+            "DATE"
+        ],
+        "heuristique 1": "Ecuador",
+        "heuristique 5": [
+            "Laguna Cuicocha Ecuador ",
+            "0.30043",
+            "-78.3628"
+        ],
+        "heuristique_country_cities": [
+            "Laguna Brazil",
+            "-28.4825",
+            "-48.78083"
+        ],
+        "resultat_Spacy": [
+            "Ecuador ",
+            "-1.25",
+            "-78.25"
+        ],
+        "realLoc": {
+            "Nomreal": "Ecuador ",
+            "Latitude": "-1.25",
+            "Longitude": "-78.25\n"
+        }
+    },
+    "image23": {
+        "title": "Zion NP, southern Utah [OC] 6000x4000",
+        "url": "https://i.redd.it/kij7nn66o4h81.jpg",
+        "SpacyLoc": [
+            [
+                "Utah",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Zion"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Zion"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Illinois": [
+                        "Zion"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Zion",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "ORG",
+            "GPE"
+        ],
+        "heuristique 1": "Utah",
+        "heuristique 5": [
+            "Zion NP Utah "
+        ],
+        "heuristique_country_cities": [
+            "Zion United States",
+            "37.29824",
+            "-113.02644"
+        ],
+        "resultat_Spacy": [
+            "Utah ",
+            "39.25024",
+            "-111.75103"
+        ]
+    },
+    "image24": {
+        "title": "Red Rock Canyon, NV [OC][1280x1600] @landscape.luke",
+        "url": "https://i.redd.it/5fwega13a1h81.jpg",
+        "SpacyLoc": [
+            [
+                "Red Rock Canyon",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "GPE"
+        ],
+        "heuristique 5": [
+            "Red Rock Canyon NV ",
+            "36.15192",
+            "-115.45413"
+        ],
+        "resultat_Spacy": [
+            "Red Rock Canyon ",
+            "36.15192",
+            "-115.45413"
+        ]
+    },
+    "image25": {
+        "title": "Beautiful golden hour scene in Kananaskis Country in Alberta, Canada [OC][1214x1800]",
+        "url": "https://i.redd.it/5of9wb11p2h81.jpg",
+        "SpacyLoc": [
+            [
+                "Alberta",
+                "GPE"
+            ],
+            [
+                "Canada",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Canada"
+                ]
+            },
+            {
+                "Cities": [
+                    "Canada",
+                    "Kananaskis"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Canada"
+                    ],
+                    "Canada": [
+                        "Kananaskis"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Kentucky": [
+                        "Canada"
+                    ],
+                    "Alberta": [
+                        "Kananaskis"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Kananaskis",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": [
+                    "Kananaskis, Alberta, Canada"
+                ]
+            }
+        ],
+        "heuristique 2": [
+            "Canada",
+            "60.10867",
+            "-113.64258"
+        ],
+        "Ordre": [
+            "FAC",
+            "GPE",
+            "GPE"
+        ],
+        "heuristique 5": [
+            "Kananaskis Country Alberta Canada "
+        ],
+        "heuristique_country_cities": [
+            "Kananaskis Canada",
+            "51.07754",
+            "-115.1223"
+        ],
+        "heuristique_adresse_LT": [
+            "Kananaskis Alberta Canada",
+            "51.07754",
+            "-115.1223"
+        ],
+        "resultat_Spacy": [
+            "Alberta Canada ",
+            "52.28333",
+            "-117.469"
+        ]
+    },
+    "image26": {
+        "title": "Hoar frost in Stockgrove Park, Bedfordshire, UK. [OC] 5000x6219",
+        "url": "https://i.redd.it/f3dez52zkzg81.jpg",
+        "SpacyLoc": [
+            [
+                "Stockgrove Park",
+                "GPE"
+            ],
+            [
+                "Bedfordshire",
+                "GPE"
+            ],
+            [
+                "UK",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "heuristique 2": [
+            "UK",
+            "54.75844",
+            "-2.69531"
+        ],
+        "Ordre": [
+            "GPE",
+            "GPE",
+            "GPE"
+        ],
+        "heuristique 5": [
+            "Stockgrove Park Bedfordshire UK "
+        ],
+        "resultat_Spacy": [
+            "Stockgrove Park Bedfordshire UK "
+        ]
+    },
+    "image27": {
+        "title": "[OC] Lands near the hydro power plant, Shawinigan, Qu\u00e9bec, Canada. [4656X3492] Misty Hills",
+        "url": "https://i.redd.it/1nwxp6jb84h81.jpg",
+        "SpacyLoc": [
+            [
+                "Qu\u00e9bec",
+                "GPE"
+            ],
+            [
+                "Canada",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Canada"
+                ]
+            },
+            {
+                "Cities": [
+                    "Shawinigan",
+                    "Hills",
+                    "Canada"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "Canada": [
+                        "Shawinigan"
+                    ],
+                    "United States": [
+                        "Hills",
+                        "Canada"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Quebec": [
+                        "Shawinigan"
+                    ],
+                    "Iowa": [
+                        "Hills"
+                    ],
+                    "Minnesota": [
+                        "Hills"
+                    ],
+                    "Kentucky": [
+                        "Canada"
+                    ],
+                    "Qu\u00e9bec": [
+                        "Shawinigan"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Shawinigan",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Hills",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "heuristique 2": [
+            "Canada",
+            "60.10867",
+            "-113.64258"
+        ],
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "GPE",
+            "CARDINAL",
+            "ORG"
+        ],
+        "heuristique 5": [
+            "Lands hydro Shawinigan Qu\u00e9bec Canada Misty Hills "
+        ],
+        "heuristique_country_cities": [
+            "Canada Hills United States",
+            "36.45698",
+            "-105.13195"
+        ],
+        "resultat_Spacy": [
+            "Qu\u00e9bec Canada ",
+            "46.81228",
+            "-71.21454"
+        ]
+    },
+    "image30": {
+        "title": "[OC] Fall Creek Falls in (Early) Fall: Tennessee [4032x2268]",
+        "url": "https://i.redd.it/5brcn4us04h81.jpg",
+        "SpacyLoc": [
+            [
+                "Tennessee",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Early",
+                    "Tennessee"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Early",
+                        "Tennessee"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Texas": [
+                        "Early"
+                    ],
+                    "Illinois": [
+                        "Tennessee"
+                    ],
+                    "Iowa": [
+                        "Early"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Tennessee",
+                        1
+                    ],
+                    [
+                        "Early",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 5": [
+            "Fall Creek Falls Early Tennessee "
+        ],
+        "heuristique_country_cities": [
+            "Tennessee Early United States",
+            "36.18283",
+            "-86.81805"
+        ],
+        "resultat_Spacy": [
+            "Tennessee ",
+            "35.8",
+            "-86.5"
+        ]
+    },
+    "image31": {
+        "title": "Doris Lake, Desolation Wilderness, California [OC] [5879x3919]",
+        "url": "https://i.redd.it/xtx7jx4nt2h81.jpg",
+        "SpacyLoc": [
+            [
+                "California",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "California",
+                    "Lake"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "California",
+                        "Lake"
+                    ],
+                    "Trinidad and Tobago": [
+                        "California"
+                    ],
+                    "Brazil": [
+                        "California"
+                    ],
+                    "Mexico": [
+                        "California"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Missouri": [
+                        "California"
+                    ],
+                    "Pennsylvania": [
+                        "California"
+                    ],
+                    "Maryland": [
+                        "California"
+                    ],
+                    "Kentucky": [
+                        "California"
+                    ],
+                    "Wyoming": [
+                        "Lake"
+                    ],
+                    "Michigan": [
+                        "Lake"
+                    ],
+                    "Mississippi": [
+                        "Lake"
+                    ],
+                    "West Virginia": [
+                        "Lake"
+                    ],
+                    "Couva-Tabaquite-Talparo": [
+                        "California"
+                    ],
+                    "Estado do Parana": [
+                        "California"
+                    ],
+                    "Virginia": [
+                        "California"
+                    ],
+                    "Coahuila": [
+                        "California"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Trinidad and Tobago",
+                        1
+                    ],
+                    [
+                        "Brazil",
+                        1
+                    ],
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "California",
+                        1
+                    ],
+                    [
+                        "Lake",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
+        "heuristique 1": "California",
+        "heuristique 5": [
+            "Doris Lake Desolation Wilderness California "
+        ],
+        "heuristique_country_cities": [
+            "California Mexico",
+            "25.83333",
+            "-111.83333"
+        ],
+        "resultat_Spacy": [
+            "California ",
+            "34.68743",
+            "-116.78467"
+        ]
+    },
+    "image32": {
+        "title": "San Juan del Cabo, Mexico [OC] 2048x1365",
+        "url": "https://i.redd.it/uzp3fwgko3h81.jpg",
+        "SpacyLoc": [
+            [
+                "San Juan del Cabo",
+                "GPE"
+            ],
+            [
+                "Mexico",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Mexico"
+                ]
+            },
+            {
+                "Cities": [
+                    "Mexico",
+                    "Cabo"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Mexico"
+                    ],
+                    "Portugal": [
+                        "Cabo"
+                    ],
+                    "Brazil": [
+                        "Cabo"
+                    ],
+                    "Mexico": [
+                        "Mexico"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Missouri": [
+                        "Mexico"
+                    ],
+                    "New York": [
+                        "Mexico"
+                    ],
+                    "Maine": [
+                        "Mexico"
+                    ],
+                    "Distrito de Santarem": [
+                        "Cabo"
+                    ],
+                    "Estado de Pernambuco": [
+                        "Cabo"
+                    ],
+                    "Indiana": [
+                        "Mexico"
+                    ],
+                    "Coahuila": [
+                        "Mexico"
+                    ],
+                    "Veracruz": [
+                        "Mexico"
+                    ],
+                    "Zacatecas": [
+                        "Mexico"
+                    ],
+                    "Guerrero": [
+                        "Mexico"
+                    ],
+                    "Quer\u00e9taro": [
+                        "Mexico"
+                    ],
+                    "Puebla": [
+                        "Mexico"
+                    ],
+                    "State of Mexico": [
+                        "Mexico"
+                    ],
+                    "": [
+                        "Mexico"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Mexico",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "Portugal",
+                        1
+                    ],
+                    [
+                        "Brazil",
+                        1
+                    ],
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Mexico",
+                        1
+                    ],
+                    [
+                        "Cabo",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "heuristique 2": [
+            "Mexico",
+            "19.42847",
+            "-99.12766"
+        ],
+        "Ordre": [
+            "GPE",
+            "GPE"
+        ],
+        "heuristique 5": [
+            "San Juan Cabo Mexico "
+        ],
+        "heuristique_country_cities": [
+            "Mexico Mexico",
+            "19.42847",
+            "-99.12766"
+        ],
+        "resultat_Spacy": [
+            "San Juan del Cabo Mexico "
+        ]
+    },
+    "image33": {
+        "title": "Vernal and Nevada Falls, Yosemite NP, California [OC] [1432x1910]",
+        "url": "https://i.redd.it/20hnvi5ah1h81.jpg",
+        "SpacyLoc": [
+            [
+                "California",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "California",
+                    "Vernal"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "California",
+                        "Vernal"
+                    ],
+                    "Trinidad and Tobago": [
+                        "California"
+                    ],
+                    "Brazil": [
+                        "California"
+                    ],
+                    "Mexico": [
+                        "California"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Missouri": [
+                        "California"
+                    ],
+                    "Pennsylvania": [
+                        "California"
+                    ],
+                    "Maryland": [
+                        "California"
+                    ],
+                    "Utah": [
+                        "Vernal"
+                    ],
+                    "Kentucky": [
+                        "California"
+                    ],
+                    "Couva-Tabaquite-Talparo": [
+                        "California"
+                    ],
+                    "Estado do Parana": [
+                        "California"
+                    ],
+                    "Virginia": [
+                        "California"
+                    ],
+                    "Coahuila": [
+                        "California"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Trinidad and Tobago",
+                        1
+                    ],
+                    [
+                        "Brazil",
+                        1
+                    ],
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "California",
+                        1
+                    ],
+                    [
+                        "Vernal",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
+        "heuristique 1": "California",
+        "heuristique 5": [
+            "Nevada Falls Yosemite NP California "
+        ],
+        "heuristique_country_cities": [
+            "California Mexico",
+            "25.83333",
+            "-111.83333"
+        ],
+        "resultat_Spacy": [
+            "California ",
+            "34.68743",
+            "-116.78467"
+        ]
+    },
+    "image34": {
+        "title": "Loreto, Baja California Sur, Mexico. [OC] [2150x983]",
+        "url": "https://i.redd.it/5gwtxpfp24h81.jpg",
+        "SpacyLoc": [
+            [
+                "Loreto",
+                "GPE"
+            ],
+            [
+                "Mexico",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Mexico"
+                ]
+            },
+            {
+                "Cities": [
+                    "Loreto",
+                    "Mexico"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "Italy": [
+                        "Loreto"
+                    ],
+                    "United States": [
+                        "Mexico"
+                    ],
+                    "Mexico": [
+                        "Loreto",
+                        "Mexico"
+                    ],
+                    "Ecuador": [
+                        "Loreto"
+                    ],
+                    "Peru": [
+                        "Loreto"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Provincia di Ancona": [
+                        "Loreto"
+                    ],
+                    "Missouri": [
+                        "Mexico"
+                    ],
+                    "New York": [
+                        "Mexico"
+                    ],
+                    "Maine": [
+                        "Mexico"
+                    ],
+                    "Baja California Sur": [
+                        "Loreto"
+                    ],
+                    "Provincia de Pichincha": [
+                        "Loreto"
+                    ],
+                    "Departamento de Moquegua": [
+                        "Loreto"
+                    ],
+                    "Zacatecas": [
+                        "Loreto",
+                        "Mexico"
+                    ],
+                    "Indiana": [
+                        "Mexico"
+                    ],
+                    "Coahuila": [
+                        "Mexico"
+                    ],
+                    "Veracruz": [
+                        "Mexico"
+                    ],
+                    "Guerrero": [
+                        "Mexico"
+                    ],
+                    "Quer\u00e9taro": [
+                        "Mexico"
+                    ],
+                    "Puebla": [
+                        "Mexico"
+                    ],
+                    "State of Mexico": [
+                        "Mexico"
+                    ],
+                    "": [
+                        "Mexico"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Mexico",
+                        1
+                    ],
+                    [
+                        "Italy",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "Ecuador",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Loreto",
+                        1
+                    ],
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": [
+                    "Loreto, Baja California Sur, Mexico"
+                ]
+            }
+        ],
+        "heuristique 2": [
+            "Mexico",
+            "19.42847",
+            "-99.12766"
+        ],
+        "Ordre": [
+            "GPE",
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 5": [
+            "Loreto Baja California Sur Mexico ",
+            "25.98919",
+            "-111.34836"
+        ],
+        "heuristique_country_cities": [
+            "Loreto Peru",
+            "-4",
+            "-74.5"
+        ],
+        "heuristique_adresse_LT": [
+            "Loreto Baja California Sur Mexico",
+            "25.98919",
+            "-111.34836"
+        ],
+        "resultat_Spacy": [
+            "Loreto Mexico ",
+            "25.98919",
+            "-111.34836"
+        ]
+    },
+    "image35": {
+        "title": "Hector Lake, Banff National Park, Alberta, Canada [OC] [6000x4000]",
+        "url": "https://i.redd.it/ljqgulqfq2h81.jpg",
+        "SpacyLoc": [
+            [
+                "National Park",
+                "GPE"
+            ],
+            [
+                "Alberta",
+                "GPE"
+            ],
+            [
+                "Canada",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Canada"
+                ]
+            },
+            {
+                "Cities": [
+                    "National Park",
+                    "Hector",
+                    "Lake",
+                    "Canada"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "National Park",
+                        "Hector",
+                        "Lake",
+                        "Canada"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "New Jersey": [
+                        "National Park"
+                    ],
+                    "Minnesota": [
+                        "Hector"
+                    ],
+                    "New York": [
+                        "Hector"
+                    ],
+                    "Wyoming": [
+                        "Lake"
+                    ],
+                    "Michigan": [
+                        "Lake"
+                    ],
+                    "Mississippi": [
+                        "Lake"
+                    ],
+                    "West Virginia": [
+                        "Lake"
+                    ],
+                    "Arkansas": [
+                        "Hector"
+                    ],
+                    "Kentucky": [
+                        "Canada"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "National Park",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Hector",
+                        1
+                    ],
+                    [
+                        "Lake",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "heuristique 2": [
+            "Canada",
+            "60.10867",
+            "-113.64258"
+        ],
+        "Ordre": [
+            "GPE",
+            "GPE",
+            "GPE"
+        ],
+        "heuristique 5": [
+            "Hector Lake Banff National Park Alberta Canada "
+        ],
+        "heuristique_country_cities": [
+            "United States,Canada ",
+            "82.41879",
+            "-67.99236"
+        ],
+        "resultat_Spacy": [
+            "National Park Alberta Canada ",
+            "49.08325",
+            "-113.86863"
+        ]
+    },
+    "image36": {
+        "title": "Abiqua Falls, Oregon [oc][4000 \u00d7 2667]",
+        "url": "https://i.redd.it/kqmi9149s1h81.jpg",
+        "SpacyLoc": [
+            [
+                "Oregon",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Oregon",
+                    "Falls"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Oregon",
+                        "Falls"
+                    ],
+                    "Germany": [
+                        "Falls"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Illinois": [
+                        "Oregon"
+                    ],
+                    "Ohio": [
+                        "Oregon"
+                    ],
+                    "Wisconsin": [
+                        "Oregon"
+                    ],
+                    "Missouri": [
+                        "Oregon"
+                    ],
+                    "Pennsylvania": [
+                        "Falls"
+                    ],
+                    "Bavaria": [
+                        "Falls"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Germany",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Oregon",
+                        1
+                    ],
+                    [
+                        "Falls",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "PERSON",
+            "GPE"
+        ],
+        "heuristique 1": "Oregon",
+        "heuristique 5": [
+            "Abiqua Falls Oregon ",
+            "44.92632",
+            "-122.56729"
+        ],
+        "heuristique_country_cities": [
+            "Falls Germany",
+            "44.55312",
+            "-74.93964"
+        ],
+        "resultat_Spacy": [
+            "Oregon ",
+            "44.00013",
+            "-120.50139"
+        ]
+    },
+    "image37": {
+        "title": "Golden Light on Half Dome, Yosemite National Park, CA, USA [OC] [1897x2371]",
+        "url": "https://i.redd.it/8gilx672m2h81.jpg",
+        "SpacyLoc": [
+            [
+                "USA",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Golden",
+                    "Usa"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Golden"
+                    ],
+                    "Canada": [
+                        "Golden"
+                    ],
+                    "Japan": [
+                        "Usa"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Colorado": [
+                        "Golden"
+                    ],
+                    "British Columbia": [
+                        "Golden"
+                    ],
+                    "Kochi-ken": [
+                        "Usa"
+                    ],
+                    "Illinois": [
+                        "Golden"
+                    ],
+                    "Mississippi": [
+                        "Golden"
+                    ],
+                    "Missouri": [
+                        "Golden"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "Canada",
+                        1
+                    ],
+                    [
+                        "Japan",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Golden",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "FAC",
+            "ORG",
+            "GPE"
+        ],
+        "heuristique 1": "USA",
+        "heuristique 5": [
+            "Golden Light Half Dome Yosemite National Park CA USA "
+        ],
+        "heuristique_country_cities": [
+            "Usa Japan",
+            "33.53333",
+            "131.33333"
+        ],
+        "resultat_Spacy": [
+            "USA ",
+            "39.76",
+            "-98.5"
+        ]
+    },
+    "image38": {
+        "title": "(OC)Grand Canyon, Arizona. USA. [2250x1500]",
+        "url": "https://i.redd.it/qu1mfrje12h81.jpg",
+        "SpacyLoc": [
+            [
+                "Sunset",
+                "GPE"
+            ],
+            [
+                "Grand Canyon",
+                "GPE"
+            ],
+            [
+                "Arizona",
+                "GPE"
+            ],
+            [
+                "USA",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Grand Canyon",
+                    "Usa",
+                    "Sunset"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Grand Canyon",
+                        "Sunset"
+                    ],
+                    "Japan": [
+                        "Usa"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Arizona": [
+                        "Grand Canyon"
+                    ],
+                    "Kochi-ken": [
+                        "Usa"
+                    ],
+                    "South Carolina": [
+                        "Sunset"
+                    ],
+                    "Louisiana": [
+                        "Sunset"
+                    ],
+                    "Texas": [
+                        "Sunset"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Japan",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Sunset",
+                        1
+                    ],
+                    [
+                        "Grand Canyon",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": [
+                    "Grand Canyon, Arizona, United States"
+                ]
+            }
+        ],
+        "heuristique 2": [
+            "USA",
+            "39.76",
+            "-98.5"
+        ],
+        "Ordre": [
+            "GPE",
+            "GPE",
+            "GPE",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 5": [
+            "Canyon Arizona USA ",
+            "34.5003",
+            "-111.50098"
+        ],
+        "heuristique_country_cities": [
+            "Usa Japan",
+            "33.53333",
+            "131.33333"
+        ],
+        "heuristique_adresse_LT": [
+            "Grand Canyon Arizona United States",
+            "34.5003",
+            "-111.50098"
+        ],
+        "resultat_Spacy": [
+            "Sunset Grand Canyon Arizona USA "
+        ]
+    },
+    "image39": {
+        "title": "(OC) The cactus forests of Puebla-Oaxaca, Mexico [3000x4100]",
+        "url": "https://i.redd.it/1fifotqtdxg81.jpg",
+        "SpacyLoc": [
+            [
+                "Mexico",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Mexico"
+                ]
+            },
+            {
+                "Cities": [
+                    "Mexico"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Mexico"
+                    ],
+                    "Mexico": [
+                        "Mexico"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Missouri": [
+                        "Mexico"
+                    ],
+                    "New York": [
+                        "Mexico"
+                    ],
+                    "Maine": [
+                        "Mexico"
+                    ],
+                    "Indiana": [
+                        "Mexico"
+                    ],
+                    "Coahuila": [
+                        "Mexico"
+                    ],
+                    "Veracruz": [
+                        "Mexico"
+                    ],
+                    "Zacatecas": [
+                        "Mexico"
+                    ],
+                    "Guerrero": [
+                        "Mexico"
+                    ],
+                    "Quer\u00e9taro": [
+                        "Mexico"
+                    ],
+                    "Puebla": [
+                        "Mexico"
+                    ],
+                    "State of Mexico": [
+                        "Mexico"
+                    ],
+                    "": [
+                        "Mexico"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Mexico",
+                        1
+                    ],
+                    [
+                        "United States",
+                        1
+                    ],
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "ORG",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 5": [
+            "OC Puebla Oaxaca Mexico "
+        ],
+        "heuristique_country_cities": [
+            "Mexico Mexico",
+            "19.42847",
+            "-99.12766"
+        ],
+        "resultat_Spacy": [
+            "Mexico ",
+            "19.42847",
+            "-99.12766"
+        ]
+    },
+    "image40": {
+        "title": "Waves Crashing at Yaquina Head, Oregon (OC) [5760 \u00d7 3840]",
+        "url": "https://i.redd.it/zhsyuvgz54h81.jpg",
+        "SpacyLoc": [
+            [
+                "Yaquina",
+                "GPE"
+            ],
+            [
+                "Oregon",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Oregon"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Oregon"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Illinois": [
+                        "Oregon"
+                    ],
+                    "Ohio": [
+                        "Oregon"
+                    ],
+                    "Wisconsin": [
+                        "Oregon"
+                    ],
+                    "Missouri": [
+                        "Oregon"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Oregon",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "heuristique 2": [
+            "Oregon",
+            "44.00013",
+            "-120.50139"
+        ],
+        "Ordre": [
+            "GPE",
+            "GPE",
+            "DATE"
+        ],
+        "heuristique 5": [
+            "Yaquina Head Oregon OC "
+        ],
+        "heuristique_country_cities": [
+            "Oregon United States",
+            "44.00013",
+            "-120.50139"
+        ],
+        "resultat_Spacy": [
+            "Yaquina Oregon ",
+            "44.62373",
+            "-124.06317"
+        ]
+    },
+    "image42": {
+        "title": "Yosemite - Valley View from Glacier Point at Sunset [6000x4000] [OC]",
+        "url": "https://i.redd.it/ivvh0k9hl2h81.jpg",
+        "SpacyLoc": [
+            [
+                "Sunset",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Valley View",
+                    "Yosemite",
+                    "Sunset"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "Valley View",
+                        "Yosemite",
+                        "Sunset"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Pennsylvania": [
+                        "Valley View"
+                    ],
+                    "Kentucky": [
+                        "Yosemite"
+                    ],
+                    "Texas": [
+                        "Valley View",
+                        "Sunset"
+                    ],
+                    "South Carolina": [
+                        "Sunset"
+                    ],
+                    "Louisiana": [
+                        "Sunset"
+                    ],
+                    "Ohio": [
+                        "Valley View"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "United States",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Sunset",
+                        1
+                    ],
+                    [
+                        "Yosemite",
+                        1
+                    ],
+                    [
+                        "Valley View",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "PRODUCT",
+            "GPE"
+        ],
+        "heuristique 1": "Sunset",
+        "heuristique 5": [
+            "Yosemite Valley Glacier Point Sunset "
+        ],
+        "heuristique_country_cities": [
+            "United States,Sunset ",
+            "30.41131",
+            "-92.06845"
+        ],
+        "resultat_Spacy": [
+            "Sunset ",
+            "49.2241",
+            "-123.09134"
+        ]
+    },
+    "image43": {
+        "title": "Napali Coast, Kauai [2532 x 1170] [OC]",
+        "url": "https://i.redd.it/vhb7bo4jvtg81.jpg",
+        "SpacyLoc": [
+            [
+                "Napali Coast",
+                "LOC"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": []
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "LOC",
+            "PERSON",
+            "DATE",
+            "DATE"
+        ],
+        "heuristique 5": [
+            "Napali Coast Kauai ",
+            "22.18333",
+            "-159.64167"
+        ],
+        "resultat_Spacy": [
+            "Napali Coast ",
+            "22.18333",
+            "-159.64167"
+        ]
+    },
+    "image44": {
+        "title": "Cloudland Canyon, Georgia[2778x1284] [OC]",
+        "url": "https://i.redd.it/dvxmkupil2h81.jpg",
+        "SpacyLoc": [
+            [
+                "Cloudland Canyon",
+                "LOC"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": [
+                    "Georgia"
+                ]
+            },
+            {
+                "Cities": []
+            },
+            {
+                "Country_Cities": {}
+            },
+            {
+                "Region_Cities": {}
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Georgia",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": []
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "LOC"
+        ],
+        "heuristique 5": [
+            "Cloudland Canyon ",
+            "34.8423",
+            "-85.48246"
+        ],
+        "resultat_Spacy": [
+            "Cloudland Canyon ",
+            "34.8423",
+            "-85.48246"
+        ]
+    },
+    "image46": {
+        "title": "Shisram nag or sheeshnag, Kashmir [3024x4032] [OC]",
+        "url": "https://i.redd.it/2h4i8q4rp0h81.jpg",
+        "SpacyLoc": [
+            [
+                "Kashmir",
+                "LOC"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "Kashmir"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "Pakistan": [
+                        "Kashmir"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Punjab": [
+                        "Kashmir"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Pakistan",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "Kashmir",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "Ordre": [
+            "ORG",
+            "LOC"
+        ],
+        "heuristique 1": "Kashmir",
+        "heuristique 5": [
+            "Kashmir ",
+            "33.94718",
+            "73.9104"
+        ],
+        "heuristique_country_cities": [
+            "Kashmir Pakistan",
+            "33.94718",
+            "73.9104"
+        ],
+        "resultat_Spacy": [
+            "Kashmir ",
+            "33.94718",
+            "73.9104"
+        ]
+    },
+    "image48": {
+        "title": "Little Mushroom Kingdom, Redwood National Park, California, USA [3056 x 3820] [OC]",
+        "url": "https://i.imgur.com/8JEUNHH.jpg",
+        "SpacyLoc": [
+            [
+                "Mushroom Kingdom",
+                "GPE"
+            ],
+            [
+                "California",
+                "GPE"
+            ],
+            [
+                "USA",
+                "GPE"
+            ]
+        ],
+        "LocationTagger": [
+            {
+                "Countries": []
+            },
+            {
+                "Cities": [
+                    "California",
+                    "Usa"
+                ]
+            },
+            {
+                "Country_Cities": {
+                    "United States": [
+                        "California"
+                    ],
+                    "Japan": [
+                        "Usa"
+                    ],
+                    "Trinidad and Tobago": [
+                        "California"
+                    ],
+                    "Brazil": [
+                        "California"
+                    ],
+                    "Mexico": [
+                        "California"
+                    ]
+                }
+            },
+            {
+                "Region_Cities": {
+                    "Missouri": [
+                        "California"
+                    ],
+                    "Pennsylvania": [
+                        "California"
+                    ],
+                    "Maryland": [
+                        "California"
+                    ],
+                    "Kochi-ken": [
+                        "Usa"
+                    ],
+                    "Kentucky": [
+                        "California"
+                    ],
+                    "Couva-Tabaquite-Talparo": [
+                        "California"
+                    ],
+                    "Estado do Parana": [
+                        "California"
+                    ],
+                    "Virginia": [
+                        "California"
+                    ],
+                    "Coahuila": [
+                        "California"
+                    ]
+                }
+            },
+            {
+                "Country_mentions": [
+                    [
+                        "Japan",
+                        1
+                    ],
+                    [
+                        "Trinidad and Tobago",
+                        1
+                    ],
+                    [
+                        "Brazil",
+                        1
+                    ],
+                    [
+                        "Mexico",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Citiy_mentions": [
+                    [
+                        "California",
+                        1
+                    ]
+                ]
+            },
+            {
+                "Adresse": []
+            }
+        ],
+        "heuristique 2": [
+            "USA",
+            "39.76",
+            "-98.5"
+        ],
+        "Ordre": [
+            "GPE",
+            "GPE",
+            "GPE",
+            "CARDINAL"
+        ],
+        "heuristique 5": [
+            "Mushroom Kingdom Redwood National Park California USA [ "
+        ],
+        "heuristique_country_cities": [
+            "California Mexico",
+            "25.83333",
+            "-111.83333"
+        ],
+        "resultat_Spacy": [
+            "Mushroom Kingdom California USA "
+        ]
+    }
+}
