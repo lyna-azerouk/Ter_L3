@@ -31,8 +31,8 @@ Pour lancer cette application, il faudra :
 -Exécutez le server XAMPP avec ``Localhost/projet_ter_2022/index.html``
 
 ## Auteurs
--Taguelmimt sihem
--Ouamrane lydia
--Azerouk lyna
--Moulahcene djouher
+-Taguelmimt sihem  
+-Ouamrane lydia  
+-Azerouk lyna  
+-Moulahcene djouher  
 
