@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>FindLoc</title>
     
         <script>
             L_NO_TOUCH = false;
@@ -11,23 +10,7 @@
         <script>
     function affichertexte() {
         
-document.getElementById("texte").innerHTML= ` <div class='fond'>
-<div class='affichage'>texte cliquable (clique sur le 1er texte pour fermer)<br><br>
-<p  onclick='cacher();'> Les localisations ont été extraites avec différentes heuristiques : </p> 
-<ul class='list-style-position-outside'> 
-<li>Heuristique Spacy: consiste à utiliser les localisations de Spacy grâce a ses labels GPE et LOC.</li> <br> 
-<li> Heuristique adresse-LT : Lors du traitement d'un champs de texte ou un URL par LocationTagger, on a plusieurs entites en retour : country-cities, countries, régions, adresse.<br> Cette heuristique retourne le résultat contenu dans le champs Address, et cela si il n''est pas vide. </li> <br> 
-<li> Heuristique country cities: Qui rend le résultat de country cities retourner par LocationTagger. </li> <br>
- <li> Heuristique 3 (ordre) : Cette heuristique retourne un résultat dans le cas ou dans la phrase on a un LOC suivi d'un GPE grâce à Spacy. Exemple : Kootenai River   </li>  <br>
- <li> Heuristique emplacement-localisation : Pour construire cette heuristique nous avons d’abord procédé à une analyse des images
-qui contiennent une seule localisation (résultat retourné par spaCy) dans le but de savoir
-l’emplacement des indicateurs de localisation dans la phrase, plutôt à la fin ou au début. <br>
-Après analyse on a déduit que c'était plutôt vers la fin dans le cas où on a plusieurs localisations. </li> <br>
-  <li> Heuristique noms composés : Cette heuristique réalise une analyse du texte associé à l''image puis met en évidence les mots qui représentent des noms propres 'PROPN' et ceci grâce à la bibliothèque Spacy.</li>
-   </ul> 
-   <p style='texte-align:left;'>Selectionnez le choix le plus pertinent puis Confirmez le</p>
-   </div>
-</div> `;
+document.getElementById("texte").innerHTML="<div class='fond'><div class='affichage'>texte cliquable (clique sur le 1er texte pour fermer)<br><br><p  onclick='cacher();'> Les localisations ont été extraites avec différentes heuristiques : </p> <ul class='list-style-position-outside'> <li>Heuristique Spacy: consiste à utiliser les localisations de Spacy grâce a ses labels GPE et LOC.</li> <br> <li> Heuristique adresse-LT : Lors du traitement d'un champs de texte ou un URL par LocationTagger, on a plusieurs entites en retour : country-cities, countries, régions, adresse.<br> Cette heuristique retourne le résultat contenu dans le champs Address, et cela si il n''est pas vide. </li> <br> <li> Heuristique country cities: Qui rend le résultat de country cities retourner par LocationTagger. </li> <br> <li> Heuristique 3 (ordre) : Cette heuristique retourne un résultat dans le cas ou dans la phrase on a un LOC suivi d'un GPE grâce à Spacy. Exemple : Kootenai River   </li> <br> <br> <li> Heuristique mots composés : Cette heuristique réalise une analyse du texte associé à l''image puis met en évidence les mots qui représentent des noms propres 'PROPN' et ceci grâce à la bibliothèque Spacy.</li> </ul> <p style='texte-align:left;'>Selectionnez le choix le plus pertinent puis Confirmez le</p>Le choix des couleurs va du vert clair au rouge. Le vert clair étant l'heuristique la plus forte.</div></div> ";
 }
  
 function cacher(){
@@ -53,7 +36,7 @@ document.getElementById("texte").innerHTML="";
        
       .affichage{
       width: 55%;
-      height:80%;
+      height:70%;
       margin:auto;
       margin-top:9%;
       z-index:3;
@@ -94,17 +77,17 @@ document.getElementById("texte").innerHTML="";
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
         <div id="texte"></div>
         
-        <p style='font-style:italic;font-size:16px;'>  Veuillez saisir la bonne localisation de l'image figurant sur la carte :</p>
+        <p style='font-style:italic;font-size:16px;text-align: center;'>  Veuillez saisir la bonne localisation de l'image figurant sur la carte :</p>
          
          <div id ="resultat_heuristique"></div> 
          
          <form action="macarte.php" method="POST">
-            <button class = "submit" name = "my_button" value="before" id="button" >Confirmer</button>
+            <button class = "submit" name = "my_button" value="before" id="bouton"  onclick="window.open('boutonconfirmation.html?ul='+ page_type)">Confirmer</button>
             <p></p>    
         </form>
 
         
-        <button  value="buttonA" onclick="affichertexte()"> Aide </button>
+        <button  id="aide" value="buttonA" onclick="affichertexte()"> Aide </button>
         
         
 </body>
@@ -130,14 +113,15 @@ $value = "";
     {
         fwrite($myfile, "{");
         fwrite($myfile, $url);
-        fwrite($myfile, ",");
+        fwrite($myfile, " ");
+        fwrite($myfile, "{");
     }
     if(!empty($value))
     {
         fwrite($myfile, $value);
         fwrite($myfile, "}");
         fwrite($myfile, "\n");
-        $command = escapeshellcmd(' C:/Users/DUALCOMPUTER/Anaconda2/envs/TER-env/python.exe c:/xampp/htdocs/projet_ter_2022/majvalid.py');
+        $command = escapeshellcmd('majvalid.py');
         $output = shell_exec($command);
     }
     fclose($myfile);
@@ -267,9 +251,18 @@ let affichage = (data) => {
 
               // generate the radio groups        
               const group = document.querySelector("#resultat_heuristique");
-               
+           
               group.innerHTML = tab.map( (tab) =>  ` <div id="inputGroup"> 
-               <div id="${tab[1]}" > </div> <br>
+              <div id="${tab[1]}" style = "
+    position: absolute; 
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    right: 60px;
+    z-index:2;
+    margin-top: 9px;
+
+    "> </div> 
 
 
                 <input type="radio" name="size" value="${tab[0] }" id="${tab[1]}"   >
@@ -281,7 +274,7 @@ let affichage = (data) => {
     }
 
 }
-/// IMPORTANT : EST CE QUE ON SUPPRIME LES MARKER APRES 
+
 function cbclick(d,id)
 {  num_heur=id[2];
 	
@@ -302,7 +295,7 @@ function cbclick(d,id)
 	        {  if ( obj [key][val].length ==3)  
 	          { var marker = L.marker([obj [key][val][1], obj [key][val] [2] ])
 	          .addTo(map_a620533b73fc4a38880428953e8ae81f)
-	           .bindPopup("<p>"+obj [key][val][0]+" </p><img src = "+page_type+"  width='300' height='234' >")
+	           .bindPopup("<p>"+obj[key]['title'].slice(0, obj[key]['title'].length-17)  +"\r\n\tLocalisation:"+ obj[key]['realLoc']['Nomreal'] +" </p><img src = "+page_type+"  width='300' height='234' >")
 	           .openPopup(); 
             //    change value of button
                 document.getElementById("button").value =obj [key][val];
@@ -367,5 +360,14 @@ let myFile = (data) => {
 }
 }
   
-               
+function bt()
+{    
+    <?php
+       echo "var jsvar ='$url';";
+   ?>
+  document.getElementById("button").innerHTML= "index.html"    ;
+   
+    console.log(jsvar);
+
+}  
 </script>
