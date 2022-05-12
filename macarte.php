@@ -11,7 +11,23 @@
         <script>
     function affichertexte() {
         
-document.getElementById("texte").innerHTML="<div class='fond'><div class='affichage'>texte cliquable (clique sur le 1er texte pour fermer)<br><br><p  onclick='cacher();'> Les localisations ont été extraites avec différentes heuristiques : </p> <ul class='list-style-position-outside'> <li>Heuristique Spacy: consiste à utiliser les localisations de Spacy grâce a ses labels GPE et LOC.</li> <br> <li> Heuristique adresse-LT : Lors du traitement d'un champs de texte ou un URL par LocationTagger, on a plusieurs entites en retour : country-cities, countries, régions, adresse.<br> Cette heuristique retourne le résultat contenu dans le champs Address, et cela si il n''est pas vide. </li> <br> <li> Heuristique country cities: Qui rend le résultat de country cities retourner par LocationTagger. </li> <br> <li> Heuristique 3 (ordre) : Cette heuristique retourne un résultat dans le cas ou dans la phrase on a un LOC suivi d'un GPE grâce à Spacy. Exemple : Kootenai River   </li> <br> <br> <li> Heuristique noms composés : Cette heuristique réalise une analyse du texte associé à l''image puis met en évidence les mots qui représentent des noms propres 'PROPN' et ceci grâce à la bibliothèque Spacy.</li> </ul> <p style='texte-align:left;'>Selectionnez le choix le plus pertinent puis Confirmez le</p></div></div> ";
+document.getElementById("texte").innerHTML= ` <div class='fond'>
+<div class='affichage'>texte cliquable (clique sur le 1er texte pour fermer)<br><br>
+<p  onclick='cacher();'> Les localisations ont été extraites avec différentes heuristiques : </p> 
+<ul class='list-style-position-outside'> 
+<li>Heuristique Spacy: consiste à utiliser les localisations de Spacy grâce a ses labels GPE et LOC.</li> <br> 
+<li> Heuristique adresse-LT : Lors du traitement d'un champs de texte ou un URL par LocationTagger, on a plusieurs entites en retour : country-cities, countries, régions, adresse.<br> Cette heuristique retourne le résultat contenu dans le champs Address, et cela si il n''est pas vide. </li> <br> 
+<li> Heuristique country cities: Qui rend le résultat de country cities retourner par LocationTagger. </li> <br>
+ <li> Heuristique 3 (ordre) : Cette heuristique retourne un résultat dans le cas ou dans la phrase on a un LOC suivi d'un GPE grâce à Spacy. Exemple : Kootenai River   </li>  <br>
+ <li> Heuristique emplacement-localisation : Pour construire cette heuristique nous avons d’abord procédé à une analyse des images
+qui contiennent une seule localisation (résultat retourné par spaCy) dans le but de savoir
+l’emplacement des indicateurs de localisation dans la phrase, plutôt à la fin ou au début. <br>
+Après analyse on a déduit que c'était plutôt vers la fin dans le cas où on a plusieurs localisations. </li> <br>
+  <li> Heuristique noms composés : Cette heuristique réalise une analyse du texte associé à l''image puis met en évidence les mots qui représentent des noms propres 'PROPN' et ceci grâce à la bibliothèque Spacy.</li>
+   </ul> 
+   <p style='texte-align:left;'>Selectionnez le choix le plus pertinent puis Confirmez le</p>
+   </div>
+</div> `;
 }
  
 function cacher(){
@@ -37,7 +53,7 @@ document.getElementById("texte").innerHTML="";
        
       .affichage{
       width: 55%;
-      height:70%;
+      height:80%;
       margin:auto;
       margin-top:9%;
       z-index:3;
