@@ -115,7 +115,7 @@
     content: "Heuristique_adresse_LT:";
     position:absolute;
     right:160px;
-    margin-top: -35px;
+    margin-top: -30px;
   }
   #id6{
     position: absolute; 
@@ -131,8 +131,8 @@
   #id6::before{
     content: "Heuristique_Country_cities:";
     position:absolute;
-    right:150px;
-    margin-top: -35px;
+    right:140px;
+    margin-top: -30px;
      
   }
   #id5{
@@ -150,7 +150,7 @@
     content: "Heuristique_noms_composés:";
     position:absolute;
     right:125px;
-    margin-top: -35px;
+    margin-top: -30px;
   }
   #id8{
     position: absolute; 
@@ -167,7 +167,7 @@
     content: "Heuristique_Spacy:";
     position:absolute;
     right:189px;
-    margin-top: -35px;
+    margin-top: -30px;
   }
   #id3{
     position: absolute; 
@@ -181,10 +181,10 @@
     background: rgb(238, 108, 22);
   }
   #id3::before{
-    content: "Heuristique_3Ordre: ";
+    content: "Heuristique_Ordre: ";
     position:absolute;
-    right:189px;
-    margin-top: -46px;
+    right:194px;
+    margin-top: -30px;
   }
   #id2{
     position: absolute; 
