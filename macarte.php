@@ -362,4 +362,4 @@ let myFile = (data) => {
 }
   
                
-</script>
+<script/>
