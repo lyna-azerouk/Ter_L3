@@ -35,16 +35,16 @@ document.getElementById("texte").innerHTML="";
       }
        
       .affichage{
-      width: 55%;
-      height:70%;
+      width: 65%;
+      height:80%;
       margin:auto;
-      margin-top:9%;
+      margin-top:5%;
       z-index:3;
       border:2px solid black;
       background-color:white;
       text-align:center;
       }
-       
+      
       .affichage p{
       width:100%;
       }
