@@ -99,12 +99,12 @@ document.getElementById("texte").innerHTML="";
          <div id ="resultat_heuristique"></div> 
          
          <form action="macarte.php" method="POST">
-            <button class = "submit" name = "my_button" value="before" id="button" >Confirmer</button>
+            <button class = "submit" name = "my_button" value="before" id="bouton" >Confirmer</button>
             <p></p>    
         </form>
 
         
-        <button  value="buttonA" onclick="affichertexte()"> Aide </button>
+        <button id="aide" value="buttonA" onclick="affichertexte()"> Aide </button>
         
         
 </body>
