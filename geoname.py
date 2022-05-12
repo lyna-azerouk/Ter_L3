@@ -25,4 +25,3 @@ def geo_loc(adr):
                         localisation = [r.lat, r.lng]
                 return localisation
         return [r.lat,r.lng]
-

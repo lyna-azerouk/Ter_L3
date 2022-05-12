@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+<head>
+<body>
+    <form class="my-form">
+        <input required="required" type="text" name="prenom" placeholder="Entrer votre prénom" />
+        <input required="required" type="text" name="nom" placeholder="Entrer votre nom" />
+        <button class="submit">Envoyer</button>
+    </form>
+ 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+    $(document).ready(()=>{
+        $("button.submit").click((e)=>{
+            e.preventDefault();
+            $.ajax({
+                url: "/form-handling",
+                method: "POST",
+                data: $(e.target).parent(".my-form").serializeArray(),
+                success: ()=>{
+                    alert("Envoi effectué !");
+                }
+            });
+        })
+    })
+    </script>
+    </body>
+    </html>

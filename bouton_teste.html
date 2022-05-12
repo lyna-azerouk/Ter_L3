@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <style>* {
+        margin:0;
+        padding:0;
+      }
+       
+      .fond{
+      width:100%;
+      position:fixed;
+      height:100%;
+      background-color:rgba(0,0,0,0.8);
+      z-index:2;
+      }
+       
+      .affichage{
+      width:45%;
+      height:65%;
+      margin:auto;
+      margin-top:9%;
+      z-index:3;
+      border:2px solid black;
+      background-color:white;
+      text-align:center;
+      }
+       
+      .affichage p{
+      width:100%;
+      }</style>
+
+<script>
+    function afficherimage() {
+document.getElementById("image").innerHTML="<div class='fond'><div class='affichage'>Image cliquable (clique dessus pour fermer)<br><br><p onclick='cacher();'>salut</p></div></div>";
+}
+ 
+function cacher(){
+document.getElementById("image").innerHTML="";
+}
+</script>
+    </head>
+    <body>
+        <div id="image"></div>
+ 
+<button  value="button" onclick="afficherimage()">Aide</button>
+
+    </body>

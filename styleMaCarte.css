@@ -5,15 +5,17 @@
   left: 0.0%;
   top: 0.0%;
   float: left;
+  z-index:20;
   }
   html{
   font-family: 'Questrial', sans-serif;
 
   }
   input {
-      position: absolute;
+      margin-top: 20px;
       width:50%;
       left: -9999px;
+      position: absolute;
       }
   
   #resultat_heuristique {
@@ -21,52 +23,47 @@
       position: absolute;
       width: 30%;
   }
-   button{
-      background:#1AAB8A;
-      color:#fff;
-      border:none;
-      position:relative;
-      height:60px;
-      width:120px;
-      font-size:1.6em;
-      
-      cursor:pointer;
-      transition:800ms ease all;
-      outline:none;
-      left:120px;
-      top:295px;
-    }
-    button:hover{
-      background:#fff;
-      color:#1AAB8A;
-    }
-    /* button:before,button:after{
-      content:'';
-      position:absolute;
-      top:0;
-      right:0;
-      height:2px;
-      width:0;
-      background: #1AAB8A;
-      transition:400ms ease all;
-    }
-    button:after{
-      right:inherit;
-      top:inherit;
-      left:0;
-      bottom:0;
-    } */
-    /* button:hover:before,button:hover:after{
-      width:100%;
-      transition:800ms ease all;
-    } */
+  #bouton{
+    background:rgb(48, 173, 65);;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:50px;
+    width:120px;
+    font-size:1.6em;
+    border-radius: 10px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    left:25px;
+    top:510px;
+  }
+  #bouton:hover{
+    background:#fff;
+    color:#1AAB8A;
+  }
+  
+  #aide{
+    background:rgb(0, 5, 1);;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:50px;
+    width:120px;
+    font-size:1.6em;
+    border-radius: 10px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    left:250px;
+    top:450px;
+  }
+  #aide:hover{
+    background:#fff;
+    color:#080a0a;
+  }
  
-    #cercle {
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  background: green;
-}
+    
   label {
   display: block;
   position: relative;
@@ -76,7 +73,7 @@
   border: 1px solid white;
   border-radius: 100px;
   color: black;
-  background-color: #fafafa;
+  background-color: #e4dfdc;
   white-space: nowrap;
   cursor: pointer;
   user-select: none;
@@ -91,7 +88,7 @@
   }
 
   input:checked + label {
-  background-color: #e0e0e0 ;
+  background-color: #dbd9d7 ;
   }
 
   input:checked + label::before {
@@ -102,4 +99,122 @@
       color: black;
       font-weight:bold;
   }
+  
+  #id7{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+    background: rgb(57 227 80);
+    
+  }
+  #id7::before {
+    content: "Heuristique_adresse_LT:";
+    position:absolute;
+    right:160px;
+    margin-top: -30px;
+  }
+  #id6{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+
+    background: rgb(4, 160, 25);
+  }
+  #id6::before{
+    content: "Heuristique_Country_cities:";
+    position:absolute;
+    right:140px;
+    margin-top: -30px;
+     
+  }
+  #id5{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+
+    background: rgb(4 175 26);
+  }
+  #id5::before{
+    content: "Heuristique_noms_composés:";
+    position:absolute;
+    right:125px;
+    margin-top: -30px;
+  }
+  #id8{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+
+    background: rgb(10 86 20);
+  }
+  #id8::before{
+    content: "Heuristique_Spacy:";
+    position:absolute;
+    right:189px;
+    margin-top: -30px;
+  }
+  #id3{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+
+    background: rgb(238, 108, 22);
+  }
+  #id3::before{
+    content: "Heuristique_Ordre: ";
+    position:absolute;
+    right:194px;
+    margin-top: -30px;
+  }
+  #id2{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+
+    background: rgb(177, 69, 6);
+  }
+  #id2::before{
+    content: "Heuristique_emplacement_localisation: ";
+    position:absolute;
+    right: 70px;
+    margin-top: -35px;
+  }
+  #id9{
+    position: absolute; 
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  right: 60px;
+  z-index:2;
+  margin-top: 49px;
+
+    background: rgb(201, 1, 1);
+  }
+  
+
+ 
 
