@@ -2,13 +2,13 @@
 <html >
     <head>
         <meta charset="utf-8" />
-        <title>FindLoc</title>
+        <title>Titre</title>
         <link rel="stylesheet" href="style.css">
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     </head>
 
     <body>
-        
+       
 
     <div id="content"><h1>Les plus belles photos du monde</h1></div>
       
@@ -21,24 +21,34 @@
 
 <script>
 
-fetch("data.json")
+fetch("testData.json")
 .then(response => {
    return response.json();
 })
-.then(data => myFile(data))
+.then(testData => myFile(testData))
 
-let myFile = (data) => {
-    let stringData = JSON.stringify(data);
+let myFile = (testData) => {
+    let stringData = JSON.stringify(testData);
     let obj = JSON.parse(stringData) 
     for (var key in obj) {
         if (obj.hasOwnProperty(key))
         {
-            $("#images").append($("<a>", 
-                {
-                    target:"_blank",
+             if (  obj[key].hasOwnProperty('realLoc'))
+           {   
+               $("#images").append($("<a>", 
+                {   target:"_blank",
+                    href: "manouvellepage.html?ul="+obj[key]['url'], 
+                    html: $("<img>", { src: obj[key]['url'] })
+                }));
+            }else 
+           {   $("#images").append($("<a>", 
+                {   target:"_blank",
                     href: "macarte.php?ul="+obj[key]['url'], 
                     html: $("<img>", { src: obj[key]['url'] })
                 }));
+
+           }
+        
         }
     }
 }
