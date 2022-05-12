@@ -20,18 +20,15 @@ Les bibliothque et API à installer avant execution:
 
 Les étapes pour installer le programme:
 
--Téléchargez tous les fichiers sur ce depôt.
--installez XAMPP server.
--installez python
+-Téléchargez tous les fichiers sur ce depôt.  
+-installez XAMPP server.  
+-installez python  
 
 
 ## Démarrage
 
 Pour lancer cette application, il faudra :
--Exécutez le server XAMPP avec 
-
-## Versions
-Listez les versions ici 
+-Exécutez le server XAMPP avec ``Localhost/projet_ter_2022/index.html``
 
 ## Auteurs
 -Taguelmimt sihem
