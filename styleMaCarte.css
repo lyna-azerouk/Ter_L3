@@ -83,30 +83,120 @@
     }
     
     #id7{
+      position: absolute; 
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    right: 60px;
+    z-index:2;
+    margin-top: 49px;
       background: rgb(57 227 80);
+      
     }
     #id7::before {
-      content: "djouher";
+      content: "Heuristique_adresse_LT:";
+      position:absolute;
+      right:150px;
+      margin-top: -46px;
     }
     #id6{
+      position: absolute; 
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    right: 60px;
+    z-index:2;
+    margin-top: 49px;
+
       background: rgb(4, 160, 25);
     }
+    #id6::before{
+      content: "Heuristique_Country_cities:";
+      position:absolute;
+      right:150px;
+      margin-top: -46px;
+       
+    }
     #id5{
+      position: absolute; 
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    right: 60px;
+    z-index:2;
+    margin-top: 49px;
+
       background: rgb(4 175 26);
     }
+    #id5::before{
+      content: "Heuristique_noms_composés:";
+      position:absolute;
+      right:150px;
+      margin-top: -46px;
+    }
     #id8{
+      position: absolute; 
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    right: 60px;
+    z-index:2;
+    margin-top: 49px;
+
       background: rgb(10 86 20);
     }
+    #id8::before{
+      content: "Heuristique_Spacy:";
+      position:absolute;
+      right:189px;
+      margin-top: -46px;
+    }
     #id3{
+      position: absolute; 
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    right: 60px;
+    z-index:2;
+    margin-top: 49px;
+
       background: rgb(238, 108, 22);
     }
+    #id3::before{
+      content: "Heuristique_3Ordre: ";
+      position:absolute;
+      right:189px;
+      margin-top: -46px;
+    }
     #id2{
+      position: absolute; 
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    right: 60px;
+    z-index:2;
+    margin-top: 49px;
+
       background: rgb(177, 69, 6);
     }
+    #id2::before{
+      content: "Heuristique_emplacement_localisation: ";
+      position:absolute;
+      right: 80px;
+      margin-top: -46px;
+    }
     #id9{
+      position: absolute; 
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    right: 60px;
+    z-index:2;
+    margin-top: 49px;
+
       background: rgb(201, 1, 1);
     }
-
+    
 
    
 
