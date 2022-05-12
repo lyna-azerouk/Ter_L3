@@ -6,9 +6,14 @@ from numpy import imag
 my_file = open("teste.txt", "r", encoding = 'utf-8')
 content = my_file.readlines()
 for line in content:
-    line = line.replace("{","")
+   
     line = line.replace("}","")
+    line = line.replace(" "," ")
+    line = line.replace(" {",",")
+    line = line.replace("{","")
+    print(line)
     my_string = line.split(",")
+    print(my_string)
     # read the json file
     fjson = open('testData.json')
     data = json.load(fjson)
@@ -23,10 +28,10 @@ for line in content:
                 data[image]['realLoc'] = {}
                 data[image]['realLoc']['Nomreal'] = my_string[1]
                 data[image]['realLoc']['Latitude'] = my_string[2]
-                data[image]['realLoc']['Longitude'] = my_string[3]
+                data[image]['realLoc']['Longitude'] = my_string[3][0 :len(my_string[3]) -1]
             with open('testData.json', 'w') as mon_fichier:
                 mon_fichier.write(json.dumps(data, indent=4))
-mon_fichier.close()
+            mon_fichier.close()
 sys.stdout.close()
 
 # We can delete the data from the test.txt
