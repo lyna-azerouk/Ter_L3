@@ -41,7 +41,7 @@ document.getElementById("texte").innerHTML="";
       }
        
       .affichage{
-      width: 55%;
+      width: 59%;
       height:80%;
       margin:auto;
       margin-top:5%;
