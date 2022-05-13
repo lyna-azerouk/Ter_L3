@@ -1,6 +1,6 @@
 import json
 from geoname import geo_loc 
-
+ 
 with open( 'data.json') as mon_fichier : 
 	data=json.load(mon_fichier)
 cptFin=0
