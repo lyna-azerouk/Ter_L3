@@ -4,7 +4,7 @@ import re
 from math import floor
 import csv
 
-
+ 
 # Ce fichier evalue les heuritiques adresse de locationTagger et SpacyLoc
 
 #opening the json file
