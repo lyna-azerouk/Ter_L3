@@ -3,7 +3,7 @@ import json
 from spacy import displacy
 import geocoder
 from geoname import geo_loc
-
+ 
 with open( 'data.json') as mon_fichier : 
     data=json.load(mon_fichier)
 
