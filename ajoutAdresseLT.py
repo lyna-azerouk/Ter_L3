@@ -6,7 +6,7 @@ from   geopy.geocoders import Nominatim
 from     geopy.geocoders import Nominatim
 import folium 
 import spacy 
-from geoname import geo_loc 
+from geoname import geo_loc  
 
 
 
