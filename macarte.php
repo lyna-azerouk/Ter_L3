@@ -35,16 +35,16 @@ document.getElementById("texte").innerHTML="";
       }
        
       .affichage{
-      width: 65%;
-      height:80%;
+      width: 55%;
+      height:70%;
       margin:auto;
-      margin-top:5%;
+      margin-top:9%;
       z-index:3;
       border:2px solid black;
       background-color:white;
       text-align:center;
       }
-      
+       
       .affichage p{
       width:100%;
       }
@@ -77,17 +77,17 @@ document.getElementById("texte").innerHTML="";
         <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
         <div id="texte"></div>
         
-        <p style='font-style:italic;font-size:16px;text-align: center;'>  Veuillez saisir la bonne localisation de l'image figurant sur la carte :</p>
+        <p style='font-style:italic;font-size:16px;'>  Veuillez saisir la bonne localisation de l'image figurant sur la carte :</p>
          
          <div id ="resultat_heuristique"></div> 
          
          <form action="macarte.php" method="POST">
-            <button class = "submit" name = "my_button" value="before" id="bouton"  onclick="window.open('boutonconfirmation.html?ul='+ page_type)">Confirmer</button>
+            <button class = "submit" name = "my_button" value="before" id="button"  onclick="window.open('boutonconfirmation.html?ul='+ page_type)">Confirmer</button>
             <p></p>    
         </form>
 
         
-        <button  id="aide" value="buttonA" onclick="affichertexte()"> Aide </button>
+        <button  value="buttonA" onclick="affichertexte()"> Aide </button>
         
         
 </body>
