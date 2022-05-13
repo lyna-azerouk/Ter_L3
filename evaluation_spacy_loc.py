@@ -7,7 +7,7 @@ from geoname import geo_loc
 with open( 'data.json') as mon_fichier : 
 	data=json.load(mon_fichier)
 #evaluation de SpacyLOc
-
+ 
 #construction d'heuristique  SpacyLoc 
 for image in data : 
 	resultat_heurisique=""
