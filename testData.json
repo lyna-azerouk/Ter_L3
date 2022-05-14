@@ -1013,7 +1013,12 @@
         ],
         "resultat_Spacy": [
             "Death Valley - Zabriskie Point "
-        ]
+        ],
+        "realLoc": {
+            "Nomreal": "Valley Germany",
+            "Latitude": "38.78011",
+            "Longitude": "-79.39477"
+        }
     },
     "image18": {
         "title": "Aoraki/Mt Cook\u2013the tallest mountain in New Zealand [4000 x 5702][OC]",
@@ -1292,7 +1297,12 @@
         ],
         "resultat_Spacy": [
             "Emerald Lake RMNP Colorado "
-        ]
+        ],
+        "realLoc": {
+            "Nomreal": "Emerald Lake Colorado ",
+            "Latitude": "39.15163",
+            "Longitude": "-106.40613"
+        }
     },
     "image21": {
         "title": "New Zealand 3744x1960 [OC]",
@@ -1521,7 +1531,12 @@
             "Utah ",
             "39.25024",
             "-111.75103"
-        ]
+        ],
+        "realLoc": {
+            "Nomreal": "Zion United States",
+            "Latitude": "37.29824",
+            "Longitude": "-113.02644"
+        }
     },
     "image24": {
         "title": "Red Rock Canyon, NV [OC][1280x1600] @landscape.luke",

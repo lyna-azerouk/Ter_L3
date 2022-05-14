@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    
+    <title>FindLoc</title>
         <script>
             L_NO_TOUCH = false;
             L_DISABLE_3D = false;
@@ -112,9 +112,8 @@ $value = "";
     if(!empty($url))
     {
         fwrite($myfile, "{");
-            fwrite($myfile, $url);
-            fwrite($myfile, " ");
-            fwrite($myfile, "{");
+        fwrite($myfile, $url);
+        fwrite($myfile, ",");
     
     }
     if(!empty($value))
@@ -122,7 +121,7 @@ $value = "";
         fwrite($myfile, $value);
         fwrite($myfile, "}");
         fwrite($myfile, "\n");
-        $command = escapeshellcmd('majvalid.py');
+        $command = escapeshellcmd(' C:/Users/DUALCOMPUTER/Anaconda2/envs/TER-env/python.exe c:/xampp/htdocs/projet_ter_20222/majvalid.py');
         $output = shell_exec($command);
     }
     fclose($myfile);
