@@ -96,7 +96,7 @@ document.getElementById("texte").innerHTML="";
          <div id ="resultat_heuristique"></div> 
          
          <form action="macarte.php" method="POST">
-            <button class = "submit" name = "my_button" value="before" id="button" >Confirmer</button>
+            <button class = "submit" name = "my_button" value="before" id="button"  onclick="miseenattente()" >Confirmer</button>
             <p></p>    
         </form>
 
@@ -135,7 +135,7 @@ $value = "";
         fwrite($myfile, $value);
         fwrite($myfile, "}");
         fwrite($myfile, "\n");
-        $command = escapeshellcmd(' C:/Users/DUALCOMPUTER/Anaconda2/envs/TER-env/python.exe c:/xampp/htdocs/projet_ter_20222/majvalid.py');
+        $command = escapeshellcmd('majvalid.py');
         $output = shell_exec($command);
     }
     fclose($myfile);
@@ -288,6 +288,12 @@ let affichage = (data) => {
     }
 
 }
+function miseenattente(){ window.open('boutonconfirmation.html?ul='+ page_type);
+    window.open('boutonconfirmation.html?ul='+ page_type);
+    window.open('boutonconfirmation.html?ul='+ page_type);
+    window.open('boutonconfirmation.html?ul='+ page_type);
+
+}
 
 function cbclick(d,id)
 {  num_heur=id[2];
@@ -309,7 +315,7 @@ function cbclick(d,id)
 	        {  if ( obj [key][val].length ==3)  
 	          { var marker = L.marker([obj [key][val][1], obj [key][val] [2] ])
 	          .addTo(map_a620533b73fc4a38880428953e8ae81f)
-	           .bindPopup("<p>"+obj[key]['title'].slice(0, obj[key]['title'].length-17)  +"\r\n\tLocalisation:"+ obj[key]['realLoc']['Nomreal'] +" </p><img src = "+page_type+"  width='300' height='234' >")
+	           .bindPopup("<p>"+obj[key]['title'].slice(0, obj[key]['title'].length-17)  +"\r\n\tLocalisation:"+ obj[key][val][0] +" </p><img src = "+page_type+"  width='300' height='234' >")
 	           .openPopup(); 
             //    change value of button
                 document.getElementById("button").value =obj [key][val];
