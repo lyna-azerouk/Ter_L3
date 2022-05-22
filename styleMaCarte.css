@@ -23,7 +23,7 @@
       position: absolute;
       width: 30%;
   }
-  #bouton{
+  #button{
     background:rgb(48, 173, 65);;
     color:#fff;
     border:none;
@@ -38,7 +38,7 @@
     left:25px;
     top:520px;
   }
-  #bouton:hover{
+  #button:hover{
     background:#fff;
     color:#1AAB8A;
   }
