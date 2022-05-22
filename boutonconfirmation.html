@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    
+      <title> FindLoc</title>
         <script>
+            
             L_NO_TOUCH = false;
             L_DISABLE_3D = false;
-        </script>
-    
+
+
+    </script>
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
@@ -28,16 +29,18 @@
 </head>
 
 
-<body>    
+<body> 
+
     <div class="folium-map" id="map_a620533b73fc4a38880428953e8ae81f"></div>
-  
+ 
 
 </body>
 
 
 
 <script type="text/javascript">
-    
+
+
     var map_a620533b73fc4a38880428953e8ae81f = L.map(
         "map_a620533b73fc4a38880428953e8ae81f",
         {
@@ -57,10 +60,9 @@
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const page_type = urlParams.get('ul');
-    console.log(page_type);
 
-
-fetch("data.json")
+ 
+fetch("testData.json")
 .then(response => {
    return response.json();
 })
@@ -69,18 +71,19 @@ let affichage = (data) => {
     let stringData = JSON.stringify(data);
     let obj = JSON.parse(stringData) 
     for (var key in obj) {
-        var myDiv = document.getElementById("resultat_heuristique");
+       
         if(obj[key]['url'] == page_type)
-        {
+        {    
 
-            console.log(obj[key]['realLoc']['Latitude']);
-           var marker = L.marker([obj[key]['realLoc']['Latitude'], obj[key]['realLoc']['Longitude'] ])
+              var marker = L.marker([obj[key]['realLoc']['Latitude'], obj[key]['realLoc']['Longitude'] ])
               .addTo(map_a620533b73fc4a38880428953e8ae81f)
                .bindPopup("<p>"+obj[key]['title'].slice(0, obj[key]['title'].length-17)  +"\r\n\t Localisation:"+ obj[key]['realLoc']['Nomreal'] +" </p><img src = "+page_type+"  width='300' height='234' >")
                .openPopup();  
+     
         }
     }
 }
+
 
 
 
